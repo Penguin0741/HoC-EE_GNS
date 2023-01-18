@@ -1,0 +1,17 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.platter.slide" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"rotation":[0,90,0],
+					"position":{
+						"0.0": [0, 0, 0],
+						"5.0": [0, 0, 250]
+					}
+				}
+			}
+		}
+	}
+}

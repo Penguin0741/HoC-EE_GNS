@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.cannon": {
+			"arrays": {
+				"textures": {
+				  "array.textures": [
+					  "texture.yellow",
+					  "texture.lime",
+					  "texture.cyan",
+					  "texture.magenta"
+					]
+				}
+			},
+			"geometry": "geometry.default",
+			"textures": [
+				"array.textures[query.skin_id]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			]
+		}
+	}
+}

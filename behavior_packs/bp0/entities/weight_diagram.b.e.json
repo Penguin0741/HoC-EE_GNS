@@ -1,0 +1,50 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:weight_diagram",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false
+				  }
+				]
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			}
+		}
+	}
+}

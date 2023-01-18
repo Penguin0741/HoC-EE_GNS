@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:weight_diagram",
+			"geometry": {
+				"default": "geometry.weight_diagram"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/weight_diagram"
+			},
+			"enable_attachables": true
+		}
+	}
+}

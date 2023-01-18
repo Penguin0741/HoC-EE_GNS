@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rwm:host",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/host"
+      },
+      "geometry": {
+        "default": "geometry.host"
+      },
+      "render_controllers": [ "controller.render.all" ],
+      "enable_attachables": true
+    }
+  }
+}

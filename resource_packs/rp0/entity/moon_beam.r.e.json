@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:moon_beam",
+			"geometry": {
+				"default": "geometry.moon_beam"
+			},
+			"materials": {
+				"default": "translucent"
+			},
+			"render_controllers": [
+				"controller.render.moon_beam"
+			],
+			"textures": {
+				"beam_1": "textures/entity/ambient/moon_beam_1",
+				"beam_2": "textures/entity/ambient/moon_beam_2"
+			}
+		}
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:menu",
+			"geometry": {
+				"default": "geometry.menu"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/menu"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"rot90": "q.mark_variant == 1"
+					}
+				]
+			},
+			"animations": {
+				"rot90": "animation.menu.rot90"
+			},
+			"enable_attachables": true
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.zombie_chef",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 12, -2], "size": [8, 12, 4], "uv": [0, 31]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "hat",
+					"parent": "head",
+					"pivot": [1.9, 33.9, 0],
+					"rotation": [0, 0, 21.25],
+					"cubes": [
+						{"origin": [-2.1, 29.9, -4.5], "size": [8, 4, 9], "uv": [23, 22]},
+						{"origin": [-3.1, 33.9, -5.5], "size": [10, 4, 11], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [4, 12, -2], "size": [4, 12, 4], "uv": [40, 35]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "leftArm",
+					"pivot": [6, 12, 3]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-8, 12, -2], "size": [4, 12, 4], "uv": [40, 35], "mirror": true}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "body",
+					"pivot": [2, 12.17157, 0.17157],
+					"cubes": [
+						{"origin": [0, 0.17157, -1.82843], "size": [4, 12, 4], "uv": [24, 35]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "body",
+					"pivot": [-2, 12.17157, 0.17157],
+					"cubes": [
+						{"origin": [-4, 0.17157, -1.82843], "size": [4, 12, 4], "uv": [24, 35], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

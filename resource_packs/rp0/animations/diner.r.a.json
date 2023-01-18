@@ -1,0 +1,25 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.diner.sitting" : {
+			"loop" : true,
+			"bones" : {
+				"leftarm" : {
+					"rotation" : [ -36.0, 0.0, 0.0 ]
+				},
+				"rightarm" : {
+					"rotation" : [ -36.0, 0.0, 0.0 ]
+				},
+				"leftleg" : {
+					"rotation" : [ "-72.0 - this", "-18.0 - this", "-this" ]
+				},
+				"rightleg" : {
+					"rotation" : [ "-72.0 - this", "18.0 - this", "-this" ]
+				},
+				"waist":{
+					"position":[0,-10,0]
+				}
+			}
+		}
+	}
+}

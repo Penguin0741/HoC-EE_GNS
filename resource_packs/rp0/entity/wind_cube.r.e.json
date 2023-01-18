@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:wind_cube",
+			"geometry": {
+				"default": "geometry.wind_cube"
+			},
+			"materials": {
+				"default": "translucent"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/wind_cube"
+			},
+			"animations": {
+				"rotate": "animation.wind_cube.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"rotate"
+				]
+			}
+		}
+	}
+}

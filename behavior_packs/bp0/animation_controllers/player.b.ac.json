@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.player.use_item": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "interact": "query.item_remaining_use_duration > 0"
+            }
+          ]
+        },
+        "interact": {
+          "transitions": [
+            {
+              "default": "query.item_remaining_use_duration == 0"
+            }
+          ],
+          "on_entry": [
+            "/execute @s[tag=select_notebook] ~ ~ ~ function notebook/open"
+          ]
+        }
+      }
+    },
+    "controller.animation.player.select_notebook": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "select": "query.variant == 1"
+            }
+          ],
+          "on_entry": [
+            "/tag @s remove select_notebook"
+          ]
+        },
+        "select": {
+          "transitions": [
+            {
+              "default": "query.variant == 0"
+            }
+          ],
+          "on_entry": [
+            "/tag @s add select_notebook"
+          ]
+        }
+      }
+    }
+  }
+}

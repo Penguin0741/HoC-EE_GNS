@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.agent": {
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.agent",
+						"geometry.toy_ball",
+						"geometry.clay_golem_1"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.agent",
+						"texture.toy_ball",
+						"texture.clay_golem_1"
+					]
+				}
+			},
+			"geometry": "array.geometries[q.skin_id]",
+			"textures": ["array.textures[q.skin_id]"],
+			"materials": [
+				{"*": "material.default"}
+			]
+		}
+	}
+}

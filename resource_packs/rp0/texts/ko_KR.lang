@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Hour of Code 2022	#
+pack.description=Hour of Code 2022에 필요한 자료	#
+
+subtitle.loading.1=불러오는 중  . . . .	#
+subtitle.loading.2=로딩 중.  . . .	#
+subtitle.loading.3=로딩 중. .  . .	#
+subtitle.loading.4=로딩 중...  .	#
+subtitle.loading.5=로딩 중.... 	#
+
+actionbar.singleplayer_only=1명의 플레이어만 플레이할 수 있습니다!	#
+
+## Touch Controls Buttons
+action.interact.start=누르고 시작	#
+action.interact.seat=탭하여 수집	#
+action.interact.click=대화하기	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=C를 눌러 코딩하기	#
+actionbar.keyboard.code.0b=C를 눌러 코딩하기	#
+actionbar.keyboard.code.1=코드 실행 중...	#
+actionbar.keyboard.look.0= §l§g입자를 위한 §l방 검색§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §l마우스 오른쪽 단추§r로  §l§g입자 클릭	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2= §l§g입자를 §l조사하세요§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=다음 방으로 들어가기	#
+
+actionbar.keyboard.0.-1=시작하려면 로고를 클릭하세요	#
+actionbar.keyboard.0.1=마우스를 사용하여 주변 둘러보기	#
+actionbar.keyboard.0.2=오브를 계속 바라 보기	#
+actionbar.keyboard.0.3a="W"를 눌러 앞으로 이동하기	#
+actionbar.keyboard.0.3b="A"를 눌러 왼쪽으로 이동하기	#
+actionbar.keyboard.0.3c="S"를 눌러 뒤로 이동하기	#
+actionbar.keyboard.0.3d="D"를 눌러 오른쪽으로 이동하기	#
+actionbar.keyboard.0.3e="W"를 눌러 이동한 다음 "스페이스바"를 눌러 점프하기	#
+actionbar.keyboard.0.3f="A"를 눌러 이동한 다음 "스페이스바"를 눌러 점프하기	#
+actionbar.keyboard.0.3g="S"를 눌러 이동한 다음 ""스페이스""를 눌러 점프하기	#
+actionbar.keyboard.0.3h="D"를 눌러 이동한 다음 "스페이스바"를 눌러 점프하기	#
+actionbar.keyboard.0.3i=벽을 지나 탐색	#
+actionbar.keyboard.0.4= §l마우스 오른쪽 버튼§r 클릭	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=NPC로 이동한 다음   §l마우스 오른쪽 버튼§r 클릭으로 상호 작용하기	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1= §l§g입자§r를 위한 §lg방 검색§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §l마우스 오른쪽 버튼§r으로 §l레버 클릭	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §l마우스 오른쪽 버튼§r을 클릭하여 좀비 요리사와 대화하기	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §l마우스 오른쪽 버튼§r으로 퀸 클릭	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §l마우스 오른쪽 버튼§r으로 킹 클릭	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1= §l§g입자를 위한 §l방 검색§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §l마우스 오른쪽 버튼§r으로 잃어버린 일기 클릭	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=스크롤하여 잃어버린 일기를 선택하세요	#
+actionbar.keyboard.10.1.2= §l마우스 오른쪽 버튼§r을 클릭하여 잃어버린 일기를 엽니다	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2= §l§g입자를 위한 §l방 검색§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=문으로 들어가거나 Agent에게 말 걸기	#
+actionbar.keyboard.10.7=문으로 들어가거나 Agent에게 말 걸기	#
+actionbar.keyboard.10.9=문으로 들어가기	#
+
+actionbar.keyboard.11.3=옆방 탐색	#
+actionbar.keyboard.11.5=메인 챔버로 돌아가기	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=위의  을(를) 탭하여 코드 작성	#
+actionbar.touch.code.0b=위의  을(를) 탭하여 코드 작성	#
+actionbar.touch.code.1=코드 실행 중...	#
+actionbar.touch.look.0= §l§g입자를 위한 §l방 검색§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1= §l§g입자 §l탭하기	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2= §l§g입자를 §l조사하세요§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=다음 방으로 들어가기	#
+
+actionbar.touch.0.-1=버튼을 탭하고 시작하기	#
+actionbar.touch.0.1=화면을 탭하여 오브의 중앙으로 끌기	#
+actionbar.touch.0.2=오브를 계속 바라 보기	#
+actionbar.touch.0.3a=길게 눌러 앞으로 이동하기	#
+actionbar.touch.0.3b=길게 눌러 왼쪽으로 이동하기	#
+actionbar.touch.0.3c=길게 눌러 뒤로 이동하기	#
+actionbar.touch.0.3d=길게 눌러 오른쪽으로 이동하기	#
+actionbar.touch.0.3e=길게 눌러 이동한 다음 점프하기	#
+actionbar.touch.0.3f=길게 눌러 이동한 다음 점프하기	#
+actionbar.touch.0.3g=길게 눌러 이동한 다음 점프하기	#
+actionbar.touch.0.3h=길게 눌러 이동한 다음 점프하기	#
+actionbar.touch.0.3i=벽을 지나 탐색	#
+actionbar.touch.0.4=버튼 누르기	#
+actionbar.touch.0.5=NPC와 대화하기	###NPC is non-playable-character
+
+actionbar.touch.1.2.1= §l§g입자§r를 위한 §lg방 검색§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=§l레버 누르기	###{Locked="§l"}
+actionbar.touch.2.0=탭하여 좀비 요리사와 대화하기	#
+actionbar.touch.3.2=퀸 탭하기	#
+actionbar.touch.3.4=킹 탭하기	#
+
+actionbar.touch.10.0.1= §l§g입자를 위한 §l방 검색§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=잃어버린 일기 탭	#
+actionbar.touch.10.1.1=잃어버린 일기를 탭하여 선택하세요.	#
+actionbar.touch.10.1.2=길게 눌러 잃어버린 일기를 엽니다	#
+actionbar.touch.10.2=소음을 조사하세요	#
+actionbar.touch.10.5=문으로 들어가거나 Agent에게 말 걸기	#
+actionbar.touch.10.7=문으로 들어가거나 Agent에게 말 걸기	#
+actionbar.touch.10.9=문으로 들어가기	#
+
+actionbar.touch.11.3=옆방 탐색	#
+actionbar.touch.11.5=메인 챔버로 돌아가기	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft 제공...	#
+title.intro.2=저택 탈출	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=킹이 비숍을 데려간다!	###Chess reference
+title.interact_queen=퀸이 루크를 데려간다!	###Chess reference
+title.room_cleared=방이 비워졌습니다!	#
+title.trophy.unlocked=%1§f트로피 잠금 해제:%1	###{Locked="§f"}
+title.trophy.click=%1§f트로피 : %1	###{Locked="§f"}
+title.end.1=종료	#
+title.end.2=이걸로 끝이야?	#
+sub.puzzle_success=퍼즐 해결	#
+sub.room_1=서재	###A room in the mansion to explorer
+sub.room_2=부엌	###A room in the mansion to explorer
+sub.room_3=거실	###A room in the mansion to explorer
+sub.room_4=연금술 방	###A room in the mansion to explorer
+sub.room_5=보존실	###A room in the mansion to explorer
+sub.room_6=실험실	###A room in the mansion to explorer
+sub.room_7=해자	###A location at the mansion
+sub.room_8=지하실	###A room in the mansion to explorer
+sub.room_9=응접실	###A room in the mansion to explorer
+sub.wrong_order=잘못된 레시피!	#
+sub.too_few=재료가 너무 적습니다!	#
+sub.too_many=재료가 너무 많습니다!	#
+sub.trophy.note=§g첫 번째 메모 수집!	###{Locked=§g}
+sub.trophy.book=§g모든 노트 수집!	###{Locked=§g}
+sub.trophy.boss=§g보스 완료!	###{Locked=§g}
+sub.trophy.green=§a녹색 경로 완료!	#
+sub.trophy.yellow=§e노란색 경로 완료!	#
+sub.trophy.red=§c빨간색 경로 완료!	#
+sub.trophy.emerald=§g모든 경로 완료!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§f메뉴	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§f좀비%1§f쇠고기	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§f스켈레톤%1§f수프	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§f크리퍼%1§f치킨	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§f약한%1§f물고기	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §l1월	###{Locked="§l"}
+slate.feb=%1%1 §l2월	###{Locked="§l"}
+slate.mar=%1%1    §l3월	###{Locked="§l"}
+slate.apr=%1%1      §l4월	###{Locked="§l"}
+slate.may=%1%1       §l5월	###{Locked="§l"}
+slate.1=%1%1       §l1일	###{Locked="§l"}
+slate.2=%1%1       §l2위	###{Locked="§l"}
+slate.3=%1%1       §l3위	###{Locked="§l"}
+slate.4=%1%1       §l4일	###{Locked="§l"}
+slate.5=%1%1       §l5위	###{Locked="§l"}
+
+sign.queen_birthday=%1§f여왕의 생일%1§f5월 4일	###{Locked="§f"}
+sign.king_birthday=%1§f왕의 생일%1§f4월 1일	###{Locked="§f"}
+sign.reset=%1§f초기화	###{Locked="§f"}
+
+slate.weight.0=%1무게: 0	#
+slate.weight.1=%1무게: 1	#
+slate.weight.2=%1무게: 2	#
+slate.weight.3=%1무게: 3	#
+slate.weight.4=%1무게: 4	#
+slate.weight.5=%1무게: 5	#
+slate.weight.6=%1무게: 6	#
+slate.weight.7=%1무게: 7	#
+slate.weight.8=%1무게: 8	#
+slate.weight.9=%1무게: 9	#
+slate.weight.10=%1무게: 10	#
+slate.weight.11=%1무게: 11	#
+slate.weight.12=%1무게: 12	#
+slate.weight.13=%1무게: 13	#
+slate.weight.14=%1무게: 14	#
+slate.weight.15=%1무게: 15	#
+slate.weight.16=%1무게: 16	#
+slate.weight.17=%1무게: 17	#
+slate.weight.18=%1무게: 18	#
+slate.weight.19=%1무게: 19	#
+slate.weight.20=%1무게: 20	#
+slate.weight.21=%1무게: 21	#
+slate.weight.22=%1무게: 22	#
+slate.weight.23=%1무게: 23	#
+slate.weight.24=%1무게: 24	#
+slate.weight.25=%1무게: 25	#
+slate.weight.26=%1무게: 26	#
+slate.weight.27=%1무게: 27	#
+slate.weight.28=%1무게: 28	#
+slate.weight.29=%1무게: 29	#
+slate.weight.30=%1무게: 30+	#
+
+board.tut.intro=%1            §l코드 2022의 시간§r에 오신 것을 환영합니다. %1                       §l지역 탈출§r%1%1섹션에서는 Minecraft를 둘러보며 여행하는 방법을 배우게 됩니다! '핫바' 위의 스크린 하단에 있는 텍스트를 읽고 다음 수행 작업에 대한 도움말을 확인하세요.%1%1먼저 마우스를 사용하여 주위를 둘러보거나 터치스크린 장치를 살짝 밀어서 '금빛 구체'를 펑 터뜨려 보세요. 그리고나서 다음 튜토리얼로 이동하세요.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=닫기	#
+npc.button.done=완료	#
+npc.button.back=뒤로	#
+npc.button.next=다음	#
+npc.button.previous=이전	#
+
+npc.zombie_chef.name=좀비 요리사	#
+npc.zombie_chef.0.text=빠아아아아아앙!!	###The zombie chef needs bread to survive
+npc.armor.name=빠른 기사	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=방어구 정장	#
+npc.king.name=국왕	###chess piece
+npc.queen.name=여왕	###chess piece
+npc.rook.name=룩	###chess piece
+npc.bishop.name=비숍	###chess piece
+npc.clay_golem.name=점토 골렘	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=> . . <	#
+npc.clay_golem.3.name=> . . . <	#
+npc.enderman_butler.name=버틀러	#
+npc.zombie_minion.name=크레이트 미니언	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=킹%1§71월 1일	###King refers to the chess piece
+npc.king.jan.2.name=킹%1§71월 2일	###King refers to the chess piece
+npc.king.jan.3.name=킹%1§71월 3일	###King refers to the chess piece
+npc.king.jan.4.name=킹%1§71월 4일	###King refers to the chess piece
+npc.king.jan.5.name=킹%1§71월 5일	###King refers to the chess piece
+npc.king.feb.1.name=킹%1§72월 1일	###King refers to the chess piece
+npc.king.feb.2.name=킹%1§72월 2일	###King refers to the chess piece
+npc.king.feb.3.name=킹%1§72월 3일	###King refers to the chess piece
+npc.king.feb.4.name=킹%1§72월 4일	###King refers to the chess piece
+npc.king.feb.5.name=킹%1§72월 5일	###King refers to the chess piece
+npc.king.mar.1.name=킹%1§73월 1일	###King refers to the chess piece
+npc.king.mar.2.name=킹%1§73월 2일	###King refers to the chess piece
+npc.king.mar.3.name=킹%1§73월 3일	###King refers to the chess piece
+npc.king.mar.4.name=킹%1§73월 4일	###King refers to the chess piece
+npc.king.mar.5.name=킹%1§73월 5일	###King refers to the chess piece
+npc.king.apr.1.name=킹%1§74월 1일	###King refers to the chess piece
+npc.king.apr.2.name=킹%1§74월 2일	###King refers to the chess piece
+npc.king.apr.3.name=킹%1§74월 3일	###King refers to the chess piece
+npc.king.apr.4.name=킹%1§74월 4일	###King refers to the chess piece
+npc.king.apr.5.name=킹%1§74월 5일	###King refers to the chess piece
+npc.king.may.1.name=킹%1§75월 1일	###King refers to the chess piece
+npc.king.may.2.name=킹%1§75월 2일	###King refers to the chess piece
+npc.king.may.3.name=킹%1§75월 3일	###King refers to the chess piece
+npc.king.may.4.name=킹%1§75월 4일	###King refers to the chess piece
+npc.king.may.5.name=킹%1§75월 5일	###King refers to the chess piece
+npc.queen.jan.1.name=여왕%1§71월 1일	###Queen refers to a chess piece
+npc.queen.jan.2.name=퀸%1§71월 2일	###Queen refers to a chess piece
+npc.queen.jan.3.name=퀸%1§71월 3일	###Queen refers to a chess piece
+npc.queen.jan.4.name=여왕%1§71월 4일	###Queen refers to a chess piece
+npc.queen.jan.5.name=퀸%1§71월 5일	###Queen refers to a chess piece
+npc.queen.feb.1.name=여왕%1§72월 1일	###Queen refers to a chess piece
+npc.queen.feb.2.name=퀸%1§72월 2일	###Queen refers to a chess piece
+npc.queen.feb.3.name=퀸%1§72월 3일	###Queen refers to a chess piece
+npc.queen.feb.4.name=퀸%1§72월 4일	###Queen refers to a chess piece
+npc.queen.feb.5.name=퀸%1§72월 5일	###Queen refers to a chess piece
+npc.queen.mar.1.name=여왕%1§73월 1일	###Queen refers to a chess piece
+npc.queen.mar.2.name=퀸%1§73월 2일	###Queen refers to a chess piece
+npc.queen.mar.3.name=퀸%1§73월 3일	###Queen refers to a chess piece
+npc.queen.mar.4.name=여왕%1§73월 4일	###Queen refers to a chess piece
+npc.queen.mar.5.name=퀸%1§73월 5일	###Queen refers to a chess piece
+npc.queen.apr.1.name=퀸%1§74월 1일	###Queen refers to a chess piece
+npc.queen.apr.2.name=여왕%1§74월 2일	###Queen refers to a chess piece
+npc.queen.apr.3.name=여왕%1§74월 3일	###Queen refers to a chess piece
+npc.queen.apr.4.name=여왕%1§74월 4일	###Queen refers to a chess piece
+npc.queen.apr.5.name=여왕%1§74월 5일	###Queen refers to a chess piece
+npc.queen.may.1.name=여왕%1§75월 1일	###Queen refers to a chess piece
+npc.queen.may.2.name=여왕%1§75월 2일	###Queen refers to a chess piece
+npc.queen.may.3.name=여왕%1§75월 3일	###Queen refers to a chess piece
+npc.queen.may.4.name=여왕%1§75월 4일	###Queen refers to a chess piece
+npc.queen.may.5.name=여왕%1§75월 5일	###Queen refers to a chess piece
+npc.king.scrambled.name=킹%1§7§k테스트	###King refers to the chess piece
+npc.queen.scrambled.name=퀸%1§7§k테스트	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=제어	#
+npc.tutcontrols.1.text=히스패닉 유산 여행인 Hour of Code 2022에 오신 것을 환영합니다!%1%1간단한 튜토리얼부터 시작합시다! 시작하려면 장치를 사용하여 마우스 왼쪽 버튼을 클릭하거나 가장 적합한 올바른 제어 체계를 탭합니다.	#
+npc.button.keyboard=키보드	#
+npc.button.touch=터치 컨트롤	#
+
+npc.tutskip.name=넘기기	#
+npc.keyboard.tutskip.1.text=환영합니다! 다음 튜토리얼은 Minecraft를 탐색하는 기본 사항을 설명합니다.%1%1시작하려면 마우스 왼쪽 버튼으로 "튜토리얼 시작"을 클릭하고, 튜토리얼이 필요하지 않은 경우 "튜토리얼 건너 뛰기"를 마우스 왼쪽 버튼으로 클릭하여 경험을 시작하십시오!	#
+npc.touch.tutskip.1.text=환영합니다! 다음 튜토리얼에서는 Minecraft를 탐색하는 기본 사항을 설명합니다.%1%1시작하려면 "튜토리얼 시작"을 탭하고, 튜토리얼이 필요하지 않은 경우 "튜토리얼 건너뛰기"를 탭하여 경험을 시작하십시오! 	#
+npc.tutskip.2.text=튜토리얼을 건너뛰시겠습니까? 그러면 중요한 정보가 누락됩니다.%1%1장치를 사용하여 "튜토리얼 시작" 또는 "튜토리얼 건너뛰기"를 선택하세요.	#
+npc.button.skip_yes=튜토리얼 건너뛰기	#
+npc.button.skip_no=튜토리얼 시작하기	#
+
+npc.tuthelp.name=도움말	#
+npc.keyboard.tuthelp.1.text=축하합니다, 이동 튜토리얼을 완료했습니다!%1%1월드와 상호 작용하는 방법에 대한 자세한 내용을 보려면 "H"를 눌러 컨트롤을 표시하세요.	#
+npc.touch.tuthelp.1.text=축하합니다, 이동 튜토리얼을 완료했습니다!%1%1월드와 상호 작용하는 방법에 대한 자세한 내용을 보려면 "H"를 눌러 컨트롤을 표시하세요.	#
+
+npc.tuthost.name=브레이코프스키 박사	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=안녕하세요. 저는 닷지 브레이코프스키 박사입니다. 제 초대를 받으셨군요. 새벽까지 저택을 탈출하고 백만 에메랄드를 받는 데 필요한 것을 갖추셨나요? 훌륭해요! 이제 정문으로 가서 도전을 시작하세요!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=시작!	#
+
+## Labels
+npc.label.nether_wart.name=네더 사마귀	#
+npc.label.phantom_membrane.name=팬텀 멤브레인	#
+npc.label.fermented_spider_eye.name=발효된 거미 눈	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=잃어버린 일기	#
+item.rwm:notebook.name=잃어버린 일기	#
+npc.note.name=일기 페이지	#
+npc.note.0.text=%1당신은 잃어버린 일기장을 발견했습니다. 저택을 탐험하면서 누락된 10페이지를 모두 찾을 수 있을까요?%1%1아래의 "§l이전§r"과 "§l다음§r"을 사용하여 수집한 메모를 볼 수 있습니다.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1입력 #1 : 다락방 %1%1친애하는 일기:%1%1지난 주, 어떤 미스터리한 사람으로부터 이 대저택을 탈출하라는 권유를 받았습니다. 그 메모에는 새벽까지 탈출하면 백만 개의 에메랄드를 얻을 거라고 적혀 있었어요. 에메랄드가 필요하진 않았지만, 이런 도전이 내 채널에 훌륭한 비디오를 만들어 줄 거라고 생각했죠!%1%1하지만 이곳에 도착한 후 나는 대저택에 홀딱 반했어요. 말이 안 된다는 거 알고 있지만 사실이에요. 맹세해요! 정신을 차리고 보니 나는 다락방에 있더군요. 세 개의 잠긴 문이 있고... 그중 하나는 분명 탈출구에요! 그 문을 여는 방법을 알아내야 합니다!	#
+npc.note.2.text=%1입력 #2 : 연구 %1%1친애하는 일기:%1%1마침내 다락방에서 탈출구를 찾았는데 이 이상한 라이브러리에 갇히게 되었어요. 여기 있는 대형 거울은 보기보다 더 커요! 이게 정말 거울인가요, 아니면 다른 차원으로 가는 창문인가요? 어찌됐든, 나는 선택의 여지가 없어요. 앞으로 밀고 가면서 이 길이 나를 어디로 데려가는지 살펴보는 수밖에...	#
+npc.note.3.text=%1입력 #3: 부엌 %1%1친애하는 일기장: %1%1오늘 나는 넓은 식사 공간을 우연히 발견했어. 여기서 나는 부엌에서 어렴풋이 보이는 무서운 생물을 발견했는데, 겉으로 보기에는 내 존재를 잊어 버린 것처럼 보였어. 요리사와 이야기할 용기를 얻자, 그는 단지 "빵!"이라고 신음하더라. 감히 내가 이 구울 요리사를 도울 수 있을까? 아마도 그렇게 한다면, 나에게 탈출구를 보여줄 수 있을지도...	#
+npc.note.4.text=%1입력 #4 : 응접실 %1%1친애하는 일기: %1%1이 대형 현관문은 대저택 밖으로 통할 것 같아요! 하지만 어떻게 해야 열리죠? 이 체스판이 문을 열 수 있을까요? 분명히 단서가 있을 거예요... 지금 돌아가기에는 너무 멀리 왔다고요!	#
+npc.note.5.text=%1입력 #5: 연금술 방 %1%1친애하는 일기장:%1%1영지를 통과해 계속 나아가자, 이것이 평범한 저택이 아니라는 것을 깨닫게 됐어. 예를 들어, 오늘 나는 물약을 만드는 용도의 방을 발견했어. 매일 볼 수 있는 곳이 아닌데도, 내가 전에 여기 왔었다는 느낌을 떨칠 수 없어...	#
+npc.note.6.text=%1입력 #6 : 음악원 %1%1친애하는 일기장: %1%1저택을 지나갈 때 오래된 온실을 발견했어. 과거에는 무성한 정원이었을지 모르지만 지금은 물방울만 오늘날 이곳의 식물을 키우고 있더라. 아마도 나의 상상이었을 뿐이겠지만, 내가 이 방에 들어갔을 때 무언가 덤불 속으로 날아가는 것을 보았다고 맹세 할 수 있었어! 그것이 무엇이었을지 모르겠지만, 나는 전혀 몰라...	#
+npc.note.7.text=%1입력 #7 : 실험실%1%1친애하는 일기장: %1%1오늘 가장 매혹적인 발견을 했어: 실험실! 신비한 기계와 내가 본 적 없는 이상한 실험으로 가득차 있었어! 아니면 본 적 있었나? 이 장소에 대해 매우 친숙한 것이 있어...	#
+npc.note.8.text=%1입력 #8: 해자 %1%1친애하는 일기장: %1%1탈출구를 찾는 동안 이 지역을 나누는 이상한 해자를 발견했어. 현수교가 올라가고 다른 쪽에서 제어되는 것처럼 보여. 여기 집사는 내 말을 이해하지 못하는 조용한 친구야. 그래도 다리를 내리도록 설득할 수 있는 방법을 찾아야 해.	#
+npc.note.9.text=%1입력 #9: 지하실 %1%1친애하는 일기장: %1%1탈출구를 찾다가 광대한 지하실로 들어왔어! 바람이 틈새를 가로질러 너무 세게 불어서, 내 앞에 있는 낡고 흔들리는 다리에 발을 올리기가 무서워. 잠시 동안, 무언가 내 위로 날아다니는 소리를 들은 것 같은데... 아마 틀림 없이 그냥 바람이었을 거야.	#
+npc.note.10.text=%1Entry #10: 응접실 %1%1친애하는 일기장: %1%1여행은 작은 거실로 계속됐어. 따뜻하고 매력적이야. 내가 영원히 여기에 머물 수있는 것처럼 느껴져... 아니! 나는 계속 나아가야 해! 이상한 일들이 일어나고 있는데 나는 혼자가 아닌 게 분명해!	#
+
+## Agent
+npc.agent.name=Agent	#
+npc.agent.1.1.text=여보세요? 누구 계세요? 세상에, 인간! 절 도와줄 수 있나요? 이 바닥 통풍구가 안 열려요! 아마도 코드가 깨진 것 같아요. 뭐가 잘못됐는지 한 번 보실래요?	#
+npc.button.yes=예!	#
+npc.agent.1.2.text=좋아요! 여기서 나를 빠져나오게 해준다면, 다락방 탈출을 도와 빚을 갚겠습니다. 어떤 프로그래밍 언어를 사용하고 싶으신가요?%1%1§l블록§r은 초보자에게 가장 적합합니다. 이전에 코딩을 해본 경우에만 §lPython§r을 선택하세요.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=좋아요! 우선, 바닥에 커서가 보이나요? 뚜껑문에 도달하려면 앞으로 3블록을 이동해야 하지만 작동하질 않는군요. C키를 눌러 코드를 확인하고 실행하여 잘못된 부분을 확인하세요.	#
+npc.agent.1.4.text=흠, 아니, 그건 옳지 않아요. 뚜껑문으로 커서를 이동해서 문을 열도록 지시하세요.	#
+npc.agent.2.1.text=좋아요! 열려 있어요! 이상하네요... 아직 빠져나갈 수 없는데요. 코드를 다시 확인하고 2블록 위로 움직이게 해줄 수 있나요?	#
+npc.agent.3.1.text=감사합니다! 제 코드를 수정해 주셨군요! 저는 당신을 위해 녹색 문을 열 수 있는 거리에 있습니다. 녹색 문 뒤의 길은 더 쉽습니다. 그 길을 택할 수 있습니다. 또는 노란색 문을 열고 싶다면 저와 다시 대화를 나누세요!	#
+npc.agent.4.1.text=그러니까 노란색 문을 열고 싶은 거죠? 그러려면 힘이 더 많이 필요할 거예요. 다행히, 달빛을 충전할 수 있어요! 우리가 해야 할 일은 위의 채광창을 여는 건데... 어? 코드가 제대로 작동하지 않네요. 코드를 확인하고 천장에 있는 4개의 뚜껑문을 모두 여세요!	#
+npc.agent.5.1.text=와우, 잘 하고 있어요! 당신을 위해 노란색 문을 열었어요. 원한다면 지나가세요. 또는 정말로 도전하고 싶다면 저와 다시 대화를 나누고 빨간색 문을 열어보세요!	#
+npc.agent.6.1.text=우리가 함께 노력해 빨간색 문에 도착해야 합니다. 빨간색 문은 금 블록에 서있을 때만 열려요. 한 번 해 보자고요! ...들어가 ...지질 ... 않네... 흠... 좀 도와주겠어요, 친구?	#
+npc.agent.7.1.text=좋아요, 이제 모든 문이 열렸습니다. 원하는 길을 선택하세요. 길마다 난이도는 다양해요... 녹색은 더 쉽고 빨간색은 더 어렵고 노란색은 그 사이 어딘가에 있습니다. 안녕, 인간. 아마도 언젠가는 길이 다시 만나겠죠.	#
+npc.agent.green.8.1.text=기다려요! 가기 전에 마지막으로 말해 줄 게 있어요! 이 집은 §l방 탈출§r로 가득 차 있습니다. 단서를 찾고, 퍼즐을 풀고, 탈출구를 만들기 위해서는 코드를 수정해야 합니다! §lC§r 버튼 누르고 퍼즐의 코드를 표시하세요. 코드를 §l실행§r하여 어떤 일이 발생하는지 확인하세요! 오류가 있는 경우 수정한 코드를 재실행하고 테스트합니다. 이를 §l디버그§r라고 합니다.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=때로 해결책은 명확하지 않으며, 퍼즐을 풀기 위해 항상 코드가 필요하진 않습니다! 퍼즐을 찾으면 먼저 코드를 §l실행§r하고 무엇이 잘못되었는지 확인한 다음 §l디버그§r 하여 결함있는 코드를 §l수정§r하세요! 처음부터 코드를 작성하는 것보다 훨씬 쉽습니다!%1%1§g§l입자§0§r와 같은 단서를 잘 살펴 도움을 받으세요!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=기다려요! 가기 전에 마지막으로 말해 줄 게 있어요! 이 집은 §l방 탈출§r로 가득 차 있습니다. 단서를 찾고, 퍼즐을 풀고, 탈출구를 만들기 위해서는 코드를 수정해야 합니다! §lC§r 버튼 누르고 퍼즐의 코드를 표시하세요. 코드를 §l실행§r하여 어떤 일이 발생하는지 확인하세요! 오류가 있는 경우 수정한 코드를 재실행하고 테스트합니다. 이를 §l디버그§r라고 합니다.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=때로 해결책은 명확하지 않으며, 퍼즐을 풀기 위해 항상 코드가 필요하진 않습니다! 퍼즐을 찾으면 먼저 코드를 §l실행§r하고 무엇이 잘못되었는지 확인한 다음 §l디버그§r 하여 결함있는 코드를 §l수정§r하세요! 처음부터 코드를 작성하는 것보다 훨씬 쉽습니다!%1%1§g§l입자§0§r와 같은 단서를 잘 살펴 도움을 받으세요!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=기다려요! 가기 전에 마지막으로 말해 줄 게 있어요! 이 집은 §l방 탈출§r로 가득 차 있습니다. 단서를 찾고, 퍼즐을 풀고, 탈출구를 만들기 위해서는 코드를 수정해야 합니다! §lC§r 버튼 누르고 퍼즐의 코드를 표시하세요. 코드를 §l실행§r하여 어떤 일이 발생하는지 확인하세요! 오류가 있는 경우 수정한 코드를 재실행하고 테스트합니다. 이를 §l디버그§r라고 합니다.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=때로 해결책은 명확하지 않으며, 퍼즐을 풀기 위해 항상 코드가 필요하진 않습니다! 퍼즐을 찾으면 먼저 코드를 §l실행§r하고 무엇이 잘못되었는지 확인한 다음 §l디버그§r 하여 결함있는 코드를 §l수정§r하세요! 처음부터 코드를 작성하는 것보다 훨씬 쉽습니다!%1%1§g§l입자§0§r와 같은 단서를 잘 살펴 도움을 받으세요!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=브레이코프스키 박사	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=다시 안녕하세요. 당신이 해 낸 것 같군요. 당신은 저택을 통과할 수 있었습니다. 브라보. 우리는 당신이 해 낼 수 있다는 걸 알고 있었... 사실, 우리는 고대하고 있었습니다!	#
+npc.foyer.2.1.text=알다시피, 이 장소는 단순한 대저택... 그 이상입니다. 이곳은 차원 간 감옥입니다! 우리는 탈출하지 못한... 하지만 당신은 해낼 줄 알았습니다!	#
+npc.foyer.2.2.text=아하! 서프라이즈! 시간 에이전트가 돌아왔습니다! 이제 이 대저택에 영원히 갇혀있게 됩니다! 새 집을 즐기세요! 음하하하!	#
+npc.foyer.3.1.text=시간 에이전트는 그리 빠르진 않지만...	#
+npc.foyer.3.2.text=꼼짝 말고 있어요. 당신네 말썽꾸러기들에게 시간을 좀 줄 테니! 	#
+npc.foyer.4.1.text=타라! 네가 나를 한 번은 가둘 수 있었겠지만, 다시는 네 속임수에 안 넘어가! 포털이 열렸다! 넌 우릴 막을 수 없어! 시간이 없거든... 그건 우리도 마찬가지고! 안녕, 멍청이들아!	#
+npc.foyer.5.1.text=이 포탈은 시간 구슬로 이어집니다. 그들이 탈출을 위해 이 구슬을 사용할 것입니다. 시간 구슬을 막을 수 있는 유일한 방법은 크로노 캐논을 사용하는 것입니다. 구슬 충전에 시간이 오래 걸리지 않으니 우리는 신속하게 방어를 활성화하고 한 번에 그들을 막아야 합니다! 자, 갑시다!	#
+
+## Boss
+npc.rascal.name=라스칼	#
+npc.gremlin.name=그렘린	#
+npc.yeti.name=예티	#
+npc.banshee.name=밴시	#
+npc.pixie.name=픽시	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=아싸! 시간 구슬! 이걸로 탈출할 수 있어! 뭐라고? 제기랄, 쟤 그 성가신 플레이어 아냐!	#
+npc.boss.yellow.1.1.text=좋았어! 시간 구슬! 마침내 이 구술을 사용해 이 장소를 탈출할 수 있습니다! 뭐라고요? 당신이 또? 흩어져요! 우릴 다 잡을 순 없어요!	#
+npc.boss.red.1.1.text=좋아! 시간 구슬! 이 차원 간 감옥에서 마침내 탈출할 수 있게 됐군요! 뭐라고요? 당신이 또!?! 흩어져요, 시간 에이전트! 시간 구슬을 준비하는 동안 크로노 대포를 보호하세요!	#
+npc.boss.2.1.text=크로노 캐논을 활성화해야 합니다! 통제 센터는 그 모퉁이 방에 있지만, 타임 에이전트가 문을 닫았습니다! 문을 열 방법을 알아낼 수 있는지 확인하세요!	#
+npc.boss.yellow.3.1.text=통제실 문이 열려 있습니다! 각 통제실 내부에는 크로노 캐논을 작동시키는 레버가 있습니다. 우리는 시간 구슬을 파괴하기 위해 네 가지 레버를 모두 활성화해야 합니다! 서둘러 대포를 겨누세요!	#
+npc.boss.red.3.1.text=해냈군요! 통제실 문이 열렸습니다! 각 통제실 내부에는 크로노 캐논을 작동시킬 방법이 있습니다. 우리는 시간 구슬을 파괴하기 위해 네 가지를 모두 활성화해야 합니다! 서둘러 대포를 겨누세요!	#
+npc.boss.green.4.1.text=이제 모든 크로노 캐논이 활성화되었습니다! 발사 준비!	#
+npc.boss.yellow.4.1.text=잘 했어요! 이제 네 개의 대포가 모두 준비되었으니 시간 구슬의 방어를 무너뜨리고 시간 에이전트를 막을 수 있습니다!	#
+npc.boss.red.4.1.text=잘 했어요! 이제 네 개의 대포가 모두 준비되었으니 시간 구슬의 방어를 무너뜨리고 시간 에이전트를 막을 수 있습니다!	#
+npc.boss.5.1.text=보세요! 시간 에이전트가 시간 구슬 챔버 위에서 마비됐어요! 지금이 기회야! 바닥 아래에서 자기 디스크를 회전할 수 있다면 극성을 뒤집어 이곳에 완전히 가둘 수 있어요! 	#
+npc.boss.6.1.text=잘 했어요! 정말로 그 시간 에이전트들에 붙였... 아니 정말로 시간에 그 에이전트들을 붙잡았군요! 하. 하. 미안해요. 아직도 당신이 '유머'라고 부르는 것을 연구하고 있는 중이라. 타임 에이전트는 여기 남아서 그들이 한 일을 생각해 볼 겁니다. 당신에 관해서는, 이리 오세요. 탈출구를 보여 드리죠.	#
+npc.button.run=시작!	#
+npc.boss.side_room_1.1.text=하! 정말로 당신이 우리를 물리칠 수 있다고 생각하나? 동화 속에 살고 있군!	#
+npc.boss.side_room_1.2.text=뭐!?! 말도 안 돼! 픽시를 모서리에 두는 사람은 아무도 없어요!	#
+npc.boss.side_room_2.1.text=이기게 놔둘 리 없죠. 물밀듯 밀려올 고뇌를 대비하세요!	#
+npc.boss.side_room_2.2.text=가증스런 인간! 아직 안 끝났어!	#
+npc.boss.side_room_3.1.text=우리를 반대하는 것은 없습니다. 곧 우리는 사라질 것이고, 당신은 슬픔 속에서 비명을 지르며 여기에 갇힐 거에요!	#
+npc.boss.side_room_3.2.text=아아아아아아아아아악!!!!! 당신이 기회의 유령을 가지고 있는 줄은 몰랐어!	#
+npc.boss.side_room_4.1.text=헤헤헤! 어리석은 인간! 너희는 결코 배우는 법이 없지. 오작동은 피할 수 없어!	#
+npc.boss.side_room_4.2.text=그래서 장치를 알아냈나요? 상관 없어요! 그걸로 우리를 멈출 수는 없습니다!	#
+npc.boss.agent.1.text=당신은 도움이 좀 필요한 것 같군요. 걱정 마세요. 내가 도와주겠어요. 당신이 대포를 활성화하도록 도울 수 있습니다. 길만 알려주세요!	#
+
+## Ending Cutscene
+npc.player.name=나	#
+npc.end.1.1.text=축하합니다! 코딩 실력으로 하루를 다시 얻었군요. 시간 에이전트가 구역을 탈출했다면 어떤 문제를 일으켰을지 누가 아나요. 잘 했어요!	#
+npc.end.1.2.text=여전히 궁금한 게 하나 있어요...그 일기 페이지 말입니다... 그게 어디서 왔다고 생각합니까?	#
+npc.end.2.1.text=내가 보낸 겁니다! 닷지 브레이코프스키 박사요! 이 일시적인 말썽꾸러기들도 나를 이곳으로 유인했지 말입니다! 사실 몇 주 동안 탈출하려고 애를 썼죠! 거기서 뭘 했든 결국 내가 탈출구를 찾는 데 도움이 됐습니다! 고마워요!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=무사해서 다행입니다... 시간 에이전트로부터 마지막 소식을 들은 것 같군요. 이제 제발, 여기서 나갑시다...이곳은 내게 0과 1을 줍니다!	#
+npc.end.2.3.text=그러니까, 브레이코프스키 박사가... 그 에메랄드 백만 개에 대해...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=미안해, 얘들아. 난 파산이야!%1%1월드를 구하고 쿠키도 구해줄 수 있을까?	#
+npc.end.laugh.1.name=하아!	#
+npc.end.laugh.2.name=하! 하!	#
+npc.end.laugh.3.name=하! 하! 하!	#
+npc.end.laugh.1.text=하아!	#
+npc.end.laugh.2.text=하! 하!	#
+npc.end.laugh.3.text=하! 하! 하!	#
+
+action.hint.exit.rwm:cam= 	#

@@ -1,0 +1,75 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.bread_step_3",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0]
+				},
+				{
+					"name": "bb_main",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 0, -7], "size": [12, 1, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "flour",
+					"parent": "root",
+					"pivot": [-2.65, 4.5, 4.55],
+					"rotation": [0, -20, 0],
+					"cubes": [
+						{"origin": [-6.15, 0, 2.05], "size": [7, 9, 5], "uv": [0, 9]}
+					]
+				},
+				{
+					"name": "flap",
+					"parent": "flour",
+					"pivot": [-0.15, 0, 0.05],
+					"cubes": [
+						{"origin": [-6.15, 9, 5.05], "size": [7, 2, 0], "pivot": [-2.65, 9, 5.05], "rotation": [42, 0, 0], "uv": [19, 11]}
+					]
+				},
+				{
+					"name": "dough",
+					"parent": "root",
+					"pivot": [-1.5, 2.5, -3],
+					"rotation": [0, -24, 0],
+					"cubes": [
+						{"origin": [-4, 1, -5], "size": [5, 3, 4], "uv": [20, 19]}
+					]
+				},
+				{
+					"name": "dough2",
+					"parent": "root",
+					"pivot": [1.93642, 1.5, -5.52365],
+					"rotation": [0, 15, 0],
+					"cubes": [
+						{"origin": [0.93642, 1, -6.52365], "size": [2, 1, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rolling_pin",
+					"parent": "root",
+					"pivot": [4.3, 2, -1.7],
+					"rotation": [0, 69, 0],
+					"cubes": [
+						{"origin": [0.8, 1, -2.7], "size": [7, 2, 2], "uv": [0, 23]},
+						{"origin": [-1.2, 1.5, -2.2], "size": [11, 1, 1], "uv": [19, 9]}
+					]
+				}
+			]
+		}
+	]
+}

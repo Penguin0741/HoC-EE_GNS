@@ -1,0 +1,26 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.armor_npc.flick": {
+			"loop" : false,
+			"animation_length": 1.0,
+			"bones": {
+				"rightarm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-70, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.armor_npc.rot180" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"rotation":[0,180,0]
+				}
+			}
+		}
+	}
+}

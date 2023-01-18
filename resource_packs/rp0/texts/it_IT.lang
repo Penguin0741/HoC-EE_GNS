@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=L'Ora del Codice 2022	#
+pack.description=Risorse necessarie per L'Ora del Codice 2022	#
+
+subtitle.loading.1=Caricamento  . . . .	#
+subtitle.loading.2=Caricamento .  . . .	#
+subtitle.loading.3=Caricamento. .  . .	#
+subtitle.loading.4=Caricamento . . .  .	#
+subtitle.loading.5=Caricamento . . . . 	#
+
+actionbar.singleplayer_only=Può giocare solo 1 giocatore!	#
+
+## Touch Controls Buttons
+action.interact.start=Tocca per iniziare	#
+action.interact.seat=Tocca per raccogliere	#
+action.interact.click=Parla	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Premere C per scrivere il codice	#
+actionbar.keyboard.code.0b=Premere C per scrivere il codice	#
+actionbar.keyboard.code.1=Codice in esecuzione...	#
+actionbar.keyboard.look.0=§lCerca nella stanza§r per  §l§gtrovare le particelle	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §lClicca con il tasto destro del mouse§r  §l§gsulle particelle	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lStudia§r  §l§gle particelle	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Entra nella prossima stanza	#
+
+actionbar.keyboard.0.-1=Clicca sul logo per iniziare	#
+actionbar.keyboard.0.1=Usa il mouse per guardarti intorno	#
+actionbar.keyboard.0.2=Continua a guardare la sfera	#
+actionbar.keyboard.0.3a=Premi "W" per muoverti in avanti	#
+actionbar.keyboard.0.3b=Premi "A" per spostarti a sinistra	#
+actionbar.keyboard.0.3c=Premi "S" per muoverti all'indietro	#
+actionbar.keyboard.0.3d=Premi "D" per spostarti a destra	#
+actionbar.keyboard.0.3e=Premi "W" per spostarti, quindi "SPAZIO" per saltare	#
+actionbar.keyboard.0.3f=Premi "A" per spostarti, quindi "SPAZIO" per saltare	#
+actionbar.keyboard.0.3g=Premi "S" per spostarti, quindi "SPAZIO" per saltare	#
+actionbar.keyboard.0.3h=Premi "D" per spostarti, quindi "SPAZIO" per saltare	#
+actionbar.keyboard.0.3i=Naviga oltre il muro	#
+actionbar.keyboard.0.4= §lClicca con il tasto destro§r del mouse	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=Avvicinati al PNG, quindi  §lclicca con il tasto destro del mouse§r per interagire	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§lCerca nella stanza§r per  §l§gtrovare le particelle§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §lClicca con il tasto destro del mouse§r §lsulle leve	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §lClicca con il tasto destro del mouse§r per parlare con il cuoco zombi	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §lClicca con il tasto destro del mouse§r sulla regina	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §lClicca con il tasto destro del mouse§r sul re	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§lCerca nella stanza§r per  §l§gtrovare le particelle	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §lClicca con il tasto destro del mouse§r sul diario perduto	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Scorri per selezionare il diario perduto	#
+actionbar.keyboard.10.1.2= §lClicca con il tasto destro del mouse§r per aprire il diario perduto	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§lCerca nella stanza§r per  §l§gtrovare le particelle	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Attraversa la porta o parla con l'Agente	#
+actionbar.keyboard.10.7=Attraversa una porta o parla con l'Agente	#
+actionbar.keyboard.10.9=Attraversa una porta	#
+
+actionbar.keyboard.11.3=Esplora una stanza laterale	#
+actionbar.keyboard.11.5=Ritorna alla camera principale	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Tocca  qui sopra per scrivere il codice	#
+actionbar.touch.code.0b=Tocca  qui sopra per scrivere il codice	#
+actionbar.touch.code.1=Codice in esecuzione...	#
+actionbar.touch.look.0=§lCerca nella stanza§r per  §l§gtrovare le particelle	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§lTocca  §l§gle particelle	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lStudia§r  §l§gle particelle	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Entra nella prossima stanza	#
+
+actionbar.touch.0.-1=Tocca il pulsante per iniziare	#
+actionbar.touch.0.1=Tocca e trascina lo schermo al centro della sfera.	#
+actionbar.touch.0.2=Continua a guardare la sfera	#
+actionbar.touch.0.3a=Tocca e tieni premuto  per muoverti in avanti	#
+actionbar.touch.0.3b=Tocca e tieni premuto  per spostarti a sinistra	#
+actionbar.touch.0.3c=Tocca e tieni premuto  per muoverti all'indietro	#
+actionbar.touch.0.3d=Tocca e tieni premuto  per spostarti a destra	#
+actionbar.touch.0.3e=Tocca e tieni premuto  per spostarti, quindi  per saltare	#
+actionbar.touch.0.3f=Tocca e tieni premuto  per spostarti, quindi  per saltare	#
+actionbar.touch.0.3g=Tocca e tieni premuto  per spostarti, quindi  per saltare	#
+actionbar.touch.0.3h=Tocca e tieni premuto  per spostarti, quindi  per saltare	#
+actionbar.touch.0.3i=Naviga oltre il muro	#
+actionbar.touch.0.4=Premi il pulsante	#
+actionbar.touch.0.5=Parla con il PNG	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§lCerca nella stanza§r per  §l§gtrovare le particelle§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=Tocca le §lleve	###{Locked="§l"}
+actionbar.touch.2.0=Tocca per parlare con il cuoco zombi	#
+actionbar.touch.3.2=Tocca la regina	#
+actionbar.touch.3.4=Tocca il re	#
+
+actionbar.touch.10.0.1=§lCerca nella stanza§r per  §l§gtrovare le particelle	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Tocca il diario perduto	#
+actionbar.touch.10.1.1=Tocca il diario perduto per selezionarlo	#
+actionbar.touch.10.1.2=Tocca e tieni premuto per aprire il diario perduto	#
+actionbar.touch.10.2=Indaga sul rumore	#
+actionbar.touch.10.5=Attraversa la porta o parla con l'Agente	#
+actionbar.touch.10.7=Attraversa una porta o parla con l'Agente	#
+actionbar.touch.10.9=Attraversa una porta	#
+
+actionbar.touch.11.3=Esplora una stanza laterale	#
+actionbar.touch.11.5=Ritorna alla camera principale	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft presenta…	#
+title.intro.2=Fuga dalla tenuta	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=Il re mangia l'alfiere!	###Chess reference
+title.interact_queen=La regina mangia la torre!	###Chess reference
+title.room_cleared=Stanza completata!	#
+title.trophy.unlocked=%1§fTrofeo sbloccato:%1	###{Locked="§f"}
+title.trophy.click=%1§fTrofeo:%1	###{Locked="§f"}
+title.end.1=Fine	#
+title.end.2=Fine?	#
+sub.puzzle_success=Rompicapo risolto	#
+sub.room_1=Studio	###A room in the mansion to explorer
+sub.room_2=Cucina	###A room in the mansion to explorer
+sub.room_3=Salotto	###A room in the mansion to explorer
+sub.room_4=Stanza dell'alchimia	###A room in the mansion to explorer
+sub.room_5=Serra	###A room in the mansion to explorer
+sub.room_6=Laboratorio	###A room in the mansion to explorer
+sub.room_7=Fossato	###A location at the mansion
+sub.room_8=Cantina	###A room in the mansion to explorer
+sub.room_9=Salone	###A room in the mansion to explorer
+sub.wrong_order=Ricetta errata!	#
+sub.too_few=Troppi pochi ingredienti!	#
+sub.too_many=Troppi ingredienti!	#
+sub.trophy.note=§gPrimo biglietto raccolto!	###{Locked=§g}
+sub.trophy.book=§gTutti i biglietti raccolti!	###{Locked=§g}
+sub.trophy.boss=§gBoss completato!	###{Locked=§g}
+sub.trophy.green=§aPercorso verde completato!	#
+sub.trophy.yellow=§ePercorso giallo completato!	#
+sub.trophy.red=§cPercorso rosso completato!	#
+sub.trophy.emerald=§gTutti i percorsi completati!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fMenu	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombi%1§fManzo	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fScheletro%1§fZuppa	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fCreeper%1§fPollo	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fWither%1§fPesce	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §lgennaio	###{Locked="§l"}
+slate.feb=%1%1 §lfebbraio	###{Locked="§l"}
+slate.mar=%1%1 §lmarzo	###{Locked="§l"}
+slate.apr=%1%1      §laprile	###{Locked="§l"}
+slate.may=%1%1       §lmaggio	###{Locked="§l"}
+slate.1=%1%1       §l1°	###{Locked="§l"}
+slate.2=%1%1       §l2°	###{Locked="§l"}
+slate.3=%1%1       §l3°	###{Locked="§l"}
+slate.4=%1%1       §l4°	###{Locked="§l"}
+slate.5=%1%1       §l5°	###{Locked="§l"}
+
+sign.queen_birthday=%1§fCompleanno della regina%1§f4 maggio	###{Locked="§f"}
+sign.king_birthday=%1§fCompleanno del re%1§f1 aprile	###{Locked="§f"}
+sign.reset=%1§fRiazzera	###{Locked="§f"}
+
+slate.weight.0=%1Peso: 0	#
+slate.weight.1=%1Peso: 1	#
+slate.weight.2=%1Peso: 2	#
+slate.weight.3=%1Peso: 3	#
+slate.weight.4=%1Peso: 4	#
+slate.weight.5=%1Peso: 5	#
+slate.weight.6=%1Peso: 6	#
+slate.weight.7=%1Peso: 7	#
+slate.weight.8=%1Peso: 8	#
+slate.weight.9=%1Peso: 9	#
+slate.weight.10=%1Peso: 10	#
+slate.weight.11=%1Peso: 11	#
+slate.weight.12=%1Peso: 12	#
+slate.weight.13=%1Peso: 13	#
+slate.weight.14=%1Peso: 14	#
+slate.weight.15=%1Peso: 15	#
+slate.weight.16=%1Peso: 16	#
+slate.weight.17=%1Peso: 17	#
+slate.weight.18=%1Peso: 18	#
+slate.weight.19=%1Peso: 19	#
+slate.weight.20=%1Peso: 20	#
+slate.weight.21=%1Peso: 21	#
+slate.weight.22=%1Peso: 22	#
+slate.weight.23=%1Peso: 23	#
+slate.weight.24=%1Peso: 24	#
+slate.weight.25=%1Peso: 25	#
+slate.weight.26=%1Peso: 26	#
+slate.weight.27=%1Peso: 27	#
+slate.weight.28=%1Peso: 28	#
+slate.weight.29=%1Peso: 29	#
+slate.weight.30=%1Peso: 30+	#
+
+board.tut.intro=%1 Ti do il benvenuto in §lL'ora del Codice 2022§r:%1 §lFuga dalla tenuta§r%1%1In questa sezione, imparerai come guardarti intorno e muoverti in Minecraft! Leggi il testo nella parte inferiore dello schermo sopra la "hotbar" per ricevere aiuto su quello che dovrai fare dopo.%1%1Per prima cosa, usa il mouse per guardarti intorno o, se stai usando un dispositivo touchscreen, scorri verso le "sfere dorate" fino a quando non scoppieranno tutte. Quindi, passa al tutorial successivo.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Chiudi	#
+npc.button.done=Fatto	#
+npc.button.back=Indietro	#
+npc.button.next=Avanti	#
+npc.button.previous=Indietro	#
+
+npc.zombie_chef.name=Chef Zombi	#
+npc.zombie_chef.0.text=PAAAAANEEEEE!!	###The zombie chef needs bread to survive
+npc.armor.name=Cavaliere celere	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Armatura	#
+npc.king.name=Re	###chess piece
+npc.queen.name=Regina	###chess piece
+npc.rook.name=Torre	###chess piece
+npc.bishop.name=Alfiere	###chess piece
+npc.clay_golem.name=Golem d'argilla	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=> . . <	#
+npc.clay_golem.3.name=> . . . <	#
+npc.enderman_butler.name=Maggiordomo	#
+npc.zombie_minion.name=Minion in scatola	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Re%1§71 gennaio	###King refers to the chess piece
+npc.king.jan.2.name=Re%1§72 gennaio	###King refers to the chess piece
+npc.king.jan.3.name=Re%1§73 gennaio	###King refers to the chess piece
+npc.king.jan.4.name=Re%1§74 gennaio	###King refers to the chess piece
+npc.king.jan.5.name=Re%1§75 gennaio	###King refers to the chess piece
+npc.king.feb.1.name=Re%1§71 febbraio	###King refers to the chess piece
+npc.king.feb.2.name=Re%1§72 febbraio	###King refers to the chess piece
+npc.king.feb.3.name=Re%1§73 febbraio	###King refers to the chess piece
+npc.king.feb.4.name=Re%1§74 febbraio	###King refers to the chess piece
+npc.king.feb.5.name=Re%1§75 febbraio	###King refers to the chess piece
+npc.king.mar.1.name=Re%1§71 marzo	###King refers to the chess piece
+npc.king.mar.2.name=Re%1§72 marzo	###King refers to the chess piece
+npc.king.mar.3.name=Re%1§73 marzo	###King refers to the chess piece
+npc.king.mar.4.name=Re%1§74 marzo	###King refers to the chess piece
+npc.king.mar.5.name=Re%1§75 marzo	###King refers to the chess piece
+npc.king.apr.1.name=Re%1§71 aprile	###King refers to the chess piece
+npc.king.apr.2.name=Re%1§72 aprile	###King refers to the chess piece
+npc.king.apr.3.name=Re%1§73 aprile	###King refers to the chess piece
+npc.king.apr.4.name=Re%1§74 aprile	###King refers to the chess piece
+npc.king.apr.5.name=Re%1§75 aprile	###King refers to the chess piece
+npc.king.may.1.name=Re%1§71 maggio	###King refers to the chess piece
+npc.king.may.2.name=Re%1§72 maggio	###King refers to the chess piece
+npc.king.may.3.name=Re%1§73 maggio	###King refers to the chess piece
+npc.king.may.4.name=Re%1§74 maggio	###King refers to the chess piece
+npc.king.may.5.name=Re%1§75 maggio	###King refers to the chess piece
+npc.queen.jan.1.name=Regina%1§71 gennaio	###Queen refers to a chess piece
+npc.queen.jan.2.name=Regina%1§72 gennaio	###Queen refers to a chess piece
+npc.queen.jan.3.name=Regina%1§73 gennaio	###Queen refers to a chess piece
+npc.queen.jan.4.name=Regina%1§74 gennaio	###Queen refers to a chess piece
+npc.queen.jan.5.name=Regina%1§75 gennaio	###Queen refers to a chess piece
+npc.queen.feb.1.name=Regina%1§71 febbraio	###Queen refers to a chess piece
+npc.queen.feb.2.name=Regina%1§72 febbraio	###Queen refers to a chess piece
+npc.queen.feb.3.name=Regina%1§73 febbraio	###Queen refers to a chess piece
+npc.queen.feb.4.name=Regina%1§74 febbraio	###Queen refers to a chess piece
+npc.queen.feb.5.name=Regina%1§75 febbraio	###Queen refers to a chess piece
+npc.queen.mar.1.name=Regina%1§71 marzo	###Queen refers to a chess piece
+npc.queen.mar.2.name=Regina%1§72 marzo	###Queen refers to a chess piece
+npc.queen.mar.3.name=Regina%1§73 marzo	###Queen refers to a chess piece
+npc.queen.mar.4.name=Regina%1§74 marzo	###Queen refers to a chess piece
+npc.queen.mar.5.name=Regina%1§75 marzo	###Queen refers to a chess piece
+npc.queen.apr.1.name=Regina%1§71 aprile	###Queen refers to a chess piece
+npc.queen.apr.2.name=Regina%1§72 aprile	###Queen refers to a chess piece
+npc.queen.apr.3.name=Regina%1§73 aprile	###Queen refers to a chess piece
+npc.queen.apr.4.name=Regina%1§74 aprile	###Queen refers to a chess piece
+npc.queen.apr.5.name=Regina%1§75 aprile	###Queen refers to a chess piece
+npc.queen.may.1.name=Regina%1§71 maggio	###Queen refers to a chess piece
+npc.queen.may.2.name=Regina%1§72 maggio	###Queen refers to a chess piece
+npc.queen.may.3.name=Regina%1§73 maggio	###Queen refers to a chess piece
+npc.queen.may.4.name=Regina%1§74 maggio	###Queen refers to a chess piece
+npc.queen.may.5.name=Regina%1§75 maggio	###Queen refers to a chess piece
+npc.king.scrambled.name=Re%1§7§kProva	###King refers to the chess piece
+npc.queen.scrambled.name=Regina%1§7§kProva	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Comandi	#
+npc.tutcontrols.1.text=Benvenuto in Ora del Codice 2022!%1%1Iniziamo con un breve tutorial! Per cominciare, clicca con il pulsante sinistro del mouse o tocca lo schema dei comandi più adatto a te.	#
+npc.button.keyboard=Tastiera	#
+npc.button.touch=Comandi touch	#
+
+npc.tutskip.name=Salta	#
+npc.keyboard.tutskip.1.text=Benvenuto! Il seguente tutorial ti insegnerà le basi del movimento in Minecraft.%1%1Clicca su "Avvia tutorial" per iniziare. Se non hai bisogno del tutorial, clicca su "Salta tutorial" per iniziare l'esperienza!	#
+npc.touch.tutskip.1.text=Benvenuto! Il seguente tutorial ti insegnerà le basi del movimento in Minecraft.%1%1Tocca "Avvia tutorial" per iniziare. Se non hai bisogno del tutorial, tocca "Salta tutorial" per iniziare l'esperienza! 	#
+npc.tutskip.2.text=Sei sicuro di voler saltare il tutorial? Così facendo, ti verranno a mancare alcune informazioni essenziali.%1%1Usando il tuo dispositivo, seleziona "Avvia tutorial" o "Salta tutorial"	#
+npc.button.skip_yes=Salta tutorial	#
+npc.button.skip_no=Avvia il tutorial	#
+
+npc.tuthelp.name=Guida	#
+npc.keyboard.tuthelp.1.text=Congratulazioni, hai completato il tutorial di movimento!%1%1Se desideri ulteriori istruzioni su come interagire con il mondo, premi "H" per visualizzare i comandi.	#
+npc.touch.tuthelp.1.text=Congratulazioni, hai completato il tutorial di movimento!%1%1Se desideri ulteriori istruzioni su come interagire con il mondo, premi "H" per visualizzare i comandi.	#
+
+npc.tuthost.name=Dott. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Salve, sono il dott. Dodge Breakowski. Vedo che hai ricevuto il mio invito. Pensi di avere le carte in regola per fuggire dalla villa entro l'alba e riscuotere il milione di smeraldi? Eccellente! Ora, dirigiti all'ingresso principale per cominciare la tua sfida!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=Si parte!	#
+
+## Labels
+npc.label.nether_wart.name=Verruca del Nether	#
+npc.label.phantom_membrane.name=Membrana fantasma	#
+npc.label.fermented_spider_eye.name=Occhio di ragno fermentato	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Diario perduto	#
+item.rwm:notebook.name=Diario perduto	#
+npc.note.name=Pagina del diario	#
+npc.note.0.text=%1Hai trovato un diario perduto. Sarai in grado di recuperare tutte e 10 le pagine mancanti mentre esplori la villa?%1%1Usa "§lIndietro§r" e "§lAvanti§r" qui sotto per visualizzare le note che hai raccolto.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1Voce n.1: La soffitta %1%1Caro diario:%1%1La scorsa settimana, ho ricevuto un invito da una persona misteriosa, che mi ha sfidato a fuggire da questa villa. Il biglietto diceva che, se fossi scappato entro l'alba, avrei vinto un milione di smeraldi. Anche se non mi occorrevano gli smeraldi, ho pensato che una sfida come questa sarebbe stata un ottimo video per il mio canale!%1%1Tuttavia, quando sono arrivato qui sono stato inghiottito dalla villa. So che non ha senso ma è la verità, lo giuro! Quando sono arrivato, mi sono ritrovato in questa soffitta. Ci sono tre porte chiuse... una di esse dev'essere una via d'uscita! Ho solo bisogno di capire come aprirle!	#
+npc.note.2.text=%1Voce n.2: Lo studio %1%1Caro diario:%1%1Ho finalmente trovato un modo per uscire dalla soffitta, ma ora sono intrappolato in questa strana biblioteca. Credo che questo grande specchio nasconda qualcosa! È veramente uno specchio o è una finestra su un'altra dimensione? Qualunque cosa sia, non ho altra scelta che proseguire e vedere dove mi porta...	#
+npc.note.3.text=%1Voce n.3: La cucina %1%1Caro diario:%1%1Oggi mi sono ritrovato in una grande sala da pranzo. Ho visto una creatura spaventosa che si aggirava in cucina, apparentemente ignara della mia presenza. Quando ho trovato il coraggio di parlare con lo chef, ha solo brontolato "PANE!". Dovrei assecondare quest'orrido cuoco? Magari, se lo aiuto, mi indicherà una via d'uscita...	#
+npc.note.4.text=%1Voce n.4: Il salotto %1%1Caro diario:%1%1La grande porta dell'atrio potrebbe condurre fuori dalla villa! Ma come si apre? Forse questa scacchiera potrebbe aprire la porta? Sicuramente devono esserci degli indizi qui intorno... mi sono spinto troppo lontano per tornare indietro ora!	#
+npc.note.5.text=%1Voce n.5: La stanza dell'alchimia %1%1Caro diario:%1%1Più mi avventuro all'interno di questa villa, più mi rendo conto che non si tratta di una villa normale. Ad esempio, oggi ho trovato una stanza adibita alla preparazione di pozioni. Non è qualcosa che si vede tutti i giorni, eppure non riesco a scrollarmi di dosso la sensazione di esserci già stato prima...	#
+npc.note.6.text=%1Voce n.6: La serra %1%1Caro diario:%1%1Mentre mi facevo strada nella villa, ho scoperto una vecchia serra. Probabilmente era un giardino lussureggiante in passato, ma ora c'è solo un rivolo d'acqua a nutrire le piante. So che probabilmente era solo la mia immaginazione, ma giurerei di avere visto qualcosa volare via tra i cespugli mentre entravo nel locale! Non ho idea di cosa potesse essere…	#
+npc.note.7.text=%1Voce n.7: Il laboratorio %1%1Caro diario:%1%1Oggi ho fatto una scoperta molto affascinante: un laboratorio! Completo di macchinari misteriosi e strani esperimenti mai visti prima! Oppure no? Questo posto ha qualcosa di molto familiare…	#
+npc.note.8.text=%1Voce n.8: Il fossato %1%1Caro diario:%1%1Mentre cercavo una via d'uscita, mi sono imbattuto in uno strano fossato che divide questa zona. Il ponte levatoio è sollevato e sembra essere controllato dall'altro lato. Il maggiordomo locale è un tipo tranquillo che non sembra capire le mie parole. Tuttavia, devo trovare un modo per convincerlo ad abbassare il ponte.	#
+npc.note.9.text=%1Voce n.9: La cantina %1%1Caro diario:%1%1La mia ricerca di una via d'uscita mi ha portato in un vasto scantinato! Il vento ulula attraverso il baratro con una tale forza che ho paura a mettere piede sul vecchio ponte traballante che ho davanti. Per un attimo ho pensato di sentire qualcosa volare sopra di me... deve essere stato solo il vento.	#
+npc.note.10.text=%1Voce n.10: Il salotto%1%1Caro diario:%1%1I miei viaggi mi hanno portato in un piccolo salotto. È accogliente e invitante. Potrei restare qui per sempre... NO! Devo andare avanti! Succedono strane cose in questo posto e ho la netta sensazione di non essere solo!	#
+
+## Agent
+npc.agent.name=Agente	#
+npc.agent.1.1.text=Ehi? C'è nessuno? Oh cielo, un umano! Pensi di potermi aiutare? Non riesco ad aprire questa presa d'aria sul pavimento! Penso che il mio codice sia fallato. Potresti dare un'occhiata e vedere cosa c'è che non va?	#
+npc.button.yes=Sì!	#
+npc.agent.1.2.text=Benissimo! Se riuscirai a farmi uscire da qui, ti restituirò il favore e ti aiuterò a fuggire dalla soffitta. Quale linguaggio di programmazione vorresti usare?%1%1§lBlocks§r è il migliore per i principianti. Scegli §lPython§r solo se l'hai già usato in precedenza.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=Ok! Per prima cosa, vedi quel cursore laggiù sul pavimento? Deve muoversi in avanti di 3 blocchi per raggiungere la botola, ma non funziona. Premi C per visualizzare il codice, quindi eseguilo per vedere cosa non funziona.	#
+npc.agent.1.4.text=Mmm, no, così non va bene. Il cursore deve spostarsi sulla botola E farla aprire.	#
+npc.agent.2.1.text=Benissimo! È aperto! Che strano... non riesco ancora a uscire. Puoi controllare di nuovo il codice e assicurarti che io mi stia spostando verso l'alto di 2 blocchi?	#
+npc.agent.3.1.text=Grazie! Hai corretto il mio codice! Ora sono alla giusta distanza per aprirti la porta verde. Il percorso dietro la porta verde è più facile. Puoi prendere quella strada, o parlarmi di nuovo se vuoi provare ad aprire la porta gialla!	#
+npc.agent.4.1.text=Quindi vuoi provare ad aprire la porta gialla? Mi servirà più energia. Fortunatamente, posso caricarmi con la luce della luna! Tutto quello che dobbiamo fare è aprire il lucernario quassù... Eh?! Il mio codice non funziona correttamente. Prova a controllarlo per assicurarti che tutte e 4 le botole nel soffitto si stiano aprendo!	#
+npc.agent.5.1.text=Wow, ben fatto! Ho aperto la porta gialla per te. Attraversala se vuoi o, se hai voglia di una vera sfida, parla di nuovo con me per provare ad aprire la porta rossa!	#
+npc.agent.6.1.text=Dovremo collaborare per attraversare la porta rossa, perché si aprirà solo se salirò sui blocchi d'oro. Proviamoci!... non riesco... ad... arrivarci... ugh... che ne dici di un aiutino, amico?	#
+npc.agent.7.1.text=Ok, ora tutte le porte sono aperte. Scegli il percorso che preferisci. Ogni percorso ha una difficoltà diversa... il verde è il più facile, il rosso è il più difficile e il giallo è una via di mezzo. Arrivederci, umano. Forse le nostre strade si incroceranno di nuovo un giorno.	#
+npc.agent.green.8.1.text=Aspetta! Prima che tu te ne vada, devo dirti un'ultima cosa! Questa casa è piena di §lescape room§r. Dovrai trovare indizi, risolvere rompicapi e correggere il codice per uscire! Premi §lC§r per visualizzare il codice dei rompicapi. §lEsegui§r il codice per vedere cosa succede! Se sono presenti errori, correggi il codice ed eseguilo di nuovo per testarlo. Questa operazione è chiamata §ldebug§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=A volte, le soluzioni non saranno chiare e non tutti i rompicapi richiedono un codice per essere risolti! Quando trovi un rompicapo, ricorda di §leseguire§r prima il codice per vedere cosa non funziona, quindi §lesegui il debug§r e §lcorreggi§r il codice difettoso! È molto più facile che scrivere un codice da zero!%1%1Aiutati tenendo d'occhio gli indizi come le §g§lparticelle§0§r!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Aspetta! Prima che tu te ne vada, devo dirti un'ultima cosa! Questa casa è piena di §lescape room§r. Dovrai trovare indizi, risolvere rompicapi e correggere il codice per uscire! Premi §lC§r per visualizzare il codice dei rompicapi. §lEsegui§r il codice per vedere cosa succede! Se sono presenti errori, correggi il codice ed eseguilo di nuovo per testarlo. Questa operazione è chiamata §ldebug§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=A volte, le soluzioni non saranno chiare e non tutti i rompicapi richiedono un codice per essere risolti! Quando trovi un rompicapo, ricorda di §leseguire§r prima il codice per vedere cosa non funziona, quindi §lesegui il debug§r e §lcorreggi§r il codice difettoso! È molto più facile che scrivere un codice da zero!%1%1Aiutati tenendo d'occhio gli indizi come le §g§lparticelle§0§r!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Aspetta! Prima che tu te ne vada, devo dirti un'ultima cosa! Questa casa è piena di §lescape room§r. Dovrai trovare indizi, risolvere rompicapi e correggere il codice per uscire! Premi §lC§r per visualizzare il codice dei rompicapi. §lEsegui§r il codice per vedere cosa succede! Se sono presenti errori, correggi il codice ed eseguilo di nuovo per testarlo. Questa operazione è chiamata §ldebug§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=A volte, le soluzioni non saranno chiare e non tutti i rompicapi richiedono un codice per essere risolti! Quando trovi un rompicapo, ricorda di §leseguire§r prima il codice per vedere cosa non funziona, quindi §lesegui il debug§r e §lcorreggi§r il codice difettoso! È molto più facile che scrivere un codice da zero!%1%1Aiutati tenendo d'occhio gli indizi come le §g§lparticelle§0§r!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Dott. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Ben ritrovato. A quanto pare, ce l'hai fatta. Sei riuscito a farti strada attraverso la villa. Bravo. Sapevamo che potevi farcela... anzi, ci contavamo!	#
+npc.foyer.2.1.text=Sai, questo posto non è una semplice villa... è una prigione interdimensionale! Noi non capivamo come fuggire... ma sapevamo che tu ce l'avresti fatta!	#
+npc.foyer.2.2.text=Ah-ah! Sorpresa! Gli Agenti del tempo sono tornati! Adesso sarai tu a restare in questa villa per sempre! Goditi la tua nuova casa! Muahaha!	#
+npc.foyer.3.1.text=Non così in fretta, Agenti del tempo...	#
+npc.foyer.3.2.text=Non andrete da nessuna parte. Vi sto soltanto concedendo una pausa, furfanti! 	#
+npc.foyer.4.1.text=IARRAT! Ci avrete anche intrappolato una volta, ma non ci faremo ingannare ancora dai vostri trucchetti! Il portale è aperto! Non potete fermarci! Tempo scaduto...  e anche il nostro tempo qui è terminato! Addio, perdenti!	#
+npc.foyer.5.1.text=Quel portale conduce alla Sfera del tempo. Potrebbero usarla per fuggire. L'unico modo per fermare la Sfera del tempo è colpirla con i Cronocannoni. Non ci vorrà molto per ricaricare la Sfera, perciò dobbiamo attivare rapidamente le difese e fermarli una volta per tutte! Forza, vai!	#
+
+## Boss
+npc.rascal.name=Rascal	#
+npc.gremlin.name=Gremlin	#
+npc.yeti.name=Yeti	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Pixie	#
+npc.tarra.name=I.A.R.R.A.T.	#
+npc.boss.green.1.1.text=Evvai! La Sfera del tempo! Possiamo usarla per fuggire! Che cosa?! Maledizione, è di nuovo quel giocatore fastidioso!	#
+npc.boss.yellow.1.1.text=Evvai! La Sfera del tempo! Possiamo usarla per fuggire finalmente da questo posto! Che cosa? Ancora voi? Dividetevi, ragazzi! Non possono prenderci tutti!	#
+npc.boss.red.1.1.text=Evviva! La Sfera del tempo! Finalmente possiamo fuggire da questa prigione interdimensionale! Che cosa? DI NUOVO TU!?! Dividetevi, Agenti del tempo! Proteggete i Cronocannoni, mentre io preparerò la Sfera del tempo!	#
+npc.boss.2.1.text=Dobbiamo attivare i Cronocannoni! I centri di controllo sono in quelle stanze d'angolo, ma gli Agenti del tempo hanno chiuso le porte! Vedi se riesci a trovare un modo per aprirle!	#
+npc.boss.yellow.3.1.text=Le porte della sala di controllo sono aperte! All'interno di ogni sala di controllo è presente una leva che attiverà un Cronocannone. Dovremo attivarli tutti e quattro per distruggere la Sfera del tempo! Fai in fretta! Vai ad attivare quei cannoni!	#
+npc.boss.red.3.1.text=Ce l'hai fatta! Le porte della sala di controllo sono aperte! All'interno di ogni sala di controllo è presente un meccanismo che attiverà il Cronocannone. Dovremo attivarli tutti e quattro per distruggere la Sfera del tempo! Fai in fretta! Vai ad attivare quei cannoni!	#
+npc.boss.green.4.1.text=Ora tutti i Cronocannoni sono attivi! Preparati a sparare!	#
+npc.boss.yellow.4.1.text=Ottimo lavoro! Ora che tutti e quattro i cannoni sono pronti, possiamo abbattere le difese della Sfera del tempo e fermare gli Agenti!	#
+npc.boss.red.4.1.text=Ottimo lavoro! Ora che tutti e quattro i cannoni sono pronti, possiamo abbattere le difese della Sfera del tempo e fermare gli Agenti!	#
+npc.boss.5.1.text=Guarda! Gli Agenti del tempo sono storditi sopra la camera della Sfera del tempo! È la nostra occasione! Se riusciremo a ruotare i dischi magnetici sotto il pavimento, potremo invertire la polarità e intrappolarli qui una volta per tutte! 	#
+npc.boss.6.1.text=Ce l'hai fatta! Hai rifilato proprio una bella sconfitta a quegli Agenti del tempo... si può dire che la loro è stata una vera perdita di tempo! Ah-ah! Scusa. Sto ancora lavorando su questa cosa che chiamate "umorismo". Gli Agenti del tempo rimarranno bloccati qui a riflettere sulle loro malefatte. Quanto a te, seguimi. Ti mostrerò la via d'uscita.	#
+npc.button.run=Si parte!	#
+npc.boss.side_room_1.1.text=Ah! Pensi davvero di poterci sconfiggere? Vivi nel mondo delle fiabe!	#
+npc.boss.side_room_1.2.text=Che cosa?! Impossibile! Nessuno può mettere Pixie in un angolo!	#
+npc.boss.side_room_2.1.text=Non vincerete mai. Preparatevi a essere travolti da una valanga di angoscia!	#
+npc.boss.side_room_2.2.text=Umano abominevole! Non è finita!	#
+npc.boss.side_room_3.1.text=Non puoi opporti a noi. Presto ce ne saremo andati, mentre tu rimarrai intrappolato qui, a piangere e urlare!	#
+npc.boss.side_room_3.2.text=AAAAAAHHHHHHHH!!!!! Non pensavo avessi la benché minima possibilità!	#
+npc.boss.side_room_4.1.text=Eh-eh-eh-eh! Stupido umano! La tua specie non impara mai. La vostra anomalia è incorreggibile!	#
+npc.boss.side_room_4.2.text=Quindi, hai capito come funziona il congegno? Non importa! Non basterà a fermarci!	#
+npc.boss.agent.1.text=Sembra che tu abbia bisogno di una mano. Non preoccuparti. Ci penso io. Posso aiutarti ad attivare i cannoni. Indicami solo la strada!	#
+
+## Ending Cutscene
+npc.player.name=Tu	#
+npc.end.1.1.text=Complimenti! Hai risolto la situazione grazie alle tue abilità di programmazione. Chissà quanti guai avrebbero provocato gli Agenti del tempo, se fossero fuggiti dall'edificio. Ben fatto!	#
+npc.end.1.2.text=Ho ancora una domanda... quelle pagine di diario... da dove pensi che provengano?	#
+npc.end.2.1.text=Ero io l'autore! Il dott. Dodge Breakowski! Quei furfanti temporali hanno attirato anche me in questo luogo! In realtà, cerco di scappare da settimane! Qualunque cosa tu abbia fatto lì dentro mi ha aiutato a trovare finalmente una via d'uscita! Grazie!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Per fortuna sei al sicuro... e penso che gli Agenti del tempo se ne staranno buoni per un po'. Ora, per favore, usciamo di qui... questo posto mi fa venire gli 0 e gli 1!	#
+npc.end.2.3.text=Allora, dott. Breakowski... a proposito di quel milione di smeraldi...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Scusami tanto, ma sono al verde!%1%1Non è che ti accontenteresti di salvare il mondo e di un biscotto?	#
+npc.end.laugh.1.name=Ah!	#
+npc.end.laugh.2.name=Ah! Ah!	#
+npc.end.laugh.3.name=Ah! Ah! Ah!	#
+npc.end.laugh.1.text=Ah!	#
+npc.end.laugh.2.text=Ah! Ah!	#
+npc.end.laugh.3.text=Ah! Ah! Ah!	#
+
+action.hint.exit.rwm:cam= 	#

@@ -1,0 +1,57 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:actor",
+			"render_controllers": [
+				{ "controller.render.actor"			: "q.skin_id > 0" 		},
+				{ "controller.render.actor.mark"	: "q.skin_id < 0" 		},
+				{ "controller.render.actor.tongue"	: "q.mark_variant == 1" }
+			],
+			"scripts": {
+				"pre_animation": [
+					"variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+				],
+				"animate": [
+					{ "look_at_target"	: "q.skin_id > 0" },
+					{ "move"			: "q.skin_id > 0" },
+					{ "idle"			: "q.skin_id > 0" },
+					{ "tongue"			: "q.mark_variant == 1" },
+					{ "scale_up"		: "q.skin_id == 2" },
+					{ "scale_out"		: "q.skin_id == 3" }
+				]
+			},
+			"geometry": {
+				"player"	: "geometry.actor.player",
+				"tongue"	: "geometry.actor.tongue",
+				"tarra"		: "geometry.zombie.v1.8",
+				"host"		: "geometry.host",
+				"doctor"	: "geometry.doctor",
+				"mark"		: "geometry.actor.mark"
+			},
+			"textures": {
+				"player"	: "textures/entity/actor/player",
+				"tongue"	: "textures/entity/actor/tongue",
+				"tarra"		: "textures/entity/tarra",
+				"host"		: "textures/entity/host",
+				"doctor"	: "textures/entity/actor/doctor",
+				"mark"		: "textures/entity/actor/mark"
+			},
+			"materials": {
+				"alpha"			: "entity_alphatest",
+				"translucent"	: "slime_outer"
+			},
+			"animations": {
+				"look_at_target": "animation.look",
+				"move"			: "animation.humanoid.move",
+				"idle"			: "animation.actor.idle",
+				"tongue"		: "animation.actor.tongue",
+				"scale_up"		: "animation.actor.scale_up",
+				"scale_down"	: "animation.actor.scale_down",
+				"scale_out"		: "animation.actor.scale_out",
+				"scale_in"		: "animation.actor.scale_in",
+				"doctor_escape"	: "animation.doctor.escape"
+			}
+		}
+	}
+}

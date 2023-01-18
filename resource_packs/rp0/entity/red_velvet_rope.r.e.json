@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:red_velvet_rope",
+			"geometry": {
+				"default": "geometry.red_velvet_rope"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/red_velvet_rope"
+			}
+		}
+	}
+}

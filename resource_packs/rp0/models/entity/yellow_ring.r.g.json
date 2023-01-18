@@ -1,0 +1,109 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.yellow_ring",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 60,
+				"visible_bounds_height": 60,
+				"visible_bounds_offset": [0, 4.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 72, 0]
+				},
+				{
+					"name": "base",
+					"parent": "root",
+					"pivot": [0, 72, 0],
+					"rotation": [0, 0, -45]
+				},
+				{
+					"name": "base2",
+					"parent": "base",
+					"pivot": [0, 72, 0],
+					"rotation": [0, 0, 90]
+				},
+				{
+					"name": "cyan_ring",
+					"parent": "root",
+					"pivot": [0, 72, 0],
+					"rotation": [0, 0, 22.5]
+				},
+				{
+					"name": "yellow_ring",
+					"parent": "root",
+					"pivot": [0, 72, 0],
+					"rotation": [-22.76048, 33.82584, 142.9955]
+				},
+				{
+					"name": "quart5",
+					"parent": "yellow_ring",
+					"pivot": [0, 72, 0],
+					"cubes": [
+						{
+							"origin": [0.02663, 0.06428, 0],
+							"size": [72, 72, 0],
+							"pivot": [0.02663, 72.06428, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [32, 32], "uv_size": [32, 32]}
+							}
+						}
+					]
+				},
+				{
+					"name": "quart6",
+					"parent": "yellow_ring",
+					"pivot": [0.02663, 72.06428, 0],
+					"cubes": [
+						{
+							"origin": [0.02663, 72.06428, 0],
+							"size": [72, 72, 0],
+							"pivot": [0.02663, 72.06428, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [32, 32]}
+							}
+						}
+					]
+				},
+				{
+					"name": "quart7",
+					"parent": "yellow_ring",
+					"pivot": [0, 72, 0],
+					"cubes": [
+						{
+							"origin": [-71.97337, 72.06428, 0],
+							"size": [72, 72, 0],
+							"pivot": [0.02663, 72.06428, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [32, 32]}
+							}
+						}
+					]
+				},
+				{
+					"name": "quart8",
+					"parent": "yellow_ring",
+					"pivot": [0, 72, 0],
+					"cubes": [
+						{
+							"origin": [-71.97337, 0.06428, 0],
+							"size": [72, 72, 0],
+							"pivot": [0.02663, 72.06428, 0],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"north": {"uv": [0, 32], "uv_size": [32, 32]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

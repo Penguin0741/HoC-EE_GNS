@@ -1,0 +1,250 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:trophy",
+			"is_summonable": true,
+			"scripts": {
+				"animate": [
+					"click_command"
+				]
+			},
+			"animations": {
+				"click_command": "controller.animation.trophy.click_command"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 1,
+				"width": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false,
+					"on_damage": {
+						"event": "clickcommand",
+						"target": "self",
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						}
+					}
+				  }
+				]
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"event": "clickcommand",
+							"target": "self",
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							}
+						},
+						"interact_text": "action.interact.seat"
+					}
+				]
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			}
+		},
+		"component_groups": {
+			"clickreset": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"clickcommand": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:timer":{
+					"time":[0.5,0.5],
+					"time_down_event": {
+						"event": "clickreset",
+						"target": "self"
+					}
+				}
+			},
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"skin_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"skin_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"skin_3": {
+				"minecraft:skin_id": {
+					"value": 3
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"skin_4": {
+				"minecraft:skin_id": {
+					"value": 4
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"skin_5": {
+				"minecraft:skin_id": {
+					"value": 5
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"skin_6": {
+				"minecraft:skin_id": {
+					"value": 6
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"skin_7": {
+				"minecraft:skin_id": {
+					"value": 7
+				},
+				"minecraft:scale": {
+					"value": 1.0
+				},
+				"minecraft:collision_box": {
+					"height": 2,
+					"width": 2
+				}
+			},
+			"skin_8": {
+				"minecraft:skin_id": {
+					"value": 8
+				}
+			},
+			"skin_9": {
+				"minecraft:skin_id": {
+					"value": 9
+				}
+			},
+			"skin_10": {
+				"minecraft:skin_id": {
+					"value": 10
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"clickcommand": {
+				"remove": { "component_groups": [ "clickreset" ] },
+				"add": { "component_groups": [ "clickcommand" ] }
+			},
+			"clickreset": {
+				"add": { "component_groups": [ "clickreset" ] },
+				"remove": { "component_groups": [ "clickcommand" ] }
+			},
+			"skin_1": {
+				"add": {
+					"component_groups": [
+						"skin_1"
+					]
+				}
+			},
+			"skin_2": {
+				"add": {
+					"component_groups": [
+						"skin_2"
+					]
+				}
+			},
+			"skin_3": {
+				"add": {
+					"component_groups": [
+						"skin_3"
+					]
+				}
+			},
+			"skin_4": {
+				"add": {
+					"component_groups": [
+						"skin_4"
+					]
+				}
+			},
+			"skin_5": {
+				"add": {
+					"component_groups": [
+						"skin_5"
+					]
+				}
+			},
+			"skin_6": {
+				"add": {
+					"component_groups": [
+						"skin_6"
+					]
+				}
+			},
+			"skin_7": {
+				"add": {
+					"component_groups": [
+						"skin_7"
+					]
+				}
+			},
+			"skin_8": {
+				"add": {
+					"component_groups": [
+						"skin_8"
+					]
+				}
+			},
+			"skin_9": {
+				"add": {
+					"component_groups": [
+						"skin_9"
+					]
+				}
+			},
+			"skin_10": {
+				"add": {
+					"component_groups": [
+						"skin_10"
+					]
+				}
+			}
+		}
+	}
+}

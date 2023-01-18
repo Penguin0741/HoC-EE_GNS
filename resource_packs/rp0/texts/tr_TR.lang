@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Kod Saati 2022	#
+pack.description=Kod Saati 2022 için gerekli kaynaklar	#
+
+subtitle.loading.1=Yükleniyor  . . . .	#
+subtitle.loading.2=Yükleniyor .  . . .	#
+subtitle.loading.3=Yükleniyor . .  . .	#
+subtitle.loading.4=Yükleniyor . . .  .	#
+subtitle.loading.5=Yükleniyor . . . . 	#
+
+actionbar.singleplayer_only=Sadece 1 oyuncu oynayabilir!	#
+
+## Touch Controls Buttons
+action.interact.start=Başlamak için dokunun	#
+action.interact.seat=Toplamak için dokunun	#
+action.interact.click=Konuş	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Kodlamak için C tuşuna basın	#
+actionbar.keyboard.code.0b=Kodlamak için C tuşuna basın	#
+actionbar.keyboard.code.1=Kod çalıştırılıyor...	#
+actionbar.keyboard.look.0= §l§gCisimcikler için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §l§gCisimciklere  §lsağ tıklayın§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lIaraştırın§r  §l§gCisimcikleri	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Bir sonraki odaya girin	#
+
+actionbar.keyboard.0.-1=Başlamak için logoya tıklayın	#
+actionbar.keyboard.0.1=Etrafınıza bakmak için farenizi kullanın	#
+actionbar.keyboard.0.2=Küreye bakmaya devam edin	#
+actionbar.keyboard.0.3a=İlerlemek için ''W'' tuşuna basın	#
+actionbar.keyboard.0.3b=Sola gitmek için ''A'' tuşuna basın	#
+actionbar.keyboard.0.3c=Geri gitmek için ''S'' tuşuna basın	#
+actionbar.keyboard.0.3d=Sağa gitmek için ''D'' tuşuna basın	#
+actionbar.keyboard.0.3e=Hareket etmek için ''W'', ardından atlamak için ''BOŞLUK'' tuşuna basın	#
+actionbar.keyboard.0.3f=Hareket etmek için ''A'', ardından atlamak için ''BOŞLUK'' tuşuna basın	#
+actionbar.keyboard.0.3g=Hareket etmek için ''S'', ardından atlamak için ''BOŞLUK'' tuşuna basın	#
+actionbar.keyboard.0.3h=Hareket etmek için ''D'', ardından atlamak için ''BOŞLUK'' tuşuna basın	#
+actionbar.keyboard.0.3i=Duvarın ötesine geçin	#
+actionbar.keyboard.0.4= Düğmeye §lsağ tıklayın§r	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=NPC'ye gidin, ardından onunla etkileşim kurmak için  §lsağ tıklayın§r	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1= §l§gCisimcikler§r için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2=§lŞalterlere §lsağ tıklayın§r	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0=Zombi Şef ile konuşmak için §lsağ tıklayın§r	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2=Kraliçeye  §lsağ tıklayın§r	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4=Krala §lsağ tıklayın§r	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1= §l§gCisimcikler için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2=Kayıp Günlük'e §lsağ tıklayın§r	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Kayıp Günlük'ü seçmek için kaydırın	#
+actionbar.keyboard.10.1.2=Kayıp Günlük'ü açmak için  §lsağ tıklayın§r	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2= §l§gCisimcikler için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Kapıdan girin veya Agent ile konuşun	#
+actionbar.keyboard.10.7=Bir kapıdan girin veya Agent ile konuşun	#
+actionbar.keyboard.10.9=Bir kapıdan girin	#
+
+actionbar.keyboard.11.3=Bir yan odayı keşfedin	#
+actionbar.keyboard.11.5=Ana odaya geri dönün	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Kodlamak için yukarıdaki  simgesine dokunun	#
+actionbar.touch.code.0b=Kodlamak için yukarıdaki  simgesine dokunun	#
+actionbar.touch.code.1=Kod çalıştırılıyor...	#
+actionbar.touch.look.0= §l§gCisimcikler için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1= §l§gCisimciklere §ldokunun	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lIaraştırın§r  §l§gCisimcikleri	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Bir sonraki odaya girin	#
+
+actionbar.touch.0.-1=Başlamak için düğmeye dokunun	#
+actionbar.touch.0.1=Ekrana dokunup kürenin ortasına sürükleyin.	#
+actionbar.touch.0.2=Küreye bakmaya devam edin	#
+actionbar.touch.0.3a=İlerlemek için  düğmesine dokunup basılı tutun	#
+actionbar.touch.0.3b=Sola gitmek için  düğmesine dokunup basılı tutun	#
+actionbar.touch.0.3c=Geri gitmek için  tuşuna dokunup basılı tutun	#
+actionbar.touch.0.3d=Sağa gitmek için  tuşuna dokunup basılı tutun	#
+actionbar.touch.0.3e=Hareket etmek için  tuşuna dokunup basılı tutun, ardından atlamak için  tuşuna dokunun	#
+actionbar.touch.0.3f=Hareket etmek için  tuşuna dokunup basılı tutun, ardından atlamak için  tuşuna dokunun	#
+actionbar.touch.0.3g=Hareket etmek için  düğmesine dokunup basılı tutun, ardından atlamak için  düğmesine dokunun	#
+actionbar.touch.0.3h=Hareket etmek için  tuşuna dokunup basılı tutun, ardından atlamak için  tuşuna dokunun	#
+actionbar.touch.0.3i=Duvarın ötesine geçin	#
+actionbar.touch.0.4=Düğmeye basın	#
+actionbar.touch.0.5=NPC ile konuşun	###NPC is non-playable-character
+
+actionbar.touch.1.2.1= §l§gCisimcikler§r için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=§lŞalterlere dokunun	###{Locked="§l"}
+actionbar.touch.2.0=Zombi Şef ile konuşmak için dokunun	#
+actionbar.touch.3.2=Kraliçeye dokunun	#
+actionbar.touch.3.4=Krala dokunun	#
+
+actionbar.touch.10.0.1= §l§gCisimcikler için §lOdayı Arayın§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Kayıp Günlük'e dokunun	#
+actionbar.touch.10.1.1=Seçmek için Kayıp Günlük'e dokunun	#
+actionbar.touch.10.1.2=Kayıp Günlük'ü açmak için dokunup basılı tutun	#
+actionbar.touch.10.2=Gürültüyü araştırın	#
+actionbar.touch.10.5=Kapıdan girin veya Agent ile konuşun	#
+actionbar.touch.10.7=Bir kapıdan girin veya Agent ile konuşun	#
+actionbar.touch.10.9=Bir kapıdan girin	#
+
+actionbar.touch.11.3=Bir yan odayı keşfedin	#
+actionbar.touch.11.5=Ana odaya geri dönün	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft Sunar...	#
+title.intro.2=Kaçış Yeri	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=Şah, Fil'i alır!	###Chess reference
+title.interact_queen=Vezir, Kaleyi alır!	###Chess reference
+title.room_cleared=Oda Temizlendi!	#
+title.trophy.unlocked=%1§fKupanın Kilidi Açıldı:%1	###{Locked="§f"}
+title.trophy.click=%1§fKupa:%1	###{Locked="§f"}
+title.end.1=Son	#
+title.end.2=The End?	#
+sub.puzzle_success=Bulmaca Çözüldü	#
+sub.room_1=Ders Çalışma	###A room in the mansion to explorer
+sub.room_2=Mutfak	###A room in the mansion to explorer
+sub.room_3=Salon	###A room in the mansion to explorer
+sub.room_4=Simya Odası	###A room in the mansion to explorer
+sub.room_5=Gözlemevi	###A room in the mansion to explorer
+sub.room_6=Laboratuvar	###A room in the mansion to explorer
+sub.room_7=Hendek	###A location at the mansion
+sub.room_8=Mahzen	###A room in the mansion to explorer
+sub.room_9=Çizim Odası	###A room in the mansion to explorer
+sub.wrong_order=Yanlış tarif!	#
+sub.too_few=Çok az malzeme!	#
+sub.too_many=Çok fazla malzeme!	#
+sub.trophy.note=§gİlk Not Toplandı!	###{Locked=§g}
+sub.trophy.book=§gTüm Notlar Toplandı!	###{Locked=§g}
+sub.trophy.boss=§gBölüm Sonu Canavarı Tamamlandı!	###{Locked=§g}
+sub.trophy.green=§aYeşil Yol Tamamlandı!	#
+sub.trophy.yellow=§eSarı Yol Tamamlandı!	#
+sub.trophy.red=§cKırmızı Yol Tamamlandı!	#
+sub.trophy.emerald=§gTüm Yollar Tamamlandı!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fMenü	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombi%1§fBiftek	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fİskelet%1§fÇorbası	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fCreeper%1§fTavuk	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fWither%1§fBalığı	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §lOcak	###{Locked="§l"}
+slate.feb=%1%1 §lŞubat	###{Locked="§l"}
+slate.mar=%1%1     §lMart	###{Locked="§l"}
+slate.apr=%1%1      §lNisan	###{Locked="§l"}
+slate.may=%1%1       §lMayıs	###{Locked="§l"}
+slate.1=%1%1       §l1.	###{Locked="§l"}
+slate.2=%1%1       §l2.	###{Locked="§l"}
+slate.3=%1%1       §l3.	###{Locked="§l"}
+slate.4=%1%1       §l4	###{Locked="§l"}
+slate.5=%1%1       §l5.	###{Locked="§l"}
+
+sign.queen_birthday=%1§fKraliçe'nin Doğum Günü%1§f4 Mayıs	###{Locked="§f"}
+sign.king_birthday=%1§fKralın Doğum Günü%1§f1 Nisan	###{Locked="§f"}
+sign.reset=%1§fSıfırla	###{Locked="§f"}
+
+slate.weight.0=%1Ağırlık: 0	#
+slate.weight.1=%1Ağırlık: 1	#
+slate.weight.2=%1Ağırlık: 2	#
+slate.weight.3=%1Ağırlık: 3	#
+slate.weight.4=%1Ağırlık: 4	#
+slate.weight.5=%1Ağırlık: 5	#
+slate.weight.6=%1Ağırlık: 6	#
+slate.weight.7=%1Ağırlık: 7	#
+slate.weight.8=%1Ağırlık: 8	#
+slate.weight.9=%1Ağırlık: 9	#
+slate.weight.10=%1Ağırlık: 10	#
+slate.weight.11=%1Ağırlık: 11	#
+slate.weight.12=%1Ağırlık: 12	#
+slate.weight.13=%1Ağırlık: 13	#
+slate.weight.14=%1Ağırlık: 14	#
+slate.weight.15=%1Ağırlık: 15	#
+slate.weight.16=%1Ağırlık: 16	#
+slate.weight.17=%1Ağırlık: 17	#
+slate.weight.18=%1Ağırlık: 18	#
+slate.weight.19=%1Ağırlık: 19	#
+slate.weight.20=%1Ağırlık: 20	#
+slate.weight.21=%1Ağırlık: 21	#
+slate.weight.22=%1Ağırlık: 22	#
+slate.weight.23=%1Ağırlık: 23	#
+slate.weight.24=%1Ağırlık: 24	#
+slate.weight.25=%1Ağırlık: 25	#
+slate.weight.26=%1Ağırlık: 26	#
+slate.weight.27=%1Ağırlık: 27	#
+slate.weight.28=%1Ağırlık: 28	#
+slate.weight.29=%1Ağırlık: 29	#
+slate.weight.30=%1Ağırlık: +30	#
+
+board.tut.intro=%1            §lKod Saati 2022§r :%1                       §lKaçış Yeri§r'ne Hoş Geldiniz%1%1Bu bölümde, etrafa nasıl bakacağınızı ve Minecraft'ta nasıl seyahat edeceğinizi öğreneceksiniz! Bir sonraki adımınızın ne olacağı konusunda yardım almak için ekranınızın alt kısmında yer alan ''sık kullananların'' üstündeki metni okuyun.%1%1İlk olarak, etrafınıza bakmak için farenizi kullanın veya dokunmatik ekranlı bir cihaz kullanıyorsanız, ''altın kürelerin'' hepsi patlayana kadar kaydırın. Ardından, bir sonraki öğreticiye geçin.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Kapat	#
+npc.button.done=Bitti	#
+npc.button.back=Geri	#
+npc.button.next=İleri	#
+npc.button.previous=Geri	#
+
+npc.zombie_chef.name=Zombi Şef	#
+npc.zombie_chef.0.text=EKMEEEEEEEEEK!!	###The zombie chef needs bread to survive
+npc.armor.name=Hızlı Şövalye	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Zırh Takımı	#
+npc.king.name=Kral	###chess piece
+npc.queen.name=Kraliçe	###chess piece
+npc.rook.name=Kale	###chess piece
+npc.bishop.name=Fil	###chess piece
+npc.clay_golem.name=Kil Golem	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=[ . . ]	#
+npc.clay_golem.3.name=[ . . . ]	#
+npc.enderman_butler.name=Kahya	#
+npc.zombie_minion.name=Kasa Minyonu	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Kral%1§71Ocak	###King refers to the chess piece
+npc.king.jan.2.name=Kral%1§72 Ocak	###King refers to the chess piece
+npc.king.jan.3.name=Kral%1§73Ocak	###King refers to the chess piece
+npc.king.jan.4.name=Kral%1§74 Ocak	###King refers to the chess piece
+npc.king.jan.5.name=Kral%1§75 Ocak	###King refers to the chess piece
+npc.king.feb.1.name=Kral%1§71 Şubat	###King refers to the chess piece
+npc.king.feb.2.name=Kral%1§72 Şubat	###King refers to the chess piece
+npc.king.feb.3.name=Kral%1§73 Şubat	###King refers to the chess piece
+npc.king.feb.4.name=Kral%1§74 Şubat	###King refers to the chess piece
+npc.king.feb.5.name=Kral%1§75 Şubat	###King refers to the chess piece
+npc.king.mar.1.name=Kral%1§71 Mart	###King refers to the chess piece
+npc.king.mar.2.name=Kral%1§72 Mart	###King refers to the chess piece
+npc.king.mar.3.name=Kral%1§73 Mart	###King refers to the chess piece
+npc.king.mar.4.name=Kral%1§74 Mart	###King refers to the chess piece
+npc.king.mar.5.name=Kral%1§75 Mart	###King refers to the chess piece
+npc.king.apr.1.name=Kral%1§71 Nisan	###King refers to the chess piece
+npc.king.apr.2.name=Kral%1§72Nisan	###King refers to the chess piece
+npc.king.apr.3.name=Kral%1§73 Nisan	###King refers to the chess piece
+npc.king.apr.4.name=Kral%1§74 Nisan	###King refers to the chess piece
+npc.king.apr.5.name=Kral%1§75 Nisan	###King refers to the chess piece
+npc.king.may.1.name=Kral%1§71 Mayıs	###King refers to the chess piece
+npc.king.may.2.name=Kral%1§72 Mayıs	###King refers to the chess piece
+npc.king.may.3.name=Kral%1§73 Mayıs	###King refers to the chess piece
+npc.king.may.4.name=Kral%1§74 Mayıs	###King refers to the chess piece
+npc.king.may.5.name=Kral%1§75 Mayıs	###King refers to the chess piece
+npc.queen.jan.1.name=Kraliçe%1§71 Ocak	###Queen refers to a chess piece
+npc.queen.jan.2.name=Kraliçe%1§72 Ocak	###Queen refers to a chess piece
+npc.queen.jan.3.name=Kraliçe%1§73 Ocak	###Queen refers to a chess piece
+npc.queen.jan.4.name=Kraliçe%1§74 Ocak	###Queen refers to a chess piece
+npc.queen.jan.5.name=Kraliçe%1§75 Ocak	###Queen refers to a chess piece
+npc.queen.feb.1.name=Kraliçe%1§71 Şubat	###Queen refers to a chess piece
+npc.queen.feb.2.name=Kraliçe%1§72 Şubat	###Queen refers to a chess piece
+npc.queen.feb.3.name=Kraliçe%1§73 Şubat	###Queen refers to a chess piece
+npc.queen.feb.4.name=Kraliçe%1§74 Şubat	###Queen refers to a chess piece
+npc.queen.feb.5.name=Kraliçe%1§75 Şubat	###Queen refers to a chess piece
+npc.queen.mar.1.name=Kraliçe%1§71 Mart	###Queen refers to a chess piece
+npc.queen.mar.2.name=Kraliçe%1§72 Mart	###Queen refers to a chess piece
+npc.queen.mar.3.name=Kraliçe%1§73 Mart	###Queen refers to a chess piece
+npc.queen.mar.4.name=Kraliçe%1§74 Mart	###Queen refers to a chess piece
+npc.queen.mar.5.name=Kraliçe%1§75 Mart	###Queen refers to a chess piece
+npc.queen.apr.1.name=Kraliçe%1§71 Nisan	###Queen refers to a chess piece
+npc.queen.apr.2.name=Kraliçe%1§72 Nisan	###Queen refers to a chess piece
+npc.queen.apr.3.name=Kraliçe%1§73 Nisan	###Queen refers to a chess piece
+npc.queen.apr.4.name=Kraliçe%1§74 Nisan	###Queen refers to a chess piece
+npc.queen.apr.5.name=Kraliçe%1§75 Nisan	###Queen refers to a chess piece
+npc.queen.may.1.name=Kraliçe%1§71 Mayıs	###Queen refers to a chess piece
+npc.queen.may.2.name=Kraliçe%1§72 Mayıs	###Queen refers to a chess piece
+npc.queen.may.3.name=Kraliçe%1§73 Mayıs	###Queen refers to a chess piece
+npc.queen.may.4.name=Kraliçe%1§74 Mayıs	###Queen refers to a chess piece
+npc.queen.may.5.name=Kraliçe%1§75 Mayıs	###Queen refers to a chess piece
+npc.king.scrambled.name=Kral%1§7§kTest	###King refers to the chess piece
+npc.queen.scrambled.name=Kraliçe%1§7§kTest	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Kontroller	#
+npc.tutcontrols.1.text=Kod Saati 2022'ye hoş geldiniz!%1%1Kısa bir öğretici ile başlayalım! Başlamak için cihazınızı kullanarak sol tıklayın veya sizin için en uygun olan doğru kontrol şemasına basın.	#
+npc.button.keyboard=Klavye	#
+npc.button.touch=Dokunmatik Kontroller	#
+
+npc.tutskip.name=Atla	#
+npc.keyboard.tutskip.1.text=Hoş geldiniz! Aşağıdaki öğretici size Minecraft'ta gezinmenin temellerini öğretecek.%1%1Başlamak için ''Öğreticiyi Başlat''a sol tıklayın, bir öğreticiye ihtiyacınız yoksa deneyime başlamak için ''Öğreticiyi Atla''ya sol tıklayın!	#
+npc.touch.tutskip.1.text=Hoş geldiniz! Aşağıdaki öğretici size Minecraft'ta gezinmenin temellerini öğretecek.%1%1Başlamak için "Öğreticiyi Başlat"a dokunun; bir öğreticiye ihtiyacınız yoksa, bu deneyime başlamak için "Öğreticiyi Atla"ya dokunun! 	#
+npc.tutskip.2.text=Öğreticiyi atlamak istediğinizden emin misiniz? Atlarsanız kritik bilgileri kaçıracaksınız.%1%1Cihazınızı kullanırken ''Öğreticiyi Başlat'' veya ''Öğreticiyi Atla''yı seçin	#
+npc.button.skip_yes=Öğreticiyi Atla	#
+npc.button.skip_no=Öğreticiyi Başlat	#
+
+npc.tuthelp.name=Yardım	#
+npc.keyboard.tuthelp.1.text=Tebrikler, hareket öğreticisini tamamladınız!%1%1Dünyayla nasıl etkileşim kuracağınıza dair daha fazla talimat için kontrolleri göstermek üzere ''H'' tuşuna basın.	#
+npc.touch.tuthelp.1.text=Tebrikler, hareket öğreticisini tamamladınız!%1%1Dünyayla nasıl etkileşim kuracağınıza dair daha fazla talimat için kontrolleri görmek için "H" tuşuna basın.	#
+
+npc.tuthost.name=Dr. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Merhaba. Adım Dr. Dodge Breakowski. Görünüşe göre davetimi almışsınız. Şafak vaktine kadar malikaneden kaçıp bir milyon zümrüt kazanmak için gerekenlere sahip olduğunuzu düşünüyor musunuz? Mükemmel! Mücadeleye başlamak için hemen ön kapıya gidin!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=Gidelim!	#
+
+## Labels
+npc.label.nether_wart.name=Nether Siğili	#
+npc.label.phantom_membrane.name=Fantom Zarı	#
+npc.label.fermented_spider_eye.name=Fermente Örümcek Gözü	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Kayıp Günlük	#
+item.rwm:notebook.name=Kayıp Günlük	#
+npc.note.name=Günlük Sayfası	#
+npc.note.0.text=%1Kayıp bir günlük buldunuz. Malikaneyi keşfederken 10 eksik sayfanın hepsini bulabilir misiniz?%1%1Topladığınız notları görüntülemek için aşağıdaki '§lÖnceki§r' ve '§lSonraki§r' seçeneklerini kullanın.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1Kayıt #1: Tavan Arası %1%1Sevgili Günlük:%1%1Geçen hafta, gizemli birinden bu malikaneden kaçmam için bana meydan okuyan bir davet aldım. Notta, şafağa kadar kaçarsam bir milyon zümrüt kazanacağım yazıyordu. Zümrüde ihtiyacım olmasa da böyle bir mücadelenin kanalım için harika bir video olacağını düşündüm!%1%1Ancak, buraya geldiğimde malikane beni yutuverdi. Bunun mantıklı olmadığını biliyorum ama yemin ederim ki gerçek bu! Kendime geldiğimde çatı katındaydım. Üç kilitli kapı var... Bunlardan biri bir çıkış yolu olmalı! Bu kapıları nasıl açacağımı bulsam yeter!	#
+npc.note.2.text=%1Kayıt #2: Çalışma Odası %1%1Sevgili Günlük:%1%1Nihayet tavan arasından çıkmanın bir yolunu buldum ama bu garip kütüphanede mahsur kaldım. Buradaki büyük aynanın göründüğünden daha fazlası olduğuna inanıyorum! Bu gerçekten bir ayna mı, yoksa başka bir boyuta açılan bir pencere mi? Ne olursa olsun, ilerlemeye devam edip beni nereye götürdüğünü görmekten başka seçeneğim yok...	#
+npc.note.3.text=%1Kayıt #3: Mutfak %1%1Sevgili Günlük:%1%1Bugün geniş bir yemek bölümüne rastladım. Burada, mutfakta gezinen korkutucu bir yaratık gördüm; varlığımı fark etmemiş gibiydi. Şefle konuşmak için cesaretimi topladığımda sadece "EKMEK!" diye inledi. Bu korkunç aşçıya yardımcı olmaya cesaret edebilir miyim? Edersem belki de bana çıkış yolunu gösterebilir...	#
+npc.note.4.text=%1Kayıt #4: Salon %1%1Sevgili Günlük:%1%1Bu giriş salonundaki büyük kapı, malikanenin dışına açılıyor gibi görünüyor! Ama nasıl açılacak? Bu satranç tahtası kapının kilidini açabilir mi? Etrafta ipuçları olacaktır... Artık geri dönemeyecek kadar ilerleme kaydettim!	#
+npc.note.5.text=%1Kayıt #5: Simya Odası %1%1Sevgili Günlük:%1%1Malikanedeki yolculuğuma devam ettikçe, buranın sıradan bir malikane olmadığını fark etmeye başlıyorum. Örneğin, bugün iksir yapmak için tahsis edilmiş bir oda buldum. Bu, insanın her gün görebileceği bir şey değil ama yine de daha önce buraya gelmiş olduğum hissini bir türlü üzerimden atamıyorum...	#
+npc.note.6.text=%1Girdi #6: Gözlemevi %1%1Sevgili Günlük:%1%1Malikanede ilerlerken eski bir sera keşfettim. Muhtemelen geçmişte yemyeşil bir bahçeydi ama şimdi buradaki bitkileri sadece bir damla su besliyor. Muhtemelen hayal görmüşümdür ama bu odaya girerken çalılıklara doğru bir şeyin uçtuğuna yemin edebilirim! Ne olabileceğine dair hiçbir fikrim yok...	#
+npc.note.7.text=%1Girdi #7: Laboratuvar %1%1Sevgili Günlük:%1%1Bugün çok büyüleyici bir keşif yaptım: bir laboratuvar! Gizemli makineler ve benzerlerini hiç görmediğim garip deneylerle dolu! Yoksa görmüş müyümdür? Burası çok tanıdık geliyor...	#
+npc.note.8.text=%1Girdi #8: Hendek %1%1Sevgili Günlük:%1%1Bir çıkış yolu ararken, bu alanı bölen garip bir hendekle karşılaştım. Asma köprü yukarı kaldırılmış ve diğer taraftan kontrol ediliyor gibi görünüyor. Buradaki uşak, dediklerimi anlamıyor gibi görünen sessiz bir adam. Yine de onları köprüyü indirmeye ikna etmenin bir yolunu bulmalıyım.	#
+npc.note.9.text=%1Kayıt #9: Mahzen %1%1Sevgili Günlük:%1%1Bir çıkış yolu arayışım beni geniş bir mahzene götürdü! Rüzgar uçurumda öyle bir kuvvetle esiyor ki önümdeki çürük eski köprüye adım atmaktan korkuyorum. Bir an, üzerimden bir şeyin uçtuğunu duyduğumu sandım... Alt tarafı rüzgardır diye düşündüm.	#
+npc.note.10.text=%1Kayıt #10: Salon %1%1Sevgili Günlük:%1%1Yolculuğum beni küçük bir oturma odasına getirdi. Burası sıcak ve davetkar. Sonsuza dek burada kalabilirmişim gibi hissediyorum... HAYIR! Pes etmemeliyim! Burada garip bir şeyler dönüyor ve yalnız olmadığımdan eminim!	#
+
+## Agent
+npc.agent.name=Agent	#
+npc.agent.1.1.text=Merhaba! Orada biri mi var? Aman Tanrım, bir insan! Bana yardım edebilir misiniz acaba? Bu zemin havalandırmasını açamıyorum! Galiba kodum bozulmuş. Bir göz atıp sorunun ne olduğunu söyleyebilir misiniz?	#
+npc.button.yes=Evet!	#
+npc.agent.1.2.text=Harika! Beni buradan çıkarabilirseniz bu iyiliğinizi karşılıksız bırakmayıp kaçmanıza yardım edeceğim. Hangi programlama dilini kullanmak istersiniz?%1%1§lBlocks§r yeni başlayanlar için idealdir. §lPython§r'ı, yalnızca daha önce bu programlama dilinde kodladıysanız seçin.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=Tamam! İlk olarak, yerdeki şu imleci görüyor musunuz? Tuzak kapısına ulaşmak için 3 blok ileri gitmesi gerekiyor ama çalışmıyor. Kodu görüntülemek için C tuşuna basın ve ardından sorunun ne olduğunu görmek için kodu çalıştırın.	#
+npc.agent.1.4.text=Hmmm, yok, bu tam olarak doğru değil. İmlecin tuzak kapısına gitmesi VE açılmasını söylemesi gerekiyor.	#
+npc.agent.2.1.text=Harika! Açıldı! Bir tuhaflık var... Hala dışarı çıkamıyorum. Kodu tekrar kontrol edip 2 blok yukarı çıktığımdan emin olabilir misiniz?	#
+npc.agent.3.1.text=Teşekkürler! Kodumu düzelttiniz! Artık sizin için Yeşil kapıyı açabilirim. Yeşil kapının ardındaki yol daha kolay bir yoldur. Bu yoldan gidebilirsiniz veya Sarı kapıyı açmayı denemek isterseniz benimle tekrar konuşabilirsiniz!	#
+npc.agent.4.1.text=Demek Sarı kapıyı açmayı denemek istiyorsunuz. Bunun için daha fazla güce ihtiyacım olacak. Neyse ki ay ışığıyla şarj olabiliyorum! Tek yapmamız gereken yukarıdaki tavan penceresini açmak... Ah, bir sorun var; kodum düzgün çalışmıyor. Tavandaki 4 tuzak kapısının da açıldığından emin olmak için kodumu kontrol etmeyi deneyin!	#
+npc.agent.5.1.text=Vay canına, bravo! Şimdi sizin için Sarı kapıyı açtım. İsterseniz kapıdan girebilirsiniz ama gerçek bir mücadele istiyorsanız Kırmızı kapıyı açmayı denemek için benimle tekrar konuşun!	#
+npc.agent.6.1.text=Kırmızı kapıya ulaşmak için birlikte çalışmamız gerekecek. Yalnızca Altın blokların üzerinde duruyorsam açılacak. Bir deneyelim! Ah... Yetişemiyorum. Biraz yardım etmeye ne dersiniz, dostum?	#
+npc.agent.7.1.text=Tamam, artık tüm kapılar açık. Gitmek istediğiniz yolu seçin. Her yolun farklı bir zorluğu vardır; Yeşil daha kolaydır, Kırmızı daha zordur, Sarı ise bu ikisinin arasındadır. Hoşça kalın, insan. Belki günün birinde yollarımız tekrar kesişir.	#
+npc.agent.green.8.1.text=Durun! Gitmeden önce size son bir şey söylemem gerekiyor! Bu ev, §lkaçış odaları§r ile doludur. Çıkış yolunu bulmak için ipuçları bulup bulmacaları çözmeniz ve kodu düzeltmeniz gerekecek! Bir bulmacanın kodunu ortaya çıkarmak için §lC§r tuşuna basın. Ne olacağını görmek için kodu §lçalıştırın§r! Hatalar varsa kodu düzeltin ve test etmek için yeniden çalıştırın. Bu işleme, §lhata ayıklama§r denir.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=Bazen çözümler net değildir ve tüm bulmacaları çözmek için kod gerekmez! Bir bulmaca bulduğunuzda, neyin yanlış olduğunu anlamak için önce kodu §lçalıştırmayı§r, ardından §lhata ayıklamayı§r ve hatalı kodu §ldüzeltmeyi§r unutmayın! Bu işlem, sıfırdan kodlamaktan çok daha kolaydır!%1%1Size rehberlik edecek §g§lCisimcikler§0§r gibi ipuçları için gözünüzü dört açın!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Durun! Gitmeden önce size son bir şey söylemem gerekiyor! Bu ev, §lkaçış odaları§r ile doludur. Çıkış yolunu bulmak için ipuçları bulup bulmacaları çözmeniz ve kodu düzeltmeniz gerekecek! Bir bulmacanın kodunu ortaya çıkarmak için §lC§r tuşuna basın. Ne olacağını görmek için kodu §lçalıştırın§r! Hatalar varsa kodu düzeltin ve test etmek için yeniden çalıştırın. Bu işleme, §lhata ayıklama§r denir.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=Bazen çözümler net değildir ve tüm bulmacaları çözmek için kod gerekmez! Bir bulmaca bulduğunuzda, neyin yanlış olduğunu anlamak için önce kodu §lçalıştırmayı§r, ardından §lhata ayıklamayı§r ve hatalı kodu §ldüzeltmeyi§r unutmayın! Bu işlem, sıfırdan kodlamaktan çok daha kolaydır!%1%1Size rehberlik edecek §g§lCisimcikler§0§r gibi ipuçları için gözünüzü dört açın!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Durun! Gitmeden önce size son bir şey söylemem gerekiyor! Bu ev, §lkaçış odaları§r ile doludur. Çıkış yolunu bulmak için ipuçları bulup bulmacaları çözmeniz ve kodu düzeltmeniz gerekecek! Bir bulmacanın kodunu ortaya çıkarmak için §lC§r tuşuna basın. Ne olacağını görmek için kodu §lçalıştırın§r! Hatalar varsa kodu düzeltin ve test etmek için yeniden çalıştırın. Bu işleme, §lhata ayıklama§r denir.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=Bazen çözümler net değildir ve tüm bulmacaları çözmek için kod gerekmez! Bir bulmaca bulduğunuzda, neyin yanlış olduğunu anlamak için önce kodu §lçalıştırmayı§r, ardından §lhata ayıklamayı§r ve hatalı kodu §ldüzeltmeyi§r unutmayın! Bu işlem, sıfırdan kodlamaktan çok daha kolaydır!%1%1Size rehberlik edecek §g§lCisimcikler§0§r gibi ipuçları için gözünüzü dört açın!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Dr. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Tekrar merhaba. Görünüşe göre başarmışsınız. Malikaneden çıkmayı başardınız. Bravo. Bunu yapabileceğinizi biliyorduk... Aslında, biz de buna güveniyorduk!	#
+npc.foyer.2.1.text=Görüyorsunuz ya, burası sıradan bir malikaneden daha fazlası. Boyutlararası bir hapishane! Kaçamayacağımız bir hapishane... Ama bir çıkış yolu bulacağınızı biliyorduk!	#
+npc.foyer.2.2.text=Ah ha! Sürpriz! Zaman Ajanları geri döndü! Artık sonsuza dek bu malikanede hapsolacak olan sizsiniz! Yeni evinizin tadını çıkarın! Hahaha!	#
+npc.foyer.3.1.text=Durun bakalım, Zaman Ajanları...	#
+npc.foyer.3.2.text=Hiçbir yere gidemezsiniz. Siz baş belalarına bir şans veriyorum! 	#
+npc.foyer.4.1.text=TARRA! Bizi burada bir kez hapsetmiş olabilirsiniz ancak bir daha hilelerinize kanmayacağız! Geçit açıldı! Bizi durduramazsınız! Zamanınız doldu, bizimki de öyle! Hoşça kalın, mankafalar!	#
+npc.foyer.5.1.text=Bu geçit, Zaman Küresi'ne çıkar. Bu geçidi, kaçmak için kullanabilecekler. Zaman Küresi'ni durdurmanın tek yolu Krono Toplarını kullanmaktır. Küreyi şarj etmeleri uzun sürmeyecek, bu yüzden savunmaları hızlı bir şekilde etkinleştirip onları kesin surette durdurmalıyız! Şimdi gidin!	#
+
+## Boss
+npc.rascal.name=Rascal	#
+npc.gremlin.name=Gremlin	#
+npc.yeti.name=Yeti	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Pixie	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=Eveeet! Zaman Küresi! Kaçmak için bunu kullanabiliriz! Ne? Of, yine o gıcık oyuncu!	#
+npc.boss.yellow.1.1.text=Eveeet! Zaman Küresi! Sonunda bunu, bu yerden kaçmak için kullanabiliriz! Ne? Yine mi? Dağılın, çocuklar! Hepimizi yakalayamazlar!	#
+npc.boss.red.1.1.text=Eveeet! Zaman Küresi! Bu boyutlararası hapishaneden nihayet kaçabiliriz! Ne? YİNE Mİ SİZ!?! Dağılın, Zaman Ajanları! Ben Zaman Küresi'ni hazırlarken Krono Toplarını koruyun!	#
+npc.boss.2.1.text=Krono Toplarını etkinleştirmemiz gerekiyor! Kontrol merkezleri o köşe odalarda, ama Zaman Ajanları kapıları kapattı! Onları açmanın bir yolunu bulmaya çalışın!	#
+npc.boss.yellow.3.1.text=Kontrol odası kapıları açıldı! Her kontrol odasında bir Krono Topunu etkinleştirecek bir şalter bulunur. Zaman Küresini yok etmek için dördünü de etkinleştirmemiz gerekecek! Çabuk olun! Gidip şu topları açın!	#
+npc.boss.red.3.1.text=Başardınız! Kontrol odası kapıları açıldı! Her kontrol odasında Krono Topunu etkinleştirmenin bir yolu vardır. Zaman Küresi'ni yok etmek için dördünü de etkinleştirmemiz gerekecek! Çabuk olun! Gidip şu topları açın!	#
+npc.boss.green.4.1.text=Tüm Krono Topları artık etkin! Ateşe hazırlanın!	#
+npc.boss.yellow.4.1.text=Aferin! Artık dört top da hazır olduğuna göre Zaman Küresi'ndeki savunmaları alaşağı edip Zaman Ajanlarını durdurabiliriz!	#
+npc.boss.red.4.1.text=Aferin! Artık dört top da hazır olduğuna göre Zaman Küresi'ndeki savunmaları alaşağı edip Zaman Ajanlarını durdurabiliriz!	#
+npc.boss.5.1.text=Bakın! Zaman Ajanları, Zaman Küresi odasında serseme döndü! Beklediğimiz fırsat geldi! Zeminin altındaki manyetik diskleri döndürebilirsek kutupluluğu tersine çevirip onları burada kesin surette hapsedebiliriz! 	#
+npc.boss.6.1.text=Başardınız! O Zaman Ajanlarının bir güzel hakkından geldiniz. Yoksa şöyle mi demeliyim: Bu Ajanlara, Zamansız misafir olmak neymiş gösterdiniz! Ha. Ha. Pardon. Hala ''mizah'' dediğiniz şey üzerinde çalışıyorum. Zaman Ajanları ne yaptıklarını düşünmek için burada kalacaklar. Size gelince, benimle gelin. Size çıkış yolunu göstereceğim.	#
+npc.button.run=Gidelim!	#
+npc.boss.side_room_1.1.text=Ha! Gerçekten bizi yenebileceğinizi mi sanıyorsunuz? Hayal görüyorsunuz!	#
+npc.boss.side_room_1.2.text=Ne!?! Olamaz! Kimse Pixie'yi köşeye sıkıştıramaz!	#
+npc.boss.side_room_2.1.text=Kazanmanıza göz yummamız mümkün değil. Amansız bir ıstıraba hazır olun!	#
+npc.boss.side_room_2.2.text=Aşağılık insan! Bu iş daha bitmedi!	#
+npc.boss.side_room_3.1.text=Bize karşı çıkmak yok. Yakında biz gideceğiz ve siz burada hapsolmuş bir halde, kederle feryat edeceksiniz!	#
+npc.boss.side_room_3.2.text=AAAAAAHHHHHHH!!!!! En ufak şansınız olduğunu düşünmemiştim!	#
+npc.boss.side_room_4.1.text=Hehehehe! Ahmak insan! Sizin türünüz asla öğrenmiyor. Arızanız kaçınılmazdır!	#
+npc.boss.side_room_4.2.text=Yani zamazingoyu çözdünüz mü? Sorun değil! Bize engel olamayacak!	#
+npc.boss.agent.1.text=Yardıma ihtiyacınız var gibi. Endişelenmeyin; arkanızı kolluyorum. Topları etkinleştirmenize yardım edebilirim. Bana yolu gösterin yeter!	#
+
+## Ending Cutscene
+npc.player.name=Siz	#
+npc.end.1.1.text=Tebrikler! Kodlama becerileriniz yeniden günü kurtardı. Zaman Ajanları mülkten kaçmış olsalardı ne tür bir belaya yol açarlardı kim bilir. Aferin!	#
+npc.end.1.2.text=Bir sorum daha var... Bu günlük sayfaları... Sizce nereden geldi?	#
+npc.end.2.1.text=Onlar bendendi! Dr. Dodge Breakowski'den! Bu zamansal baş belaları beni de bu yere çekti! Aslında haftalardır kaçmaya çalışıyorum! Orada her ne yaptıysanız, nihayet bir çıkış yolu bulmama yardımcı oldu! Teşekkürler!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Güvende olduğunuza sevindim... Sanırım bir süreliğine Zaman Ajanlarıyla uğraşmak zorunda kalmayacağız. Şimdi lütfen, buradan çıkalım... Burası bana 0'lar ve 1'ler gibi hissettiriyor!	#
+npc.end.2.3.text=Pekala, Dr. Breakowski... Şu bir milyon Zümrüt konusuna gelelim...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Üzgünüm evlat, meteliksizim!%1%1Dünyayı kurtarmaya ve bir kurabiyeye razı olur musunuz?	#
+npc.end.laugh.1.name=Ha!	#
+npc.end.laugh.2.name=Ha! Ha!	#
+npc.end.laugh.3.name=Ha! Ha! Ha!	#
+npc.end.laugh.1.text=Ha!	#
+npc.end.laugh.2.text=Ha! Ha!	#
+npc.end.laugh.3.text=Ha! Ha! Ha!	#
+
+action.hint.exit.rwm:cam= 	#

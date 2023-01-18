@@ -1,0 +1,63 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.notebook.states" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions": [
+						{
+							"open": "query.mark_variant == 1"
+						}
+					]
+				},
+				"open" : {
+					"animations": ["open"],
+					"transitions": [
+						{
+							"idle": "query.all_animations_finished"
+						}
+					]
+				},
+				"idle" : {
+					"animations": ["idle"],
+					"transitions": [
+						{
+							"close": "query.mark_variant == 0"
+						},
+						{
+							"next": "query.mark_variant == 2"
+						},
+						{
+							"previous": "query.mark_variant == 3"
+						}
+					]
+				},
+				"close" : {
+					"animations": ["close"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"next" : {
+					"animations": ["next"],
+					"transitions": [
+						{
+							"idle": "query.all_animations_finished"
+						}
+					]
+				},
+				"previous" : {
+					"animations": ["previous"],
+					"transitions": [
+						{
+							"idle": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

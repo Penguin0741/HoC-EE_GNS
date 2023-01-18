@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:cursor",
+			"geometry": {
+				"arrows": "geometry.cursor_arrows",
+				"corners": "geometry.cursor_corners"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"render_controllers": [
+				"controller.render.cursor_arrows",
+				"controller.render.cursor_corners"
+			],
+			"textures": {
+				"cursor": "textures/entity/cursor_corners",
+				"cursor_desat": "textures/entity/cursor_corners_desat",
+				"arrows_side": "textures/entity/cursor_arrows_side",
+				"arrows_top": "textures/entity/cursor_arrows_top",
+				"arrows_bottom": "textures/entity/cursor_arrows_bottom",
+				"arrows_single": "textures/entity/cursor_arrows_single",
+				"arrows_side_desat": "textures/entity/cursor_arrows_side_desat",
+				"arrows_top_desat": "textures/entity/cursor_arrows_top_desat",
+				"arrows_bottom_desat": "textures/entity/cursor_arrows_bottom_desat",
+				"arrows_single_desat": "textures/entity/cursor_arrows_single_desat"
+			},
+			"animations": {
+				"offset": "animation.cursor.offset",
+				"offset2": "animation.cursor.offset2",
+				"rot90": "animation.cursor.rot90",
+				"rot180": "animation.cursor.rot180",
+				"rot270": "animation.cursor.rot270",
+				"pulse": "animation.cursor.pulse"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"offset": "q.variant == 1"
+					},
+					{
+						"offset2": "q.variant == 2"
+					},
+					{
+						"rot90": "q.mark_variant == 1"
+					},
+					{
+						"rot180": "q.mark_variant == 2"
+					},
+					{
+						"rot270": "q.mark_variant == 3"
+					},
+					"pulse"
+				]
+			}
+		}
+	}
+}

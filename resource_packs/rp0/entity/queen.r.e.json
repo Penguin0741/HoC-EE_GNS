@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:queen",
+			"geometry": {
+				"default": "geometry.queen",
+				"base_arrows": "geometry.base_arrows"
+			},
+			"materials": {
+				"default": "entity_alphatest",
+				"base_arrows": "entity_emissive_alpha"
+			},
+			"render_controllers": [
+				"controller.render.all",
+				"controller.render.base_arrows"
+			],
+			"textures": {
+				"default": "textures/entity/queen",
+				"base_arrows": "textures/entity/base_arrows"
+			},
+			"animations": {
+				"rotation1": "animation.queen.rotation1",
+				"rotation2": "animation.queen.rotation2",
+				"take_off": "animation.queen.take_off"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"rotation1": "q.mark_variant == 1"
+					},
+					{
+						"rotation2": "q.mark_variant == 2"
+					},
+					{
+						"take_off": "q.variant == 1"
+					}
+				]
+			}
+		}
+	}
+}

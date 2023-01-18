@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:armor_npc",
+			"geometry": {
+				"default": "geometry.armor_npc"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/armor_npc"
+			},
+			"animations": {
+				"flick": "animation.armor_npc.flick",
+				"rot180": "animation.armor_npc.rot180"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"rot180": "q.mark_variant == 1"
+					}
+				]
+			}
+		}
+	}
+}

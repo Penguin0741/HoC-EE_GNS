@@ -1,0 +1,119 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:jump_dolly",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:skin_id": {
+				"value": 0
+			},
+			"minecraft:can_power_jump": {
+			},
+			"minecraft:horse.jump_strength": {
+				"value":1.0
+			},
+			"minecraft:type_family": {
+				"family": [
+					"jump_dolly"
+				]
+			},
+			"minecraft:color": {
+				"value": 11
+			},
+			"minecraft:rideable": {
+				"family_types": [
+					"player"
+				],
+				"seat_count": 1,
+				"seats": [
+					{
+						"position": [0, 0, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:can_fly": {
+			},
+			"minecraft:navigation.generic": {
+				"can_path_from_air": true
+			},
+			"minecraft:movement": {
+				"value": 0.7
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:movement.glide": {
+				"start_speed": 0,
+				"max_turn": 360,
+				"speed_when_turning": 0
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 0,
+				"speed_multiplier": 3,
+				"track_target": true,
+				"reach_multiplier": 0.0
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 0,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "jump_target"
+						},
+						"max_dist": 128
+					}
+				]
+			},
+			"minecraft:follow_range": {
+				"max": 128,
+				"value": 128
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:collision_box": {
+				"height": 0,
+				"width": 0
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

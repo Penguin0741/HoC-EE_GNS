@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:painting",
+			"geometry": {
+				"default": "geometry.painting"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/painting"
+			},
+			"animations": {
+				"slide_down": "animation.painting.slide_down",
+				"slide_up": "animation.painting.slide_up"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"slide_down": "q.variant == 1"
+					},
+					{
+						"slide_up": "q.variant == 2"
+					}
+				]
+			}
+		}
+	}
+}

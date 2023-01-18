@@ -1,0 +1,110 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:laser_tape",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.1,
+				"height": 0.1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false
+				  }
+				]
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"launch_1": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"launch_2": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			},
+			"glass_lime": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"glass_yellow": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"glass_red": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			},
+			"wool_lime": {
+				"minecraft:skin_id": {
+					"value": 4
+				}
+			},
+			"wool_yellow": {
+				"minecraft:skin_id": {
+					"value": 5
+				}
+			},
+			"wool_red": {
+				"minecraft:skin_id": {
+					"value": 6
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			},
+			"launch_1": {
+				"add": { "component_groups": [ "launch_1" ] }
+			},
+			"launch_2": {
+				"add": { "component_groups": [ "launch_2" ] }
+			},
+			"glass_lime": {
+				"add": { "component_groups": [ "glass_lime" ] }
+			},
+			"glass_yellow": {
+				"add": { "component_groups": [ "glass_yellow" ] }
+			},
+			"glass_red": {
+				"add": { "component_groups": [ "glass_red" ] }
+			},
+			"wool_lime": {
+				"add": { "component_groups": [ "wool_lime" ] }
+			},
+			"wool_yellow": {
+				"add": { "component_groups": [ "wool_yellow" ] }
+			},
+			"wool_red": {
+				"add": { "component_groups": [ "wool_red" ] }
+			}
+		}
+	}
+}

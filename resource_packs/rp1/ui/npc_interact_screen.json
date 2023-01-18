@@ -1,0 +1,69 @@
+{
+  "namespace": "npc_interact",
+
+  "student_button_label": {
+    "type": "label",
+    "color": "$text_color",
+    "text": "#student_button_text",
+    "bindings": [
+      {
+        "binding_name": "#student_button_text",
+        "binding_type": "collection",
+        "binding_collection_name": "student_buttons_collection"
+      },
+      {
+        "binding_name": "$visible_binding",
+        "binding_type": "collection",
+        "binding_name_override": "#visible",
+        "binding_collection_name": "student_buttons_collection"
+      }
+    ]
+  },
+
+  "student_button_label_panel": {
+    "type": "panel",
+    "size": [ "100%", "100%" ],
+    "controls": [
+      {
+        "url@npc_interact.student_button_label": {
+          "$text_color": "$npc_url_text_color",
+          "$visible_binding": "#is_url_button"
+        }
+      },
+      {
+        "command@npc_interact.student_button_label": {
+          "$visible_binding": "#is_command_button"
+        }
+      }
+    ]
+  },
+
+  "student_button@common.empty_panel": {
+    "size": [ "33.3333%", 20 ],
+    "controls": [
+      {
+        "button@common_buttons.light_text_button": {
+          "$button_type_panel": "npc_interact.student_button_label_panel",
+          "$pressed_button_name": "button.student_button",
+          "layer": 4,
+          "size": [ "100% - 2px", "100% - 2px" ],
+          "bindings": [
+            {
+              "binding_type": "collection_details",
+              "binding_collection_name": "student_buttons_collection",
+              "binding_collection_prefix": "student_buttons"
+            }
+          ]
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#student_button_visible",
+        "binding_type": "collection",
+        "binding_name_override": "#visible",
+        "binding_collection_name": "student_buttons_collection"
+      }
+    ]
+  }
+}

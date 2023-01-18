@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Koodaustunti 2022	#
+pack.description=Koodaustuntiin 2022:n tarvittavat resurssit	#
+
+subtitle.loading.1=Ladataan...  .	#
+subtitle.loading.2=Ladataan...  .	#
+subtitle.loading.3=Ladataan...  .	#
+subtitle.loading.4=Ladataan...  .	#
+subtitle.loading.5=Ladataan...  .	#
+
+actionbar.singleplayer_only=Vain 1 pelaaja voi pelata!	#
+
+## Touch Controls Buttons
+action.interact.start=Aloita napauttamalla	#
+action.interact.seat=Kerää napauttamalla	#
+action.interact.click=Puhu	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Koodaa painamalla C	#
+actionbar.keyboard.code.0b=Koodaa painamalla C	#
+actionbar.keyboard.code.1=Suoritetaan koodia...	#
+actionbar.keyboard.look.0=§lEtsi huone§r löytääksesi  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §lNapsauta hiiren kakkospainikkeella§r  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lTutki§r  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Astu viereiseen huoneeseen	#
+
+actionbar.keyboard.0.-1=Aloita napsauttamalla logoa	#
+actionbar.keyboard.0.1=Katso ympärillesi hiirellä	#
+actionbar.keyboard.0.2=Jatka pallon katsomista	#
+actionbar.keyboard.0.3a=Liiku eteenpäin painamalla "W".	#
+actionbar.keyboard.0.3b=Paina ""A"" siirtyäksesi vasemmalle	#
+actionbar.keyboard.0.3c=Paina "S"" siirtyäksesi taaksepäin	#
+actionbar.keyboard.0.3d=Paina ""D"" siirtyäksesi oikealle	#
+actionbar.keyboard.0.3e=Paina ""W"" liikkuaksesi ja sitten ""VÄLIYÖNTI"" hypätäksesi	#
+actionbar.keyboard.0.3f=Paina "A" liikkuaksesi ja sitten "VÄLILYÖNTI" hypätäksesi	#
+actionbar.keyboard.0.3g=Paina ""S"" liikkuaksesi ja sitten ""VÄLIYÖNTI"" hypätäksesi	#
+actionbar.keyboard.0.3h=Paina ""D"" liikkuaksesi ja sitten ""VÄLILYÖNTI" hypätäksesi	#
+actionbar.keyboard.0.3i=Navigoi seinän ohi	#
+actionbar.keyboard.0.4= §lNapsauta hiiren kakkospainikkeella§r painiketta	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=Siirry NPC:n luo ja paina  §lhiiren oikeaa painiketta§r ollaksesi vuorovaikutuksessa sen kanssa	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§lEtsi huone§r löytääksesi  §l§ghiukkasia§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §lNapsauta hiiren kakkospainikkeella§r §lVipuja	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §lNapsauta hiiren kakkospainikkeella§r puhuaksesi Zombikokin kanssa	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §lNapsauta hiiren kakkospainikkeella§r kuningatarta	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §lNapsauta hiiren kakkospainikkeella§r kuningasta	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§lEtsi huone§r löytääksesi  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §lNapsauta hiiren kakkospainikkeella§r kadonnutta päiväkirjaa	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Valitse Kadonnut päiväkirja vierittämällä	#
+actionbar.keyboard.10.1.2= §lNapsauta hiiren kakkospainikkeella§r avataksesi kadonnut päiväkirja	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§lEtsi huone§r löytääksesi  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Astu ovesta tai keskustele agentin kanssa	#
+actionbar.keyboard.10.7=Astu ovesta tai keskustele agentin kanssa	#
+actionbar.keyboard.10.9=Astu ovesta	#
+
+actionbar.keyboard.11.3=Tutustu sivuhuoneeseen	#
+actionbar.keyboard.11.5=Palaa pääkammioon	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Napauta  yllä koodataksesi	#
+actionbar.touch.code.0b=Napauta  yllä koodataksesi	#
+actionbar.touch.code.1=Suoritetaan koodia...	#
+actionbar.touch.look.0=§lEtsi huone§r löytääksesi  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§lNapauta  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lTutki§r  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Astu viereiseen huoneeseen	#
+
+actionbar.touch.0.-1=Aloita napauttamalla painiketta	#
+actionbar.touch.0.1=Napauta ja vedä näytöllä pallon keskelle	#
+actionbar.touch.0.2=Jatka pallon katsomista	#
+actionbar.touch.0.3a=Napauta  ja pidä painettuna siirtyäksesi eteenpäin	#
+actionbar.touch.0.3b=Napauta  ja pidä painettuna siirtyäksesi vasemmalle	#
+actionbar.touch.0.3c=Napauta  ja pidä painettuna siirtyäksesi taaksepäin	#
+actionbar.touch.0.3d=Napauta  ja pidä painettuna siirtyäksesi oikealle	#
+actionbar.touch.0.3e=Napauta  ja pidä painettuna liikkuaksesi ja sitten  hypätäksesi	#
+actionbar.touch.0.3f=Napauta  ja pidä painettuna liikkuaksesi ja sitten  hypätäksesi	#
+actionbar.touch.0.3g=Napauta  ja pidä painettuna liikkuaksesi ja sitten  hypätäksesi	#
+actionbar.touch.0.3h=Napauta  ja pidä painettuna liikkuaksesi ja sitten  hypätäksesi	#
+actionbar.touch.0.3i=Navigoi seinän ohi	#
+actionbar.touch.0.4=Paina painiketta	#
+actionbar.touch.0.5=Keskustele NPC:n kanssa	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§lEtsi huone§r löytääksesi  §l§ghiukkasia§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=Napauta §lVipuja	###{Locked="§l"}
+actionbar.touch.2.0=Napauta puhuaksesi Zombikokin kanssa	#
+actionbar.touch.3.2=Napauta kuningatarta	#
+actionbar.touch.3.4=Napauta kuningasta	#
+
+actionbar.touch.10.0.1=§lEtsi huone§r löytääksesi  §l§ghiukkasia	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Napauta Kadonnutta päiväkirjaa	#
+actionbar.touch.10.1.1=Valitse Kadonnut päiväkirja napauttamalla sitä	#
+actionbar.touch.10.1.2=Avaa Kadonnut päiväkirja napauttamalla ja pitämällä painettuna	#
+actionbar.touch.10.2=Tutki melua	#
+actionbar.touch.10.5=Astu ovesta tai keskustele agentin kanssa	#
+actionbar.touch.10.7=Astu ovesta tai keskustele agentin kanssa	#
+actionbar.touch.10.9=Astu ovesta	#
+
+actionbar.touch.11.3=Tutustu sivuhuoneeseen	#
+actionbar.touch.11.5=Palaa pääkammioon	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft esittää...	#
+title.intro.2=Pako kartanosta	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=Kuningas lyö piispan!	###Chess reference
+title.interact_queen=Kuningatar lyö tornin!	###Chess reference
+title.room_cleared=Huone tyhjennetty!	#
+title.trophy.unlocked=%1§fPalkinto saatu:%1	###{Locked="§f"}
+title.trophy.click=%1§fPalkinto:%1	###{Locked="§f"}
+title.end.1=Ääri	#
+title.end.2=Loppuko?	#
+sub.puzzle_success=Pulma ratkaistu	#
+sub.room_1=Työhuone	###A room in the mansion to explorer
+sub.room_2=Keittiö	###A room in the mansion to explorer
+sub.room_3=Salonki	###A room in the mansion to explorer
+sub.room_4=Alkemiahuone	###A room in the mansion to explorer
+sub.room_5=Ikisäilö	###A room in the mansion to explorer
+sub.room_6=Laboratorio	###A room in the mansion to explorer
+sub.room_7=Vallihauta	###A location at the mansion
+sub.room_8=Kellari	###A room in the mansion to explorer
+sub.room_9=Olohuone	###A room in the mansion to explorer
+sub.wrong_order=Väärä resepti!	#
+sub.too_few=Liian vähän ainesosia!	#
+sub.too_many=Liian monta ainesosaa!	#
+sub.trophy.note=§gEnsimmäinen muistiinpano kerätty!	###{Locked=§g}
+sub.trophy.book=§gKaikki muistiinpanot kerätty!	###{Locked=§g}
+sub.trophy.boss=§gPomo suoritettu!	###{Locked=§g}
+sub.trophy.green=§cVihreä polku suoritettu!	#
+sub.trophy.yellow=§cKeltainen polku suoritettu!	#
+sub.trophy.red=§cPunainen polku suoritettu!	#
+sub.trophy.emerald=§gKaikki polut suoritettu!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fValikko	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombi%1§fNaudanliha	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fLuuranko%1§fKeitto	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fCreeper%1§fKana	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fNäivettäjä%1§fKala	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §lTammikuu	###{Locked="§l"}
+slate.feb=%1%1  §lHelmikuu	###{Locked="§l"}
+slate.mar=%1%1     §lMaaliskuu	###{Locked="§l"}
+slate.apr=%1%1      §lHuhtikuu	###{Locked="§l"}
+slate.may=%1%1       §lToukokuu	###{Locked="§l"}
+slate.1=%1%1       §l1.	###{Locked="§l"}
+slate.2=%1%1       §l2.	###{Locked="§l"}
+slate.3=%1%1       §l3.	###{Locked="§l"}
+slate.4=%1%1       §l4.	###{Locked="§l"}
+slate.5=%1%1       §l5.	###{Locked="§l"}
+
+sign.queen_birthday=%1§fKuningattaren syntymäpäivä%1§f4. toukokuuta	###{Locked="§f"}
+sign.king_birthday=%1§fKuninkaan syntymäpäivä%1§f1. huhtikuuta	###{Locked="§f"}
+sign.reset=%1§fNollaa	###{Locked="§f"}
+
+slate.weight.0=%1Paino: 0	#
+slate.weight.1=%1Paino: 1	#
+slate.weight.2=%1Paino: 2	#
+slate.weight.3=%1Paino: 3	#
+slate.weight.4=%1Paino: 4	#
+slate.weight.5=%1Paino: 5	#
+slate.weight.6=%1Paino: 6	#
+slate.weight.7=%1Paino: 7	#
+slate.weight.8=%1Paino: 8	#
+slate.weight.9=%1Paino: 9	#
+slate.weight.10=%1Paino: 10	#
+slate.weight.11=%1Paino: 11	#
+slate.weight.12=%1Paino: 12	#
+slate.weight.13=%1Paino: 13	#
+slate.weight.14=%1Paino: 14	#
+slate.weight.15=%1Paino: 15	#
+slate.weight.16=%1Paino: 16	#
+slate.weight.17=%1Paino: 17	#
+slate.weight.18=%1Paino: 18	#
+slate.weight.19=%1Paino: 19	#
+slate.weight.20=%1Paino: 20	#
+slate.weight.21=%1Paino: 21	#
+slate.weight.22=%1Paino: 22	#
+slate.weight.23=%1Paino: 23	#
+slate.weight.24=%1Paino: 24	#
+slate.weight.25=%1Paino: 25	#
+slate.weight.26=%1Paino: 26	#
+slate.weight.27=%1Paino: 27	#
+slate.weight.28=%1Paino: 28	#
+slate.weight.29=%1Paino: 29	#
+slate.weight.30=%1Paino: 30+	#
+
+board.tut.intro=%1             Tervetuloa §lKoodaustunti 2022 -tapahtumaan§r: %1                        §lPako kartanosta§r%1%1Tässä osiossa opit katsomaan ympärillesi ja liikkumaan Minecraftissa! Lue teksti näytön alareunasta pikapalkin yläpuolelta saadaksesi vinkkejä siitä, mitä tehdä seuraavaksi.%1%1Katso ensin hiirellä ympärillesi, tai jos käytät kosketusnäyttölaitteen pyyhkäisyä, etsiäksesi "kultaisia palloja", kunnes puhkaiset ne kaikki. Siirry sitten seuraavaan tutoriaaliin.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Sulje	#
+npc.button.done=Valmis	#
+npc.button.back=Edellinen	#
+npc.button.next=Seuraava	#
+npc.button.previous=Edellinen	#
+
+npc.zombie_chef.name=Zombikokki	#
+npc.zombie_chef.0.text=LEIIIIPÄÄÄÄÄÄÄÄÄÄÄ!!	###The zombie chef needs bread to survive
+npc.armor.name=Vauhdikas ritari	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Haarniska	#
+npc.king.name=Kuningas	###chess piece
+npc.queen.name=Kuningatar	###chess piece
+npc.rook.name=Torni	###chess piece
+npc.bishop.name=Bishop	###chess piece
+npc.clay_golem.name=Savigolemi	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=[ . . ]	#
+npc.clay_golem.3.name=[ . . . ]	#
+npc.enderman_butler.name=Butler	#
+npc.zombie_minion.name=Laatikkokätyri	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Kuningas%1§71. tammikuuta	###King refers to the chess piece
+npc.king.jan.2.name=Kuningas%1§72. tammikuuta	###King refers to the chess piece
+npc.king.jan.3.name=Kuningas%1§73. tammikuuta	###King refers to the chess piece
+npc.king.jan.4.name=Kuningas%1§74. tammikuuta	###King refers to the chess piece
+npc.king.jan.5.name=Kuningas%1§75. tammikuuta	###King refers to the chess piece
+npc.king.feb.1.name=Kuningas%1§71. helmikuuta	###King refers to the chess piece
+npc.king.feb.2.name=Kuningas%1§72. helmikuuta	###King refers to the chess piece
+npc.king.feb.3.name=Kuningas%1§73. helmikuuta	###King refers to the chess piece
+npc.king.feb.4.name=Kuningas%1§74. helmikuuta	###King refers to the chess piece
+npc.king.feb.5.name=Kuningas%1§75. helmikuuta	###King refers to the chess piece
+npc.king.mar.1.name=Kuningas%1§71. maaliskuuta	###King refers to the chess piece
+npc.king.mar.2.name=Kuningas%1§72. maaliskuuta	###King refers to the chess piece
+npc.king.mar.3.name=Kuningas%1§73. maaliskuuta	###King refers to the chess piece
+npc.king.mar.4.name=Kuningas%1§74. maaliskuuta	###King refers to the chess piece
+npc.king.mar.5.name=Kuningas%1§75. maaliskuuta	###King refers to the chess piece
+npc.king.apr.1.name=Kuningas%1§71. huhtikuuta	###King refers to the chess piece
+npc.king.apr.2.name=Kuningas%1§72. huhtikuuta	###King refers to the chess piece
+npc.king.apr.3.name=Kuningas%1§73. huhtikuuta	###King refers to the chess piece
+npc.king.apr.4.name=Kuningas%1§74. huhtikuuta	###King refers to the chess piece
+npc.king.apr.5.name=Kuningas%1§75. huhtikuuta	###King refers to the chess piece
+npc.king.may.1.name=Kuningas%1§71. toukokuuta	###King refers to the chess piece
+npc.king.may.2.name=Kuningas%1§72. toukokuuta	###King refers to the chess piece
+npc.king.may.3.name=Kuningas%1§73. toukokuuta	###King refers to the chess piece
+npc.king.may.4.name=Kuningas%1§74. toukokuuta	###King refers to the chess piece
+npc.king.may.5.name=Kuningas%1§75. toukokuuta	###King refers to the chess piece
+npc.queen.jan.1.name=Kuningatar%1§71. tammikuuta	###Queen refers to a chess piece
+npc.queen.jan.2.name=Kuningatar%1§72. tammikuuta	###Queen refers to a chess piece
+npc.queen.jan.3.name=Kuningatar%1§73. tammikuuta	###Queen refers to a chess piece
+npc.queen.jan.4.name=Kuningatar%1§74. tammikuuta	###Queen refers to a chess piece
+npc.queen.jan.5.name=Kuningatar%1§75. tammikuuta	###Queen refers to a chess piece
+npc.queen.feb.1.name=Kuningatar%1§71. helmikuuta	###Queen refers to a chess piece
+npc.queen.feb.2.name=Kuningatar%1§72. helmikuuta	###Queen refers to a chess piece
+npc.queen.feb.3.name=Kuningatar%1§73. helmikuuta	###Queen refers to a chess piece
+npc.queen.feb.4.name=Kuningatar%1§74. helmikuuta	###Queen refers to a chess piece
+npc.queen.feb.5.name=Kuningatar%1§75. helmikuuta	###Queen refers to a chess piece
+npc.queen.mar.1.name=Kuningatar%1§71. maaliskuuta	###Queen refers to a chess piece
+npc.queen.mar.2.name=Kuningatar%1§72. maaliskuuta	###Queen refers to a chess piece
+npc.queen.mar.3.name=Kuningatar%1§73. maaliskuuta	###Queen refers to a chess piece
+npc.queen.mar.4.name=Kuningatar%1§74. maaliskuuta	###Queen refers to a chess piece
+npc.queen.mar.5.name=Kuningatar%1§75. maaliskuuta	###Queen refers to a chess piece
+npc.queen.apr.1.name=Kuningatar%1§71. huhtikuuta	###Queen refers to a chess piece
+npc.queen.apr.2.name=Kuningatar%1§72. huhtikuuta	###Queen refers to a chess piece
+npc.queen.apr.3.name=Kuningatar%1§73. huhtikuuta	###Queen refers to a chess piece
+npc.queen.apr.4.name=Kuningatar%1§74. huhtikuuta	###Queen refers to a chess piece
+npc.queen.apr.5.name=Kuningatar%1§75. hutikuuta	###Queen refers to a chess piece
+npc.queen.may.1.name=Queen%1§71. toukokuuta	###Queen refers to a chess piece
+npc.queen.may.2.name=Kuningatar%1§72. toukokuuta	###Queen refers to a chess piece
+npc.queen.may.3.name=Kuningatar%1§73. toukokuuta	###Queen refers to a chess piece
+npc.queen.may.4.name=Kuningatar%1§74. toukokuuta	###Queen refers to a chess piece
+npc.queen.may.5.name=Kuningatar%1§7. 5. toukokuuta	###Queen refers to a chess piece
+npc.king.scrambled.name=Kuningas%1§7§kTesti	###King refers to the chess piece
+npc.queen.scrambled.name=Kuningatar%1§7§kTesti	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Ohjauskomennot	#
+npc.tutcontrols.1.text=Tervetuloa Koodaustunti 2022:n!%1%1Aloitetaan lyhyellä tutoriaalilla! Aloita käyttämällä laitettasi joko napsauttamalla hiiren vasemmalla painikkeella tai napauttamalla ohjausjärjestelmää, joka parhaiten sopii sinulle.	#
+npc.button.keyboard=Näppäimistö	#
+npc.button.touch=Kosketusohjaus	#
+
+npc.tutskip.name=Ohita	#
+npc.keyboard.tutskip.1.text=Tervetuloa! Seuraava tutoriaali opettaa sinulle Minecraftissa liikkumisen perusteet.%1%1Aloita napauttamalla "Aloita tutoriaali" hiiren vasemmalla painikkella. Jos et tarvitse tutoriaalia, napauta "Ohita tutoriaali" hiiren vasemmalla painikkeella aloittaaksesi kokemuksen!	#
+npc.touch.tutskip.1.text=Tervetuloa! Seuraava tutoriaali opettaa sinulle Minecraftissa liikkumisen perusteet.%1%1Aloita napauttamalla "Aloita tutoriaali". Jos et tarvitse tutoriaalia, napauta "Ohita tutoriaali" aloittaaksesi kokemuksen! 	#
+npc.tutskip.2.text=Oletko varma, että haluat ohittaa tutoriaalin? Sinulta puuttuu tärkeitä tietoja, jos teet niin.%1%1Valitse laitteellasi joko "Aloita tutoriaali" tai "Ohita tutoriaali"	#
+npc.button.skip_yes=Ohita tutoriaali	#
+npc.button.skip_no=Aloita tutoriaali	#
+
+npc.tuthelp.name=Ohje	#
+npc.keyboard.tuthelp.1.text=Onnittelut, olet suorittanut liikkumistutoriaalin!%1%1Saat lisää ohjeita vuorovaikutukseen maailman kanssa painamalla "H" näyttääksesi ohjausvaihtoehdot.	#
+npc.touch.tuthelp.1.text=Onnittelut, olet suorittanut liikkumistutoriaalin!%1%1Saat lisää ohjeita vuorovaikutukseen maailman kanssa painamalla "H" näyttääksesi ohjausvaihtoehdot.	#
+
+npc.tuthost.name=Tohtori Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Hei. Olen tohtori Dodge Breakowski. Huomaan, että olet saanut kutsuni. Luuletko, että sinulla on mitä tarvitaan paetaksesi kartanosta aamunkoittoon mennessä ja lunastaaksesi miljoona smaragdia? Erinomainsta! Suuntaa nyt etuovelle aloittaaksesi haasteesi!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=Nyt mennään!	#
+
+## Labels
+npc.label.nether_wart.name=Hornapahka	#
+npc.label.phantom_membrane.name=Aavekalvo	#
+npc.label.fermented_spider_eye.name=Hapatettu lukinsilmä	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Kadonnut päiväkirja	#
+item.rwm:notebook.name=Kadonnut päiväkirja	#
+npc.note.name=Päiväkirjan sivu	#
+npc.note.0.text=%1Olet löytänyt kadonneen päiväkirjan. Onnistutko löytämään kaikki 10 puuttuvaa sivua tutkiessasi kartanoa?%1%1Käytä alla olevia "§lEdellinen§r" ja "§lSeuraava§r" -painikkeita nähdäksesi keräämäsi muistiinpanot.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1Entry #1: Ullakko %1%1Rakas päiväkirja:%1%1Viime viikolla sain kutsun joltakin mysteerihenkilöltä, joka haastoi minut pakenemaan tästä kartanosta. Muistiinpanossa sanottiin, että jos pakenen aamunkoittoon mennessä, voitan miljoona smaragdia. Vaikka en tarvinnut smaragdeja, ajattelin, että tällainen haaste olisi oiva video kanavalleni!%1%1Kuitenkin, kun saavuin tänne, kartano ahmaisi minut sisuksiinsa. Tiedän, että siinä ei ole järkeä, mutta se on totuus, vannon sen! Kun tulin tajuihini, löysin itseni tältä ullakolta. Lukittuja ovia on kolme... joista yhden on oltava ulospääsy! Minun täytyy vain selvittää, kuinka avata ne!	#
+npc.note.2.text=%1Merkintä #2: Toimisto %1%1Rakas päiväkirja:%1%1Löysin vihdoin tien ulos ullakolta, mutta jäin loukkuun tähän outoon kirjastoon. Uskon, että suuri peili täällä on muuta, kuin miltä näyttää! Onko se todella peili vai ikkuna toiseen ulottuvuuteen? Siitä huolimatta minulla ei ole muuta vaihtoehtoa kuin jatkaa eteenpäin ja katsoa, mihin se vie minut...	#
+npc.note.3.text=%1Merkintä #3: Keittiö %1%1Rakas päiväkirja:%1%1Tänään törmäsin suureen ruokailutilaan. Täältä löysin pelottavan olennon, joka kyhjötti keittiössä ilmeisen tietämättömänä läsnäolostani. Kun sain rohkeutta puhua kokin kanssa, se vain voihkaisi "LEIPÄ!" Uskallanko auttaa tätä aavemaista kokkia? Ehkä jos teen niin, se saattaa näyttää minulle tien ulos...	#
+npc.note.4.text=%1Merkintä #4: Salonki %1%1Rakas päiväkirja:%1%1Tämän aulan suuri ovi näyttää siltä, että se voisi johtaa ulos kartanosta! Mutta miten se avataan? Voisiko tämä shakkilauta avata oven? Täällä täytyy olla vihjeitä... olen tullut liian pitkälle palatakseni nyt!	#
+npc.note.5.text=%1Merkintä #5: Alkemiahuone %1%1Rakas päiväkirja:%1%1Kun matkani kartanon läpi jatkuu, alan nähdä, että tämä ei ole tavallinen kartano. Esimerkiksi tänään löysin huoneen, joka on omistettu juomien valmistukseen. Tällasita ei näe joka päivä, ja silti en voi ravistaa tunnetta, että olen ollut täällä ennen...	#
+npc.note.6.text=%1Merkintä #6: Viherhuone %1%1Rakas päiväkirja:%1%1Kulkiessano kartanossa löysin vanhan kasvihuoneen. Se oli luultavasti rehevä puutarha aiemmin, mutta nyt vain vesipisarat hoitavat kasveja täällä. Tiedän, että se oli luultavasti mielikuvitukseni, mutta olisin voinut vannoa, että näin jonkin lentävän pensaisiin, kun astuin tähän huoneeseen! Minulla ei ole aavistustakaan mikä se on voinut olla...	#
+npc.note.7.text=%1Merkintä #7: Laboratorio %1%1Rakas päiväkirja:%1%1Tein tänään kiehtovimman löydön: laboratorion! Se on täynnä salaperäisiä koneita ja outoja kokeita, joiden kaltaisia en ole koskaan nähnyt! Vai olenko? Tässä paikassa on jotain hyvin tuttua...	#
+npc.note.8.text=%1Merkintä #8: Vallihauta %1%1Rakas päiväkirja:%1%1Etsiessäni ulospääsyä olen törmännyt outoon vallihautaan, joka halkoo aluetta. Nostosilta on nostettu ylös ja näyttää siltä, että sitä ohjataan toiselta puolelta. Hovimestari täällä on hiljainen kaveri, joka ei tunnu ymmärtävän sanojani. Silti minun on löydettävä tapa saada heidät laskemaan silta.	#
+npc.note.9.text=%1Merkintä #9: Kellari %1%1Rakas päiväkirja:%1%1Ulospääsyn etsiminen on johtanut minut valtavaan kellariin! Tuuli ulvoo kuilun yli sellaisella voimalla, että pelkään astua edessäni olevalle rahisevalle vanhalle sillalle. Hetken luulin kuulleeni jotain lentävän yläpuolellani,... Sen täytyi olla vain tuuli.	#
+npc.note.10.text=%1Merkintä #10: Arkiolohuone%1%1Rakas päiväkirja:%1%1Kulkiessani olen löytänyt tieni pieneen olohuoneeseen! Se on lämmin ja kutsuva. Tuntuu, että voisin vain pysyä täällä ikuisesti... EI! Minun on jatkettava eteenpäin! Täällä tapahtuu outoja asioita, ja olen melko varma, etten ole yksin!	#
+
+## Agent
+npc.agent.name=Agent	#
+npc.agent.1.1.text=Hei? Onko joku siellä? Voi herttinen, ihminen! Luuletko, että voisit auttaa minua? En näytä saavan tätä lattian tuuletusaukkoa auki! Luulen, että koodini voi olla rikki. Voisitko katosa, mikä siinä on vikana?	#
+npc.button.yes=Kyllä!	#
+npc.agent.1.2.text=Upea! Jos saat minut pois täältä, teen vastapalveluksen ja autan sinua pakenemaan ullakolta. Mitä ohjelmointikieltä haluaisit käyttää?%1%1§lBlocks§r on paras aloittelijoille. Valitse §lPython§r vain, jos olet koodannut sillä aiemmin.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=Okei! Ensinnäkin, näetkö kohdistimen tuolla lattialla? Sen on siirryttävä eteenpäin 3 kuutiota päästäkseen ansaan, mutta se ei toimi. Paina C katosaksesi koodia ja suorita sitten koodi nähdäksesi, mikä on vialla.	#
+npc.agent.1.4.text=Hmmm, ei, se ei ole aivan oikein. Kohdistimen on siirryttävä ansaluukkuun JA käskettävä sitä avaamaan.	#
+npc.agent.2.1.text=Upea! Se on auki! Outoa,... en vieläkään näytä pääsevän ulos. Voitko tarkistaa koodin uudelleen ja varmistaa, että siirryn ylöspäin 2 kuutiota?	#
+npc.agent.3.1.text=Kiitos! Korjasit koodini1 Olen nyt kantamalla ja voin avata vihreän oven. Polku vihreän oven takana on helpompi. Voit valita sen polun tai puhua minulle uudelleen, jos haluat yrittää avata keltaisen oven!	#
+npc.agent.4.1.text=Haluatko yrittää avata keltaisen oven? Siihen tarvitsen lisää voimaa. Onneksi voin latautua kuunvalosta! Meidän tarvitsee vain avata kattoikkuna yläpuolella... Häh? Koodini ei toimi oikein. Yritä tarkistaa koodini varmistaaksesi, että kaikki 4 katossa olevaa ansaluukkua avautuvat!	#
+npc.agent.5.1.text=Vau, hyvä! Avasin keltaisen oven sinulle. Mene läpi, jos haluat, tai jos todella haluat haasteen, keskustele kanssani uudelleen yrittääksesi avata punaisen oven!	#
+npc.agent.6.1.text=Meidän on työskenneltävä yhdessä päästäksemme punaisesta ovesta. Se avautuu vain, jos seison kultakuutiolla. Kokeillaan! ......en pääse...sinne... ugh... Avittaisitko vähän, ystävä?	#
+npc.agent.7.1.text=Okei, kaikki ovet ovat nyt auki. Valitse polku, jonka haluat kulkea. Jokaisella polulla on erilainen vaikeusaste... vihreä on helppo, punainen on vaikeampaa ja keltainen on jossain välissä. Nähdään, ihminen. Ehkä tiemme kohtaavat jälleen jonain päivänä.	#
+npc.agent.green.8.1.text=Odota! Ennen kuin lähdet, minun on kerrottava sinulle vielä yksi asia! Tämä talo on täynnä §lpakohuoneita§r. Sinun on löydettävä vihjeitä, ratkaistava pulmia ja korjattava koodi, jotta pääset ulos! Paina §lC§r paljastaaksesi palapelin koodin. §lSuorita koodi§r nähdäksesi mitä tapahtuu! Jos virheitä ilmenee, korjaa koodi ja suorita se uudelleen testataksesi sitä. Tätä kutsutaan §lvirheenkorjaukseksi§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=Joskus ratkaisut eivät ole selkeitä, eivätkä kaikki pulmat vaadi koodia niiden ratkaisemisen! Kun löydät pulman, muista §lsuorita§r koodi ensin nähdäksesi, mikä on vialla, tee sitten §lvirheenkorjaus§r ja §lkorjaa§r viallinen koodi! Se on paljon helpompaa kuin koodin kirjoittaminen tyhjästä!%1%1Pidä silmällä vihjeitä, kuten §g§lHiukkasia§0§r, jotka opastavat sinua!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Odota! Ennen kuin lähdet, minun on kerrottava sinulle vielä yksi asia! Tämä talo on täynnä §lpakohuoneita§r. Sinun on löydettävä vihjeitä, ratkaistava pulmia ja korjattava koodi, jotta pääset ulos! Paina §lC§r paljastaaksesi palapelin koodin. §lSuorita koodi§r nähdäksesi mitä tapahtuu! Jos virheitä ilmenee, korjaa koodi ja suorita se uudelleen testataksesi sitä. Tätä kutsutaan §lvirheenkorjaukseksi§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=Joskus ratkaisut eivät ole selkeitä, eivätkä kaikki pulmat vaadi koodia niiden ratkaisemisen! Kun löydät pulman, muista §lsuorita§r koodi ensin nähdäksesi, mikä on vialla, tee sitten §lvirheenkorjaus§r ja §lkorjaa§r viallinen koodi! Se on paljon helpompaa kuin koodin kirjoittaminen tyhjästä!%1%1Pidä silmällä vihjeitä, kuten §g§lHiukkasia§0§r, jotka opastavat sinua!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Odota! Ennen kuin lähdet, minun on kerrottava sinulle vielä yksi asia! Tämä talo on täynnä §lpakohuoneita§r. Sinun on löydettävä vihjeitä, ratkaistava pulmia ja korjattava koodi, jotta pääset ulos! Paina §lC§r paljastaaksesi palapelin koodin. §lSuorita koodi§r nähdäksesi mitä tapahtuu! Jos virheitä ilmenee, korjaa koodi ja suorita se uudelleen testataksesi sitä. Tätä kutsutaan §lvirheenkorjaukseksi§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=Joskus ratkaisut eivät ole selkeitä, eivätkä kaikki pulmat vaadi koodia niiden ratkaisemisen! Kun löydät pulman, muista §lsuorita§r koodi ensin nähdäksesi, mikä on vialla, tee sitten §lvirheenkorjaus§r ja §lkorjaa§r viallinen koodi! Se on paljon helpompaa kuin koodin kirjoittaminen tyhjästä!%1%1Pidä silmällä vihjeitä, kuten §g§lHiukkasia§0§r, jotka opastavat sinua!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Tohtori Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Hei taas. Näyttää siltä, että onnistuit. Onnistuit pääsemään kartanon läpi. Hyvä. Tiesimme, että voit tehdä sen... Itse asiassa luotimme siihen!	#
+npc.foyer.2.1.text=Tämä paikka on enemmän kuin vain kartano... Se on moniulotteinen vankila! Sellainen, jota emme voineet paeta... Mutta tiesimme, että selvität sen!	#
+npc.foyer.2.2.text=Ah ha! Yllätys! Aika-agentit ovat palanneet! Nyt te olette jumissa tässä kartanossa ikuisesti! Nauttikaa uudesta kodistanne! Muhahaha!	#
+npc.foyer.3.1.text=Ei niin nopeasti, Aika-agentit...	#
+npc.foyer.3.2.text=Ettepä livahda minnekään. Laitan teidät häiriköt arestiin! 	#
+npc.foyer.4.1.text=TARRA! Olet ehkä vanginnut meidät tänne aiemmin, mutta emme lankea temppuihisi uudelleen! Portaali on auki! Et voi pysäyttää meitä! Sinulla ei ole enää aikaa... eikä ole meilläkään! Heippa, hölmöt!	#
+npc.foyer.5.1.text=Tämä portaali johtaa Aikapallolle. He voivat käyttää sitä paetakseen. Ainoa tapa pysäyttää Aikapallo on käyttää Kronokanuunoita. Ei kestä kauan, ennen kuin he lataavat pallon, joten meidän on aktivoitava puolustukset nopeasti ja pysäytettävä ne lopullisesti! Mene nyt!	#
+
+## Boss
+npc.rascal.name=Hulivili	#
+npc.gremlin.name=Gremlini	#
+npc.yeti.name=Jeti	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Keiju	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=Kyllä! Aikapallo! Voimme käyttää sitä paetaksemme! Mikä? Rähmä, taas se ärsyttävä pelaaja!	#
+npc.boss.yellow.1.1.text=Kyllä! Aikapallo! Voimme käyttää sitä lopulta paetaksemme tästä paikasta! Mitä? Sinäkö taas?Hajaantukaa, kaverit! He eivät voi saada meitä kaikkia kiinni!	#
+npc.boss.red.1.1.text=Kyllä! Aikapallo! Vihdoinkin voimme paeta tästä moniulotteisesta vankilasta! Mikä? SINÄKÖ TAAS!?! Hajaantukaa, aika-agentit! Suojaa Kronotykkejä, kun valmistelen Aikapalloa!	#
+npc.boss.2.1.text=Meidän on aktivoitava Khrono-tykit! Ohjauskeskukset ovat noissa kulmahuoneissa, mutta Aika-agentit ovat sulkeneet ovet! Katso, voitko keksiä tavan avata ne!	#
+npc.boss.yellow.3.1.text=Valvomon ovet ovat auki! Jokaisen valvomon sisällä on vipu, joka aktivoi Kronokanuunan. Meidän on aktivoitava kaikki neljä tuhotaksemme Aikapallon! Nopeasti! Mene käynnistämään tykit!	#
+npc.boss.red.3.1.text=Teit sen! Valvomon ovet ovat auki! Jokaisen valvomon sisällä on tapa aktivoida Kronotykki. Meidän on aktivoitava kaikki neljä tuhotaksemme Aikapallon! Nopeasti! Mene käynnistämään tykit!	#
+npc.boss.green.4.1.text=Kaikki Kronotykit on nyt aktivoitu! Valmistaudu ampumaan!	#
+npc.boss.yellow.4.1.text=Hyvää työtä! Nyt kun kaikki neljä tykkiä ovat valmiita, voimme murtaa Aikapallon puolustuksen ja pysäyttää Aika-agentit!	#
+npc.boss.red.4.1.text=Hyvää työtä! Nyt kun kaikki neljä tykkiä ovat valmiita, voimme murtaa Aikapallon puolustuksen ja pysäyttää Aika-agentit!	#
+npc.boss.5.1.text=Katso! Aika-agentit ovat hämmästyneitä Aikapaollokammiosta! Nyt on tilaisuutemme! Jos voimme kiertää magneettilevyjä lattian alla, voimme kääntää napaisuuden ja vangita heidät tänne lopullisesti! 	#
+npc.boss.6.1.text=Teit sen! Todellakin näytit noille aika-agenteille... vai pitäisikö minun sanoa: Näytit, miten tässä ajassa homma hoituu! HAH. HAH. Anteeksi. Työskentelen edelleen tämän asian parissa, jota kutsut "huumoriksi". Aika-agentit jäävät tänne miettimään, mitä he ovat tehneet. Mitä tulee sinuun, tule kanssani. Näytän sinulle tien ulos.	#
+npc.button.run=Nyt mennään!	#
+npc.boss.side_room_1.1.text=HAH! Luuletko todella, että voit voittaa meidät? Näet unta!	#
+npc.boss.side_room_1.2.text=Mikä!?! Mahdoton! Kukaan ei laita Keijua nurkkaan!	#
+npc.boss.side_room_2.1.text=Emme voi mitenkään antaa sinun voittaa. Valmistaudu ahdistuksen vyöryyn!	#
+npc.boss.side_room_2.2.text=Iljettävä ihminen! Tämä ei ole ohi!	#
+npc.boss.side_room_3.1.text=Kukaan ei voi vastusta meitä. Pian olemme poissa, ja sinä jäät loukkuun tänne huutaen surusta!	#
+npc.boss.side_room_3.2.text=AAAAAAAHHHHHHH!!!!! En uskonut, että sinulla olisi mahdollisuuden häivääkään!	#
+npc.boss.side_room_4.1.text=Hehehehe! Tyhmä ihminen! Sinun lajisi ei koskaan opi. Toimintahäiriösi on väistämätön!	#
+npc.boss.side_room_4.2.text=Selvititkö, mkuinka vimpainta käytetään? Ei sillä ole väliä! Et pysäytä meitä!	#
+npc.boss.agent.1.text=Näyttää siltä, että saattaisit tarvita apua. Ei hätää. Suojaan selustasi. Voin auttaa sinua aktivoimaan tykit. Näytä tietä!	#
+
+## Ending Cutscene
+npc.player.name=Sinä	#
+npc.end.1.1.text=Onnittelen! Koodaustaitosi pelastivat jälleen päivän. Kuka tietää, mitä ongelmia aika-agentit olisivat herättäneet, jos he olisivat paenneet kartanosta. Hyvin tehty!	#
+npc.end.1.2.text=Minulla on vielä yksi kysymys,... nuo päiväkirjasivut... Mistä luulet niiden tulleen?	#
+npc.end.2.1.text=Ne olivat minulta! Tohtori Dodge Breakowskilta! Nuo ajalliset häiriköt houkuttelivat minutkin tähän paikkaan! Olen itse asiassa yrittänyt paeta viikkoja! Mitä tahansa teit siellä, auttoi minua vihdoin löytämään tien ulos! Kiitos!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Olen iloinen, että olet turvassa... ja luulen, että näimme nyt viimeiset vilaukset Aika-agenteista vähäksi  aikaa. Nyt, pyydän, lähdetään pois täältä... Tämä paikka saa nollat ja ykköset kiirimään selkäpiissäni!	#
+npc.end.2.3.text=Joten tohtori Breakowski... Niistä miljoonista smaragdeista...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Anteeksi poika, olen tyhjäatasku!%1%1Tyytyisitkö maailman pelastamiseen ja keksiin?	#
+npc.end.laugh.1.name=HAH!	#
+npc.end.laugh.2.name=Hah! Hah!	#
+npc.end.laugh.3.name=Hah! Hah! Hah!	#
+npc.end.laugh.1.text=HAH!	#
+npc.end.laugh.2.text=Hah! Hah!	#
+npc.end.laugh.3.text=Hah! Hah! Hah!	#
+
+action.hint.exit.rwm:cam= 	#

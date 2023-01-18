@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rwm:notebook",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": "notebook",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

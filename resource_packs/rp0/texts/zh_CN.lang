@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=编程一小时 2022	#
+pack.description=编程一小时 2022 所需的资源	#
+
+subtitle.loading.1=正在加载……	#
+subtitle.loading.2=正在加载……	#
+subtitle.loading.3=正在加载……	#
+subtitle.loading.4=正在加载……	#
+subtitle.loading.5=正在加载……	#
+
+actionbar.singleplayer_only=只有 1 名玩家可以玩！	#
+
+## Touch Controls Buttons
+action.interact.start=点击开始	#
+action.interact.seat=点击收集	#
+action.interact.click=交谈	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=按 C 键进行编程	#
+actionbar.keyboard.code.0b=按 C 键进行编程	#
+actionbar.keyboard.code.1=代码运行中…	#
+actionbar.keyboard.look.0=§l搜索房间§r找到 §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §l右键单击§r  §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§l调查§r  §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=进入下一个房间	#
+
+actionbar.keyboard.0.-1=单击标志开始	#
+actionbar.keyboard.0.1=使用鼠标可环顾四周	#
+actionbar.keyboard.0.2=继续看着时间球	#
+actionbar.keyboard.0.3a=按“W”向前移动	#
+actionbar.keyboard.0.3b=按“A”向左移动	#
+actionbar.keyboard.0.3c=按“S”向后移动	#
+actionbar.keyboard.0.3d=按“D”向右移动	#
+actionbar.keyboard.0.3e=按“W”移动，然后按“空格键”跳跃	#
+actionbar.keyboard.0.3f=按“A”移动，然后按“空格键”跳跃	#
+actionbar.keyboard.0.3g=按“S”移动，然后按“空格键”跳跃	#
+actionbar.keyboard.0.3h=按“D”移动，然后按“空格键”跳跃	#
+actionbar.keyboard.0.3i=越过城墙	#
+actionbar.keyboard.0.4= §l右键单击§r按钮	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=移动到 NPC 处， §l右键单击§r与之进行互动	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§l搜索房间§r找到 §l§g粒子§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §l右键单击§r §l拉杆	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §l右键单击§r与僵尸厨师交谈	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §l右键单击§r王后	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §l右键单击§r国王	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§l搜索房间§r找到 §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §l右键单击§r丢失的日记	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=滚动以选择丢失的日记	#
+actionbar.keyboard.10.1.2= §l右键单击§r以打开丢失的日记	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§l搜索房间§r找到 §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=进门或与代理机器人交谈	#
+actionbar.keyboard.10.7=进门或与代理机器人交谈	#
+actionbar.keyboard.10.9=进一扇门	#
+
+actionbar.keyboard.11.3=探索侧室	#
+actionbar.keyboard.11.5=返回主舱	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=点击上面的  进行编程	#
+actionbar.touch.code.0b=点击上面的  进行编程	#
+actionbar.touch.code.1=代码运行中…	#
+actionbar.touch.look.0=§l搜索房间§r找到 §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§l点击  §l§g粒子	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§l调查§r  §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=进入下一个房间	#
+
+actionbar.touch.0.-1=点击按钮开始	#
+actionbar.touch.0.1=点击屏幕并将其拖动到时间球的中心。	#
+actionbar.touch.0.2=继续看着时间球	#
+actionbar.touch.0.3a=点击并按住  以向前移动	#
+actionbar.touch.0.3b=点击并按住  以向左移动	#
+actionbar.touch.0.3c=点击并按住  以向后移动	#
+actionbar.touch.0.3d=点击并按住  以向右移动	#
+actionbar.touch.0.3e=点击并按住  移动，然后点击并按住  进行跳跃	#
+actionbar.touch.0.3f=点击并按住  移动，然后点击并按住  进行跳跃	#
+actionbar.touch.0.3g=点击并按住  移动，然后点击并按住  进行跳跃	#
+actionbar.touch.0.3h=点击并按住  移动，然后点击并按住  进行跳跃	#
+actionbar.touch.0.3i=越过城墙	#
+actionbar.touch.0.4=按下按钮	#
+actionbar.touch.0.5=与 NPC 交谈	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§l搜索房间§r找到 §l§g粒子§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=点击§l拉杆	###{Locked="§l"}
+actionbar.touch.2.0=点击与僵尸厨师交谈	#
+actionbar.touch.3.2=点击王后	#
+actionbar.touch.3.4=点击国王	#
+
+actionbar.touch.10.0.1=§l搜索房间§r找到 §l§g粒子	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=点击“丢失的日记”	#
+actionbar.touch.10.1.1=点击“丢失的日记”以将其选中	#
+actionbar.touch.10.1.2=点击并按住以打开丢失的日记	#
+actionbar.touch.10.2=调查噪音	#
+actionbar.touch.10.5=进门或与代理机器人交谈	#
+actionbar.touch.10.7=进门或与代理机器人交谈	#
+actionbar.touch.10.9=进一扇门	#
+
+actionbar.touch.11.3=探索侧室	#
+actionbar.touch.11.5=返回主舱	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=《我的世界》呈现……	#
+title.intro.2=逃脱庄园	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=国王带走主教！	###Chess reference
+title.interact_queen=皇后带走鲁克！	###Chess reference
+title.room_cleared=房间已清理！	#
+title.trophy.unlocked=%1§f奖杯已解锁：%1	###{Locked="§f"}
+title.trophy.click=%1§f奖杯：%1	###{Locked="§f"}
+title.end.1=结束了	#
+title.end.2=结束了？	#
+sub.puzzle_success=谜题已解	#
+sub.room_1=书房	###A room in the mansion to explorer
+sub.room_2=厨房	###A room in the mansion to explorer
+sub.room_3=店	###A room in the mansion to explorer
+sub.room_4=炼金室	###A room in the mansion to explorer
+sub.room_5=藏秘厅	###A room in the mansion to explorer
+sub.room_6=实验室	###A room in the mansion to explorer
+sub.room_7=护城河	###A location at the mansion
+sub.room_8=地窖	###A room in the mansion to explorer
+sub.room_9=绘图室	###A room in the mansion to explorer
+sub.wrong_order=配方错误！	#
+sub.too_few=配料太少了！	#
+sub.too_many=配料太多了！	#
+sub.trophy.note=§g收集的第一个纸条！	###{Locked=§g}
+sub.trophy.book=§g所有纸条都已收集！	###{Locked=§g}
+sub.trophy.boss=§g头目完成！	###{Locked=§g}
+sub.trophy.green=§a绿色路径完成！	#
+sub.trophy.yellow=§e黄色路径完成！	#
+sub.trophy.red=§c红色路径完成！	#
+sub.trophy.emerald=§g所有路径都已完成！	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§f菜单	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§f僵尸%1§f牛肉	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§f骷髅%1§f汤	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§f苦力怕%1§f鸡	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§f凋灵%1§f鱼	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §l1 月	###{Locked="§l"}
+slate.feb=%1%1  §l2 月	###{Locked="§l"}
+slate.mar=%1%1     §l3 月	###{Locked="§l"}
+slate.apr=%1%1      §l4 月	###{Locked="§l"}
+slate.may=%1%1       §l5 月	###{Locked="§l"}
+slate.1=%1%1 §l第 1 名	###{Locked="§l"}
+slate.2=%1%1       §l2 日	###{Locked="§l"}
+slate.3=%1%1       §l3 日	###{Locked="§l"}
+slate.4=%1%1       §l第 4 名	###{Locked="§l"}
+slate.5=%1%1       §l5 日	###{Locked="§l"}
+
+sign.queen_birthday=%1§f皇后诞辰%1§f5 月 4 日	###{Locked="§f"}
+sign.king_birthday=%1§f国王诞辰%1§f4 月 1 日	###{Locked="§f"}
+sign.reset=%1§f重置	###{Locked="§f"}
+
+slate.weight.0=%1重量：0	#
+slate.weight.1=%1重量：1	#
+slate.weight.2=%1重量：2	#
+slate.weight.3=%1重量：3	#
+slate.weight.4=%1重量：4	#
+slate.weight.5=%1重量：5	#
+slate.weight.6=%1重量：6	#
+slate.weight.7=%1重量：7	#
+slate.weight.8=%1重量：8	#
+slate.weight.9=%1重量：9	#
+slate.weight.10=%1重量：10	#
+slate.weight.11=%1重量：11	#
+slate.weight.12=%1重量：12	#
+slate.weight.13=%1重量：13	#
+slate.weight.14=%1重量：14	#
+slate.weight.15=%1重量：15	#
+slate.weight.16=%1重量：16	#
+slate.weight.17=%1重量：17	#
+slate.weight.18=%1重量：18	#
+slate.weight.19=%1重量：19	#
+slate.weight.20=%1重量：20	#
+slate.weight.21=%1重量：21	#
+slate.weight.22=%1重量：22	#
+slate.weight.23=%1重量：23	#
+slate.weight.24=%1重量：24	#
+slate.weight.25=%1重量：25	#
+slate.weight.26=%1重量：26	#
+slate.weight.27=%1重量：27	#
+slate.weight.28=%1重量：28	#
+slate.weight.29=%1重量：29	#
+slate.weight.30=%1重量：30+	#
+
+board.tut.intro=%1            欢迎来到§l编程一小时 2022§r：%1                       §l庄园逃生§r%1%1在这一部分中，您将通过《我的世界》学习如何环顾四周并四处走动！阅读屏幕底部“快捷栏”上方的文本，以获取有关下一步操作的帮助。%1%1首先，使用鼠标环顾四周，或者如果您使用的是触屏设备，请在“金色漂浮球”处滑动，直到它们全部弹出。然后，继续学习下一教程。	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=关闭	#
+npc.button.done=完成	#
+npc.button.back=返回	#
+npc.button.next=下一个	#
+npc.button.previous=上一个	#
+
+npc.zombie_chef.name=僵尸厨师	#
+npc.zombie_chef.0.text=面包嗷嗷嗷嗷！！	###The zombie chef needs bread to survive
+npc.armor.name=极速骑士	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=盔甲套装	#
+npc.king.name=国王	###chess piece
+npc.queen.name=皇后	###chess piece
+npc.rook.name=骗取	###chess piece
+npc.bishop.name=主教	###chess piece
+npc.clay_golem.name=粘土傀儡	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=> . . <	#
+npc.clay_golem.3.name=> . . . <	#
+npc.enderman_butler.name=管家	#
+npc.zombie_minion.name=板条箱小黄人	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=国王%1§71 月 1 日	###King refers to the chess piece
+npc.king.jan.2.name=国王%1§71 月 2 日	###King refers to the chess piece
+npc.king.jan.3.name=国王%1§71 月 3 日	###King refers to the chess piece
+npc.king.jan.4.name=国王%1§71 月 4 日	###King refers to the chess piece
+npc.king.jan.5.name=国王%1§71 月 5 日	###King refers to the chess piece
+npc.king.feb.1.name=国王%1§72 月 1 日	###King refers to the chess piece
+npc.king.feb.2.name=国王%1§72 月 2 日	###King refers to the chess piece
+npc.king.feb.3.name=国王%1§72 月 3 日	###King refers to the chess piece
+npc.king.feb.4.name=国王%1§72 月 4 日	###King refers to the chess piece
+npc.king.feb.5.name=国王%1§72 月 5 日	###King refers to the chess piece
+npc.king.mar.1.name=国王%1§73 月 1 日	###King refers to the chess piece
+npc.king.mar.2.name=国王%1§73 月 2 日	###King refers to the chess piece
+npc.king.mar.3.name=国王%1§73 月 3 日	###King refers to the chess piece
+npc.king.mar.4.name=国王%1§73 月 4 日	###King refers to the chess piece
+npc.king.mar.5.name=国王%1§73 月 5 日	###King refers to the chess piece
+npc.king.apr.1.name=国王%1§74 月 1 日	###King refers to the chess piece
+npc.king.apr.2.name=国王%1§74 月 2 日	###King refers to the chess piece
+npc.king.apr.3.name=国王%1§74 月 3 日	###King refers to the chess piece
+npc.king.apr.4.name=国王%1§74 月 4 日	###King refers to the chess piece
+npc.king.apr.5.name=国王%1§74 月 5 日	###King refers to the chess piece
+npc.king.may.1.name=国王%1§75 月 1 日	###King refers to the chess piece
+npc.king.may.2.name=国王%1§75 月 2 日	###King refers to the chess piece
+npc.king.may.3.name=国王%1§75 月 3 日	###King refers to the chess piece
+npc.king.may.4.name=国王%1§75 月 4 日	###King refers to the chess piece
+npc.king.may.5.name=国王%1§75 月 5 日	###King refers to the chess piece
+npc.queen.jan.1.name=皇后%1§71 月 1 日	###Queen refers to a chess piece
+npc.queen.jan.2.name=%1王后§71 月 2 日	###Queen refers to a chess piece
+npc.queen.jan.3.name=王后%1§71 月 3 日	###Queen refers to a chess piece
+npc.queen.jan.4.name=皇后%1§71 月 4 日	###Queen refers to a chess piece
+npc.queen.jan.5.name=王后%1§71 月 5 日	###Queen refers to a chess piece
+npc.queen.feb.1.name=皇后%1§72 月 1日	###Queen refers to a chess piece
+npc.queen.feb.2.name=王后%1§72 月 2 日	###Queen refers to a chess piece
+npc.queen.feb.3.name=王后%1§72 月 3 日	###Queen refers to a chess piece
+npc.queen.feb.4.name=王后%1§72 月 4 日	###Queen refers to a chess piece
+npc.queen.feb.5.name=王后%1§72 月 5 日	###Queen refers to a chess piece
+npc.queen.mar.1.name=皇后%1§73 月 1 日	###Queen refers to a chess piece
+npc.queen.mar.2.name=王后%1§73 月 2 日	###Queen refers to a chess piece
+npc.queen.mar.3.name=王后%1§73 月 3 日	###Queen refers to a chess piece
+npc.queen.mar.4.name=皇后%1§73 月 4 日	###Queen refers to a chess piece
+npc.queen.mar.5.name=王后%1§73 月 5 日	###Queen refers to a chess piece
+npc.queen.apr.1.name=王后%1§74 月 1 日	###Queen refers to a chess piece
+npc.queen.apr.2.name=皇后%1§74 月 2 日	###Queen refers to a chess piece
+npc.queen.apr.3.name=皇后%1§74 月 3 日	###Queen refers to a chess piece
+npc.queen.apr.4.name=皇后%1§74 月 4 日	###Queen refers to a chess piece
+npc.queen.apr.5.name=皇后%1§74 月 5 日	###Queen refers to a chess piece
+npc.queen.may.1.name=皇后%1§75 月 1 日	###Queen refers to a chess piece
+npc.queen.may.2.name=皇后%1§75 月 2 日	###Queen refers to a chess piece
+npc.queen.may.3.name=皇后%1§75 月 3 日	###Queen refers to a chess piece
+npc.queen.may.4.name=皇后%1§75 月 4 日	###Queen refers to a chess piece
+npc.queen.may.5.name=皇后%1§75 月 5 日	###Queen refers to a chess piece
+npc.king.scrambled.name=国王%1§7§k测试	###King refers to the chess piece
+npc.queen.scrambled.name=王后%1§7§k测试	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=控制	#
+npc.tutcontrols.1.text=欢迎来到“2022 时间代码”！%1%1我们先学习一段简短的教程！要开始教程，您可以在设备上左键点击或点击最适合您的正确控制方案。	#
+npc.button.keyboard=键盘	#
+npc.button.touch=触摸控制	#
+
+npc.tutskip.name=跳过	#
+npc.keyboard.tutskip.1.text=欢迎您！以下教程将带您学习《我的世界》的基础导航知识。%1%1左键点击“开始教程”开始学习。如果您不需要教程，左键点击“跳过教程”开始体验游戏！	#
+npc.touch.tutskip.1.text=欢迎！以下教程将向您介绍《我的世界》的基本导航。%1%1点击“开始教程”开始，如果您不需要教程，请点击“跳过教程”开始体验！ 	#
+npc.tutskip.2.text=您确定要跳过本教程吗？这样做将会错过关键信息。%1%1请使用您的设备，选择“开始教程”或“跳过教程”	#
+npc.button.skip_yes=跳过教程	#
+npc.button.skip_no=开始教程	#
+
+npc.tuthelp.name=帮助	#
+npc.keyboard.tuthelp.1.text=恭喜，您已经完成了移动教程！%1%1有关如何与世界互动的更多说明，请按“H”显示控件。	#
+npc.touch.tuthelp.1.text=恭喜，你已经完成了运动教程！%1%1如需了解有关如何与世界交互的更多说明，请按“H”以显示控件。	#
+
+npc.tuthost.name=布瑞考斯基博士	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=你好。我是道奇·布瑞考斯基博士。看来你收到了我的邀请。在黎明前逃离豪宅，就能拿走一百万绿宝石，你觉得你做得到吗？很好！现在去前门，开始你的挑战吧！	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=出发吧！	#
+
+## Labels
+npc.label.nether_wart.name=下界疣	#
+npc.label.phantom_membrane.name=幻翼膜	#
+npc.label.fermented_spider_eye.name=发酵蛛眼	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=失落的日记	#
+item.rwm:notebook.name=丢失的日记	#
+npc.note.name=日记页	#
+npc.note.0.text=%1你找到了一本丢失的日记。当你在这座豪宅中探索时，能否找齐所有 10 张缺少的页面呢？%1%1使用下方的“§l上一个§r”与“§l下一个§r”查看已收集的笔记。%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1条目 #1：阁楼%1%1亲爱的日记：%1%1上周，我收到了某个神秘人的邀请，让我接受挑战，逃离这座豪宅。纸条上写着，如果我能在黎明前逃脱，我将赢得一百万颗绿宝石。虽然我并不需要绿宝石，但我认为，我应该把这次挑战拍成一个非常棒的视频，放进我的频道里！%1%1但是，我一到这儿，就被这座豪宅吞噬了。我知道这听起来很离谱，但我发誓，这就是事实！当回过神来时，我已身处阁楼之中。这里有三扇锁着的门…其中一扇必定是出路！我只需要搞清楚如何打开这些门！	#
+npc.note.2.text=%1条目 #2：书房%1%1亲爱的日记：%1%1我终于找到办法逃离阁楼了，但又被困在了这个奇怪的图书馆里。我十分确信，这面大镜子并非看起来那么简单！它究竟真的是一面镜子，还是通往另一维度的窗户呢？无论如何，我别无选择，只能向前推进，看看它通往何处…	#
+npc.note.3.text=%1条目 #3：厨房%1%1亲爱的日记：%1%1今天，我偶然发现了一个宽敞的用餐区。我在这里发现一个可怕的生物出没在厨房里，似乎没注意到我。当我鼓起勇气讲给厨师听时，却只听到它嘟囔着“面包！”这个厨师真是令人毛骨悚然，我该硬着头皮帮它吗？或许我伸出援手，它就会告诉我该怎么逃出去…	#
+npc.note.4.text=%1条目 #4：会客室 %1%1亲爱的日记：%1%1门厅里的这扇大门，似乎通往豪宅之外！但只有我一人，要怎么打开它呢？这块棋盘能打开大门吗？这附近肯定藏有线索…我已经走得太远，现在无法回头了！	#
+npc.note.5.text=%1条目 #5：炼金室 %1%1亲爱的日记：%1%1当我继续在庄园中穿梭时，我逐渐发现这绝对不是普通的豪宅。例如，今天我发现了专门制作药剂的房间。这可不是日常能见到的，并且，我仿佛来过这里，这感觉挥之不去…	#
+npc.note.6.text=%1条目 #6：音乐学院%1%1亲爱的日记：%1%1我穿过豪宅时发现了一个旧温室。它曾经可能是一个郁郁葱葱的花园，但现在只有一滴水滋养着这里的植物。虽然我知道可能是我的想象，但我发誓，进入这个房间时，我看到了一些东西飞进了灌木丛！究竟是什么，我不知道……	#
+npc.note.7.text=%1条目 #7：实验室%1%1亲爱的日记：%1%1我今天有个特别棒的发现：一个实验室！里面满是神秘的机器和奇怪的实验，我从未见过！也或许见过？这个地方有似曾相识的感觉……	#
+npc.note.8.text=%1条目 #8：护城河%1%1亲爱的日记：%1%1寻找出路时，我遇到了一条奇怪的护城河，将这个地区一分为二。吊桥被抬起，看起来可以从另一侧控制。这里的管家是一个安静的家伙，他似乎听不懂我的话。不过，我必须找个方法说服他们降低桥梁。	#
+npc.note.9.text=%1条目 #9：地窖 %1%1亲爱的日记：%1%1在寻找出路时，我来到了一个巨大的地窖！风呼啸着穿过隘口，风力巨大，大到我都不敢踏上面前摇摇晃晃的旧桥。有那么一瞬间，我似乎听到有什么东西从头顶飞过…应该只是风吧。	#
+npc.note.10.text=%1条目 #10：客厅%1%1亲爱的日记：%1%1旅途之中，我来到了一间小小的客厅。这里温暖怡人，仿佛我能永远安坐于此……不行！我必须继续前行！这儿有些奇怪，而且我十分确信这里不单单只有我一人！	#
+
+## Agent
+npc.agent.name=代理机器人	#
+npc.agent.1.1.text=你好？有人在吗？哦，天哪，是个人类！你能帮帮我吗？我好像打不开这个地板通风口！我认为我的代码可能已损坏。你能帮我看看是出了什么问题吗？	#
+npc.button.yes=是！	#
+npc.agent.1.2.text=太好了！如果你能把我救出去，作为回报，我会帮助你逃离阁楼。你想用哪种编程语言？%1%1§lBlocks§r 最适合初学者。除非你有相关编程经验，否则不要选择 §lPython§r。	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=好！首先，看到地板上的光标了吗？它需要向前移动 3 个方块才能碰到活板门，但就是不起作用。按 C 查看代码，然后运行代码看看出了什么问题。	#
+npc.agent.1.4.text=嗯，不，不太对。光标要移动到活板门处，并让它打开。	#
+npc.agent.2.1.text=太好了！是开着的！奇怪了…我好像还是无法离开。你能再次检查代码，并确保我向上移动 2 个方块吗？	#
+npc.agent.3.1.text=谢谢你！你修复了我的代码！我现在能帮你打开绿色的门。绿门后面的路比较容易走。你可以走这条路，或者如果你想尝试打开黄色的门，就再跟我讲！	#
+npc.agent.4.1.text=所以，你是想尝试打开黄色的门吗？为此，我需要更多的能量。幸运的是，我可以通过月光充能！我们只需要打开头顶的天窗…嗯？我的代码不起作用。试试检查我的代码，以确保天花板上的 4 个活板门全部打开！	#
+npc.agent.5.1.text=哇哦，有路了！我现在已经为你打开了黄色的门。想走就走吧，或者如果你想来一场真正的挑战，就再跟我讲，来尝试打开红色的门！	#
+npc.agent.6.1.text=我们需要共同努力才能进入红色的门。只有当我站在黄金方块上时，它才会打开。我们来试一试吧！…上…不…去…呃…朋友，来帮我一把吧？	#
+npc.agent.7.1.text=好了，现在所有的门都打开了。选择你要走的路吧。每条路径对应不同的难度…绿色更容易，红色更难，黄色介于两者之间。再见了，人类。也许有一天我们会再次相遇。	#
+npc.agent.green.8.1.text=等一下！在你走之前，我有最后一件事要告诉你！这所房子里到处都有§l逃生室§r。你要找到线索，解决谜题，并修复代码才能逃出生天！按 §lC§r 以显示谜题代码。§l运行§r代码看看会发生什么！如果存在错误，就修复代码并再次运行以对其进行测试。这叫做§l调试§r。	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=有时，解决方法并不明了，且并非所有的谜题都要靠编程来解决！当你找到一个谜题时，记得先§l运行§r代码，看看出了什么问题，然后§l调试§r并§l修复§r错误的代码！这比从头开始编写代码要容易得多！%1%1多多留意比如§g§l粒子§0§r之类的线索，这能提供些帮助！	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=等一下！在你走之前，我有最后一件事要告诉你！这所房子里到处都有§l逃生室§r。你要找到线索，解决谜题，并修复代码才能逃出生天！按 §lC§r 以显示谜题代码。§l运行§r代码看看会发生什么！如果存在错误，就修复代码并再次运行以对其进行测试。这叫做§l调试§r。	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=有时，解决方法并不明了，且并非所有的谜题都要靠编程来解决！当你找到一个谜题时，记得先§l运行§r代码，看看出了什么问题，然后§l调试§r并§l修复§r错误的代码！这比从头开始编写代码要容易得多！%1%1多多留意比如§g§l粒子§0§r之类的线索，这能提供些帮助！	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=等一下！在你走之前，我有最后一件事要告诉你！这所房子里到处都有§l逃生室§r。你要找到线索，解决谜题，并修复代码才能逃出生天！按 §lC§r 以显示谜题代码。§l运行§r代码看看会发生什么！如果存在错误，就修复代码并再次运行以对其进行测试。这叫做§l调试§r。	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=有时，解决方法并不明了，且并非所有的谜题都要靠编程来解决！当你找到一个谜题时，记得先§l运行§r代码，看看出了什么问题，然后§l调试§r并§l修复§r错误的代码！这比从头开始编写代码要容易得多！%1%1多多留意比如§g§l粒子§0§r之类的线索，这能提供些帮助！	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=布瑞考斯基博士	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=又见面了。看样子你做到了。你成功通过了这座豪宅。太棒了。我们早就知道你能做到的……实际上，我们在算着时间等你呢！	#
+npc.foyer.2.1.text=你看，这里不单是一座豪宅…还是一座跨维度的监狱！我们无法从这里逃离…但我们相信你能搞定它！	#
+npc.foyer.2.2.text=啊哈！惊喜！时间代理机器人回来了！现在轮到你将被永远困在这座豪宅里了！享受你的新家吧！哇哈哈！	#
+npc.foyer.3.1.text=没那么快，时间代理机器人…	#
+npc.foyer.3.2.text=哪儿都别想去。你们这些惹祸精，给你们时间自己待着吧！ 	#
+npc.foyer.4.1.text=TARRA！虽然上次是被你困在这里，但这回我们不会再中你的计了！传送门已经开了！你挡不住我们！你没时间了…我们也是！再见，笨蛋！	#
+npc.foyer.5.1.text=这个传送门能通向时间球。他们能用它来逃脱。想要阻止时间球，唯一的办法就是用时间大炮。他们给时间球充能用不了多长时间，我们必须迅速激活防御，一劳永逸地阻止他们！现在出发吧！	#
+
+## Boss
+npc.rascal.name=淘气鬼	#
+npc.gremlin.name=捣蛋小精灵	#
+npc.yeti.name=小野人	#
+npc.banshee.name=小妖怪	#
+npc.pixie.name=小仙子	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=是的！时间球！我们能用它来逃脱！什么？可恶，又是那个讨厌的玩家！	#
+npc.boss.yellow.1.1.text=是的！时间球！我们最后可以用它来逃离这里！什么？又是你？伙计们，分开行动！他们无法全部抓住我们！	#
+npc.boss.red.1.1.text=是的！时间球！我们终于可以逃脱这座跨维度监狱了！什么？又是你！？分开行动，时间代理机器人！保护时间大炮，我去准备时间球！	#
+npc.boss.2.1.text=我们得激活时间大炮！控制中心在这些角落房间里，但时间代理机器人把门给关上了！看看能否找到开门的办法！	#
+npc.boss.yellow.3.1.text=控制室的门是开着的！每个控制室内都有一个拉杆，可用来激活时间大炮。我们要把所有四个都激活，才能摧毁时间球！快！去给那些大炮点火吧！	#
+npc.boss.red.3.1.text=你做到了！控制室的门打开了！每个控制室内都有方法激活时间大炮。我们需要把所有四个都激活，才能摧毁时间球！快！去给那些大炮点火吧！	#
+npc.boss.green.4.1.text=现已激活所有时间大炮！准备开火！	#
+npc.boss.yellow.4.1.text=干得好！现在所有四门大炮都准备好了，我们能解除时间球的防御，阻止时间代理机器人了！	#
+npc.boss.red.4.1.text=干得好！现在所有四门大炮都准备好了，我们能解除时间球的防御，阻止时间代理机器人了！	#
+npc.boss.5.1.text=快看！时间代理机器人在时间球室晕倒了！我们的机会来了！如果能旋转地板下的磁盘，我们就能反转极性，一劳永逸地将他们困在这里！ 	#
+npc.boss.6.1.text=你做到了！你真的困住了那些时间代理机器人……或者应该说：你真的把那些代理机器人困在了当前时空！哈哈。不好意思。我还在朝着你称之为“幽默”的方向努力。时间代理机器人将留在这儿，好好反思它们的所作所为。你就跟我来吧，我会告诉你怎么离开。	#
+npc.button.run=出发吧！	#
+npc.boss.side_room_1.1.text=哈！你真觉得能打败我们吗？现实可不是童话！	#
+npc.boss.side_room_1.2.text=什么？！不可能！没有人能把小仙子晾在一边！	#
+npc.boss.side_room_2.1.text=我们不会让你如愿以偿。准备迎接雪崩般的痛苦吧！	#
+npc.boss.side_room_2.2.text=可憎的人类！这还没完！	#
+npc.boss.side_room_3.1.text=再也没有人能阻碍我们了。我们马上就会走，而你们只能被困在这儿哭天喊地！	#
+npc.boss.side_room_3.2.text=啊啊啊！！！我以为你一点机会都没有！	#
+npc.boss.side_room_4.1.text=呵呵呵呵！愚蠢的人类！你们这种人从来不会吸取教训。你们的故障在所难免！	#
+npc.boss.side_room_4.2.text=所以你搞出了这个小玩意？没用的！它阻止不了我们！	#
+npc.boss.agent.1.text=看来你需要帮忙。别担心，我来帮你。我能帮你激活大炮。给我带路就行！	#
+
+## Ending Cutscene
+npc.player.name=你	#
+npc.end.1.1.text=恭喜你！你的编程技能再次力挽狂澜。如果让这些时间代理机器人逃出庄园，谁知道他们会惹出什么大祸来。干的漂亮！	#
+npc.end.1.2.text=我还有一个问题…那些日记残页…你觉得是从哪儿来的呢？	#
+npc.end.2.1.text=这些都是因为我！道奇·布瑞考斯基博士！那些时间惹祸精也把我骗到这儿了！实际上，我已经尝试逃跑好几个星期了！无论你在那儿做了什么，都帮助我最终找到了出路！谢谢你！	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=很高兴看到你们都还安全……我想我们已经听完时间代理机器人的遗言了。现在，我们离开这里吧…这个地方给了我大量的 0 和 1 代码！	#
+npc.end.2.3.text=那么，布瑞考斯基博士…关于那一百万颗绿宝石…	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=对不起，孩子，我破产了！%1%1你能勉强答应拯救世界以及一块饼干吗？	#
+npc.end.laugh.1.name=哈！	#
+npc.end.laugh.2.name=哈哈！	#
+npc.end.laugh.3.name=哈哈哈！	#
+npc.end.laugh.1.text=哈！	#
+npc.end.laugh.2.text=哈哈！	#
+npc.end.laugh.3.text=哈哈哈！	#
+
+action.hint.exit.rwm:cam= 	#

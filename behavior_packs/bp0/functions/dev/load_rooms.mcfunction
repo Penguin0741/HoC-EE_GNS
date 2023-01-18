@@ -1,0 +1,27 @@
+
+structure load "hoc:attic" 2 69 13
+structure load "hoc:room1_1" 7 69 61
+structure load "hoc:room1_2" 7 118 61
+structure load "hoc:room1_3" 7 168 61
+structure load "hoc:room2_1" 4 69 118
+structure load "hoc:room2_2" 4 119 118
+structure load "hoc:room2_3" 4 169 118
+structure load "hoc:room3_1" 8 69 149
+structure load "hoc:room4_1" -63 65 109
+structure load "hoc:room4_2" -63 115 109
+structure load "hoc:room4_3" -63 165 109
+structure load "hoc:room5_1" -73 64 34
+structure load "hoc:room5_2" -73 113 34
+structure load "hoc:room5_3" -73 163 34
+structure load "hoc:room6_1" -70 68 148
+structure load "hoc:room6_2" -70 136 148
+structure load "hoc:room6_3" -70 186 148
+structure load "hoc:room7_1" -149 69 29
+structure load "hoc:room7_2" -149 119 29
+structure load "hoc:room7_3" -149 169 29
+structure load "hoc:room8_1" -135 66 154
+structure load "hoc:room8_2" -135 116 154
+structure load "hoc:room8_3" -135 167 154
+structure load "hoc:room9_1" -152 69 109
+structure load "hoc:room9_2" -152 119 109
+structure load "hoc:room9_3" -152 169 109

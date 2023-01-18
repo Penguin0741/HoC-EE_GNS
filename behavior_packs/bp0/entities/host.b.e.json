@@ -1,0 +1,217 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:host",
+			"is_summonable": true,
+			"scripts": {
+			  "animate": [
+				"interact_command"
+			  ]
+			},
+			"animations": {
+			  "interact_command": "controller.animation.host.interact_command"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 2.0,
+				"width": 0.8
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"host"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:movement.basic": {
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 10,
+				"angle_of_view_vertical": 180,
+				"angle_of_view_horizontal": 180,
+				"look_distance": 20,
+				"probability": 1,
+				"target_distance": 20
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:scale": {
+				"value": 1.5
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:physics": {
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"goto": {
+				"minecraft:follow_range": {
+					"max": 50,
+					"value": 50
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 1,
+					"speed_multiplier": 1,
+					"track_target": true,
+					"attack_once": false,
+					"reach_multiplier": 0.0
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"all_of": [
+									{
+										"subject": "other",
+										"test": "is_family",
+										"value":  "target"
+									}
+								] 
+							},
+							"max_dist": 50
+						}
+					],
+					"must_see": false
+				}
+			},
+			"npc":{
+				"minecraft:npc": {
+					"npc_data": {
+						"picker_offsets": {
+							"scale": [1.7, 1.7, 1.7],
+							"translate": [0, 20, 0]
+						},
+						"portrait_offsets": {
+							"scale": [1.75, 1.75, 1.75],
+							"translate": [-7, 70, 0]
+						},
+						"skin_list": [
+							{
+								"variant": 0
+							}
+						]
+					}
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"deals_damage": false,
+						"on_damage": {
+							"event": "interact",
+							"target": "self",
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							}
+						}
+					  }
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"event": "interact",
+								"target": "self",
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							},
+							"swing": true,
+							"interact_text": "action.interact.click"
+						}
+					]
+				}
+			},
+			"interact_reset": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"interact": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:timer":{
+					"looping":true,
+					"time":[0.1,0.1],
+					"time_down_event": {
+						"event": "interact_reset",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"npc":{
+				"add": {
+					"component_groups": [
+						"npc"
+					]
+				}
+			},
+			"add_goto": {
+				"add": {
+					"component_groups": [
+						"goto"
+					]
+				}
+			},
+			"remove_goto": {
+				"remove": {
+					"component_groups": [
+						"goto"
+					]
+				}
+			},
+			"interact": {
+				"add": { "component_groups": [ "interact" ] },
+				"remove": { "component_groups": [ "interact_reset" ] }
+			},
+			"interact_reset": {
+				"add": { "component_groups": [ "interact_reset" ] },
+				"remove": { "component_groups": [ "interact" ] }
+			}
+		}
+	}
+}

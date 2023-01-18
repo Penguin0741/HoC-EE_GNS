@@ -1,0 +1,39 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.note",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 7, 0]
+				},
+				{
+					"name": "note",
+					"parent": "root",
+					"pivot": [-1, 14, 8],
+					"rotation": [-5, 0, 8.5],
+					"cubes": [
+						{"origin": [-3.93067, 0.15378, 7.9], "size": [10, 14, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "diary_page2",
+					"parent": "note",
+					"pivot": [5.35504, 7.74523, 8.1],
+					"rotation": [0, 0, -47.5],
+					"cubes": [
+						{"origin": [1.85504, 4.24523, 8], "size": [7, 7, 0], "uv": [0, 14]}
+					]
+				}
+			]
+		}
+	]
+}

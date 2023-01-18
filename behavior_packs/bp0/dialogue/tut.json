@@ -1,0 +1,206 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.tutcontrols.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tutcontrols.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.tutcontrols.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.keyboard" } ] },
+                        "commands": [
+                            
+                        ]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.touch" } ] },
+                        "commands": [
+                            "/tag @a add touch"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add started",
+                    "/playsound random.toast @a ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    "/function act/0/-1"
+                ]
+            },
+            {
+                "scene_tag": "npc.keyboard.tutskip.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tutskip.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.keyboard.tutskip.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.skip_yes" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.tutskip.2"
+                        ]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.skip_no" } ] },
+                        "commands": [
+                            "/scoreboard players set @a var1 0"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/playsound random.toast @a ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.touch.tutskip.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tutskip.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.touch.tutskip.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.skip_yes" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.tutskip.2"
+                        ]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.skip_no" } ] },
+                        "commands": [
+                            "/scoreboard players set @a var1 0"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/playsound random.toast @a ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.tutskip.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.tutskip.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.tutskip.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.skip_yes" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player] ~ ~ ~ function act/0/1_skip"
+                        ]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.skip_no" } ] },
+                        "commands": [
+                            "/scoreboard players set @a var1 0"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.keyboard.tuthelp.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tuthelp.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.keyboard.tuthelp.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a var1 0"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/playsound random.toast @a ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.touch.tuthelp.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tuthelp.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.touch.tuthelp.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a var1 0"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/playsound random.toast @a ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.tuthost.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tuthost.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.tuthost.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.go" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player] ~ ~ ~ function act/0/6"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/execute @a ~ ~ ~ playsound mob.villager.yes @s ~ ~ ~ 1 0.7 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            }
+        ]
+    }
+
+
+}

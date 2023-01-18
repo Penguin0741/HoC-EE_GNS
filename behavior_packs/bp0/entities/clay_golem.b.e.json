@@ -1,0 +1,198 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:clay_golem",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 1.0,
+				"width": 0.1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"clay_golem"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:movement.basic": {
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:npc": {
+				"npc_data": {
+					"picker_offsets": {
+						"scale": [1.7, 1.7, 1.7],
+						"translate": [0, 20, 0]
+					},
+					"portrait_offsets": {
+						"scale": [1.75, 1.75, 1.75],
+						"translate": [-7, 70, 0]
+					},
+					"skin_list": [
+						{
+							"variant": 0
+						}
+					]
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"swing": false,
+						"interact_text": ""
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"goto": {
+				"minecraft:follow_range": {
+					"max": 50,
+					"value": 50
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 1,
+					"speed_multiplier": 1,
+					"track_target": true,
+					"attack_once": false,
+					"reach_multiplier": 0.0
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"all_of": [
+									{
+										"subject": "other",
+										"test": "is_family",
+										"value":  "target"
+									}
+								] 
+							},
+							"max_dist": 50
+						}
+					],
+					"must_see": false
+				}
+			},
+			"skin_1": {
+				"minecraft:collision_box": {
+					"height": 1.4,
+					"width": 0.1
+				},
+				"minecraft:skin_id":{
+					"value": 1
+				}
+			},
+			"skin_2": {
+				"minecraft:collision_box": {
+					"height": 1.8,
+					"width": 0.1
+				},
+				"minecraft:skin_id":{
+					"value": 2
+				},
+				"minecraft:behavior.look_at_player": {
+					"priority": 7,
+					"look_distance": 6.0,
+					"probability": 0.1
+				}
+			},
+			"show_name": {
+				"minecraft:nameable": {
+					"allow_name_tag_renaming": false,
+					"always_show": true
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"add_goto": {
+				"add": {
+					"component_groups": [
+						"goto"
+					]
+				}
+			},
+			"remove_goto": {
+				"remove": {
+					"component_groups": [
+						"goto"
+					]
+				}
+			},
+			"skin_1": {
+				"add": {
+					"component_groups": [
+						"skin_1"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"skin_2"
+					]
+				}
+			},
+			"skin_2": {
+				"add": {
+					"component_groups": [
+						"skin_2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"skin_1"
+					]
+				}
+			},
+			"show_name": {
+				"add": {
+					"component_groups": [
+						"show_name"
+					]
+				}
+			}
+		}
+	}
+}

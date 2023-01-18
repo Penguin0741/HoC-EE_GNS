@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:potion_steps",
+			"geometry": {
+				"default": "geometry.potion_steps"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/potion_steps"
+			},
+			"enable_attachables": true
+		}
+	}
+}

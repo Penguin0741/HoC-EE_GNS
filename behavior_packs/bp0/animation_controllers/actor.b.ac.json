@@ -1,0 +1,29 @@
+// CTRL+K CTRL+J to expand all
+// CTRL+K CTRL+3 to collapse controllers
+{
+	"format_version": "1.16.0",
+	"animation_controllers": {
+		"controller.animation.actor.player"		: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.player"		]}}},
+		"controller.animation.actor.player_mark": {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.player_mark"]}}},
+		"controller.animation.actor.tarra"		: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.tarra"		]}}},
+		"controller.animation.actor.tarra_mark"	: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.tarra_mark"	]}}},
+		"controller.animation.actor.host"		: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.host"		]}}},
+		"controller.animation.actor.host_mark"	: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.host_mark"	]}}},
+		"controller.animation.actor.doctor"		: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.doctor"		]}}},
+		"controller.animation.actor.doctor_mark": {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add actor.doctor_mark"]}}},
+
+		"controller.animation.actor.on_mark": {
+			"initial_state": "default",
+			"states": {
+				"on_mark": { "transitions": [{ "default": "!q.is_baby" }]},
+				"default": { "transitions": [{ "on_mark":  "q.is_baby" }],
+					"on_exit": [
+						"/event entity @s speed_00",
+						"/event entity @s on_mark_remove",
+						"/scoreboard players add @a cam.next 1"
+					]
+				}
+			}
+		}
+	}
+}

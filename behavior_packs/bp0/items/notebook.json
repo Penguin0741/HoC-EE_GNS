@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "rwm:notebook"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 999999,
+      "minecraft:food": {
+        "can_always_eat": true,
+        "cooldown_type": "chorusfruit",
+        "cooldown_time": 0
+      }
+    }
+  }
+}

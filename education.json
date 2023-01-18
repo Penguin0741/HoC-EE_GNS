@@ -1,0 +1,17 @@
+{
+    "commands" : {
+		"hiddenFromPlayer" : ["*"],
+		"hiddenFromAutomation": ["!setblock","!agent","!replaceitem","!give","!execute","!function"]
+    },
+    "codebuilder":{
+		"defaulturi":"https://minecraft.makecode.com/hoc2022?ipc=1&inGame=1&noRunOnX=1#tutorial:ReWrite-Media/hoc2022-md/no_code_pre",
+		"disableLegacyTitleBar": true,
+		"capabilities": {
+			"agent":{
+				"permissions":{
+					"canModifyBlocks": true
+					}
+				}
+			}
+	}
+}

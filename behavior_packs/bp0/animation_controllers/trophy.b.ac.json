@@ -1,0 +1,27 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.trophy.click_command": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "click": "query.variant == 1"
+            }
+          ]
+        },
+        "click": {
+          "on_entry": [
+            "/function trophy/click"
+          ],
+          "transitions": [
+            {
+              "default": "query.variant == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

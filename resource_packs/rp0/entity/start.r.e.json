@@ -1,0 +1,20 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:start",
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.start"
+			},
+			"textures": {
+				"default": "textures/entity/start"
+			},
+			"materials": {
+				"default": "entity_emissive"
+			}
+		}
+	}
+}

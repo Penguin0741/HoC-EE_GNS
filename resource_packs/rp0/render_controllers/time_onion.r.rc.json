@@ -1,0 +1,47 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.onion_1": {
+			"geometry": "Geometry.onion_1",
+			"materials": [{"*": "Material.default"}],
+			"textures": ["Texture.onion_1"]
+		},
+		"controller.render.onion_2": {
+			"geometry": "Geometry.onion_2",
+			"materials": [{"*": "Material.default"}],
+			"textures": ["Texture.onion_2"]
+		},
+		"controller.render.ring_1": {
+			"geometry": "Geometry.ring_1",
+			"materials": [{"*": "Material.default"}],
+			"textures": ["Texture.ring_1"],
+			"part_visibility": [
+				{"*":"query.skin_id < 1"}
+			]
+		},
+		"controller.render.ring_2": {
+			"geometry": "Geometry.ring_2",
+			"materials": [{"*": "Material.default"}],
+			"textures": ["Texture.ring_2"],
+			"part_visibility": [
+				{"*":"query.skin_id < 2"}
+			]
+		},
+		"controller.render.ring_3": {
+			"geometry": "Geometry.ring_3",
+			"materials": [{"*": "Material.default"}],
+			"textures": ["Texture.ring_3"],
+			"part_visibility": [
+				{"*":"query.skin_id < 3"}
+			]
+		},
+		"controller.render.ring_4": {
+			"geometry": "Geometry.ring_4",
+			"materials": [{"*": "Material.default"}],
+			"textures": ["Texture.ring_4"],
+			"part_visibility": [
+				{"*":"query.skin_id < 4"}
+			]
+		}
+	}
+}

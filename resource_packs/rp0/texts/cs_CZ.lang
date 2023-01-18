@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Hodina kódu 2022	#
+pack.description=Zdroje potřebné pro Hodinu kódu 2022	#
+
+subtitle.loading.1=Načítání  . . . .	#
+subtitle.loading.2=Načítání .  . . .	#
+subtitle.loading.3=Načítání . .  . .	#
+subtitle.loading.4=Načítání . . .  .	#
+subtitle.loading.5=Načítání . . . . 	#
+
+actionbar.singleplayer_only=Hrát může jen 1 hráč!	#
+
+## Touch Controls Buttons
+action.interact.start=Klepnutím spustíte	#
+action.interact.seat=Klepnutím sbírejte	#
+action.interact.click=Mluvit	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Stiskněte C pro kódování	#
+actionbar.keyboard.code.0b=Stiskněte C pro kódování	#
+actionbar.keyboard.code.1=Spouštím kód...	#
+actionbar.keyboard.look.0=§lProhledat§r místnosti kvůli §l§gčásticím	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §lKlikněte pravým tlačítkem na§r  §l§gČástice	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lProzkoumejte§r  §l§gčástice	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Vstoupit do další místnosti	#
+
+actionbar.keyboard.0.-1=Začněte kliknutím na logo	#
+actionbar.keyboard.0.1=Pomocí myši se rozhlédněte kolem sebe	#
+actionbar.keyboard.0.2=Dál sledujte kouli	#
+actionbar.keyboard.0.3a=Stisknutím klávesy W se posunete vpřed	#
+actionbar.keyboard.0.3b=Stisknutím klávesy A se posunete vlevo	#
+actionbar.keyboard.0.3c=Stisknutím klávesy S se posunete dozadu	#
+actionbar.keyboard.0.3d=Stisknutím klávesy D se posunete doprava	#
+actionbar.keyboard.0.3e=Stisknutím klávesy W se posunete a stisknutím mezerníku skočíte	#
+actionbar.keyboard.0.3f=Stisknutím klávesy ''A'' se posunete a stisknutím ''MEZERNÍKU'' skočíte	#
+actionbar.keyboard.0.3g=Stisknutím klávesy S se posunete a stisknutím mezerníku skočíte	#
+actionbar.keyboard.0.3h=Stisknutím klávesy D se posunete a stisknutím mezerníku skočíte	#
+actionbar.keyboard.0.3i=Postupujte podél zdi	#
+actionbar.keyboard.0.4=§lKlikněte pravým tlačítkem myši§r	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=Přibližte se k postavě NPC a navažte kontakt  §lkliknutím pravého tlačítka§r	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§lProhledat§r místnosti kvůli §l§gčásticím§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §lKlikněte pravým tlačítkem§r na §lPáčky	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §lKlikněte pravým tlačítkem§r a promluvte si se Zombie šéfkuchařem	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §lKlikněte pravým tlačítkem myši§r na Královnu	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §lKlikněte pravým tlačítkem myši§r na krále	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§lProhledat§r místnosti kvůli §l§gčásticím	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §lKlikněte pravým tlačítkem myši§r na ztracený deník	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Posuňte se a vyberte Ztracený deník	#
+actionbar.keyboard.10.1.2= §lKlikněte pravým tlačítkem myši§r otevřete Ztracený deník	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§lProhledat§r místnosti kvůli §l§gčásticím	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Vstupte do dveří nebo si promluvte s Agentem	#
+actionbar.keyboard.10.7=Vstupte do dveří nebo si promluvte s Agentem	#
+actionbar.keyboard.10.9=Vstupte do dveří	#
+
+actionbar.keyboard.11.3=Prozkoumejte vedlejší pokoj	#
+actionbar.keyboard.11.5=Návrat do hlavní místnosti	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Klepnutím na  výše začni programovat.	#
+actionbar.touch.code.0b=Klepnutím na  výše začni programovat.	#
+actionbar.touch.code.1=Spouštím kód...	#
+actionbar.touch.look.0=§lProhledat§r místnosti kvůli §l§gčásticím	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§lKlepněte na   §l§gČástice	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lProzkoumejte§r  §l§gčástice	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Vstoupit do další místnosti	#
+
+actionbar.touch.0.-1=Začněte klepnutím na tlačítko	#
+actionbar.touch.0.1=Klepněte na obrazovku a přetáhněte ji do středu koule	#
+actionbar.touch.0.2=Dál sledujte kouli	#
+actionbar.touch.0.3a=Klepnutím a podržením  se posunete vpřed	#
+actionbar.touch.0.3b=Klepnutím a podržením  se posunete vlevo	#
+actionbar.touch.0.3c=Klepnutím a podržením  se posunete dozadu	#
+actionbar.touch.0.3d=Klepnutím a podržením  se posunete doprava	#
+actionbar.touch.0.3e=Klepnutím a podržením  se posunete a klepnutím na  skočíte	#
+actionbar.touch.0.3f=Klepnutím a podržením  se posunete a klepnutím na  skočíte	#
+actionbar.touch.0.3g=Klepnutím a podržením  se posunete a klepnutím na  skočíte	#
+actionbar.touch.0.3h=Klepnutím a podržením  se posunete a klepnutím na  skočíte	#
+actionbar.touch.0.3i=Postupujte podél zdi	#
+actionbar.touch.0.4=Stiskněte tlačítko	#
+actionbar.touch.0.5=Promluvte si s postavou NPC	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§lProhledat§r místnosti kvůli §l§gčásticím§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=Klepněte na §lpáčky	###{Locked="§l"}
+actionbar.touch.2.0=Klepnutím si promluvte se Zombie šéfkuchařem	#
+actionbar.touch.3.2=Klepněte na královnu	#
+actionbar.touch.3.4=Klepněte na krále	#
+
+actionbar.touch.10.0.1=§lProhledat§r místnosti kvůli §l§gčásticím	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Klepněte na Ztracený deník	#
+actionbar.touch.10.1.1=Klepnutím zvolte Ztracený deník	#
+actionbar.touch.10.1.2=Klepnutím a podržením otevřete Ztracený deník	#
+actionbar.touch.10.2=Prozkoumejte hluk	#
+actionbar.touch.10.5=Vstupte do dveří nebo si promluvte s Agentem	#
+actionbar.touch.10.7=Vstupte do dveří nebo si promluvte s Agentem	#
+actionbar.touch.10.9=Vstupte do dveří	#
+
+actionbar.touch.11.3=Prozkoumejte vedlejší pokoj	#
+actionbar.touch.11.5=Návrat do hlavní místnosti	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft uvádí...	#
+title.intro.2=Útěk z panství	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=Král bere střelce!	###Chess reference
+title.interact_queen=Královna bere věž!	###Chess reference
+title.room_cleared=Místnost vyklizena!	#
+title.trophy.unlocked=%1§fTrofej odemčena:%1	###{Locked="§f"}
+title.trophy.click=%1§fTrofej:%1	###{Locked="§f"}
+title.end.1=Konec	#
+title.end.2=To je konec?	#
+sub.puzzle_success=Hádanka vyřešena	#
+sub.room_1=Studovna	###A room in the mansion to explorer
+sub.room_2=Kuchyně	###A room in the mansion to explorer
+sub.room_3=Salon	###A room in the mansion to explorer
+sub.room_4=Alchymistická místnost	###A room in the mansion to explorer
+sub.room_5=Konzervatoř	###A room in the mansion to explorer
+sub.room_6=Laboratoř	###A room in the mansion to explorer
+sub.room_7=Příkop	###A location at the mansion
+sub.room_8=Sklep	###A room in the mansion to explorer
+sub.room_9=Přijímací pokoj	###A room in the mansion to explorer
+sub.wrong_order=Nesprávný recept!	#
+sub.too_few=Příliš málo přísad!	#
+sub.too_many=Příliš mnoho přísad!	#
+sub.trophy.note=§gSebrána první poznámka!	###{Locked=§g}
+sub.trophy.book=§gSebrány všechny poznámky!	###{Locked=§g}
+sub.trophy.boss=§gZávěrečný protivník poražen!	###{Locked=§g}
+sub.trophy.green=§aZelená cesta dokončena!	#
+sub.trophy.yellow=§eŽlutá cesta dokončena!	#
+sub.trophy.red=§cČervená cesta dokončena!	#
+sub.trophy.emerald=§gVšechny cesty dokončeny!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fNabídka	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombie%1§fHovězí	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fKostlivec%1§fPolévka	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fPlíživec%1§fSlepice	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fPakostnice%1§fRyba	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §lLeden	###{Locked="§l"}
+slate.feb=%1%1  §lÚnor	###{Locked="§l"}
+slate.mar=%1%1     §lbřezen	###{Locked="§l"}
+slate.apr=%1%1      §lDuben	###{Locked="§l"}
+slate.may=%1%1       §lKvěten	###{Locked="§l"}
+slate.1=%1%1       §l1.	###{Locked="§l"}
+slate.2=%1%1       §l2.	###{Locked="§l"}
+slate.3=%1%1       §l3.	###{Locked="§l"}
+slate.4=%1%1       §l4.	###{Locked="§l"}
+slate.5=%1%1       §l5.	###{Locked="§l"}
+
+sign.queen_birthday=%1§fKrálovniny narozeniny%1§f4. května	###{Locked="§f"}
+sign.king_birthday=%1§fKrálovy narozeniny%1§f1. dubna	###{Locked="§f"}
+sign.reset=%1§fObnovit	###{Locked="§f"}
+
+slate.weight.0=%1Váha: 0	#
+slate.weight.1=%1Váha: 1	#
+slate.weight.2=%1Váha: 2	#
+slate.weight.3=%1Váha: 3	#
+slate.weight.4=%1Váha: 4	#
+slate.weight.5=%1Váha: 5	#
+slate.weight.6=%1Váha: 6	#
+slate.weight.7=%1Váha: 7	#
+slate.weight.8=%1Váha: 8	#
+slate.weight.9=%1Váha: 9	#
+slate.weight.10=%1Váha: 10	#
+slate.weight.11=%1Váha: 11	#
+slate.weight.12=%1Váha: 12	#
+slate.weight.13=%1Váha: 13	#
+slate.weight.14=%1Váha: 14	#
+slate.weight.15=%1Váha: 15	#
+slate.weight.16=%1Váha: 16	#
+slate.weight.17=%1Váha: 17	#
+slate.weight.18=%1Váha: 18	#
+slate.weight.19=%1Váha: 19	#
+slate.weight.20=%1Váha: 20	#
+slate.weight.21=%1Váha: 21	#
+slate.weight.22=%1Váha: 22	#
+slate.weight.23=%1Váha: 23	#
+slate.weight.24=%1Váha: 24	#
+slate.weight.25=%1Váha: 25	#
+slate.weight.26=%1Váha: 26	#
+slate.weight.27=%1Váha: 27	#
+slate.weight.28=%1Váha: 28	#
+slate.weight.29=%1Váha: 29	#
+slate.weight.30=%1Váha: Přes 30	#
+
+board.tut.intro=%1 Vítejte v §lhodině kódu 2022§r :%1 §lEscape Estate§r%1%1V této části se dozvíte, jak se rozhlížet a cestovat Minecraftem! Přečtěte si text v dolní části obrazovky nad "hotbarem", kde najdete nápovědu k tomu, co dělat dál.%1%1Nejprve se pomocí myši rozhlédněte, nebo pokud používáte dotykové zařízení, přejeďte prstem po "zlatých koulích", dokud všechny nezmizí. Pak přejděte k dalšímu kurzu.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Zavřít	#
+npc.button.done=Hotovo	#
+npc.button.back=Zpět	#
+npc.button.next=Další	#
+npc.button.previous=Předchozí	#
+
+npc.zombie_chef.name=Zombie šéfkuchař	#
+npc.zombie_chef.0.text=CHLEBAAAAAAAAA!	###The zombie chef needs bread to survive
+npc.armor.name=Rychlý rytíř	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Zbroj	#
+npc.king.name=Král	###chess piece
+npc.queen.name=Královna	###chess piece
+npc.rook.name=Věž	###chess piece
+npc.bishop.name=Střelec	###chess piece
+npc.clay_golem.name=Jílový golem	###a golem made out of clay
+npc.clay_golem.1.name=-- -------- |----|----|----|----|----|----|----|----|----|----|----|----|----|	#
+npc.clay_golem.2.name=[ . . ]	#
+npc.clay_golem.3.name=[ . . . ]	#
+npc.enderman_butler.name=Butler	#
+npc.zombie_minion.name=Mimoň v bedně	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Král%1 §7 1.leden	###King refers to the chess piece
+npc.king.jan.2.name=Král%1§7 2. leden	###King refers to the chess piece
+npc.king.jan.3.name=Král%1§7 3. leden	###King refers to the chess piece
+npc.king.jan.4.name=Král%1§74. ledna	###King refers to the chess piece
+npc.king.jan.5.name=Král%1 §7 5. leden	###King refers to the chess piece
+npc.king.feb.1.name=Král%1§71. února	###King refers to the chess piece
+npc.king.feb.2.name=Král%1§7 2. únor	###King refers to the chess piece
+npc.king.feb.3.name=Král%1§73. února	###King refers to the chess piece
+npc.king.feb.4.name=Král%1§7 4. únor	###King refers to the chess piece
+npc.king.feb.5.name=Král%1§7 5. únor	###King refers to the chess piece
+npc.king.mar.1.name=Král%1§ 1. březen	###King refers to the chess piece
+npc.king.mar.2.name=Král%1§7 2. březen	###King refers to the chess piece
+npc.king.mar.3.name=Král%1§7 3. březen	###King refers to the chess piece
+npc.king.mar.4.name=Král%1§7 4. březen	###King refers to the chess piece
+npc.king.mar.5.name=Král%1§75. března	###King refers to the chess piece
+npc.king.apr.1.name=Král%1§7 1. duben	###King refers to the chess piece
+npc.king.apr.2.name=Král%1§7 2. duben	###King refers to the chess piece
+npc.king.apr.3.name=Král%1§73. dubna	###King refers to the chess piece
+npc.king.apr.4.name=Král%1§7 4. duben	###King refers to the chess piece
+npc.king.apr.5.name=Král%1§7 5. duben	###King refers to the chess piece
+npc.king.may.1.name=Král%1§7 1. květen	###King refers to the chess piece
+npc.king.may.2.name=Král%1§7 2. květen	###King refers to the chess piece
+npc.king.may.3.name=Král%1§73. května	###King refers to the chess piece
+npc.king.may.4.name=Král%1§7 4. květen	###King refers to the chess piece
+npc.king.may.5.name=Král%1§7 5. květen	###King refers to the chess piece
+npc.queen.jan.1.name=Královna%1§71. ledna	###Queen refers to a chess piece
+npc.queen.jan.2.name=Královna%1§72. ledna	###Queen refers to a chess piece
+npc.queen.jan.3.name=Královna%1§73. ledna	###Queen refers to a chess piece
+npc.queen.jan.4.name=Královna%1§74. ledna	###Queen refers to a chess piece
+npc.queen.jan.5.name=Královna%1§75. ledna	###Queen refers to a chess piece
+npc.queen.feb.1.name=Královna%1§71. února	###Queen refers to a chess piece
+npc.queen.feb.2.name=Královna%1§72. února	###Queen refers to a chess piece
+npc.queen.feb.3.name=Královna%1§73. února	###Queen refers to a chess piece
+npc.queen.feb.4.name=Královna%1§74. února	###Queen refers to a chess piece
+npc.queen.feb.5.name=Královna%1§75. února	###Queen refers to a chess piece
+npc.queen.mar.1.name=Královna%1§71. března	###Queen refers to a chess piece
+npc.queen.mar.2.name=Královna%1§72. března	###Queen refers to a chess piece
+npc.queen.mar.3.name=Královna%1§73. března	###Queen refers to a chess piece
+npc.queen.mar.4.name=Královna%1§74. března	###Queen refers to a chess piece
+npc.queen.mar.5.name=Královna%1§75. března	###Queen refers to a chess piece
+npc.queen.apr.1.name=Královna%1§71. dubna	###Queen refers to a chess piece
+npc.queen.apr.2.name=Královna%1§72. dubna	###Queen refers to a chess piece
+npc.queen.apr.3.name=Královna%1§73. dubna	###Queen refers to a chess piece
+npc.queen.apr.4.name=Královna%1§74. dubna	###Queen refers to a chess piece
+npc.queen.apr.5.name=Královna%1§75. dubna	###Queen refers to a chess piece
+npc.queen.may.1.name=Královna%1§71. května	###Queen refers to a chess piece
+npc.queen.may.2.name=Královna%1§72. května	###Queen refers to a chess piece
+npc.queen.may.3.name=Královna%1§73. května	###Queen refers to a chess piece
+npc.queen.may.4.name=Královna%1§74. května	###Queen refers to a chess piece
+npc.queen.may.5.name=Královna%1§75. května	###Queen refers to a chess piece
+npc.king.scrambled.name=Král%1§7§kTest	###King refers to the chess piece
+npc.queen.scrambled.name=Královna%1§7§kTest	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Ovládání	#
+npc.tutcontrols.1.text=Vítejte ve hře Hodina kódu 2022!%1%1Začněme krátkým výukovým kurzem! Začněte tím, že na svém zařízení stisknete nebo kliknete levým tlačítkem myši na správné schéma ovládání, které je pro vás nejvhodnější.	#
+npc.button.keyboard=Klávesnice	#
+npc.button.touch=Dotykové ovládání	#
+
+npc.tutskip.name=Přeskočit	#
+npc.keyboard.tutskip.1.text=Vítejte! V následujícím výukovém kurzu se naučíte základy ovládání Minecraftu.%1%1Začněte klepnutím levým tlačítkem myši na Spustit výukový kurz. Pokud výukový kurz nepotřebujete, klikněte levým tlačítkem myši na Přeskočit výukový kurz a pusťte se do hry!	#
+npc.touch.tutskip.1.text=Vítejte! V následujícím výukovém kurzu se naučíte základy ovládání Minecraftu.%1%1Začněte klepnutím na Spustit výukový kurz. Pokud výukový kurz nepotřebujete, klepněte na Přeskočit výukový kurz a pusťte se do hry! 	#
+npc.tutskip.2.text=Opravdu chcete výukový kurz přeskočit? Pokud to uděláte, přijdete o důležité informace.%1%1Na svém zařízení vyberte buď Spustit výukový kurz, nebo Přeskočit výukový kurz.	#
+npc.button.skip_yes=Přeskočit výukový kurz	#
+npc.button.skip_no=Spustit tutoriál	#
+
+npc.tuthelp.name=Nápověda	#
+npc.keyboard.tuthelp.1.text=Gratulujeme, dokončili jste pohybový tutoriál!%1%1Další pokyny k tomu, jak si ve světě poradit, získáte stiskem tlačítka ''H'' a zobrazením ovládacích prvků.	#
+npc.touch.tuthelp.1.text=Blahopřejeme, dokončili jste výukový kurz pohybu!%1%1Chcete-li zobrazit další pokyny k interakci se světem, stisknutím klávesy H zobrazíte ovládání.	#
+
+npc.tuthost.name=Dr. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Dobrý den. Jsem doktor Dodge Breakowski. Vidím, že jste obdrželi mou pozvánku. Myslíte si, že máte na to, abyste do úsvitu unikli ze sídla a získali milion smaragdů? Výborně! Vydejte se k vchodovým dveřím a pusťte se do výzvy!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=Jdeme na to!	#
+
+## Labels
+npc.label.nether_wart.name=Netheritový bradavičník	#
+npc.label.phantom_membrane.name=Membrána fantoma	#
+npc.label.fermented_spider_eye.name=Fermentované pavoučí oko	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Ztracený deník	#
+item.rwm:notebook.name=Ztracený deník	#
+npc.note.name=Stránka z deníku	#
+npc.note.0.text=%1Našli jste ztracený deník. Podaří se vám při průzkumu sídla najít všech 10 chybějících stránek?%1%1Pomocí tlačítek §lPředchozí§r a §lDalší§r níže si můžete prohlédnout poznámky, které jste získali.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1Zápis #1: Podkroví%1%1Milý deníčku:%1%1Minulý týden jsem obdržel pozvání od nějaké tajemné osoby, která mě vyzvala k útěku z tohoto sídla. V dopise stálo, že pokud uteču do úsvitu, vyhraju milion smaragdů. I když je nepotřebuju, mám za to, že z takové výzvy by mohlo být skvělé video pro můj kanál!%1%1Po příchodu mě sídlo pohltilo. Vím, že to nedává smysl, ale je to pravda, přísahám! Po probuzení zjišťuju, že ležím tady v tomto podkroví. Jsou tady tři zamčené dveře... za některými z nich musí být cesta ven! Potřebuji jen zjistit, jak je otevřít!	#
+npc.note.2.text=%1Zápis #2: Studovna %1%1Milý deníčku:%1%1Podařilo se mi konečně najít ven z podkroví, ale tentokrát mě uvěznila tahle podivná knihovna. Věřím, že to velké zrcadlo tady je něčím jiným, než se zdá! Je to opravdu zrcadlo, nebo okno do jiné dimenze? Co se dá dělat, stejně nemám jinou možnost, než zatlačit a zjistit, kam mě to zavede...	#
+npc.note.3.text=%1Záznam č. 3: Kuchyně %1%1Milý deníčku:%1%1Dnes jsem narazil na velkou jídelnu. V kuchyni jsem objevil děsivou bytost, která si patrně ani nevšimla mé přítomnosti. Když jsem sebral odvahu promluvit si s šéfkuchařem, pouze zasténal CHLEBA! Měl bych tomu strašidelnému kuchaři pomoci? Možná by mi ukázal cestu ven...	#
+npc.note.4.text=%1Zápis #4: Salon %1%1Milý deníčku:%1%1Velké dveře v této vstupní hale vypadají, že by mohly vést ven ze sídla! Ale jak je otevřít? Mohla by tato šachovnice odemknout dveře? Určitě tady musí být nějaká vodítka... jsem tak daleko, teď se přece nebudu vracet!	#
+npc.note.5.text=%1Záznam č. 5: Alchymistická místnost %1%1Milý deníčku:%1%1Jak moje cesta panstvím pokračuje, začínám zjišťovat, že to není jen tak ledajaké sídlo. Dnes jsem například našel místnost vyhrazenou k výrobě lektvarů. To se nevidí každý den. Přesto se nemůžu zbavit pocitu, že už jsem tu někdy byl...	#
+npc.note.6.text=%1Záznam č. 6: Skleník %1%1Milý deníčku:%1%1Při procházení sídla jsem objevil starý skleník. Kdysi to nejspíše byla bujná zahrada, ale dnes tu rostliny živí jen pramínek vody. Vím, že se mi to nejspíše jen zdálo, ale přísahal bych, že když jsem vstoupil do této místnosti, viděl jsem něco odletět do křoví! Co to mohlo být, netuším...	#
+npc.note.7.text=%1Záznam č. 7: Laboratoř %1%1Milý deníčku:%1%1Dnes jsem učinil fascinující objev: laboratoř! Je plná záhadných strojů a podivných experimentů, jaké jsem ještě nikdy neviděl! Nebo ano? Na tomto místě je něco velmi povědomého...	#
+npc.note.8.text=%1Záznam č. 8: Příkop %1%1Milý deníčku:%1%1Při hledání cesty ven jsem narazil na zvláštní příkop, který rozděluje tuto oblast. Padací most je zvednutý a vypadá to, že se ovládá z druhé strany. Zdejší sluha je tichý chlapík, který mi zjevně nerozumí. Přesto musím najít způsob, jak ho přesvědčit, aby most spustil.	#
+npc.note.9.text=%1Záznam č. 9: Sklep %1%1Milý deníčku:%1%1Hledání cesty ven mě zavedlo do obrovského sklepa! Vítr kvílí přes propast takovou silou, že se bojím vkročit na starý vratký most přede mnou. Na okamžik se mi zdálo, že slyším, jak nade mnou něco letí... musel to být jen vítr.	#
+npc.note.10.text=%1Záznam č. 10: Přijímací pokoj %1%1Milý deníčku:%1%1Moje cesty mě zavedly do malého obývacího pokoje. Je v něm teplo a příjemně. Mám pocit, že bych tu mohl zůstat navždy... NE! Musím jít dál! Dějí se tu zvláštní věci a jsem si docela jistý, že tu nejsem sám!	#
+
+## Agent
+npc.agent.name=Agent	#
+npc.agent.1.1.text=Dobrý den? Je tam někdo? Páni, člověk! Myslíš, že bys mi mohl pomoci? Nemůžu otevřít tenhle poklop v podlaze! Myslím, že můj kód může být poškozen. Myslíš, že by ses mohl podívat a zjistit, co je s ním v nepořádku?	#
+npc.button.yes=Ano!	#
+npc.agent.1.2.text=Skvělé! Pokud mě odsud dostanete, oplatím vám laskavost a pomůžu vám uniknout z podkroví. Který programovací jazyk chcete použít?%1%1§lBlocks§r je nejlepší pro začátečníky. Zvolte §lPython§r pouze v případě, že jste v něm předtím programovali.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=OK! Za prvé, vidíte ten kurzor tam na podlaze? Musí se posunout dopředu o 3 bloky, aby se dostal k padacím dveřím, ale nefunguje to. Stisknutím klávesy C zobrazte kód a potom spusťte kód, abyste zjistili, co je špatně.	#
+npc.agent.1.4.text=Hmmm, ne, to není úplně správně. Kurzor se musí přesunout k padacím dveřím A říct jim, aby se otevřely.	#
+npc.agent.2.1.text=Skvělé! Je otevřeno! To je zvláštní... stále se mi nezdá, že bych se dostal ven. Můžete znovu zkontrolovat kód a ujistit se, že se pohybuji nahoru o 2 bloky?	#
+npc.agent.3.1.text=Děkuju! Opravili jste můj kód! Teď jsem v dosahu, abych vám otevřel Zelené dveře. Cesta za Zelenými dveřmi je jednodušší. Můžete se vydat touto cestou nebo si se mnou znovu promluvte, pokud chcete zkusit otevřít Žluté dveře!	#
+npc.agent.4.1.text=Takže chcete zkusit otevřít žluté dveře? K tomu budu potřebovat více energie. Naštěstí se můžu nabíjet z měsíčního světla! Jediné, co musíme udělat, je otevřít světlík nad... Co? Můj kód nefunguje. Zkuste zkontrolovat můj kód, abyste se ujistili, že se otevírají všechny 4 padací dveře ve stropě!	#
+npc.agent.5.1.text=Páni, pěkný výkon! Teď jsem ti otevřel Žluté dveře. Projdi, pokud chceš, nebo pokud si opravdu přeješ výzvu, promluv si se mnou znovu a zkus otevřít Červené dveře!	#
+npc.agent.6.1.text=Budeme muset spolupracovat, abychom se dostali do Červených dveří. Otevřou se jen tehdy, když stojím na Zlatých blocích. Pojďme to zkusit! ...nemůžu ...se tam dostat... uff... Co takhle trochu pomoct, příteli?	#
+npc.agent.7.1.text=Dobře, všechny dveře jsou nyní otevřené. Vyberte cestu, kterou se chcete vydat. Každá cesta má jinou obtížnost... zelená je jednodušší, červená je těžší a žlutá je někde mezi. Tak nashle, člověče. Možná, že se naše cesty jednoho dne opět zkříží.	#
+npc.agent.green.8.1.text=Počkejte! Než půjdete, musím vám říct ještě jednu poslední věc! Tento dům je plný §lúnikových místností§r. Budete muset najít stopy, vyřešit hádanky a opravit kód, abyste se dostali ven! Stisknutím §lC§r zobrazíte kód hádanky. §lSpusťte§r kód a podívejte se, co se stane! Pokud se vyskytnou chyby, opravte kód a znovu jej spusťte, abyste jej otestovali. Tomu se říká §lladění§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=Někdy řešení nebudou jasná a ne všechny hádanky vyžadují kód k vyřešení! Když najdete hádanku, nezapomeňte nejprve §lspustit§r kód, abyste zjistili, co je špatně, pak §lladit§r a §lopravit§r chybný kód! Je to mnohem jednodušší než psaní kódu od nuly!%1%1Dávejte pozor na stopy, jako jsou §g§lčástice§0§r, které vás povedou!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Počkejte! Než půjdete, musím vám říct ještě jednu poslední věc! Tento dům je plný §lúnikových místností§r. Budete muset najít stopy, vyřešit hádanky a opravit kód, abyste se dostali ven! Stisknutím §lC§r zobrazíte kód hádanky. §lSpusťte§r kód a podívejte se, co se stane! Pokud se vyskytnou chyby, opravte kód a znovu jej spusťte, abyste jej otestovali. Tomu se říká §lladění§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=Někdy řešení nebudou jasná a ne všechny hádanky vyžadují kód k vyřešení! Když najdete hádanku, nezapomeňte nejprve §lspustit§r kód, abyste zjistili, co je špatně, pak §lladit§r a §lopravit§r chybný kód! Je to mnohem jednodušší než psaní kódu od nuly!%1%1Dávejte pozor na stopy, jako jsou §g§lčástice§0§r, které vás povedou!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Počkejte! Než půjdete, musím vám říct ještě jednu poslední věc! Tento dům je plný §lúnikových místností§r. Budete muset najít stopy, vyřešit hádanky a opravit kód, abyste se dostali ven! Stisknutím §lC§r zobrazíte kód hádanky. §lSpusťte§r kód a podívejte se, co se stane! Pokud se vyskytnou chyby, opravte kód a znovu jej spusťte, abyste jej otestovali. Tomu se říká §lladění§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=Někdy řešení nebudou jasná a ne všechny hádanky vyžadují kód k vyřešení! Když najdete hádanku, nezapomeňte nejprve §lspustit§r kód, abyste zjistili, co je špatně, pak §lladit§r a §lopravit§r chybný kód! Je to mnohem jednodušší než psaní kódu od nuly!%1%1Dávejte pozor na stopy, jako jsou §g§lčástice§0§r, které vás povedou!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Doktor Útěkovský	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Opět vás zdravíme. Zdá se, že jste to dokázali. Podařilo se vám projít sídlem. Bravo. Věděli jsme, že to zvládnete... Vlastně jsme s tím počítali!	#
+npc.foyer.2.1.text=Víte, tohle místo je víc než jen sídlo... Je to interdimenzionální vězení! Takové, ze kterého se nám nepodařilo uniknout... Ale věděli jsme, že na to přijdete!	#
+npc.foyer.2.2.text=Aha! Překvapení! Agenti času jsou zpět! Teď jste to vy, kdo bude navždy uvězněn v tomto sídle! Užijte si pobyt v novém domově! Muhahaha!	#
+npc.foyer.3.1.text=Ne tak rychle, Časoví agenti...	#
+npc.foyer.3.2.text=Nikam nepůjdete. Máte chvilku na oddech, mizerové! 	#
+npc.foyer.4.1.text=TARRA! Možná jste nás tady jednou uvěznili, ale my už vám nenaletíme! Portál je otevřený! Nemůžete nás zastavit! Vy nemáte čas... a my taky ne! Tak zatím, tupci!	#
+npc.foyer.5.1.text=Tento portál vede k Časové kouli. Budou ji moci použít k útěku. Jediný způsob, jak zastavit Časovou kouli, je pomocí chronoděl. Nebude trvat dlouho, než kouli nabijí, takže musíme rychle aktivovat obranu a zastavit je jednou provždy! Teď běžte!	#
+
+## Boss
+npc.rascal.name=Rošťák	#
+npc.gremlin.name=Šotek	#
+npc.yeti.name=Yeti	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Víla	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=Ano! Časová koule! Můžeme ji použít k útěku! Cože? Sakra, to je zase ten otravný hráč!	#
+npc.boss.yellow.1.1.text=Ano! Časová koule! Můžeme ji použít k úniku! Co? Zase vy? Rozdělte se, kluci! Nechytí nás všechny!	#
+npc.boss.red.1.1.text=Ano! Časová koule! Konečně můžeme z interdimenzionálního vězení uniknout! Co? ZASE VY!?! Rozdělte se, agenti času! Chraňte chronoděla, zatímco já připravím Časovou kouli!	#
+npc.boss.2.1.text=Musíme aktivovat časová děla! Kontrolní střediska jsou v těch rohových místnostech, ale časoví agenti zavřeli dveře! Zkuste přijít na to, jak je otevřít!	#
+npc.boss.yellow.3.1.text=Dveře velínu jsou otevřené! Uvnitř každého velínu je páka, která aktivuje chronoděla. Budeme muset aktivovat všechny čtyři, abychom zničili Časovou kouli! Rychle! Běžte zapnout ta děla!	#
+npc.boss.red.3.1.text=Dokázali jste to! Dveře velínu jsou otevřené! Uvnitř každého velínu lze aktivovat chronoděla. Budeme muset aktivovat všechna čtyři, abychom zničili Časovou kouli! Rychle! Běžte zapnout děla!	#
+npc.boss.green.4.1.text=Všechna chronoděla jsou nyní aktivovaná! Připravte se na palbu!	#
+npc.boss.yellow.4.1.text=Dobrá práce! Když jsou teď všechna čtyři děla připravená, můžeme zničit obranu časové koule a zastavit časové agenty!	#
+npc.boss.red.4.1.text=Dobrá práce! Když jsou teď všechna čtyři děla připravená, můžeme zničit obranu časové koule a zastavit časové agenty!	#
+npc.boss.5.1.text=Podívejte! Agenti Času jsou ohromeni síní Časové koule! Teď máme šanci! Pokud dokážeme otáčet magnetickými disky pod podlahou, můžeme obrátit polaritu a jednou provždy je chytneme! 	#
+npc.boss.6.1.text=Dokázali jste to! Opravdu jste to těm časovým agentům nandali... nebo bych měl říct: Opravdu jste ty agenty nandali do tohoto času! Ha ha. Omlouvám se. Stále pracuji na tom, čemu říkáte „humor“. Časoví agenti tu zůstanou, aby mohli přemýšlet o tom, co provedli. Co se vás týče, pojďte se mnou. Ukážu vám cestu ven.	#
+npc.button.run=Jdeme na to!	#
+npc.boss.side_room_1.1.text=Ha! Opravdu si myslíte, že nás můžete porazit? Žijete v pohádce!	#
+npc.boss.side_room_1.2.text=Co!?! Nemožné! Vílu nikdo do kouta nepošle!	#
+npc.boss.side_room_2.1.text=Ani náhodou vás nenechámei vyhrát. Připravte se na lavinu trýzně!	#
+npc.boss.side_room_2.2.text=Odporný člověk! To ještě není konec!	#
+npc.boss.side_room_3.1.text=Nemá smysl nám vzdorovat. Brzy zmizíme a vy tu zůstanete uvězněni a budete křičet žalem!	#
+npc.boss.side_room_3.2.text=AAAAAAHHHHHHHH!!!!! Myslel jsem, že nemáte nejmenší šanci!	#
+npc.boss.side_room_4.1.text=Hehehehe! Pošetilý člověče! Váš druh se nikdy nepoučí. Vaše selhání je nevyhnutelné!	#
+npc.boss.side_room_4.2.text=Takže jste přišli na to, jak ta věcička funguje? Nevadí! Nezastaví nás to!	#
+npc.boss.agent.1.text=Vypadá to, že by se vám hodila pomoc. Nebojte se. Kryju vám záda. Můžu vám pomoct děla aktivovat. Jen mi ukažte cestu!	#
+
+## Ending Cutscene
+npc.player.name=Vy	#
+npc.end.1.1.text=Blahopřejeme! Vaše kódovací dovednosti vás zase zachránily. Kdo ví, jaké potíže by agenti času způsobili, kdyby se jim podařilo utéct z panství. Skvělá práce!	#
+npc.end.1.2.text=Ještě mám jednu otázku... Ty stránky deníku... Odkud si myslíte, že pocházejí?	#
+npc.end.2.1.text=Byly ode mě! Doktor Zdrhoslav Útěkovský! Tihle časoví mizerové mě sem taky nalákali! Vlastně jsem se snažil utéct celé týdny! Nevím, jak se ti to podařilo, ale pomohlo mi to konečně najít cestu ven! Děkuju!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Jsem rád, že jste v bezpečí... a myslím, že jsme na chvíli budeme mít od agentů času klid. Teď prosím, pojďme odsud pryč... Z tohohle místa mi běhají nuly a jedničky po zádech!	#
+npc.end.2.3.text=Takže, doktore Útěkovský... co se týče těch milionů smaragdů...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Promiň, dítě, jsem na mizině!%1%1Spokojíš se se záchranou světa a sušenkou?	#
+npc.end.laugh.1.name=Ha!	#
+npc.end.laugh.2.name=Ha ha!	#
+npc.end.laugh.3.name=Ha! Ha! Ha!	#
+npc.end.laugh.1.text=Ha!	#
+npc.end.laugh.2.text=Ha ha!	#
+npc.end.laugh.3.text=Ha! Ha! Ha!	#
+
+action.hint.exit.rwm:cam= 	#

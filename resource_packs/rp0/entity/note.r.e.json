@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:note",
+			"geometry": {
+				"default": "geometry.note"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/note"
+			},
+			"animations": {
+				"jiggle": "animation.jiggle",
+				"fade": "animation.fade",
+				"sway": "animation.note.sway",
+				"rot90": "animation.note.rot90",
+				"rot180": "animation.note.rot180",
+				"rot270": "animation.note.rot270"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"jiggle": "q.variant == 1"
+					},
+					{
+						"fade": "q.variant == 2"
+					},
+					"sway",
+					{
+						"rot90": "q.mark_variant == 1"
+					},
+					{
+						"rot180": "q.mark_variant == 2"
+					},
+					{
+						"rot270": "q.mark_variant == 3"
+					}
+				]
+			}
+		}
+	}
+}

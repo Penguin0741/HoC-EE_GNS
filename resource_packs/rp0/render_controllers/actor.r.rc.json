@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.actor": {
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.player",
+						"geometry.tarra",
+						"geometry.host",
+						"geometry.doctor"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.player",
+						"texture.tarra",
+						"texture.host",
+						"texture.doctor"
+					]
+				},
+				"materials": {
+					"array.materials": [
+						"material.alpha",
+						"material.translucent",
+						"material.alpha",
+						"material.alpha"
+					]
+				}
+			},
+			"geometry": "array.geometries[ q.skin_id - 1]",
+			"textures": [ "array.textures[ q.skin_id - 1]" ],
+			"materials": [ { "*": "array.materials[ q.skin_id - 1]" } ]
+		},
+		"controller.render.actor.mark": {
+			"geometry": "geometry.mark",
+			"textures": [ "texture.mark" ],
+			"materials": [ { "*": "material.alpha" } ],
+			"part_visibility": [ { "*": "q.variant" } ]
+		},
+		"controller.render.actor.tongue": {
+			"geometry": "geometry.tongue",
+			"textures": [ "texture.tongue" ],
+			"materials": [ { "*": "material.alpha" } ]
+		}
+	}
+}

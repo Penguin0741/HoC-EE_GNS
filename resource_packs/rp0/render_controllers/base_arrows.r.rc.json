@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.base_arrows": {
+			"geometry": "geometry.base_arrows",
+			"textures": ["Texture.base_arrows"],
+			"materials": [
+				{
+					"*": "material.base_arrows"
+				}
+			],
+			"part_visibility": [
+				{"root2":"query.skin_id == 1"}
+			]
+		}
+	}
+}

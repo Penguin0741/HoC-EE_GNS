@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rwm:zombie_chef_sitting",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/zombie_chef"
+      },
+      "geometry": {
+        "default": "geometry.zombie_chef_sitting"
+      },
+      "animations": {
+        "slide": "animation.platter.slide"
+      },
+      "scripts": {
+				"animate": [
+					"slide"
+				]
+			},
+      "render_controllers": [ "controller.render.all" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:notebook",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0.6,
+				"width": 0.8
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": false
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false
+				  }
+				]
+			},
+			"minecraft:npc": {
+				"npc_data": {
+					"picker_offsets": {
+						"scale": [1.7, 1.7, 1.7],
+						"translate": [0, 0, 0]
+					},
+					"portrait_offsets": {
+						"scale": [1.75, 1.75, 1.75],
+						"translate": [-3, -10, 0]
+					},
+					"skin_list": [
+						{
+							"variant": 0
+						}
+					]
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"swing": false,
+						"interact_text": ""
+					}
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			}
+		},
+		"component_groups": {
+			"despawn":{
+				"minecraft:instant_despawn":{}
+			},
+			"closed": {
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"open": {
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			},
+			"next": {
+				"minecraft:mark_variant": {
+					"value": 2
+				},
+				"minecraft:timer":{
+					"time":[0.1,0.1],
+					"time_down_event": {
+						"event": "open",
+						"target": "self"
+					}
+				}
+			},
+			"previous": {
+				"minecraft:mark_variant": {
+					"value": 3
+				},
+				"minecraft:timer":{
+					"time":[0.1,0.1],
+					"time_down_event": {
+						"event": "open",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			},
+			"closed": {
+				"add": { "component_groups": [ "closed" ] },
+				"remove": { "component_groups": [ "open", "next", "previous" ] }
+			},
+			"open": {
+				"add": { "component_groups": [ "open" ] },
+				"remove": { "component_groups": [ "closed", "next", "previous" ] }
+			},
+			"next": {
+				"add": { "component_groups": [ "next" ] },
+				"remove": { "component_groups": [ "closed", "open", "previous" ] }
+			},
+			"previous": {
+				"add": { "component_groups": [ "previous" ] },
+				"remove": { "component_groups": [ "closed", "open", "next" ] }
+			}
+		}
+	}
+}

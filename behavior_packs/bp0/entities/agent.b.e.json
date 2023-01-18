@@ -1,0 +1,209 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:agent",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0.93,
+				"width": 0.6
+			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "all",
+					"deals_damage": false
+				}
+			},
+			"minecraft:fire_immune": true,
+			"minecraft:inventory": {
+				"container_type": "container",
+				"inventory_size": 27,
+				"restrict_to_owner": true
+			},
+			"minecraft:movement": {
+				"max": 1,
+				"value": 1
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:scale": {
+				"value": 1.0
+			},
+			"minecraft:tick_world": {
+			},
+			"minecraft:npc": {
+				"npc_data": {
+					"picker_offsets": {
+						"scale": [1.7, 1.7, 1.7],
+						"translate": [0, 20, 0]
+					},
+					"portrait_offsets": {
+						"scale": [1.75, 1.75, 1.75],
+						"translate": [-7, 10, 0]
+					},
+					"skin_list": [
+						{
+							"variant": 0
+						}
+					]
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"swing": false,
+						"interact_text": ""
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"skin_0": {
+				"minecraft:skin_id": {
+					"value": 0
+				}
+			},
+			"skin_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"skin_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"skin_3": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			},
+			"skin_4": {
+				"minecraft:skin_id": {
+					"value": 4
+				}
+			},
+			"skin_5": {
+				"minecraft:skin_id": {
+					"value": 5
+				}
+			},
+			"look_default": {
+				"minecraft:mark_variant": {
+					"value": 0
+				},
+				"minecraft:behavior.look_at_entity": {
+					"angle_of_view_horizontal": 170,
+					"angle_of_view_vertical": 135,
+					"filters": {
+						"all_of": [
+							{
+								"subject": "other",
+								"test": "is_family",
+								"value": "player"
+							},
+							{
+								"subject": "other",
+								"test": "is_owner",
+								"value": true
+							}
+						]
+					},
+					"look_distance": 6.0,
+					"priority": 2,
+					"probability": 1.0
+				}
+			},
+			"look_up": {
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"look_default"
+					]
+				}
+			},
+			"skin_0": {
+				"add": {
+					"component_groups": [
+						"skin_0"
+					]
+				}
+			},
+			"skin_1": {
+				"add": {
+					"component_groups": [
+						"skin_1"
+					]
+				}
+			},
+			"skin_2": {
+				"add": {
+					"component_groups": [
+						"skin_2"
+					]
+				}
+			},
+			"skin_3": {
+				"add": {
+					"component_groups": [
+						"skin_3"
+					]
+				}
+			},
+			"skin_4": {
+				"add": {
+					"component_groups": [
+						"skin_4"
+					]
+				}
+			},
+			"skin_5": {
+				"add": {
+					"component_groups": [
+						"skin_5"
+					]
+				}
+			},
+			"look_default": {
+				"add": {
+					"component_groups": [
+						"look_default"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"look_up"
+					]
+				}
+			},
+			"look_up": {
+				"add": {
+					"component_groups": [
+						"look_up"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"look_default"
+					]
+				}
+			}
+		}
+	}
+}

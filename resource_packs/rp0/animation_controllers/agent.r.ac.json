@@ -1,0 +1,23 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.agent.look" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions": [
+						{ "look_up": "query.mark_variant == 1" }
+					],
+					"blend_transition": 1.0
+				},
+				"look_up" : {
+					"animations": ["look_up"],
+					"transitions": [
+						{ "default": "query.mark_variant == 0" }
+					],
+					"blend_transition": 1.0
+				}
+			}
+		}
+	}
+}

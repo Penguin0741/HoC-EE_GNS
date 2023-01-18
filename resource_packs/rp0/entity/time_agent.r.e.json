@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:time_agent",
+			"render_controllers": [
+				"controller.render.time_agent"
+			],
+			"geometry": {
+				"default": "geometry.time_agent"
+			},
+			"textures": {
+				"skin_0": "textures/entity/agent",
+				"skin_1": "textures/entity/time_agent/1",
+				"skin_2": "textures/entity/time_agent/2",
+				"skin_3": "textures/entity/time_agent/3",
+				"skin_4": "textures/entity/time_agent/4",
+				"skin_5": "textures/entity/time_agent/5"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"scripts": {
+				"pre_animation": [
+				  "variable.Agent.ArmZRotation = (Math.cos(query.life_time * 114.6) + 1.0) * 1.15;",
+				  "variable.Agent.ArmXRotationFactor = Math.sin(query.life_time * 80.0) * 4.6;",
+				  "variable.Agent.LegXRotationFactor = Math.sin(query.life_time * 46.0) * 1.15;"
+				],
+				"animate": [
+				  "idle",
+				  "look_at_target",
+				  "states"
+				]
+			},
+			"animations": {
+				"idle": "animation.time_agent.idle",
+				"look_at_target": "animation.look",
+				"bob": "animation.time_agent.bob",
+				"states": "controller.animation.time_agent.states",
+				"scale_in": "animation.actor.scale_in",
+				"scale_out": "animation.actor.scale_out",
+				"window_peek": "animation.time_agent.window_peek"
+			}
+		}
+	}
+}

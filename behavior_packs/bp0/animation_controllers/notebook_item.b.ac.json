@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.notebook_item.click_command": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "click": "query.variant == 1"
+            }
+          ]
+        },
+        "click": {
+          "on_entry": [
+            "/playsound item.book.page_turn @a ~ ~ ~ 1 1 1",
+            "@s minecraft:default"
+          ],
+          "on_exit": [
+            "/function notebook/take_notebook"
+          ],
+          "transitions": [
+            {
+              "default": "query.variant == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

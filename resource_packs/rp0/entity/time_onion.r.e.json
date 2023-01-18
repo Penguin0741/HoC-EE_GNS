@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:time_onion",
+			"geometry": {
+				"onion_1": "geometry.time_onion_1",
+				"onion_2": "geometry.time_onion_2",
+				"ring_1": "geometry.cyan_ring",
+				"ring_2": "geometry.lime_ring",
+				"ring_3": "geometry.yellow_ring",
+				"ring_4": "geometry.magenta_ring"
+			},
+			"materials": {
+				"default": "alpha_emitter"
+			},
+			"render_controllers": [
+				"controller.render.onion_1",
+				"controller.render.onion_2",
+				"controller.render.ring_1",
+				"controller.render.ring_2",
+				"controller.render.ring_3",
+				"controller.render.ring_4"
+			],
+			"textures": {
+				"onion_1": "textures/entity/time_onion/time_onion_1",
+				"onion_2": "textures/entity/time_onion/time_onion_2",
+				"ring_1": "textures/entity/time_onion/cyan_ring",
+				"ring_2": "textures/entity/time_onion/lime_ring",
+				"ring_3": "textures/entity/time_onion/yellow_ring",
+				"ring_4": "textures/entity/time_onion/magenta_ring"
+			},
+			"animations": {
+				"states": "controller.animation.time_onion.states",
+				"ring_idle": "animation.time_onion.ring_idle",
+				"onion_idle": "animation.time_onion.idle",
+				"explode": "animation.time_onion.explode",
+				"regenerate_ring_3": "animation.time_onion.yellow_ring_regenerate",
+				"regenerate_ring_2": "animation.time_onion.lime_ring_regenerate",
+				"regenerate_ring_1": "animation.time_onion.cyan_ring_regenerate",
+				"explode_ring_4": "animation.time_onion.magenta_ring_explode",
+				"explode_ring_3": "animation.time_onion.yellow_ring_explode",
+				"explode_ring_2": "animation.time_onion.lime_ring_explode",
+				"explode_ring_1": "animation.time_onion.cyan_ring_explode",
+				"block_ring_4": "animation.time_onion.magenta_ring_fail",
+				"block_ring_3": "animation.time_onion.yellow_ring_fail",
+				"block_ring_2": "animation.time_onion.lime_ring_fail",
+				"block_ring_1": "animation.time_onion.cyan_ring_fail"
+			},
+      		"scripts": {
+      			"animate": [
+      				"ring_idle",
+      				"onion_idle",
+					"states"
+      			]
+      		}
+		}
+	}
+}

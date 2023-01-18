@@ -1,0 +1,88 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.trophy_boss",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "time_onion",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "core",
+					"parent": "time_onion",
+					"pivot": [-0.5, 21.2, 0],
+					"rotation": [45, 0, 0],
+					"cubes": [
+						{"origin": [-3, 17, -5], "size": [10, 10, 10], "pivot": [2, 19, 0], "rotation": [0, 0, -45], "uv": [54, 8]}
+					]
+				},
+				{
+					"name": "ring1",
+					"parent": "time_onion",
+					"pivot": [0, 21, 0],
+					"rotation": [0, 0, 17.5],
+					"cubes": [
+						{"origin": [0, 12, -9], "size": [0, 18, 18], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "ring3",
+					"parent": "time_onion",
+					"pivot": [0, 21, 0],
+					"rotation": [0, 0, 90],
+					"cubes": [
+						{"origin": [0, 12, -9], "size": [0, 18, 18], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "ring4",
+					"parent": "time_onion",
+					"pivot": [0, 21, 0],
+					"rotation": [180, -45, -90],
+					"cubes": [
+						{"origin": [0, 12, -9], "size": [0, 18, 18], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "ring2",
+					"parent": "time_onion",
+					"pivot": [0, 21, 0],
+					"rotation": [0, 18, 142.5],
+					"cubes": [
+						{"origin": [0, 12, -9], "size": [0, 18, 18], "uv": [0, 38]}
+					]
+				},
+				{
+					"name": "bb_main",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 0, -8], "size": [16, 2, 16], "uv": [0, 18]},
+						{"origin": [-7, 2, -7], "size": [14, 6, 14], "uv": [0, 36]},
+						{"origin": [-8, 8, -8], "size": [16, 2, 16], "uv": [0, 0]},
+						{"origin": [-7, 7, -9], "size": [2, 2, 1], "uv": [0, 3]},
+						{"origin": [5, 7, -9], "size": [2, 2, 1], "uv": [0, 0]},
+						{"origin": [5, 7, 8], "size": [2, 2, 1], "uv": [0, 0]},
+						{"origin": [-7, 7, 8], "size": [2, 2, 1], "uv": [0, 3]},
+						{"origin": [4, 6, -8], "size": [4, 2, 16], "uv": [56, 58]},
+						{"origin": [-8, 6, -8], "size": [4, 2, 16], "uv": [48, 28]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "rwm:diner_creeper",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "creeper"
+      },
+      "textures": {
+        "default": "textures/entity/creeper/creeper"
+      },
+      "geometry": {
+        "default": "geometry.creeper.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;"
+        ]
+      },
+      "animations": {
+        "creeper_head": "animation.common.look_at_target",
+        "creeper_legs": "animation.creeper.legs"
+      },
+      "animation_controllers": [
+        { "creeper_head": "controller.animation.creeper.head" },
+        { "creeper_legs": "controller.animation.creeper.legs" }
+      ],
+      "render_controllers": [ "controller.render.all" ]
+    }
+  }
+}

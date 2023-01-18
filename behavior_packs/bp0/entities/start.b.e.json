@@ -1,0 +1,125 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:start",
+			"is_summonable": true,
+			"animations": {
+				"start": "controller.animation.start"
+			},
+			"scripts": {
+				"animate": [
+					"start"
+				]
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0,
+				"width": 0
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:physics": {
+				"has_collision": false,
+				"has_gravity": false
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 2,
+						"height":2,
+						"pivot": [ 0, 0.5, 0 ]
+					}
+				]
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:scale": {
+				"value": 0.95
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"interactable":{
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"deals_damage": false,
+							"on_damage": {
+								"event": "clickcommand"
+							}
+						},
+						{
+							"deals_damage": false
+						}
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"interact_text": "action.interact.start",
+							"on_interact": {
+								"event": "clickcommand"
+							},
+							"swing": true
+						}
+					]
+				}
+			},
+			"clickreset": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"clickcommand": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:timer":{
+					"time":[0.5,0.5],
+					"time_down_event": {
+						"event": "clickreset",
+						"target": "self"
+					}
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"interactable":{
+				"add": {
+					"component_groups": [
+						"interactable"
+					]
+				}
+			},
+			"clickcommand": {
+				"remove": { "component_groups": [ "clickreset" ] },
+				"add": { "component_groups": [ "clickcommand" ] }
+			},
+			"clickreset": {
+				"add": { "component_groups": [ "clickreset" ] },
+				"remove": { "component_groups": [ "clickcommand" ] }
+			}
+		}
+	}
+}

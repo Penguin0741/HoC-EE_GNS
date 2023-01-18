@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.host.interact_command": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "lookat": "query.variant == 1"
+            }
+          ]
+        },
+        "lookat": {
+          "on_entry": [
+            "/execute @a[tag=main_player] ~ ~ ~ dialogue open @e[type=rwm:host,c=1] @s npc.tuthost.1",
+            "@s minecraft:default"
+          ],
+          "transitions": [
+            {
+              "default": "query.variant == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

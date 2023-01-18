@@ -1,0 +1,16 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.tarra": {
+			"geometry": "geometry.default",
+			"textures": [
+				"texture.default"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			]
+		}
+	}
+}

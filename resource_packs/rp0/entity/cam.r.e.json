@@ -1,0 +1,30 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:cam",
+			"render_controllers": [
+				"controller.render.cam"
+			],
+			"scripts": {
+				"animate": [
+					{ "down": "q.skin_id == 1 || q.skin_id == 4" }, 
+					{ "look_at_target": "q.skin_id == 0 || q.skin_id == 2 || q.skin_id == 3" }
+				]
+			},
+			"geometry": {
+				"default": "geometry.cam"
+			},
+			"textures": {
+				"default": "textures/entity/cam"
+			},
+			"materials": {
+				"default": "entity_alphatest_change_color"
+			},
+			"animations": {
+				"down"			: "animation.cam.down",
+				"look_at_target": "animation.common.look_at_target"
+			}
+		}
+	}
+}

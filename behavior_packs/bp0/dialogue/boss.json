@@ -1,0 +1,508 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.boss.green.1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.green.1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player] ~ ~ ~ function act/11/6"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.yellow.1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.yellow.1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player] ~ ~ ~ function act/11/1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.red.1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.red.1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player] ~ ~ ~ function act/11/1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.2.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.2.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.yellow.3.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.yellow.3.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.red.3.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.red.3.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.green.4.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.green.4.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.yellow.4.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.yellow.4.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.red.4.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.red.4.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.5.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.5.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.6.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.6.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.run" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.next 31"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.pixie.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1.15 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_1.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.pixie.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_1.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a tick 100"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1.15 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_2.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.yeti.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_2.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 0.7 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_2.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.yeti.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_2.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a tick 100"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 0.7 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_3.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.banshee.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_3.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_3.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.banshee.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_3.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a tick 100"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1.3 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_4.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.gremlin.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_4.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 0.85 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.side_room_4.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.gremlin.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.side_room_4.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a tick 100"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @a add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 0.85 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.boss.agent.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.boss.agent.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            }
+        ]
+    }
+
+
+}

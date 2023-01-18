@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:cookie",
+			"geometry": {
+				"default": "geometry.cookie"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/blank"
+			},
+			"animations": {
+				"throw": "animation.cookie.throw"
+			},
+			"enable_attachables": true
+		}
+	}
+}

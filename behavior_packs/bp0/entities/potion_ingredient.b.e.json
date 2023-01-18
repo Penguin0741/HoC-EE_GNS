@@ -1,0 +1,103 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:potion_ingredient",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0.1,
+				"width": 0.1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:type_family": {
+				"family": [
+					"potion_ingredient"
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.5
+			},
+			"minecraft:movement.basic": {
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true,
+				"avoid_damage_blocks": true
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"item_1":{
+				"minecraft:equipment": {
+					"table": "loot_tables/entities/potion_ingredient_1.json"
+				}
+			},
+			"item_2":{
+				"minecraft:equipment": {
+					"table": "loot_tables/entities/potion_ingredient_2.json"
+				}
+			},
+			"item_3":{
+				"minecraft:equipment": {
+					"table": "loot_tables/entities/potion_ingredient_3.json"
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"item_1":{
+				"add": {
+					"component_groups": [
+						"item_1"
+					]
+				}
+			},
+			"item_2":{
+				"add": {
+					"component_groups": [
+						"item_2"
+					]
+				}
+			},
+			"item_3":{
+				"add": {
+					"component_groups": [
+						"item_3"
+					]
+				}
+			}
+		}
+	}
+}

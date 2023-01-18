@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:tarra",
+			"render_controllers": [
+				"controller.render.tarra"
+			],
+			"geometry": {
+				"default": "geometry.zombie.v1.8"
+			},
+			"textures": {
+				"default": "textures/entity/tarra"
+			},
+			"materials": {
+				"default": "slime_outer"
+			},
+			"scripts": {
+				"animate": [
+					"hologram",
+					"look_at_target"
+				]
+			},
+			"animations": {
+				"hologram": "controller.animation.hologram",
+				"on": "animation.hologram.on",
+				"idle": "animation.hologram.idle",
+				"look_at_target": "animation.common.look_at_target",
+				"off": "animation.hologram.off"
+			}
+		}
+	}
+}

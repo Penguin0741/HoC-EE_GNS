@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.cursor_arrows": {
+			"arrays": {
+				"textures": {
+				  "array.textures": [
+					  "texture.arrows_side",
+					  "texture.arrows_top",
+					  "texture.arrows_bottom",
+					  "texture.arrows_single",
+					  "texture.arrows_side_desat",
+					  "texture.arrows_top_desat",
+					  "texture.arrows_bottom_desat",
+					  "texture.arrows_single_desat"
+					]
+				}
+			},
+			"geometry": "geometry.arrows",
+			"textures": [
+				"array.textures[query.skin_id+(4*query.can_fly)]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			]
+		},
+		"controller.render.cursor_corners": {
+			"arrays": {
+				"textures": {
+				  "array.textures": [
+					  "texture.cursor",
+					  "texture.cursor_desat"
+					]
+				}
+			},
+			"geometry": "geometry.corners",
+			"textures": [
+				"array.textures[query.can_fly]"
+			],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			]
+		}
+	}
+}

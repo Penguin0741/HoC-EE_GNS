@@ -1,0 +1,160 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:minecart",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+      "rail_movement":{
+        "minecraft:rail_movement": {
+        }
+      },
+      "rider_0": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:zombie_chef"
+        }
+			},
+      "rider_1": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:zombie_chef",
+          "spawn_event": "item_5"
+        }
+			},
+      "rider_2": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:zombie_chef",
+          "spawn_event": "item_6"
+        }
+			},
+      "rider_3": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:zombie_chef",
+          "spawn_event": "item_7"
+        }
+			},
+      "rider_4": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:diner_zombie"
+        }
+			},
+      "rider_5": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:diner_skeleton"
+        }
+			},
+      "rider_6": {
+				"minecraft:addrider": {
+          "entity_type": "rwm:diner_creeper"
+        }
+			}
+    },
+    "events": {
+      "despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+      "add_movement":{
+        "add": {
+          "component_groups": [
+            "rail_movement"
+          ]
+        }
+      },
+      "remove_movement":{
+        "remove": {
+          "component_groups": [
+            "rail_movement"
+          ]
+        }
+      },
+      "rider_0": {
+				"add": {
+					"component_groups": [
+						"rider_0"
+					]
+				}
+			},
+      "rider_1": {
+				"add": {
+					"component_groups": [
+						"rider_1"
+					]
+				}
+			},
+      "rider_2": {
+				"add": {
+					"component_groups": [
+						"rider_2"
+					]
+				}
+			},
+      "rider_3": {
+				"add": {
+					"component_groups": [
+						"rider_3"
+					]
+				}
+			},
+      "rider_4": {
+				"add": {
+					"component_groups": [
+						"rider_4"
+					]
+				}
+			},
+      "rider_5": {
+				"add": {
+					"component_groups": [
+						"rider_5"
+					]
+				}
+			},
+      "rider_6": {
+				"add": {
+					"component_groups": [
+						"rider_6"
+					]
+				}
+			}
+    },
+    "components": {
+      "minecraft:is_stackable": {
+      },
+      "minecraft:type_family": {
+        "family": [ "minecart", "inanimate" ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.7
+      },
+      "minecraft:rideable": {
+        "seat_count": 1,
+        "interact_text": "action.interact.ride.minecart",
+        "pull_in_entities": true,
+        "family_types": ["zombie_chef","zombie","skeleton","creeper"],
+        "seats": {
+          "position": [ 0.0, -0.2, 0.0 ]
+        }
+      },
+      "minecraft:rail_sensor": {
+        "eject_on_activate": true
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+  }
+}

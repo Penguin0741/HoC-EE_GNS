@@ -1,0 +1,9 @@
+   {
+   "resource_pack_name" : "hoc",
+   "texture_data" : {
+      "notebook" : {
+         "textures" : "textures/items/notebook"
+      }
+   },
+   "texture_name" : "atlas.items"
+}

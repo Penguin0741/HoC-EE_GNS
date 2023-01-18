@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zombie_chef.interact_command": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "lookat": "query.variant == 1"
+            }
+          ]
+        },
+        "lookat": {
+          "on_entry": [
+            "/dialogue open @s @a[tag=main_player] npc.zombie_chef.0",
+            "@s minecraft:default"
+          ],
+          "transitions": [
+            {
+              "default": "query.variant == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

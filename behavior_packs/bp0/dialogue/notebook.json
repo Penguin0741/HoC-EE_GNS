@@ -1,0 +1,584 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.note.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.3.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.4.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.5.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.6",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.6.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.7",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.7.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.8",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.8.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.9",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.9.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.note.10",
+                "npc_name": { "rawtext": [ { "translate": "npc.note.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.10.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @e[type=rwm:note,c=1] ~ ~ ~ function notebook/take_note"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.3.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.4.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.5.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.6",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.6.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.7",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.7.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.8",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.8.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.9",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.9.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.notebook.10",
+                "npc_name": { "rawtext": [ { "translate": "npc.notebook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.note.10.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.previous" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/previous"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/next"
+						]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+						"commands": [
+                            "/execute @initiator ~ ~ ~ function notebook/close"
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            }
+        ]
+
+
+    }
+
+
+}

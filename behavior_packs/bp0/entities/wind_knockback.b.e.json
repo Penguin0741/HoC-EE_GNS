@@ -1,0 +1,87 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:wind_knockback",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.4,
+				"height": 0.4
+			},
+			"minecraft:physics": {
+				"has_gravity": false,
+				"has_collision": false
+			},
+			"minecraft:scale":{
+				"value": 1
+			},
+			"minecraft:attack": {
+				"damage": 0
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false
+				  }
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"idle":{
+				"minecraft:environment_sensor": {
+					"triggers": [{
+						"filters": {
+							"test": "distance_to_nearest_player",
+							"subject": "self",
+							"operator": "<",
+							"value": 4.0
+						},
+						"event": "expand"
+					}]
+				},
+				"minecraft:mark_variant":{
+					"value":0
+				}
+			},
+			"expand":{
+				"minecraft:mark_variant":{
+					"value":1
+				},
+				"minecraft:behavior.knockback_roar":{
+					"priority":1,
+					"on_roar_end": {
+						"event": "idle",
+						"target": "self"
+					},
+					"knockback_strength": 4,
+					"knockback_range": 3
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			},
+			"minecraft:entity_spawned":{
+				"add": { "component_groups": [ "idle" ] }
+			},
+			"expand": {
+				"remove": { "component_groups": [ "idle" ] },
+				"add": { "component_groups": [ "expand" ] }
+			},
+			"idle": {
+				"remove": { "component_groups": [ "expand" ] },
+				"add": { "component_groups": [ "idle" ] }
+			}
+		}
+	}
+}

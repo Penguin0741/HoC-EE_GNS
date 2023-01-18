@@ -1,0 +1,173 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.end.1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.end.1.2",
+                            "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/scoreboard players set @a[tag=main_player] cam.next 21",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ]
+            },
+            {
+                "scene_tag": "npc.end.1.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.1.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.tick 100",
+                            "/scoreboard players set @a[tag=main_player] cam.next 30"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.end.2.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.host.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.2.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @e[tag=actor.tarra] @initiator npc.end.2.2",
+                            "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/scoreboard players set @a[tag=main_player] cam.next 32",
+                    "/execute @a ~ ~ ~ playsound mob.villager.yes @s ~ ~ ~ 1 0.7 1"
+                ]
+            },
+            {
+                "scene_tag": "npc.end.2.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.2.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @e[tag=actor.player] @initiator npc.end.2.3",
+                            "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.end.2.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.player.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.2.3.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @e[tag=actor.doctor] @initiator npc.end.2.4",
+                            "/execute @a ~ ~ ~ playsound mob.villager.yes @s ~ ~ ~ 1 0.7 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.end.2.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.host.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.2.4.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.tick 480",
+                            "/scoreboard players set @a[tag=main_player] cam.next 40"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.end.laugh.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.end.laugh.1.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.laugh.1.text",
+                        "with":["\n"]
+                    }]
+                }
+            },
+            {
+                "scene_tag": "npc.end.laugh.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.end.laugh.2.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.laugh.2.text",
+                        "with":["\n"]
+                    }]
+                }
+            },
+            {
+                "scene_tag": "npc.end.laugh.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.end.laugh.3.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.laugh.3.text",
+                        "with":["\n"]
+                    }]
+                }
+            }
+        ]
+    }
+
+
+}

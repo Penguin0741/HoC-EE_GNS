@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:5_platter",
+			"geometry": {
+				"default": "geometry.5_platter"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/3_platter"
+			},
+			"animations": {
+				"slide": "animation.platter.slide"
+			},
+			"scripts": {
+				"animate": [
+					"slide"
+				]
+			}
+		}
+	}
+}

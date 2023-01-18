@@ -1,0 +1,16 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.zombie_minion.move" : {
+			"loop" : true,
+			"bones" : {
+				"leftleg" : {
+					"rotation" : [ "variable.tcos0 * -1.4", 0.0, 0.0 ]
+				},
+				"rightleg" : {
+					"rotation" : [ "variable.tcos0 * 1.4", 0.0, 0.0 ]
+				}
+			}
+		}
+	}
+}

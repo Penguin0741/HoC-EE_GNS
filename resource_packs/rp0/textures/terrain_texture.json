@@ -1,0 +1,62 @@
+{
+    "num_mip_levels" : 4,
+    "padding" : 8,
+    "resource_pack_name" : "hoc",
+    "texture_data" : {
+        "mosaic_1" : {
+            "textures" : "textures/blocks/mosaic_1"
+        },
+        "mosaic_2" : {
+            "textures" : "textures/blocks/mosaic_2"
+        },
+        "mosaic_3" : {
+            "textures" : "textures/blocks/mosaic_3"
+        },
+        "mosaic_4" : {
+            "textures" : "textures/blocks/mosaic_4"
+        },
+        "mosaic_5" : {
+            "textures" : "textures/blocks/mosaic_5"
+        },
+        "mosaic_6" : {
+            "textures" : "textures/blocks/mosaic_6"
+        },
+        "mosaic_7" : {
+            "textures" : "textures/blocks/mosaic_7"
+        },
+        "mosaic_8" : {
+            "textures" : "textures/blocks/mosaic_8"
+        },
+        "extra_cracked_bricks" : {
+            "textures" : "textures/blocks/extra_cracked_bricks"
+        },
+        "orange_square" : {
+            "textures" : "textures/blocks/orange_square"
+        },
+        "magenta_square" : {
+            "textures" : "textures/blocks/magenta_square"
+        },
+        "yellow_square" : {
+            "textures" : "textures/blocks/yellow_square"
+        },
+        "light_blue_square" : {
+            "textures" : "textures/blocks/light_blue_square"
+        },
+        "silver_concrete" : {
+            "textures" : "textures/blocks/concrete_silver"
+        },
+        "silver_concrete_left_arrow" : {
+            "textures" : "textures/blocks/silver_concrete_left_arrow"
+        },
+        "silver_concrete_right_arrow" : {
+            "textures" : "textures/blocks/silver_concrete_right_arrow"
+        },
+        "silver_concrete_up_arrow" : {
+            "textures" : "textures/blocks/silver_concrete_up_arrow"
+        },
+        "silver_concrete_down_arrow" : {
+            "textures" : "textures/blocks/silver_concrete_down_arrow"
+        }
+
+    }
+}

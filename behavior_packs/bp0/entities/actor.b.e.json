@@ -1,0 +1,653 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:actor",
+			"is_summonable": true,
+			"animations": {
+				"on_mark"		: "controller.animation.actor.on_mark",
+				"player"		: "controller.animation.actor.player",
+				"player_mark"	: "controller.animation.actor.player_mark",
+				"tarra"			: "controller.animation.actor.tarra",
+				"tarra_mark"	: "controller.animation.actor.tarra_mark",
+				"host"			: "controller.animation.actor.host",
+				"host_mark"		: "controller.animation.actor.host_mark",
+				"doctor"		: "controller.animation.actor.doctor",
+				"doctor_mark"	: "controller.animation.actor.doctor_mark"
+			},
+			"scripts": {
+				"animate": [
+					{ "on_mark"			: "q.skin_id >   0" },
+					{ "player"			: "q.skin_id ==  1" },
+					{ "player_mark"		: "q.skin_id == -1" },
+					{ "tarra"			: "q.skin_id ==  2" },
+					{ "tarra_mark"		: "q.skin_id == -2" },
+					{ "host"			: "q.skin_id ==  3" },
+					{ "host_mark"		: "q.skin_id == -3" },
+					{ "doctor"			: "q.skin_id ==  4" },
+					{ "doctor_mark"		: "q.skin_id == -4" }
+				]
+			}
+		},
+		"components": {
+			"minecraft:conditional_bandwidth_optimization": {
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			}
+		},
+		"component_groups": {
+			"player": {
+				"minecraft:skin_id": {
+					"value": 1
+				},
+				"minecraft:type_family": {
+					"family": [
+						"player"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 1.8,
+					"width": 0.6
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				},
+				"minecraft:navigation.generic": {
+					"can_open_doors": true,
+					"can_open_iron_doors": true
+				},
+				"minecraft:movement": {
+					"value": 0.405
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player_mark"
+							},
+							"max_dist": 128
+						}
+					]
+				},
+				"minecraft:follow_range": {
+					"max": 128,
+					"value": 128
+				},
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 2,
+					"on_inside_range": {
+						"event": "on_mark_add"
+					}
+				}
+			},
+			"tongue": {
+				"minecraft:mark_variant": {
+					"value": 1
+				},
+				"minecraft:collision_box": {
+					"height": 0,
+					"width": 0
+				}
+			},
+			"player_mark": {
+				"minecraft:skin_id": {
+					"value": -1
+				},
+				"minecraft:type_family": {
+					"family": [
+						"player_mark"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 0,
+					"width": 0
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				}
+			},
+			"tarra": {
+				"minecraft:skin_id": {
+					"value": 2
+				},
+				"minecraft:type_family": {
+					"family": [
+						"tarra"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 1.8,
+					"width": 0.6
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				},
+				"minecraft:navigation.generic": {
+					"can_open_doors": true,
+					"can_open_iron_doors": true
+				},
+				"minecraft:movement": {
+					"value": 0.405
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "tarra_mark"
+							},
+							"max_dist": 128
+						}
+					]
+				},
+				"minecraft:follow_range": {
+					"max": 128,
+					"value": 128
+				},
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 2,
+					"on_inside_range": {
+						"event": "on_mark_add"
+					}
+				},
+				"minecraft:npc": {
+					"npc_data": {
+						"portrait_offsets": {
+							"translate": [-7, 50, 0],
+							"scale": [1.75, 1.75, 1.75]
+						},
+						"picker_offsets": {
+							"translate": [0, 20, 0],
+							"scale": [1.7, 1.7, 1.7]
+						},
+						"skin_list": [
+							{
+							}
+						]
+					}
+				}
+			},
+			"tarra_mark": {
+				"minecraft:skin_id": {
+					"value": -2
+				},
+				"minecraft:type_family": {
+					"family": [
+						"tarra_mark"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 0,
+					"width": 0
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				}
+			},
+			"host": {
+				"minecraft:skin_id": {
+					"value": 3
+				},
+				"minecraft:type_family": {
+					"family": [
+						"host"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 1.8,
+					"width": 0.6
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				},
+				"minecraft:navigation.generic": {
+					"can_open_doors": true,
+					"can_open_iron_doors": true
+				},
+				"minecraft:movement": {
+					"value": 0.405
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "host_mark"
+							},
+							"max_dist": 128
+						}
+					]
+				},
+				"minecraft:follow_range": {
+					"max": 128,
+					"value": 128
+				},
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 2,
+					"on_inside_range": {
+						"event": "on_mark_add"
+					}
+				},
+				"minecraft:scale": {
+					"value": 1.5
+				},
+				"minecraft:npc": {
+					"npc_data": {
+						"picker_offsets": {
+							"scale": [1.7, 1.7, 1.7],
+							"translate": [0, 20, 0]
+						},
+						"portrait_offsets": {
+							"scale": [1.75, 1.75, 1.75],
+							"translate": [-7, 70, 0]
+						},
+						"skin_list": [
+							{
+							}
+						]
+					}
+				}
+			},
+			"host_mark": {
+				"minecraft:skin_id": {
+					"value": -3
+				},
+				"minecraft:type_family": {
+					"family": [
+						"host_mark"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 0,
+					"width": 0
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				}
+			},
+			"doctor": {
+				"minecraft:skin_id": {
+					"value": 4
+				},
+				"minecraft:type_family": {
+					"family": [
+						"doctor"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 1.8,
+					"width": 0.6
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:health": {
+					"value": 1,
+					"max": 1
+				},
+				"minecraft:navigation.generic": {
+					"can_open_doors": true,
+					"can_open_iron_doors": true
+				},
+				"minecraft:movement": {
+					"value": 0.405
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:attack": {
+					"damage": 1
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "doctor_mark"
+							},
+							"max_dist": 128
+						}
+					]
+				},
+				"minecraft:follow_range": {
+					"max": 128,
+					"value": 128
+				},
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 2,
+					"on_inside_range": {
+						"event": "on_mark_add"
+					}
+				},
+				"minecraft:npc": {
+					"npc_data": {
+						"picker_offsets": {
+							"scale": [1.7, 1.7, 1.7],
+							"translate": [0, 20, 0]
+						},
+						"portrait_offsets": {
+							"scale": [1.75, 1.75, 1.75],
+							"translate": [-7, 70, 0]
+						},
+						"skin_list": [
+							{
+							}
+						]
+					}
+				}
+			},
+			"doctor_mark": {
+				"minecraft:skin_id": {
+					"value": -4
+				},
+				"minecraft:type_family": {
+					"family": [
+						"doctor_mark"
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 0,
+					"width": 0
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				}
+			},
+			"always_show_name_add": {
+				"minecraft:nameable": {
+					"allow_name_tag_renaming": false,
+					"always_show": true
+				}
+			},
+			"always_show_name_remove": {
+				"minecraft:nameable": {
+					"allow_name_tag_renaming": false,
+					"always_show": false
+				}
+			},
+			"on_mark": {
+				"minecraft:is_baby": {
+				}
+			},
+			"hide": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"show": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"npc": {
+				"minecraft:npc": {
+					"npc_data": {
+						"portrait_offsets": {
+							"translate": [-7, 50, 0],
+							"scale": [1.75, 1.75, 1.75]
+						},
+						"picker_offsets": {
+							"translate": [0, 20, 0],
+							"scale": [1.7, 1.7, 1.7]
+						},
+						"skin_list": [
+							{
+							}
+						]
+					}
+				}
+			},
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"speed_00": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.0, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_01": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.1, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_02": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.2, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_03": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.3, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_04": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.4, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_05": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.5, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_06": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.6, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_07": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.7, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_08": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.8, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_09": { "minecraft:behavior.melee_attack": { "speed_multiplier": 0.9, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_10": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.0, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_11": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.1, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_12": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.2, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_13": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.3, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_14": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.4, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_15": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.5, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_16": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.6, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_17": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.7, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_18": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.8, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_19": { "minecraft:behavior.melee_attack": { "speed_multiplier": 1.9, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } },
+			"speed_20": { "minecraft:behavior.melee_attack": { "speed_multiplier": 2.0, "track_target": true, "reach_multiplier": 0.0, "priority": 0 } }
+		},
+		"events": {
+			"player": {
+				"add": {
+					"component_groups": [
+						"player",
+						"speed_00"
+					]
+				}
+			},
+			"tongue": {
+				"add": {
+					"component_groups": [
+						"tongue"
+					]
+				}
+			},
+			"player_mark": {
+				"add": {
+					"component_groups": [
+						"player_mark"
+					]
+				}
+			},
+			"tarra": {
+				"add": {
+					"component_groups": [
+						"tarra",
+						"speed_00"
+					]
+				}
+			},
+			"tarra_mark": {
+				"add": {
+					"component_groups": [
+						"tarra_mark"
+					]
+				}
+			},
+			"host": {
+				"add": {
+					"component_groups": [
+						"host",
+						"speed_00"
+					]
+				}
+			},
+			"host_mark": {
+				"add": {
+					"component_groups": [
+						"host_mark"
+					]
+				}
+			},
+			"doctor": {
+				"add": {
+					"component_groups": [
+						"doctor",
+						"speed_00"
+					]
+				}
+			},
+			"doctor_mark": {
+				"add": {
+					"component_groups": [
+						"doctor_mark"
+					]
+				}
+			},
+			"always_show_name_add": {
+				"add": {
+					"component_groups": [
+						"always_show_name_add"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"always_show_name_remove"
+					]
+				}
+			},
+			"always_show_name_remove": {
+				"remove": {
+					"component_groups": [
+						"always_show_name_add"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"always_show_name_remove"
+					]
+				}
+			},
+			"on_mark_add": {
+				"add": {
+					"component_groups": [
+						"on_mark"
+					]
+				}
+			},
+			"on_mark_remove": {
+				"remove": {
+					"component_groups": [
+						"on_mark"
+					]
+				}
+			},
+			"hide": {
+				"add": {
+					"component_groups": [
+						"hide"
+					]
+				}
+			},
+			"show": {
+				"add": {
+					"component_groups": [
+						"show"
+					]
+				}
+			},
+			"npc": {
+				"add": {
+					"component_groups": [
+						"npc"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"speed_00": { "add": { "component_groups": [ "speed_00" ] } },
+			"speed_01": { "add": { "component_groups": [ "speed_01" ] } },
+			"speed_02": { "add": { "component_groups": [ "speed_02" ] } },
+			"speed_03": { "add": { "component_groups": [ "speed_03" ] } },
+			"speed_04": { "add": { "component_groups": [ "speed_04" ] } },
+			"speed_05": { "add": { "component_groups": [ "speed_05" ] } },
+			"speed_06": { "add": { "component_groups": [ "speed_06" ] } },
+			"speed_07": { "add": { "component_groups": [ "speed_07" ] } },
+			"speed_08": { "add": { "component_groups": [ "speed_08" ] } },
+			"speed_09": { "add": { "component_groups": [ "speed_09" ] } },
+			"speed_10": { "add": { "component_groups": [ "speed_10" ] } },
+			"speed_11": { "add": { "component_groups": [ "speed_11" ] } },
+			"speed_12": { "add": { "component_groups": [ "speed_12" ] } },
+			"speed_13": { "add": { "component_groups": [ "speed_13" ] } },
+			"speed_14": { "add": { "component_groups": [ "speed_14" ] } },
+			"speed_15": { "add": { "component_groups": [ "speed_15" ] } },
+			"speed_16": { "add": { "component_groups": [ "speed_16" ] } },
+			"speed_17": { "add": { "component_groups": [ "speed_17" ] } },
+			"speed_18": { "add": { "component_groups": [ "speed_18" ] } },
+			"speed_19": { "add": { "component_groups": [ "speed_19" ] } },
+			"speed_20": { "add": { "component_groups": [ "speed_20" ] } }
+		}
+	}
+}

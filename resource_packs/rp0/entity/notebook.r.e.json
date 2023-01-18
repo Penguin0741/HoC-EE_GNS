@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:notebook",
+			"geometry": {
+				"default": "geometry.notebook"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/notebook"
+			},
+			"animations": {
+				"next": "animation.notebook.next",
+				"previous": "animation.notebook.previous",
+				"idle": "animation.notebook.idle",
+				"open": "animation.notebook.open",
+				"close": "animation.notebook.close",
+				"states": "controller.animation.notebook.states"
+			},
+			"scripts": {
+				"animate": [
+					"states"
+				]
+			}
+		}
+	}
+}

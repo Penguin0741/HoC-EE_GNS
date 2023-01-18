@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:clay_golem",
+			"geometry": {
+				"clay_golem_1": "geometry.clay_golem_1",
+				"clay_golem_2": "geometry.clay_golem_2",
+				"clay_golem_3": "geometry.clay_golem_3"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.clay_golem"
+			],
+			"textures": {
+				"clay_golem_1": "textures/entity/clay_golem_1",
+				"clay_golem_2": "textures/entity/clay_golem_2",
+				"clay_golem_3": "textures/entity/clay_golem_3"
+			}
+		}
+	}
+}

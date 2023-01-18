@@ -1,0 +1,1103 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.king.jan.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.jan.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.jan.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.jan.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.jan.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.jan.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.jan.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.jan.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.jan.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.jan.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.feb.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.feb.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.feb.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.feb.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.feb.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.feb.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.feb.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.feb.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.feb.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.feb.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.mar.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.mar.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.mar.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.mar.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.mar.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.mar.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.mar.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.mar.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.mar.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.mar.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.apr.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.apr.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.apr.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.apr.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.apr.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.apr.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.apr.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.apr.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.apr.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.apr.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.may.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.may.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.may.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.may.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.may.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.may.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.may.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.may.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.may.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.may.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.scrambled",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.scrambled.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.jan.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.jan.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.jan.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.jan.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.jan.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.jan.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.jan.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.jan.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.jan.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.jan.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.feb.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.feb.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.feb.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.feb.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.feb.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.feb.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.feb.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.feb.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.feb.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.feb.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.mar.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.mar.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.mar.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.mar.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.mar.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.mar.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.mar.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.mar.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.mar.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.mar.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.apr.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.apr.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.apr.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.apr.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.apr.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.apr.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.apr.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.apr.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.apr.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.apr.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.may.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.may.1.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.may.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.may.2.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.may.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.may.3.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.may.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.may.4.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.may.5",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.may.5.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.scrambled",
+                "npc_name": { "rawtext": [ { "translate": "npc.queen.scrambled.name", "with":["\n"] } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            }
+        ]
+
+
+    }
+
+
+}

@@ -1,0 +1,117 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.notebook.next": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.6,
+			"bones": {
+				"pge1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.44": [0, 0, -165]
+					},
+					"scale": {
+						"0.52": [1, 1, 1],
+						"0.6": [0, 0, 0]
+					}
+				},
+				"root": {
+					"position": [4, 0, 0]
+				},
+				"part1": {
+					"rotation": [0, 0, -15]
+				},
+				"part2": {
+					"rotation": [0, 0, -165]
+				}
+			}
+		},
+		"animation.notebook.previous": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.48,
+			"bones": {
+				"pge1": {
+					"rotation": {
+						"0.0": [0, 0, -165],
+						"0.44": [0, 0, 0]
+					},
+					"scale": {
+						"0.44": [1, 1, 1],
+						"0.48": [0, 0, 0]
+					}
+				},
+				"root": {
+					"position": [4, 0, 0]
+				},
+				"part1": {
+					"rotation": [0, 0, -15]
+				},
+				"part2": {
+					"rotation": [0, 0, -165]
+				}
+			}
+		},
+		"animation.notebook.idle": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"position": [4, 0, 0]
+				},
+				"part1": {
+					"rotation": [0, 0, -15]
+				},
+				"part2": {
+					"rotation": [0, 0, -165]
+				}
+			}
+		},
+		"animation.notebook.open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"part2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -165]
+					}
+				},
+				"root": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [4, 0, 0]
+					}
+				},
+				"part1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -15]
+					}
+				}
+			}
+		},
+		"animation.notebook.close": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"part2": {
+					"rotation": {
+						"0.0": [0, 0, -165],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"root": {
+					"position": {
+						"0.0": [4, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"part1": {
+					"rotation": {
+						"0.0": [0, 0, -15],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"block_sounds" : {
+		"nether_wart" : {
+			"events" : {
+				"break" : {
+					"sound" : "break.amethyst_block",
+					"volume" : 1.0
+				},
+				"default" : "",
+				"hit" : {
+					"sound" : "hit.amethyst_block",
+					"volume" : 1.0
+				},
+				"item.use.on" : {
+					"pitch" : 0.80,
+					"sound" : "use.nether_wart"
+				},
+				"place" : {
+					"pitch" : [ 0.80, 1.0 ],
+					"sound" : "dig.nether_wart",
+					"volume" : 0.70
+				},
+				"power.off" : {
+					"pitch" : 0.50,
+					"sound" : "random.click"
+				},
+				"power.on" : {
+					"pitch" : 0.60,
+					"sound" : "random.click"
+				}
+			},
+			"pitch" : 1.0,
+			"volume" : 1.0
+		 }
+	},
+	"entity_sounds": {
+		"entities": {
+			"rwm:zombie_chef" : {
+				"events" : {
+				   "ambient" : "mob.zombie_villager.say",
+				   "death" : "mob.zombie_villager.death",
+				   "hurt" : "mob.zombie_villager.hurt",
+				   "step" : {
+					  "pitch" : 1.0,
+					  "sound" : "mob.zombie.step",
+					  "volume" : 0.450
+				   }
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"rwm:diner_zombie" : {
+				"events" : {
+				   "ambient" : "mob.zombie.say",
+				   "death" : "mob.zombie.death",
+				   "hurt" : "mob.zombie.hurt",
+				   "step" : {
+					  "pitch" : 1.0,
+					  "sound" : "mob.zombie.step",
+					  "volume" : 0.450
+				   }
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"rwm:diner_skeleton" : {
+				"events" : {
+				   "ambient" : "mob.skeleton.say",
+				   "death" : "mob.skeleton.death",
+				   "hurt" : {
+					  "sound" : "mob.skeleton.hurt",
+					  "volume" : 0.70
+				   },
+				   "step" : {
+					  "pitch" : 1.0,
+					  "sound" : "mob.skeleton.step",
+					  "volume" : 1.0
+				   }
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"rwm:diner_wither_skeleton" : {
+				"events" : {
+				   "ambient" : "mob.skeleton.say",
+				   "death" : "mob.skeleton.death",
+				   "hurt" : {
+					  "sound" : "mob.skeleton.hurt",
+					  "volume" : 0.70
+				   },
+				   "step" : {
+					  "pitch" : 1.0,
+					  "sound" : "mob.skeleton.step",
+					  "volume" : 1.0
+				   }
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			},
+			"rwm:potion_ingredient" : {
+				"events" : {
+				   "hurt" : "random.glass"
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			}
+		}
+	}
+}

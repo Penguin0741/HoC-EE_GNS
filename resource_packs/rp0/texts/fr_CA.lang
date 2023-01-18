@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Heure de Code 2022	#
+pack.description=Ressources nécessaires pour l’Heure de Code 2022	#
+
+subtitle.loading.1=Chargement  . . . .	#
+subtitle.loading.2=Chargement .  . . .	#
+subtitle.loading.3=Chargement . .  . .	#
+subtitle.loading.4=Chargement . . .  .	#
+subtitle.loading.5=Chargement . . . . 	#
+
+actionbar.singleplayer_only=Un seul joueur peut jouer!	#
+
+## Touch Controls Buttons
+action.interact.start=Appuyez pour commencer	#
+action.interact.seat=Appuyez pour ramasser	#
+action.interact.click=Parler	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Appuyez sur C pour coder	#
+actionbar.keyboard.code.0b=Appuyez sur C pour coder	#
+actionbar.keyboard.code.1=Exécution du code...	#
+actionbar.keyboard.look.0=§lRecherchez dans la pièce§r des  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §lFaites un clic droit sur les§r  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lEnquêtez sur les§r  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Entrez dans la pièce suivante	#
+
+actionbar.keyboard.0.-1=Cliquez sur le logo pour commencer	#
+actionbar.keyboard.0.1=Utilisez votre souris pour regarder autour de vous	#
+actionbar.keyboard.0.2=Continuer à regarder l’orbe	#
+actionbar.keyboard.0.3a=Appuyez sur W pour avancer	#
+actionbar.keyboard.0.3b=Appuyez sur A pour vous déplacer vers la gauche	#
+actionbar.keyboard.0.3c=Appuyez sur S pour reculer	#
+actionbar.keyboard.0.3d=Appuyez sur D pour vous déplacer vers la droite	#
+actionbar.keyboard.0.3e=Appuyez sur W pour vous déplacer, puis sur ESPACE pour sauter	#
+actionbar.keyboard.0.3f=Appuyez sur A pour vous déplacer, puis sur ESPACE pour sauter	#
+actionbar.keyboard.0.3g=Appuyez sur S pour vous déplacer, puis sur ESPACE pour sauter	#
+actionbar.keyboard.0.3h=Appuyez sur D pour vous déplacer, puis sur ESPACE pour sauter	#
+actionbar.keyboard.0.3i=Passez le mur	#
+actionbar.keyboard.0.4= §lFaites un clic droit§r sur le bouton	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=Déplacez-vous vers le PNJ,  §lFaites un clic droit§r pour interagir avec lui.	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§lRecherchez dans la pièce§r des  §l§gParticules§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §lFaites un clic droit§r sur les §lLeviers	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §lFaites un clic droit§r pour parler au chef zombie	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §lFaites un clic droit§r sur la Reine	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §lFaites un clic droit§r sur le Roi	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§lRecherchez dans la pièce§r des  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §lFaites un clic droit§r sur Journal perdu	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Faites défiler l'écran pour sélectionner le Journal perdu	#
+actionbar.keyboard.10.1.2= §lFaites un clic droit§r pour ouvrir le Journal perdu	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§lRecherchez dans la pièce§r des  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Franchissez la porte ou parlez à l'agent	#
+actionbar.keyboard.10.7=Franchissez une porte ou parlez à l'agent	#
+actionbar.keyboard.10.9=Franchissez une porte	#
+
+actionbar.keyboard.11.3=Explorez une pièce annexe	#
+actionbar.keyboard.11.5=Retournez à la chambre principale	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Appuyez sur  ci-dessus pour coder	#
+actionbar.touch.code.0b=Appuyez sur  ci-dessus pour coder	#
+actionbar.touch.code.1=Exécution du code...	#
+actionbar.touch.look.0=§lRecherchez dans la pièce§r des  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§lAppuyez sur  §l§gParticules	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lEnquêtez sur les§r  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Entrez dans la pièce suivante	#
+
+actionbar.touch.0.-1=Appuyez sur le bouton pour commencer	#
+actionbar.touch.0.1=Appuyez sur l'écran et faites glisser vers le centre de l'orbe.	#
+actionbar.touch.0.2=Continuez à regarder l’Orbe	#
+actionbar.touch.0.3a=Appuyez et maintenez  pour avancer	#
+actionbar.touch.0.3b=Appuyez et maintenez  pour vous déplacer vers la gauche	#
+actionbar.touch.0.3c=Appuyez et maintenez  pour reculer	#
+actionbar.touch.0.3d=Appuyez et maintenez  pour vous déplacer vers la droite	#
+actionbar.touch.0.3e=Appuyez et maintenez  pour vous déplacer, puis sur  pour sauter	#
+actionbar.touch.0.3f=Appuyez et maintenez  pour vous déplacer, puis sur  pour sauter	#
+actionbar.touch.0.3g=Appuyez et maintenez  pour vous déplacer, puis sur  pour sauter	#
+actionbar.touch.0.3h=Appuyez et maintenez  pour vous déplacer, puis sur  pour sauter	#
+actionbar.touch.0.3i=Passez le mur	#
+actionbar.touch.0.4=Appuyez sur le bouton	#
+actionbar.touch.0.5=Parlez au PNJ	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§lRecherchez dans la pièce§r des  §l§gParticules§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=Appuyez sur des §lleviers	###{Locked="§l"}
+actionbar.touch.2.0=Appuyez pour parler au chef zombie	#
+actionbar.touch.3.2=Appuyez sur la Reine	#
+actionbar.touch.3.4=Appuyez sur le Roi	#
+
+actionbar.touch.10.0.1=§lRecherchez dans la pièce§r des  §l§gParticules	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Appuyez sur Journal perdu	#
+actionbar.touch.10.1.1=Appuyez sur Journal perdu pour le sélectionner	#
+actionbar.touch.10.1.2=Appuyez et maintenez pour ouvrir le Journal perdu	#
+actionbar.touch.10.2=Enquêtez sur le bruit	#
+actionbar.touch.10.5=Franchissez la porte ou parlez à l'agent	#
+actionbar.touch.10.7=Franchissez une porte ou parlez à l'agent	#
+actionbar.touch.10.9=Franchissez une porte	#
+
+actionbar.touch.11.3=Explorez une pièce annexe	#
+actionbar.touch.11.5=Retournez à la chambre principale	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft présente...	#
+title.intro.2=Évasion du domaine	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=Le Roi prend le Fou!	###Chess reference
+title.interact_queen=La Reine prend la Tour!	###Chess reference
+title.room_cleared=Pièce dégagée!	#
+title.trophy.unlocked=%1§fTrophée débloqué :%1	###{Locked="§f"}
+title.trophy.click=%1§fTrophée :%1	###{Locked="§f"}
+title.end.1=L'End	#
+title.end.2=L'End?	#
+sub.puzzle_success=Énigme résolue	#
+sub.room_1=Bureau	###A room in the mansion to explorer
+sub.room_2=Cuisine	###A room in the mansion to explorer
+sub.room_3=Petit salon	###A room in the mansion to explorer
+sub.room_4=Salle d’alchimie	###A room in the mansion to explorer
+sub.room_5=Conservatoire	###A room in the mansion to explorer
+sub.room_6=Laboratoire	###A room in the mansion to explorer
+sub.room_7=Douves	###A location at the mansion
+sub.room_8=Cave	###A room in the mansion to explorer
+sub.room_9=Salon	###A room in the mansion to explorer
+sub.wrong_order=Recette incorrecte!	#
+sub.too_few=Trop peu d’ingrédients!	#
+sub.too_many=Trop d’ingrédients!	#
+sub.trophy.note=§gPremière note récupérée!	###{Locked=§g}
+sub.trophy.book=§gToutes les notes ont été récupérées!	###{Locked=§g}
+sub.trophy.boss=§gBoss vaincu!	###{Locked=§g}
+sub.trophy.green=§aChemin vert terminé!	#
+sub.trophy.yellow=§eChemin jaune terminé!	#
+sub.trophy.red=§cChemin rouge terminé!	#
+sub.trophy.emerald=§gTous les chemins sont terminés!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fMenu	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombie%1§fBœuf	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fSquelette%1§fSoupe	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fCreeper%1§fPoulet	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fWither%1§fPoisson	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1 §ljanvier	###{Locked="§l"}
+slate.feb=%1%1 §lfévrier	###{Locked="§l"}
+slate.mar=%1%1 §lmars	###{Locked="§l"}
+slate.apr=%1%1 §lavril	###{Locked="§l"}
+slate.may=%1%1 §lmai	###{Locked="§l"}
+slate.1=%1%1 §l1er	###{Locked="§l"}
+slate.2=%1%1 §l2e	###{Locked="§l"}
+slate.3=%1%1 §l3e	###{Locked="§l"}
+slate.4=%1%1 §l4	###{Locked="§l"}
+slate.5=%1%1 §l5e	###{Locked="§l"}
+
+sign.queen_birthday=%1§fAnniversaire de la Reine%1§f4 mai	###{Locked="§f"}
+sign.king_birthday=%1§fAnniversaire du roi%1§f1er avril	###{Locked="§f"}
+sign.reset=%1§fRéinitialiser	###{Locked="§f"}
+
+slate.weight.0=%1Poids : 0	#
+slate.weight.1=%1Poids : 1	#
+slate.weight.2=%1Poids : 2	#
+slate.weight.3=%1Poids : 3	#
+slate.weight.4=%1Poids : 4	#
+slate.weight.5=%1Poids : 5	#
+slate.weight.6=%1Poids : 6	#
+slate.weight.7=%1Poids : 7	#
+slate.weight.8=%1Poids : 8	#
+slate.weight.9=%1Poids : 9	#
+slate.weight.10=%1Poids : 10	#
+slate.weight.11=%1Poids : 11	#
+slate.weight.12=%1Poids : 12	#
+slate.weight.13=%1Poids : 13	#
+slate.weight.14=%1Poids : 14	#
+slate.weight.15=%1Poids : 15	#
+slate.weight.16=%1Poids : 16	#
+slate.weight.17=%1Poids : 17	#
+slate.weight.18=%1Poids : 18	#
+slate.weight.19=%1Poids : 19	#
+slate.weight.20=%1Poids : 20	#
+slate.weight.21=%1Poids : 21	#
+slate.weight.22=%1Poids : 22	#
+slate.weight.23=%1Poids : 23	#
+slate.weight.24=%1Poids : 24	#
+slate.weight.25=%1Poids : 25	#
+slate.weight.26=%1Poids : 26	#
+slate.weight.27=%1Poids : 27	#
+slate.weight.28=%1Poids : 28	#
+slate.weight.29=%1Poids : 29	#
+slate.weight.30=%1Poids : 30+	#
+
+board.tut.intro=%1 Bienvenue à §l'Heure du code 2022§r :%1 §lDomaine d'évasion§r%1%1Dans cette section, vous apprendrez à regarder autour de vous et à naviguer dans Minecraft! Lisez le texte en bas de votre écran, au-dessus de votre barre d'action, pour savoir ce que vous devez faire ensuite.%1%1En premier temps, utilisez votre souris pour regarder autour de vous ou, si vous utilisez un appareil à écran tactile, faites glisser les orbes dorées jusqu'à ce qu'elles apparaissent toutes. Ensuite, passez au tutoriel suivant.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Fermer	#
+npc.button.done=Terminé	#
+npc.button.back=Retour	#
+npc.button.next=Suivant	#
+npc.button.previous=Précédent	#
+
+npc.zombie_chef.name=Chef zombie	#
+npc.zombie_chef.0.text=PAAAAIIIIIIIN!!	###The zombie chef needs bread to survive
+npc.armor.name=Chevalier rapide	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Costume d'armure	#
+npc.king.name=Roi	###chess piece
+npc.queen.name=Reine	###chess piece
+npc.rook.name=Tour	###chess piece
+npc.bishop.name=Fou	###chess piece
+npc.clay_golem.name=Golem d’argile	###a golem made out of clay
+npc.clay_golem.1.name=  	#
+npc.clay_golem.2.name=>.. <	#
+npc.clay_golem.3.name=>... <	#
+npc.enderman_butler.name=Majordome	#
+npc.zombie_minion.name=Caisse de sbire	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Roi%1§71er janvier	###King refers to the chess piece
+npc.king.jan.2.name=Roi%1§72 janvier	###King refers to the chess piece
+npc.king.jan.3.name=Roi%1§73 janvier	###King refers to the chess piece
+npc.king.jan.4.name=Roi%1§74 janvier	###King refers to the chess piece
+npc.king.jan.5.name=Roi%1§75 janvier	###King refers to the chess piece
+npc.king.feb.1.name=Roi%1§71er février	###King refers to the chess piece
+npc.king.feb.2.name=Roi%1§72 février	###King refers to the chess piece
+npc.king.feb.3.name=Roi%1§73 février	###King refers to the chess piece
+npc.king.feb.4.name=Roi%1§74 février	###King refers to the chess piece
+npc.king.feb.5.name=Roi%1§75 février	###King refers to the chess piece
+npc.king.mar.1.name=Roi%1§71er mars	###King refers to the chess piece
+npc.king.mar.2.name=Roi%1§72 mars	###King refers to the chess piece
+npc.king.mar.3.name=Roi%1§73 mars	###King refers to the chess piece
+npc.king.mar.4.name=Roi%1§74 mars	###King refers to the chess piece
+npc.king.mar.5.name=Roi%1§75 mars	###King refers to the chess piece
+npc.king.apr.1.name=Roi%1§71er avril	###King refers to the chess piece
+npc.king.apr.2.name=Roi%1§72 avril	###King refers to the chess piece
+npc.king.apr.3.name=Roi%1§73 avril	###King refers to the chess piece
+npc.king.apr.4.name=Roi%1§74 avril	###King refers to the chess piece
+npc.king.apr.5.name=Roi%1§75 avril	###King refers to the chess piece
+npc.king.may.1.name=Roi%1§71er mai	###King refers to the chess piece
+npc.king.may.2.name=Roi%1§72 mai	###King refers to the chess piece
+npc.king.may.3.name=Roi%1§73 mai	###King refers to the chess piece
+npc.king.may.4.name=Roi%1§74 mai	###King refers to the chess piece
+npc.king.may.5.name=Roi%1§75 mai	###King refers to the chess piece
+npc.queen.jan.1.name=Reine%1§71er janvier	###Queen refers to a chess piece
+npc.queen.jan.2.name=Reine%1§72 janvier	###Queen refers to a chess piece
+npc.queen.jan.3.name=Reine%1§73 janvier	###Queen refers to a chess piece
+npc.queen.jan.4.name=Reine%1§74 janvier	###Queen refers to a chess piece
+npc.queen.jan.5.name=Reine%1§75 janvier	###Queen refers to a chess piece
+npc.queen.feb.1.name=Reine%1§71er février	###Queen refers to a chess piece
+npc.queen.feb.2.name=Reine%1§72 février	###Queen refers to a chess piece
+npc.queen.feb.3.name=Reine%1§73 février	###Queen refers to a chess piece
+npc.queen.feb.4.name=Reine%1§74 février	###Queen refers to a chess piece
+npc.queen.feb.5.name=Reine%1§75 février	###Queen refers to a chess piece
+npc.queen.mar.1.name=Reine%1§71er mars	###Queen refers to a chess piece
+npc.queen.mar.2.name=Reine%1§72 mars	###Queen refers to a chess piece
+npc.queen.mar.3.name=Reine%1§73 mars	###Queen refers to a chess piece
+npc.queen.mar.4.name=Reine%1§74 mars	###Queen refers to a chess piece
+npc.queen.mar.5.name=Reine%1§75 mars	###Queen refers to a chess piece
+npc.queen.apr.1.name=Reine%1§71er avril	###Queen refers to a chess piece
+npc.queen.apr.2.name=Reine%1§72 avril	###Queen refers to a chess piece
+npc.queen.apr.3.name=Reine%1§73 avril	###Queen refers to a chess piece
+npc.queen.apr.4.name=Reine%1§74 avril	###Queen refers to a chess piece
+npc.queen.apr.5.name=Reine%1§75 avril	###Queen refers to a chess piece
+npc.queen.may.1.name=Reine%1§71er mai	###Queen refers to a chess piece
+npc.queen.may.2.name=Reine%1§72 mai	###Queen refers to a chess piece
+npc.queen.may.3.name=Reine%1§73 mai	###Queen refers to a chess piece
+npc.queen.may.4.name=Reine%1§74 mai	###Queen refers to a chess piece
+npc.queen.may.5.name=Reine%1§75 mai	###Queen refers to a chess piece
+npc.king.scrambled.name=Roi%1§7§kTest	###King refers to the chess piece
+npc.queen.scrambled.name=Reine%1§7§kTest	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Contrôles	#
+npc.tutcontrols.1.text=Bienvenue à l'Heure de Code 2022!%1%1 Commençons par un court tutoriel! Tout d'abord, utilisez votre appareil pour effectuer un clic gauche ou appuyer sur la configuration qui vous convient le mieux.	#
+npc.button.keyboard=Clavier	#
+npc.button.touch=Contrôles tactiles	#
+
+npc.tutskip.name=Passer	#
+npc.keyboard.tutskip.1.text=Bienvenue! Le tutoriel suivant vous apprendra les bases de l'utilisation de Minecraft.%1%1Appuyez sur Commencer le tutoriel pour débuter, si vous n’avez pas besoin d’un tutoriel, appuyez sur Passer le tutoriel pour démarrer l'expérience!	#
+npc.touch.tutskip.1.text=Bienvenue! Le tutoriel suivant vous apprendra les bases de Minecraft.%1%1Appuyez sur Commencer le tutoriel pour débuter. Si vous n’avez pas besoin de tutoriel, appuyez sur Passer le tutoriel pour démarrer l'expérience! 	#
+npc.tutskip.2.text=Êtes-vous sûr de vouloir passer le tutoriel? Vous manquerez des informations essentielles si vous le faites.%1%1À l'aide de votre appareil, sélectionnez Démarrer le tutoriel ou Passer le tutoriel.	#
+npc.button.skip_yes=Passer le tutoriel	#
+npc.button.skip_no=Commencer le tutoriel	#
+
+npc.tuthelp.name=Aide	#
+npc.keyboard.tuthelp.1.text=Félicitations, vous avez terminé le tutoriel sur les déplacements!%1%1 Pour plus d'instructions sur la façon d'interagir avec le monde, appuyez sur H pour afficher les contrôles.	#
+npc.touch.tuthelp.1.text=Félicitations, vous avez terminé le tutoriel sur les déplacements!%1%1 Pour plus d'instructions sur la façon d'interagir avec le monde, appuyez sur H pour afficher les contrôles.	#
+
+npc.tuthost.name=Dr Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Bonjour. Je suis le Dr Dodge Breakowski. Je vois que vous avez reçu mon invitation. Pensez-vous avoir ce qu'il faut pour vous échapper du manoir à l'aube et récupérer le million d'émeraudes? Excellent! Maintenant, dirigez-vous vers la porte d'entrée pour commencer votre défi!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=C’est parti!	#
+
+## Labels
+npc.label.nether_wart.name=Verrues du Nether	#
+npc.label.phantom_membrane.name=Membrane de revenant	#
+npc.label.fermented_spider_eye.name=Œil d'araignée fermenté	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Journal perdu	#
+item.rwm:notebook.name=Journal perdu	#
+npc.note.name=Page de journal	#
+npc.note.0.text=%1Vous avez trouvé un journal perdu. Arriverez-vous à retrouver les 10 pages manquantes en explorant le manoir?%1%1Utilisez les boutons §lPrécédent§r et §lSuivant§r ci-dessous pour voir les notes que vous avez recueillies.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1Entrée nº 1 : Le grenier %1%1Cher journal,%1%1La semaine dernière, j'ai reçu une invitation d'une personne mystérieuse me mettant au défi de m'échapper de ce manoir. La note disait que si je m'échappais avant l'aube, je gagnerais un million d'émeraudes. Même si je n'avais pas besoin de ces émeraudes, j'ai pensé qu'un tel défi ferait une bonne vidéo pour ma chaîne!%1%1Mais quand je suis arrivé ici, j'ai été englouti par le manoir. Je sais que ça n'a pas de sens, mais c'est la vérité, je le jure! Quand je suis revenu à moi, je me suis retrouvé dans ce grenier. Il y a trois portes verrouillées... l'une d'entre elles doit être une sortie! Je dois juste trouver comment les ouvrir!	#
+npc.note.2.text=%1Entrée nº 2 : Le bureau %1%1Cher journal,%1%1J'ai finalement trouvé un moyen de sortir du grenier, seulement pour être piégé dans cette étrange bibliothèque. Je crois que le grand miroir ici cache quelque chose sous ses apparences! Est-ce vraiment un miroir ou une fenêtre vers une autre dimension? Quoi qu'il en soit, je n'ai pas d'autre choix que d'aller de l'avant et de voir où cela me mène...	#
+npc.note.3.text=%1Entrée nº 3 : La cuisine %1%1Cher journal,%1%1Aujourd'hui, je suis tombé sur une grande salle à manger. J'y ai trouvé une créature effrayante dans la cuisine, apparemment inconsciente de ma présence. Quand j'ai eu le courage de parler au chef, il n'a fait que gémir « PAIN! ». Oserais-je aider ce cuisinier macabre? Peut-être que si je le fais, il pourra me montrer la sortie...	#
+npc.note.4.text=%1Entrée nº 4 : Le salon %1%1Cher journal,%1%1La grande porte de ce foyer semble pouvoir mener hors du manoir! Mais comment l'ouvrir? Cet échiquier pourrait-il déverrouiller la porte? Il y a sûrement des indices qui traînent... Je suis allé trop loin pour revenir en arrière!	#
+npc.note.5.text=%1Entrée nº 5 : La salle d'alchimie %1%1Cher journal,%1%1Au fur et à mesure que mon aventure dans le manoir se poursuit, je commence à comprendre que ce manoir n'a rien d'ordinaire. Par exemple, aujourd'hui j'ai trouvé une salle dédiée à la fabrication de potions. Ce n'est pas quelque chose que l'on voit tous les jours, et pourtant je n'arrive pas à me défaire de l'impression d'être déjà venu ici...	#
+npc.note.6.text=%1Entrée nº 6 : Le Conservatoire %1%1Cher journal,%1%1En traversant le manoir, j’ai découvert une vieille serre. C’était probablement un jardin luxuriant dans le passé, mais maintenant seul un filet d’eau nourrit les plantes. Je sais que c’était probablement mon imagination, mais j’aurais pu jurer avoir vu quelque chose s’envoler dans les buissons en entrant dans cette pièce! Je n'ai aucune idée de ce que ça pouvait être...	#
+npc.note.7.text=%1Entrée nº 7 : Le laboratoire %1%1Cher journal,%1%1J’ai fait une découverte des plus fascinantes aujourd’hui : un laboratoire! Il y a de tout, des machines mystérieuses et des expériences étranges comme je n’en ai jamais vu! Ou peut-être que oui? Cet endroit a quelque chose de très familier...	#
+npc.note.8.text=%1Entrée nº 8 : Le fossé %1%1Cher journal,%1%1En cherchant une issue, j'ai trouvé un étrange fossé divisant cette zone. Le pont-levis est levé et semble être contrôlé de l’autre côté. Le majordome est un type calme qui ne semble pas comprendre ce que je lui dis. Pourtant, je dois trouver un moyen de le convaincre de baisser le pont.	#
+npc.note.9.text=%1Entrée nº 9 : La cave %1%1Cher journal,%1%1Ma recherche d'une sortie m'a conduit dans une vaste cave! Le vent hurle à travers le gouffre avec une telle force que j'ai peur de poser le pied sur le vieux pont branlant devant moi. Pendant un moment, j'ai cru entendre quelque chose voler au-dessus de moi... Ce devait être juste le vent.	#
+npc.note.10.text=%1Entrée nº 10 : Le Salon %1%1Cher journal,%1%1Mes voyages m'ont amené dans un petit salon. Il est chaleureux et accueillant. J'ai l'impression que je pourrais rester ici pour toujours... NON! Je dois continuer! Des choses étranges se passent ici et je suis sûr que je ne suis pas seul!	#
+
+## Agent
+npc.agent.name=Agent	#
+npc.agent.1.1.text=Bonjour? Il y a quelqu'un? Oh, un humain! Vous pensez pouvoir m'aider? Je n'arrive pas à ouvrir cette bouche d'aération! Je pense que mon code est peut-être cassé. Pourriez-vous jeter un coup d’œil et voir ce qui ne va pas?	#
+npc.button.yes=Oui!	#
+npc.agent.1.2.text=Super! Si vous pouvez me faire sortir d'ici, je vous rendrai la pareille et vous aiderai à vous échapper du grenier. Quel langage de programmation aimeriez-vous utiliser?%1%1§lBlocks§r est le meilleur pour les débutants. Ne choisissez §lPython§r que si vous avez déjà codé dans ce langage.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=D'accord! D'abord, vous voyez ce curseur là-bas sur le sol? Il faut qu'il avance de 3 blocs pour atteindre la trappe, mais ça ne marche pas. Appuyez sur C pour afficher le code, puis exécutez-le pour voir ce qui ne va pas.	#
+npc.agent.1.4.text=Hmmm, non, ce n'est pas tout à fait ça. Le curseur doit se déplacer vers la trappe ET lui indiquer de s'ouvrir.	#
+npc.agent.2.1.text=Super! C'est ouvert! C'est étrange... Je n'arrive toujours pas à sortir. Pouvez-vous revérifier le code et vous assurer que j'avance de 2 blocs?	#
+npc.agent.3.1.text=Merci! Vous avez corrigé mon code! Maintenant, je suis à portée pour vous ouvrir la porte verte. Le chemin derrière la porte verte est plus facile. Vous pouvez prendre ce chemin, ou me parler à nouveau si vous voulez essayer d'ouvrir la porte jaune!	#
+npc.agent.4.1.text=Alors, vous voulez essayer d'ouvrir la porte jaune? Pour ça, j'ai besoin de plus de puissance. Heureusement, je peux me recharger au clair de lune! Tout ce qu'on a à faire, c'est d'ouvrir le puits de lumière ci-dessus... Hein? Mon code ne fonctionne pas correctement. Essayez de vérifier mon code pour vous assurer que les 4 trappes du plafond s'ouvrent bien!	#
+npc.agent.5.1.text=Wow, bien joué! J'ai maintenant ouvert la porte jaune pour vous. Passez par là si vous le souhaitez, ou si vous voulez vraiment un défi, reparlez-moi pour essayer d'ouvrir la porte rouge!	#
+npc.agent.6.1.text=Nous devons travailler ensemble pour atteindre la porte rouge. Elle ne s'ouvrira que si je suis sur les blocs d'or. Essayons! ...pas... arriver... là... argh... Que diriez-vous d'un peu d'aide, l'ami?	#
+npc.agent.7.1.text=Ok, toutes les portes sont ouvertes maintenant. Choisissez le chemin que vous souhaitez emprunter. Chaque chemin a une difficulté différente... Le vert est plus facile, le rouge est plus difficile et le jaune est quelque part entre les deux. Adieu, humain. Peut-être que nos chemins se recroiseront un jour.	#
+npc.agent.green.8.1.text=Attendez! Avant que vous partiez, je dois vous dire une dernière chose! Cette maison est remplie de §lsalles d'évasion§r. Trouvez des indices, et résolvez des énigmes et des codes pour vous en sortir! Appuyez sur §lC§r pour révéler le code d'une énigme, puis §lexécutez§r-le pour voir ce qui se passe! S'il y a des erreurs, corrigez le code et exécutez-le à nouveau pour le tester. C'est ce qu'on appelle le §ldébogage§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=Parfois, les solutions ne sont pas claires et toutes les énigmes ne nécessitent pas forcément du code pour être résolues! Lorsque vous trouvez une énigme, pensez d'abord à §lexécuter§r le code pour voir ce qui ne va pas, puis §ldéboguez§r et §lcorrigez§r le code défectueux! C'est beaucoup plus facile que d'écrire du code à partir de zéro!%1%1Gardez un œil sur les indices tels que les §g§lparticules§0§r pour vous aider à vous guider!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Attendez! Avant que vous partiez, je dois vous dire une dernière chose! Cette maison est remplie de §lsalles d'évasion§r. Trouvez des indices, et résolvez des énigmes et des codes pour vous en sortir! Appuyez sur §lC§r pour révéler le code d'une énigme, puis §lexécutez§r-le pour voir ce qui se passe! S'il y a des erreurs, corrigez le code et exécutez-le à nouveau pour le tester. C'est ce qu'on appelle le §ldébogage§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=Parfois, les solutions ne sont pas claires et toutes les énigmes ne nécessitent pas forcément du code pour être résolues! Lorsque vous trouvez une énigme, pensez d'abord à §lexécuter§r le code pour voir ce qui ne va pas, puis §ldéboguez§r et §lcorrigez§r le code défectueux! C'est beaucoup plus facile que d'écrire du code à partir de zéro!%1%1Gardez un œil sur les indices tels que les §g§lparticules§0§r pour vous aider à vous guider!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Attendez! Avant que vous partiez, je dois vous dire une dernière chose! Cette maison est remplie de §lsalles d'évasion§r. Trouvez des indices, et résolvez des énigmes et des codes pour vous en sortir! Appuyez sur §lC§r pour révéler le code d'une énigme, puis §lexécutez§r-le pour voir ce qui se passe! S'il y a des erreurs, corrigez le code et exécutez-le à nouveau pour le tester. C'est ce qu'on appelle le §ldébogage§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=Parfois, les solutions ne sont pas claires et toutes les énigmes ne nécessitent pas forcément du code pour être résolues! Lorsque vous trouvez une énigme, pensez d'abord à §lexécuter§r le code pour voir ce qui ne va pas, puis §ldéboguez§r et §lcorrigez§r le code défectueux! C'est beaucoup plus facile que d'écrire du code à partir de zéro!%1%1Gardez un œil sur les indices tels que les §g§lparticules§0§r pour vous aider à vous guider!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Dr Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Rebonjour. On dirait que vous avez réussi. Vous avez réussi à vous frayer un chemin dans le manoir. Bravo. Nous savions que vous pouviez le faire... En fait, nous comptions sur vous!	#
+npc.foyer.2.1.text=Vous voyez, cet endroit est plus qu'un simple manoir... C'est une prison interdimensionnelle! Une prison dont nous ne pouvions pas nous échapper... Mais nous savions que vous trouveriez une solution!	#
+npc.foyer.2.2.text=Ah ha! Surprise! Les agents temporels sont de retour! Maintenant, c'est vous qui allez être coincé dans ce manoir pour toujours! Profitez de votre nouvelle maison! Mwhahaha!	#
+npc.foyer.3.1.text=Pas si vite, agents temporels...	#
+npc.foyer.3.2.text=Vous n'irez nulle part. Je vous donne une pause, bande de perturbateurs! 	#
+npc.foyer.4.1.text=TARRA! Vous nous avez peut-être piégés ici une fois, mais on ne se laissera pas avoir à nouveau! Le portail est ouvert! Vous ne pouvez pas nous arrêter! Vous n'avez plus le temps... et nous non plus! Adieu, crétins!	#
+npc.foyer.5.1.text=Ce portail mène à l'Orbe du temps. Ils pourront l'utiliser pour s'échapper. Le seul moyen d'arrêter l'Orbe du temps est d'utiliser les canons chronos. Il ne leur faudra pas longtemps pour charger l'Orbe, nous devons donc rapidement activer les défenses et les arrêter une fois pour toutes! Maintenant, allez-y!	#
+
+## Boss
+npc.rascal.name=Rascal	#
+npc.gremlin.name=Gremlin	#
+npc.yeti.name=Yéti	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Pixie	#
+npc.tarra.name=I.A.R.R.A.T.	#
+npc.boss.green.1.1.text=Ouiii! L'Orbe du temps! Nous pouvons l'utiliser pour nous échapper! Quoi? Zut, c'est encore cette peste!	#
+npc.boss.yellow.1.1.text=Ouiii! L'Orbe du temps! Nous pouvons l'utiliser pour enfin nous échapper de cet endroit! Quoi? Encore vous? Séparez-vous, les gars! Ils ne pourront pas tous nous attraper!	#
+npc.boss.red.1.1.text=Ouiii! L'Orbe du temps! Enfin, nous pouvons nous échapper de cette prison interdimensionnelle! Quoi? Encore vous!?! Séparez-vous, agents temporels! Protégez les canons chronos pendant que je prépare l'Orbe du temps!	#
+npc.boss.2.1.text=Nous devons activer les canons chronos! Les centres de contrôle sont dans ces pièces en coin, mais les agents temporels ont fermé les portes! Voyez si vous pouvez trouver un moyen de les ouvrir!	#
+npc.boss.yellow.3.1.text=Les portes des salles de contrôle sont ouvertes! Dans chaque salle de contrôle, il y a un levier qui active un canon chrono. Nous devrons activer les quatre pour détruire l'Orbe du temps! Vite! Allez allumer ces canons!	#
+npc.boss.red.3.1.text=Vous avez réussi! Les portes des salles de contrôle sont ouvertes! Dans chaque salle de contrôle, il y a une façon d'activer le canon chrono. Nous devrons activer les quatre pour détruire l'Orbe du temps! Vite! Allez allumer ces canons!	#
+npc.boss.green.4.1.text=Tous les canons chronos sont maintenant activés! Préparez-vous à faire feu!	#
+npc.boss.yellow.4.1.text=Bon travail! Maintenant que les quatre canons sont prêts, nous pouvons détruire les défenses de l'Orbe du temps et arrêter les agents temporels!	#
+npc.boss.red.4.1.text=Bon travail! Maintenant que les quatre canons sont prêts, nous pouvons détruire les défenses de l'Orbe du temps et arrêter les agents temporels!	#
+npc.boss.5.1.text=Regardez! Les agents temporels sont étourdis par la chambre de l'Orbe du temps! C'est notre chance! Si nous pouvons faire tourner les disques magnétiques sous le sol, nous pourrons inverser la polarité et les piéger ici une fois pour toutes! 	#
+npc.boss.6.1.text=Vous avez réussi! Vous en avez vraiment collé une à ces agents temporels... ou devrais-je dire : Vous avez vraiment collé ces agents à ce temps! Ha. Ha. Pardon. Je travaille toujours sur cette chose que vous appelez « humour ». Les agents temporels resteront ici pour réfléchir à ce qu'ils ont fait. Quant à vous, venez avec moi. Je vais vous montrer la sortie.	#
+npc.button.run=C’est parti!	#
+npc.boss.side_room_1.1.text=Ha! Vous pensez vraiment que vous pouvez nous battre? Vous vivez dans un conte de fées!	#
+npc.boss.side_room_1.2.text=Quoi? Impossible! Personne ne peut battre Pixie!	#
+npc.boss.side_room_2.1.text=Il n'y a aucune chance que nous vous laissions gagner. Préparez-vous à une avalanche d'angoisse!	#
+npc.boss.side_room_2.2.text=Abominable humain! Ce n'est pas fini!	#
+npc.boss.side_room_3.1.text=Vous ne pouvez pas vous opposer à nous. Bientôt, nous serons partis, et vous serez piégé ici, hurlant de chagrin!	#
+npc.boss.side_room_3.2.text=AAAAAAHHHHHHHHH!!!!! Je ne pensais pas que vous aviez l'ombre d'une chance!	#
+npc.boss.side_room_4.1.text=Héhéhéhé! Stupide humain! Votre espèce n'apprend jamais. Votre dysfonctionnement est inévitable!	#
+npc.boss.side_room_4.2.text=Alors, vous avez compris le truc? Peu importe! Ça ne nous arrêtera pas!	#
+npc.boss.agent.1.text=On dirait que vous avez besoin d'aide. Ne vous inquiétez pas. J'assure vos arrières. Je peux vous aider à activer les canons. Montrez-moi juste le chemin!	#
+
+## Ending Cutscene
+npc.player.name=Vous	#
+npc.end.1.1.text=Félicitations! Vos compétences en codage ont encore sauvé la mise. Qui sait quels problèmes les agents temporels auraient pu causer s'ils s'étaient échappés du domaine. Bien joué!	#
+npc.end.1.2.text=Il y a encore une question que je me pose... Ces pages de journal... D'où pensez-vous qu'elles viennent?	#
+npc.end.2.1.text=Ils étaient de moi! Dr Dodge Breakowski! Ces fauteurs de trouble temporels m'ont aussi attiré dans cet endroit! En fait, j'ai essayé de m'échapper pendant des semaines! Quoi que vous ayez fait là-dedans, vous m'avez aidé à trouver une sortie! Merci!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Je suis content que vous soyez en sécurité... et je pense qu'on n'entendra plus parler des agents temporels pour un moment. Maintenant, s'il vous plaît, partons d'ici... Cet endroit me donne des 0 et des 1!	#
+npc.end.2.3.text=Alors, Dr Breakowski... À propos de ce million d'émeraudes...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Désolé, gamin, je suis fauché!%1%1Vous contenteriez-vous de sauver le monde et d'un biscuit?	#
+npc.end.laugh.1.name=Ha!	#
+npc.end.laugh.2.name=Haha!	#
+npc.end.laugh.3.name=Ha! Ha! Ha!	#
+npc.end.laugh.1.text=Ha!	#
+npc.end.laugh.2.text=Haha!	#
+npc.end.laugh.3.text=Ha! Ha! Ha!	#
+
+action.hint.exit.rwm:cam= 	#

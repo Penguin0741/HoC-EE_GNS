@@ -1,0 +1,169 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.foyer.1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.host.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.tick 60",
+                            "/scoreboard players set @a[tag=main_player] cam.next 30"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/scoreboard players set @a[tag=main_player] cam.next 21",
+                    "/execute @a ~ ~ ~ playsound mob.villager.yes @a ~ ~ ~ 1 0.7 1"
+                ]
+            },
+            {
+                "scene_tag": "npc.foyer.2.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.2.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.foyer.2.2",
+                            "/playsound rwm.time_agent @a ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/scoreboard players set @a[tag=main_player] cam.next 31",
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1 1"
+                ]
+            },
+            {
+                "scene_tag": "npc.foyer.2.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.2.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.tick 60",
+                            "/scoreboard players set @a[tag=main_player] cam.next 40"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.foyer.3.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.3.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.foyer.3.2",
+                            "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/scoreboard players set @a[tag=main_player] cam.next 41",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ]
+            },
+            {
+                "scene_tag": "npc.foyer.3.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.3.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/dialogue open @e[type=rwm:time_agent,tag=rascal] @initiator npc.foyer.4.1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.foyer.4.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.4.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.tick 60",
+                            "/scoreboard players set @a[tag=main_player] cam.next 50"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/execute @a ~ ~ ~ playsound rwm.time_agent @s ~ ~ ~ 1 1 1"
+                ]
+            },
+            {
+                "scene_tag": "npc.foyer.5.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.foyer.5.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.next 60",
+                            "/playanimation @e[tag=actor.tarra] scale_down",
+                            "/event entity @e[tag=actor.player] speed_08",
+                            "/event entity @e[tag=cam.dolly] speed_08",
+                            "/event entity @e[type=rwm:time_agent] despawn"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/scoreboard players set @a[tag=main_player] cam.next 51",
+                    "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                ]
+            }
+        ]
+    }
+
+
+}

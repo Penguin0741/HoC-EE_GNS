@@ -1,0 +1,15 @@
+{
+  "namespace": "experimental_code",
+
+  "split_padding/menu_sub_button_panel/menu_sub_button_contents/restart_button": {
+    "modifications": [
+      {
+          "array_name": "bindings",
+          "operation": "remove",
+          "where": {
+          "binding_name": "#is_reset_implemented"
+          }
+      }
+    ] 
+  }
+}

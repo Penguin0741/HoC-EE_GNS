@@ -1,0 +1,36 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.potion_steps",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [8, 0, 0],
+					"rotation": [-180, 0, 180],
+					"cubes": [
+						{
+							"origin": [8, 0, 7.9],
+							"size": [32, 16, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [64, 32]},
+								"east": {"uv": [0, 0], "uv_size": [0, 16]},
+								"south": {"uv": [0, 32], "uv_size": [64, 32]},
+								"west": {"uv": [32, 0], "uv_size": [0, 16]},
+								"up": {"uv": [0, 0], "uv_size": [32, 0]},
+								"down": {"uv": [32, 0], "uv_size": [32, 0]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

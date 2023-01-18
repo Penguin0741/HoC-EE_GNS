@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"render_controllers": {
+		"controller.render.clay_golem": {
+			"arrays": {
+				"geometries": {
+					"array.geometries": [
+						"geometry.clay_golem_1",
+						"geometry.clay_golem_2",
+						"geometry.clay_golem_3"
+					]
+				},
+				"textures": {
+					"array.textures": [
+						"texture.clay_golem_1",
+						"texture.clay_golem_2",
+						"texture.clay_golem_3"
+					]
+				}
+			},
+			"geometry": "array.geometries[q.skin_id]",
+			"textures": ["array.textures[q.skin_id]"],
+			"materials": [
+				{"*": "material.default"}
+			]
+		}
+	}
+}

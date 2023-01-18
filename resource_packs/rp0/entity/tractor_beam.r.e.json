@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:tractor_beam",
+			"geometry": {
+				"default": "geometry.tractor_beam"
+			},
+			"materials": {
+				"default": "custom_uv_anim"
+			},
+			"render_controllers": [
+				"controller.render.tractor_beam"
+			],
+			"textures": {
+				"default": "textures/entity/tractor_beam"
+			},
+			"animations": {
+				"spawning": "animation.tractor_beam.play"
+			},
+			"scripts": {
+				"animate": [
+					"spawning"
+				]
+			}
+		}
+	}
+}

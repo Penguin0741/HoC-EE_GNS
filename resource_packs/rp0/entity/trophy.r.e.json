@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:trophy",
+			"render_controllers": [
+				"controller.render.trophy"
+			],
+			"geometry": {
+				"geo_1": "geometry.trophy_note",
+				"geo_2": "geometry.trophy_book",
+				"geo_3": "geometry.trophy_boss",
+				"geo_4": "geometry.trophy_green",
+				"geo_5": "geometry.trophy_yellow",
+				"geo_6": "geometry.trophy_red",
+				"geo_7": "geometry.trophy_emerald"
+			},
+			"textures": {
+				"skin_1":"textures/entity/trophy_note",
+				"skin_2":"textures/entity/trophy_book",
+				"skin_3":"textures/entity/trophy_boss",
+				"skin_4":"textures/entity/trophy_green",
+				"skin_5":"textures/entity/trophy_yellow",
+				"skin_6":"textures/entity/trophy_red",
+				"skin_7":"textures/entity/trophy_emerald"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"animations": {
+				"jiggle": "animation.jiggle",
+				"spin_emerald": "animation.trophy.spin_emerald",
+				"states": "controller.animation.trophy.states"
+			},
+			"scripts": {
+				"animate": [
+					"states"
+				]
+			}
+		}
+	}
+}

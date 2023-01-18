@@ -1,0 +1,176 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:queen",
+			"is_summonable": true,
+			"scripts": {
+			  "animate": [
+				"interact_command"
+			  ]
+			},
+			"animations": {
+			  "interact_command": "controller.animation.queen.interact_command"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false
+				  }
+				]
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			},
+			"minecraft:npc": {
+				"npc_data": {
+					"picker_offsets": {
+						"scale": [1.7, 1.7, 1.7],
+						"translate": [0, 20, 0]
+					},
+					"portrait_offsets": {
+						"scale": [1.75, 1.75, 1.75],
+						"translate": [-7, 70, 0]
+					},
+					"skin_list": [
+						{
+							"variant": 0
+						}
+					]
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"swing": false,
+						"interact_text": ""
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"interactable": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"deals_damage": false,
+						"on_damage": {
+							"event": "interact",
+							"target": "self",
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							}
+						}
+					  }
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"event": "interact",
+								"target": "self",
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							},
+							"swing": true,
+							"interact_text": "action.interact.click"
+						}
+					]
+				}
+			},
+			"interact": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"deals_damage": false
+					  }
+					]
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"swing": false,
+							"interact_text": ""
+						}
+					]
+				}
+			},
+			"rotation1": {
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			},
+			"rotation2": {
+				"minecraft:mark_variant": {
+					"value": 2
+				}
+			},
+			"arrows": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			},
+			"interactable": {
+				"add": { "component_groups": [ "interactable" ] }
+			},
+			"interact": {
+				"add": { "component_groups": [ "interact" ] },
+				"remove": { "component_groups": [ "interactable" ] }
+			},
+			"interact_reset": {
+				"add": { "component_groups": [ "interactable" ] },
+				"remove": { "component_groups": [ "interact" ] }
+			},
+			"rotation1": {
+				"add": { "component_groups": [ "rotation1" ] }
+			},
+			"rotation2": {
+				"add": { "component_groups": [ "rotation2" ] }
+			},
+			"arrows": {
+				"add": { "component_groups": [ "arrows" ] }
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"materials": {
+		"version": "1.0.0",
+		"transparent:entity_alphatest": {},
+    	"translucent:entity_emissive_alpha": {
+      		"+states": [ "Blending", "DisableCulling" ]
+    	},
+    	"alpha_emitter:entity_emissive_alpha": {},
+    	"custom_uv_anim:entity_emissive_alpha": {
+      		"+defines": [ "USE_UV_ANIM", "ALPHA_TEST" ],
+      		"+states": [ "DisableCulling" ],
+      		"+samplerStates": [
+      		  {
+      		    "samplerIndex": 0,
+      		    "textureWrap": "Repeat"
+      		  }
+      		]
+      	},
+		"uv_anim:entity_static": {
+			"+defines": [
+				"USE_UV_ANIM",
+				"USE_OVERLAY",
+				"ALPHA_TEST"
+			]
+			// ,"+states": ["Blending"]
+		},
+    	"color_changer:entity_change_color": {},
+	    "emissive:entity": {
+	      "+defines": [ "USE_EMISSIVE" ]
+	    }
+	}
+}

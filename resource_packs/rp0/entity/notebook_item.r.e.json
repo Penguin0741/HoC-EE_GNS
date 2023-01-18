@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:notebook_item",
+			"geometry": {
+				"default": "geometry.notebook_item"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/notebook_item"
+			},
+			"animations": {
+				"jiggle": "animation.jiggle",
+				"fade": "animation.fade",
+				"rot180": "animation.notebook_item.rot180"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"jiggle": "q.variant == 1"
+					},
+					{
+						"fade": "q.variant == 2"
+					},
+					{
+						"rot180": "q.mark_variant == 1"
+					}
+				]
+			}
+		}
+	}
+}

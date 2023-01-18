@@ -1,0 +1,73 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"rwm.rumble": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/rwm/rumble",
+					"volume": 1
+				}
+			]
+		},
+		"rwm.time_agent": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/rwm/time_agent_1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/time_agent_2",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/time_agent_3",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/time_agent_4",
+					"volume": 1
+				}
+			]
+		},
+		"rwm.agent": {
+			"category": "ui",
+			"sounds": [
+				{
+					"name": "sounds/rwm/agent_1",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/agent_2",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/agent_3",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/agent_4",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/agent_5",
+					"volume": 1
+				},
+				{
+					"name": "sounds/rwm/agent_6",
+					"volume": 1
+				}
+			]
+		},
+		"dig.wood" : {
+			"category" : "block",
+			"sounds" : [
+				{
+					"name": "sounds/blank",
+					"volume": 0
+				}
+			]
+		}
+	}
+}

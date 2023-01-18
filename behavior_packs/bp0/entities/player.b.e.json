@@ -1,0 +1,164 @@
+{
+	"format_version": "1.17.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:player",
+			"is_spawnable": false,
+			"is_summonable": false,
+			"is_experimental": false,
+			"animations": {
+			  "use_item": "controller.animation.player.use_item",
+			  "select_notebook": "controller.animation.player.select_notebook"
+			},
+			"scripts": {
+			  "animate": [
+				"use_item",
+				"select_notebook"
+			  ]
+			}
+		},
+		"components": {
+			"minecraft:type_family": {
+				"family": [ "player" ]
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:can_climb": {
+			},
+			"minecraft:block_climber": {
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": -1,
+				"inhale_time": 3.75,
+				"generates_bubbles": false
+			},
+			"minecraft:player.saturation": {
+				"value": 20
+			},
+			"minecraft:player.exhaustion": {
+				"value": 0,
+				"max": 4
+			},
+			"minecraft:player.level": {
+				"value": 0,
+				"max": 24791
+			},
+			"minecraft:player.experience": {
+				"value": 0,
+				"max": 1
+			},
+			"minecraft:is_hidden_when_invisible": {
+			},
+			"minecraft:nameable": {
+				"always_show": true,
+				"allow_name_tag_renaming": false
+			},
+			"minecraft:conditional_bandwidth_optimization": {
+			},
+			"minecraft:environment_sensor": {
+				"triggers": [
+				{
+				  "filters": {
+					"all_of": [
+					  {
+						"test": "has_equipment",
+						"subject": "self",
+						"domain": "hand",
+						"value": "rwm:notebook"
+					  },
+					  {
+						"test": "is_variant",
+						"subject": "self",
+						"operator": "not",
+						"value": 1
+					  }
+					]
+				  },
+				  "event": "select"
+				},
+				{
+				  "filters": {
+					"all_of": [
+					  {
+						"test": "has_equipment",
+						"subject": "self",
+						"operator": "not",
+						"domain": "hand",
+						"value": "rwm:notebook"
+					  },
+					  {
+						"test": "is_variant",
+						"subject": "self",
+						"operator": "not",
+						"value": 0
+					  }
+					]
+				  },
+				  "event": "deselect"
+				}
+				
+				]
+			  }
+		},
+		"component_groups": {
+			"deselect":{
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"select":{
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"events": {
+			"select": {
+				"remove": {
+					"component_groups": [
+					  "deselect"
+					]
+				},
+				"add": {
+				  "component_groups": [
+					"select"
+				  ]
+				}
+			},
+			"deselect": {
+				"remove": {
+				  "component_groups": [
+					"select"
+				  ]
+				},
+				"add": {
+					"component_groups": [
+					  "deselect"
+					]
+				}
+			}
+		}
+	}
+}

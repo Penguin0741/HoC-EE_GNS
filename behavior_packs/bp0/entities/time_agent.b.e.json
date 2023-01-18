@@ -1,0 +1,297 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:time_agent",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0.5,
+				"width": 0.5
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:follow_range": {
+				"max": 128,
+				"value": 128
+			},
+			"minecraft:attack": {
+				"damage": 1
+			},
+			"minecraft:npc": {
+				"npc_data": {
+					"portrait_offsets": {
+						"translate": [-7, 0, 0],
+						"scale": [1.75, 1.75, 1.75]
+					},
+					"picker_offsets": {
+						"translate": [0, 20, 0],
+						"scale": [1.7, 1.7, 1.7]
+					},
+					"skin_list": [
+						{
+							"variant": 0
+						}
+					]
+				}
+			},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"swing": false,
+						"interact_text": ""
+					}
+				]
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			},
+			"movement_walk": {
+				"minecraft:navigation.walk": {
+					"can_path_over_water": true,
+					"avoid_water": true,
+					"avoid_damage_blocks": true
+				},
+				"minecraft:movement": {
+					"value": 0.35
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 1,
+					"speed_multiplier": 1,
+					"track_target": true,
+					"attack_once": false,
+					"reach_multiplier": 0.0
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				}
+			},
+			"movement_fly": {
+				"minecraft:can_fly": {
+				},
+				"minecraft:navigation.generic": {
+					"can_path_from_air": true
+				},
+				"minecraft:movement": {
+					"value": 1
+				},
+				"minecraft:movement.glide": {
+					"start_speed": 0,
+					"max_turn": 360,
+					"speed_when_turning": 0
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 0,
+					"speed_multiplier": 3,
+					"track_target": true,
+					"reach_multiplier": 0.0
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				}
+			},
+			"goto": {
+				"minecraft:behavior.nearest_attackable_target": {
+					"priority": 0,
+					"entity_types": [
+						{
+							"filters": {
+								"all_of": [
+									{
+										"subject": "other",
+										"test": "is_family",
+										"value":  "target"
+									}
+								] 
+							},
+							"max_dist": 50
+						}
+					],
+					"must_see": false
+				}
+			},
+			"skin_1": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"skin_2": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"skin_3": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			},
+			"skin_4": {
+				"minecraft:skin_id": {
+					"value": 4
+				}
+			},
+			"skin_5": {
+				"minecraft:skin_id": {
+					"value": 5
+				}
+			},
+			"hide_name": {
+				"minecraft:nameable": {
+					"allow_name_tag_renaming": false,
+					"always_show": false
+				}
+			},
+			"lookat_remove":{
+				"minecraft:mark_variant": {
+					"value": 0
+				}
+			},
+			"lookat_add":{
+				"minecraft:behavior.look_at_player": {
+					"priority": 10,
+					"angle_of_view_vertical": 360,
+					"angle_of_view_horizontal": 360,
+					"look_distance": 32,
+					"probability": 1
+				},
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"movement_walk": {
+				"add": {
+					"component_groups": [
+						"movement_walk"
+					]
+				},
+				"remove":{
+					"component_groups": [
+						"movement_fly"
+					]
+				}
+			},
+			"movement_fly": {
+				"add": {
+					"component_groups": [
+						"movement_fly"
+					]
+				},
+				"remove":{
+					"component_groups": [
+						"movement_walk"
+					]
+				}
+			},
+			"goto_add": {
+				"add": {
+					"component_groups": [
+						"goto"
+					]
+				}
+			},
+			"goto_remove": {
+				"remove": {
+					"component_groups": [
+						"goto"
+					]
+				}
+			},
+			"skin_1": {
+				"add": {
+					"component_groups": [
+						"skin_1"
+					]
+				}
+			},
+			"skin_2": {
+				"add": {
+					"component_groups": [
+						"skin_2"
+					]
+				}
+			},
+			"skin_3": {
+				"add": {
+					"component_groups": [
+						"skin_3"
+					]
+				}
+			},
+			"skin_4": {
+				"add": {
+					"component_groups": [
+						"skin_4"
+					]
+				}
+			},
+			"skin_5": {
+				"add": {
+					"component_groups": [
+						"skin_5"
+					]
+				}
+			},
+			"hide_name": {
+				"add": {
+					"component_groups": [
+						"hide_name"
+					]
+				}
+			},
+			"lookat_add":{
+				"add": {
+					"component_groups": [
+						"lookat_add"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"lookat_remove"
+					]
+				}
+			},
+			"lookat_remove":{
+				"add": {
+					"component_groups": [
+						"lookat_remove"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"lookat_add"
+					]
+				}
+			}
+		}
+	}
+}

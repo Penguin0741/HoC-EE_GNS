@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:wind_knockback",
+			"geometry": {
+				"default": "geometry.blank"
+			},
+			"materials": {
+				"default": "entity"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"textures": {
+				"default": "textures/entity/blank"
+			}
+		}
+	}
+}

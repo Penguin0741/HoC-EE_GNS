@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:cannon",
+			"render_controllers": [
+				"controller.render.cannon"
+			],
+			"geometry": {
+				"default": "geometry.cannon"
+			},
+			"textures": {
+				"yellow": "textures/entity/cannons/cannon_yellow",
+				"lime": "textures/entity/cannons/cannon_lime",
+				"cyan": "textures/entity/cannons/cannon_cyan",
+				"magenta": "textures/entity/cannons/cannon_magenta"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"rot90": "q.skin_id == 0"
+					},
+					{
+						"rot180": "q.skin_id == 3"
+					},
+					{
+						"rot270": "q.skin_id == 1"
+					},
+				  	"states"
+				]
+			},
+			"animations": {
+				"spawning": "animation.cannon.spawning",
+				"powering_up": "animation.cannon.powering_up",
+				"idling": "animation.cannon.idling",
+				"firing": "animation.cannon.firing",
+				"powering_down": "animation.cannon.powering_down",
+				"states": "controller.animation.cannon.states",
+				"rot90": "animation.cannon.rot90",
+				"rot180": "animation.cannon.rot180",
+				"rot270": "animation.cannon.rot270"
+			}
+		}
+	}
+}

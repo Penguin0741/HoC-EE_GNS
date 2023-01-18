@@ -1,0 +1,19 @@
+{
+    "format_version": "1.16",
+    "minecraft:block": {
+        "description": {
+            "identifier": "rwm:mosaic_7",
+            "is_experimental": false,
+            "register_to_creative_menu": true
+        },
+        "components": {
+            "minecraft:map_color": "#9800ff",
+            "minecraft:flammable": {
+                "burn_odds": 0,
+                "flame_odds": 0
+            },
+            "minecraft:explosion_resistance": 1,
+            "minecraft:destroy_time": 0.1
+        }
+    }
+}

@@ -1,0 +1,392 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.armor.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.armor.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.armor.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.armor_2.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.armor_2.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.armor_2.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.zombie_chef.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.zombie_chef.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.zombie_chef.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    "/execute @a[scores={address=20000}] ~ ~ ~ function act/2/1"
+                ]
+            },
+            {
+                "scene_tag": "npc.rook.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.rook.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.rook.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.bishop.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.bishop.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.bishop.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.king.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.king.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.king.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.queen.0",
+                "npc_name": { "rawtext": [ {
+                    "translate": "npc.queen.name",
+                    "with":["\n"]
+                } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.queen.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.clay_golem.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.clay_golem.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.clay_golem.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.clay_golem.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.clay_golem.1.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.clay_golem.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.clay_golem.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.clay_golem.2.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.clay_golem.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.clay_golem.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.clay_golem.3.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.clay_golem.3.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.enderman_butler.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.enderman_butler.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.enderman_butler.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.zombie_minion.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.zombie_minion.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.zombie_minion.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.rascal.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.rascal.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.rascal.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.yeti.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.yeti.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.yeti.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.gremlin.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.gremlin.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.gremlin.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.banshee.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.banshee.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.banshee.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.pixie.0",
+                "npc_name": { "rawtext": [ { "translate": "npc.pixie.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.pixie.0.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.done" } ] },
+						"commands": [
+                            
+						]
+					}
+                ],
+                "on_close_commands": [
+                    
+                ]
+            }
+        ]
+
+
+    }
+
+
+}

@@ -1,0 +1,8 @@
+{
+  "anim_actionbar_text_background_alpha_out": {
+		"duration": 0.3
+  },
+  "anim_actionbar_text_alpha_out": {
+    "duration": 0.3
+  }
+}

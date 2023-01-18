@@ -1,0 +1,15 @@
+// CTRL+K CTRL+J to expand all
+// CTRL+K CTRL+3 to collapse animations
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.cam.down" : {
+			"loop" : true,
+			"bones" : {
+				"head" : {
+					"rotation": [90, 0, 0]
+				}
+			}
+		}
+	}
+}

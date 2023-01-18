@@ -1,0 +1,85 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.moon_beam",
+				"texture_width": 16,
+				"texture_height": 192,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 13.5,
+				"visible_bounds_offset": [0, 6.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "base",
+					"parent": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone_1",
+					"parent": "base",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 192, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 192]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone_2",
+					"parent": "base",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 192, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 192]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone_3",
+					"parent": "base",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 192, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 192]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone_4",
+					"parent": "base",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 192, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 192]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

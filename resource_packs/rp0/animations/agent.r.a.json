@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.agent.look_up": {
+			"loop" : true,
+			"bones": {
+				"head": {
+					"rotation": [-60, 0, 0]
+				}
+			}
+		}
+	}
+}

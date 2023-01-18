@@ -1,0 +1,765 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:utility",
+			"is_summonable": true,
+			"scripts": {
+				"animate": [
+					"click_command"
+				]
+			},
+			"animations": {
+				"click_command": "controller.animation.click_detector.click_command"
+			}
+		},
+		"components": {
+		},
+		"component_groups": {
+			"always_show_name_add": {
+				"minecraft:color": {
+				},
+				"minecraft:nameable": {
+					"allow_name_tag_renaming": false,
+					"always_show": true
+				}
+			},
+			"always_show_name_remove": {
+				"minecraft:nameable": {
+					"allow_name_tag_renaming": false,
+					"always_show": false
+				}
+			},
+			"blocker": {
+				"minecraft:collision_box": {
+					"height": 0.1,
+					"width": 0.1
+				},
+				"minecraft:custom_hit_test": {
+					"hitboxes": [
+						{
+							"pivot": [0, 0, 0],
+							"width": 2,
+							"height": 2
+						}
+					]
+				}
+			},
+			"click_detector":{
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"on_interact": {
+								"event": "clickcommand",
+								"target": "self",
+								"filters": {
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								}
+							},
+							"interact_text": "action.interact.talk"
+						}
+					]
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"deals_damage": false,
+						"on_damage": {
+							"event": "clickcommand",
+							"target": "self",
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							}
+						}
+					  }
+					]
+				},
+				"minecraft:collision_box": {
+					"height": 1.8,
+					"width": 0.8
+				}
+			},
+			"clickreset": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"clickcommand": {
+				"minecraft:variant": {
+					"value": 1
+				},
+				"minecraft:timer":{
+					"time":[0.1,0.1],
+					"time_down_event": {
+						"event": "clickreset",
+						"target": "self"
+					}
+				}
+			},
+			"default": {
+				"minecraft:collision_box": {
+					"height": 0.1,
+					"width": 0.1
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+					  {
+						"deals_damage": false
+					  }
+					]
+				},
+				"minecraft:navigation.float":{
+					"can_float":true
+				},
+				"minecraft:persistent": {
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:push_through": {
+					"value": 1
+				},
+				"minecraft:physics": {
+					"has_collision": false,
+					"has_gravity": false
+				}
+			},
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"environment_sensor": {
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"event": "despawn",
+							"filters": {
+								"test": "has_tag",
+								"value": "despawn"
+							}
+						},
+						{
+							"event": "invisibility_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "invisibility"
+									},
+									{
+										"operator": "not",
+										"test": "has_mob_effect",
+										"value": "invisibility"
+									}
+								]
+							}
+						},
+						{
+							"event": "invisibility_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "invisibility"
+									},
+									{
+										"test": "has_mob_effect",
+										"value": "invisibility"
+									}
+								]
+							}
+						},
+						{
+							"event": "loot",
+							"filters": {
+								"test": "has_tag",
+								"value": "loot"
+							}
+						},
+						{
+							"event": "scale_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "scale"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:scale"
+									}
+								]
+							}
+						},
+						{
+							"event": "scale_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "scale"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:scale"
+									}
+								]
+							}
+						},
+						{
+							"event": "target_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "target"
+									},
+									{
+										"operator": "not",
+										"test": "is_family",
+										"value": "target"
+									}
+								]
+							}
+						},
+						{
+							"event": "target_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "target"
+									},
+									{
+										"test": "is_family",
+										"value": "target"
+									}
+								]
+							}
+						},
+						{
+							"event": "target2_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "target2"
+									},
+									{
+										"operator": "not",
+										"test": "is_family",
+										"value": "target2"
+									}
+								]
+							}
+						},
+						{
+							"event": "target2_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "target2"
+									},
+									{
+										"test": "is_family",
+										"value": "target2"
+									}
+								]
+							}
+						},
+						{
+							"event": "target3_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "target3"
+									},
+									{
+										"operator": "not",
+										"test": "is_family",
+										"value": "target3"
+									}
+								]
+							}
+						},
+						{
+							"event": "target3_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "target3"
+									},
+									{
+										"test": "is_family",
+										"value": "target3"
+									}
+								]
+							}
+						},
+						{
+							"event": "target4_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "target4"
+									},
+									{
+										"operator": "not",
+										"test": "is_family",
+										"value": "target4"
+									}
+								]
+							}
+						},
+						{
+							"event": "target4_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "target4"
+									},
+									{
+										"test": "is_family",
+										"value": "target4"
+									}
+								]
+							}
+						},
+						{
+							"event": "tick_world_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "tick_world"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:tick_world"
+									}
+								]
+							}
+						},
+						{
+							"event": "tick_world_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "tick_world"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:tick_world"
+									}
+								]
+							}
+						},
+						{
+							"event": "trade_table_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "trade_table"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:economy_trade_table"
+									}
+								]
+							}
+						},
+						{
+							"event": "trade_table_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "trade_table"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:economy_trade_table"
+									}
+								]
+							}
+						},
+						{
+							"event": "transformation",
+							"filters": {
+								"test": "has_tag",
+								"value": "transformation"
+							}
+						}
+					]
+				}
+			},
+			"invisibility_add": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"amplifier": 0,
+							"duration": 1000000,
+							"effect": "invisibility",
+							"visible": false
+						}
+					]
+				}
+			},
+			"invisibility_remove": {
+				"minecraft:spell_effects": {
+					"remove_effects": "invisibility"
+				}
+			},
+			"loot": {
+				"minecraft:loot": {
+					"table": "loot_tables/entities/cow.json"
+				},
+				"minecraft:health": {
+					"health": 0
+				}
+			},
+			"scale": {
+				"minecraft:scale": {
+					"value": 0
+				}
+			},
+			"target": {
+				"minecraft:type_family": {
+					"family": [
+						"target"
+					]
+				}
+			},
+			"target2": {
+				"minecraft:type_family": {
+					"family": [
+						"target2"
+					]
+				}
+			},
+			"target3": {
+				"minecraft:type_family": {
+					"family": [
+						"target3"
+					]
+				}
+			},
+			"target4": {
+				"minecraft:type_family": {
+					"family": [
+						"target4"
+					]
+				}
+			},
+			"npc": {
+				"minecraft:npc": {
+					"npc_data": {
+					  "portrait_offsets": {
+						"translate": [-7, 20, 0],
+							"scale": [1, 1, 1]
+					  },
+					  "picker_offsets": {
+						"translate": [0, 20, 0],
+						"scale": [1.7, 1.7, 1.7]
+					  },
+					  "skin_list":[
+						{
+						  "variant": 0
+						}
+					  ]
+					}
+				},
+				"minecraft:interact": {
+					"interactions": [
+						{
+							"swing": false,
+							"interact_text": ""
+						}
+					]
+				}
+			},
+			"tick_world": {
+				"minecraft:tick_world": {
+					"radius": 2
+				}
+			},
+			"collision":{
+				"minecraft:collision_box": {
+					"height": 1,
+					"width": 2
+				},
+				"minecraft:push_through": {
+					"value": 0
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				}
+			},
+			"trade_table": {
+				"minecraft:economy_trade_table": {
+					"table": "trading/armorer_trades.json"
+				}
+			},
+			"transformation": {
+				"minecraft:transformation": {
+					"into": "minecraft:armor_stand"
+				}
+			}
+		},
+		"events":{
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"always_show_name_remove",
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"always_show_name_add": {
+				"add": {
+					"component_groups": [
+						"always_show_name_add"
+					]
+				}
+			},
+			"always_show_name_remove": {
+				"remove": {
+					"component_groups": [
+						"always_show_name_add"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"always_show_name_remove"
+					]
+				}
+			},
+			"blocker": {
+				"add": {
+					"component_groups": [
+						"blocker"
+					]
+				}
+			},
+			"click_detector": {
+				"add": {
+					"component_groups": [
+						"click_detector"
+					]
+				}
+			},
+			"clickcommand": {
+				"remove": {
+					"component_groups": [
+						"clickreset"
+					] 
+				},
+				"add": {
+					"component_groups": [
+						"clickcommand"
+					]
+				}
+			},
+			"clickreset": {
+				"add": {
+					"component_groups": [
+						"clickreset"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"clickcommand"
+					]
+				}
+			},
+			"default": {
+				"add": {
+					"component_groups": [
+						"always_show_name_remove",
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"invisibility_add": {
+				"add": {
+					"component_groups": [
+						"invisibility_add"
+					]
+				}
+			},
+			"invisibility_remove": {
+				"add": {
+					"component_groups": [
+						"invisibility_remove"
+					]
+				}
+			},
+			"loot": {
+				"add": {
+					"component_groups": [
+						"loot"
+					]
+				}
+			},
+			"scale_add": {
+				"add": {
+					"component_groups": [
+						"scale"
+					]
+				}
+			},
+			"scale_remove": {
+				"remove": {
+					"component_groups": [
+						"scale"
+					]
+				}
+			},
+			"target_add": {
+				"add": {
+					"component_groups": [
+						"target"
+					]
+				}
+			},
+			"target_remove": {
+				"remove": {
+					"component_groups": [
+						"target"
+					]
+				}
+			},
+			"target2_add": {
+				"add": {
+					"component_groups": [
+						"target2"
+					]
+				}
+			},
+			"target2_remove": {
+				"remove": {
+					"component_groups": [
+						"target2"
+					]
+				}
+			},
+			"target3_add": {
+				"add": {
+					"component_groups": [
+						"target3"
+					]
+				}
+			},
+			"target3_remove": {
+				"remove": {
+					"component_groups": [
+						"target3"
+					]
+				}
+			},
+			"target4_add": {
+				"add": {
+					"component_groups": [
+						"target4"
+					]
+				}
+			},
+			"target4_remove": {
+				"remove": {
+					"component_groups": [
+						"target4"
+					]
+				}
+			},
+			"npc_add": {
+				"add": {
+					"component_groups": [
+						"npc"
+					]
+				}
+			},
+			"npc_remove": {
+				"remove": {
+					"component_groups": [
+						"npc"
+					]
+				}
+			},
+			"tick_world_add": {
+				"add": {
+					"component_groups": [
+						"tick_world"
+					]
+				}
+			},
+			"tick_world_remove": {
+				"remove": {
+					"component_groups": [
+						"tick_world"
+					]
+				}
+			},
+			"trade_table_add": {
+				"add": {
+					"component_groups": [
+						"trade_table"
+					]
+				}
+			},
+			"trade_table_remove": {
+				"remove": {
+					"component_groups": [
+						"trade_table"
+					]
+				}
+			},
+			"transformation": {
+				"add": {
+					"component_groups": [
+						"transformation"
+					]
+				}
+			},
+			"collision": {
+				"add": {
+					"component_groups": [
+						"collision"
+					]
+				}
+			}
+		}
+	}
+}

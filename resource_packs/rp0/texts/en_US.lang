@@ -1,0 +1,392 @@
+##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Hour of Code: Escape Estate
+pack.description=Resources needed for Hour of Code: Escape Estate
+
+subtitle.loading.1=Loading  . . . .
+subtitle.loading.2=Loading .  . . .
+subtitle.loading.3=Loading . .  . .
+subtitle.loading.4=Loading . . .  .
+subtitle.loading.5=Loading . . . . 
+
+actionbar.singleplayer_only=Only 1 player can play!
+
+## Touch Controls Buttons
+action.interact.start=Tap to Start
+action.interact.seat=Tap to Collect
+action.interact.click=Talk
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Press C to code
+actionbar.keyboard.code.0b=Press C to code
+actionbar.keyboard.code.1=Running code...
+actionbar.keyboard.look.0=§lSearch Room§r for  §l§gParticles
+actionbar.keyboard.look.1= §lRight-click§r  §l§gParticles
+actionbar.keyboard.look.2=§lInvestigate§r  §l§gParticles
+actionbar.keyboard.next.0=Enter the next room
+
+actionbar.keyboard.0.-1=Click the logo to begin
+actionbar.keyboard.0.1=Use your mouse to look around
+actionbar.keyboard.0.2=Continue Looking at the Orb
+actionbar.keyboard.0.3a=Press "W" to move forward
+actionbar.keyboard.0.3b=Press "A" to move left
+actionbar.keyboard.0.3c=Press "S" to move backward
+actionbar.keyboard.0.3d=Press "D" to move right
+actionbar.keyboard.0.3e=Press "W" to move, then "SPACE" to jump
+actionbar.keyboard.0.3f=Press "A" to move, then "SPACE" to jump
+actionbar.keyboard.0.3g=Press "S" to move, then "SPACE" to jump
+actionbar.keyboard.0.3h=Press "D" to move, then "SPACE" to jump
+actionbar.keyboard.0.3i=Navigate past the wall
+actionbar.keyboard.0.4= §lRight-click§r the button
+actionbar.keyboard.0.5=Move to NPC,  §lRight-click§r to interact with it
+
+actionbar.keyboard.1.2.1=§lSearch Room§r for  §l§gParticles§r
+actionbar.keyboard.1.2.2= §lRight-click§r §lLevers
+actionbar.keyboard.2.0= §lRight-click§r to talk to the Zombie Chef
+actionbar.keyboard.3.2= §lRight-click§r the Queen
+actionbar.keyboard.3.4= §lRight-click§r the King
+
+actionbar.keyboard.10.0.1=§lSearch Room§r for  §l§gParticles
+actionbar.keyboard.10.0.2= §lRight-click§r Lost Diary
+actionbar.keyboard.10.1.1=Scroll to select Lost Diary
+actionbar.keyboard.10.1.2= §lRight-click§r to open Lost Diary
+actionbar.keyboard.10.2=§lSearch Room§r for  §l§gParticles
+actionbar.keyboard.10.5=Enter the door or talk to the Agent
+actionbar.keyboard.10.7=Enter a door or talk to the Agent
+actionbar.keyboard.10.9=Enter a door
+
+actionbar.keyboard.11.3=Explore a side room
+actionbar.keyboard.11.5=Return to the main chamber
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Tap  above to code
+actionbar.touch.code.0b=Tap  above to code
+actionbar.touch.code.1=Running code...
+actionbar.touch.look.0=§lSearch Room§r for  §l§gParticles
+actionbar.touch.look.1=§lTap  §l§gParticles
+actionbar.touch.look.2=§lInvestigate§r  §l§gParticles
+actionbar.touch.next.0=Enter the next room
+
+actionbar.touch.0.-1=Tap button to begin
+actionbar.touch.0.1=Tap and drag the screen to the center of the orb.
+actionbar.touch.0.2=Continue Looking at the orb
+actionbar.touch.0.3a=Tap and hold  to move forward
+actionbar.touch.0.3b=Tap and hold  to move left
+actionbar.touch.0.3c=Tap and hold  to move backward
+actionbar.touch.0.3d=Tap and hold  to move right
+actionbar.touch.0.3e=Tap and hold  to move, then  to jump
+actionbar.touch.0.3f=Tap and hold  to move, then  to jump
+actionbar.touch.0.3g=Tap and hold  to move, then  to jump
+actionbar.touch.0.3h=Tap and hold  to move, then  to jump
+actionbar.touch.0.3i=Navigate past the wall
+actionbar.touch.0.4=Press the button
+actionbar.touch.0.5=Talk to the NPC
+
+actionbar.touch.1.2.1=§lSearch Room§r for  §l§gParticles§r
+actionbar.touch.1.2.2=Tap §lLevers
+actionbar.touch.2.0=Tap to talk to the Zombie Chef
+actionbar.touch.3.2=Tap the Queen
+actionbar.touch.3.4=Tap the King
+
+actionbar.touch.10.0.1=§lSearch Room§r for  §l§gParticles
+actionbar.touch.10.0.2=Tap Lost Diary
+actionbar.touch.10.1.1=Tap Lost Diary to select it
+actionbar.touch.10.1.2=Tap and hold to open Lost Diary
+actionbar.touch.10.2=Investigate the noise
+actionbar.touch.10.5=Enter the door or talk to the Agent
+actionbar.touch.10.7=Enter a door or talk to the Agent
+actionbar.touch.10.9=Enter a door
+
+actionbar.touch.11.3=Explore a side room
+actionbar.touch.11.5=Return to the main chamber
+
+## Titles
+blank= 
+title.blank= 
+title.intro.1=Minecraft Presents...
+title.intro.2=Escape Estate
+title.interact_king=King takes Bishop!
+title.interact_queen=Queen takes Rook!
+title.room_cleared=Room Cleared!
+title.trophy.unlocked=%1§fTrophy Unlocked:%1
+title.trophy.click=%1§fTrophy:%1
+title.end.1=The End
+title.end.2=The End?
+sub.puzzle_success=Puzzle Solved
+sub.room_1=Study
+sub.room_2=Kitchen
+sub.room_3=Parlor
+sub.room_4=Alchemy Room
+sub.room_5=Conservatory
+sub.room_6=Laboratory
+sub.room_7=Moat
+sub.room_8=Cellar
+sub.room_9=Drawing Room
+sub.wrong_order=Incorrect recipe!
+sub.too_few=Too few ingredients!
+sub.too_many=Too many ingredients!
+sub.trophy.note=§gFirst Note Collected!
+sub.trophy.book=§gAll Notes Collected!
+sub.trophy.boss=§gBoss Complete!
+sub.trophy.green=§aGreen Path Complete!
+sub.trophy.yellow=§eYellow Path Complete!
+sub.trophy.red=§cRed Path Complete!
+sub.trophy.emerald=§gAll Paths Complete!
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fMenu
+sign.dinner_item.1=%1§fZombie%1§fBeef
+sign.dinner_item.2=%1§fSkeleton%1§fSoup
+sign.dinner_item.3=%1§fCreeper%1§fChicken
+sign.dinner_item.4=%1§fWither%1§fFish
+
+slate.jan=%1%1   §lJanuary
+slate.feb=%1%1  §lFebruary
+slate.mar=%1%1     §lMarch
+slate.apr=%1%1      §lApril
+slate.may=%1%1       §lMay
+slate.1=%1%1       §l1st
+slate.2=%1%1       §l2nd
+slate.3=%1%1       §l3rd
+slate.4=%1%1       §l4th
+slate.5=%1%1       §l5th
+
+sign.queen_birthday=%1§fQueen's Birthday%1§fMay 4th
+sign.king_birthday=%1§fKing's Birthday%1§fApril 1st
+sign.reset=%1§fReset
+
+slate.weight.0=%1Weight: 0
+slate.weight.1=%1Weight: 1
+slate.weight.2=%1Weight: 2
+slate.weight.3=%1Weight: 3
+slate.weight.4=%1Weight: 4
+slate.weight.5=%1Weight: 5
+slate.weight.6=%1Weight: 6
+slate.weight.7=%1Weight: 7
+slate.weight.8=%1Weight: 8
+slate.weight.9=%1Weight: 9
+slate.weight.10=%1Weight: 10
+slate.weight.11=%1Weight: 11
+slate.weight.12=%1Weight: 12
+slate.weight.13=%1Weight: 13
+slate.weight.14=%1Weight: 14
+slate.weight.15=%1Weight: 15
+slate.weight.16=%1Weight: 16
+slate.weight.17=%1Weight: 17
+slate.weight.18=%1Weight: 18
+slate.weight.19=%1Weight: 19
+slate.weight.20=%1Weight: 20
+slate.weight.21=%1Weight: 21
+slate.weight.22=%1Weight: 22
+slate.weight.23=%1Weight: 23
+slate.weight.24=%1Weight: 24
+slate.weight.25=%1Weight: 25
+slate.weight.26=%1Weight: 26
+slate.weight.27=%1Weight: 27
+slate.weight.28=%1Weight: 28
+slate.weight.29=%1Weight: 29
+slate.weight.30=%1Weight: 30+
+
+board.tut.intro=%1            Welcome to §lHour of Code 2022§r :%1                       §lEscape Estate§r%1%1In this section, you'll learn how to look around and travel through Minecraft! Read the text at the bottom of your screen above your 'hotbar' for help on what to do next.%1%1First, use your mouse to look around, or if you are using a touchscreen device swipe, at the 'golden orbs' until they all pop. Then, move on to the next tutorial.
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Close
+npc.button.done=Done
+npc.button.back=Back
+npc.button.next=Next
+npc.button.previous=Previous
+
+npc.zombie_chef.name=Zombie Chef
+npc.zombie_chef.0.text=BREEEAAAAAAAAAD!!
+npc.armor.name=Speedy Knight
+npc.armor_2.name=Suit of Armor
+npc.king.name=King
+npc.queen.name=Queen
+npc.rook.name=Rook
+npc.bishop.name=Bishop
+npc.clay_golem.name=Clay Golem
+npc.clay_golem.1.name=[ . ]
+npc.clay_golem.2.name=[ . . ]
+npc.clay_golem.3.name=[ . . . ]
+npc.enderman_butler.name=Butler
+npc.zombie_minion.name=Crate Minion
+
+## Chess pieces with dates
+npc.king.jan.1.name=King%1§7January 1st
+npc.king.jan.2.name=King%1§7January 2nd
+npc.king.jan.3.name=King%1§7January 3rd
+npc.king.jan.4.name=King%1§7January 4th
+npc.king.jan.5.name=King%1§7January 5th
+npc.king.feb.1.name=King%1§7February 1st
+npc.king.feb.2.name=King%1§7February 2nd
+npc.king.feb.3.name=King%1§7February 3rd
+npc.king.feb.4.name=King%1§7February 4th
+npc.king.feb.5.name=King%1§7February 5th
+npc.king.mar.1.name=King%1§7March 1st
+npc.king.mar.2.name=King%1§7March 2nd
+npc.king.mar.3.name=King%1§7March 3rd
+npc.king.mar.4.name=King%1§7March 4th
+npc.king.mar.5.name=King%1§7March 5th
+npc.king.apr.1.name=King%1§7April 1st
+npc.king.apr.2.name=King%1§7April 2nd
+npc.king.apr.3.name=King%1§7April 3rd
+npc.king.apr.4.name=King%1§7April 4th
+npc.king.apr.5.name=King%1§7April 5th
+npc.king.may.1.name=King%1§7May 1st
+npc.king.may.2.name=King%1§7May 2nd
+npc.king.may.3.name=King%1§7May 3rd
+npc.king.may.4.name=King%1§7May 4th
+npc.king.may.5.name=King%1§7May 5th
+npc.queen.jan.1.name=Queen%1§7January 1st
+npc.queen.jan.2.name=Queen%1§7January 2nd
+npc.queen.jan.3.name=Queen%1§7January 3rd
+npc.queen.jan.4.name=Queen%1§7January 4th
+npc.queen.jan.5.name=Queen%1§7January 5th
+npc.queen.feb.1.name=Queen%1§7February 1st
+npc.queen.feb.2.name=Queen%1§7February 2nd
+npc.queen.feb.3.name=Queen%1§7February 3rd
+npc.queen.feb.4.name=Queen%1§7February 4th
+npc.queen.feb.5.name=Queen%1§7February 5th
+npc.queen.mar.1.name=Queen%1§7March 1st
+npc.queen.mar.2.name=Queen%1§7March 2nd
+npc.queen.mar.3.name=Queen%1§7March 3rd
+npc.queen.mar.4.name=Queen%1§7March 4th
+npc.queen.mar.5.name=Queen%1§7March 5th
+npc.queen.apr.1.name=Queen%1§7April 1st
+npc.queen.apr.2.name=Queen%1§7April 2nd
+npc.queen.apr.3.name=Queen%1§7April 3rd
+npc.queen.apr.4.name=Queen%1§7April 4th
+npc.queen.apr.5.name=Queen%1§7April 5th
+npc.queen.may.1.name=Queen%1§7May 1st
+npc.queen.may.2.name=Queen%1§7May 2nd
+npc.queen.may.3.name=Queen%1§7May 3rd
+npc.queen.may.4.name=Queen%1§7May 4th
+npc.queen.may.5.name=Queen%1§7May 5th
+npc.king.scrambled.name=King%1§7§kTest
+npc.queen.scrambled.name=Queen%1§7§kTest
+
+## Tutorial
+npc.tutcontrols.name=Controls
+npc.tutcontrols.1.text=Welcome to Hour of Code 2022!%1%1Let's start with a short tutorial! To begin, use your device to either left-click or press the correct control scheme that best applies to you.
+npc.button.keyboard=Keyboard
+npc.button.touch=Touch Controls
+
+npc.tutskip.name=Skip
+npc.keyboard.tutskip.1.text=Welcome! The following tutorial will teach you the basics of navigating Minecraft.%1%1Left-click "Start Tutorial" to begin, if you do not require a tutorial, left-click "Skip Tutorial" to begin the experience!
+npc.touch.tutskip.1.text=Welcome! The following tutorial will teach you the basics of navigating Minecraft.%1%1Tap "Start Tutorial" to begin, if you do not require a tutorial, tap "Skip Tutorial" to begin the experience! 
+npc.tutskip.2.text=Are you sure you want to skip the tutorial? You'll be missing critical information if you do.%1%1Using your device, select either "Start Tutorial" or "Skip Tutorial"
+npc.button.skip_yes=Skip Tutorial
+npc.button.skip_no=Start Tutorial
+
+npc.tuthelp.name=Help
+npc.keyboard.tuthelp.1.text=Congrats, you've completed the movement tutorial!%1%1For more instructions on how to interact with the world, press "H" to show controls.
+npc.touch.tuthelp.1.text=Congrats, you've completed the movement tutorial!%1%1For more instructions on how to interact with the world, press "H" to show controls.
+
+npc.tuthost.name=Dr. Breakowski
+npc.tuthost.1.text=Hello. I am Dr. Dodge Breakowski. I see you've received my invitation. Do you think you have what it takes to escape the mansion by dawn and claim the one million emeralds? Excellent! Now head to the front door to begin your challenge!
+npc.button.go=Let's go!
+
+## Labels
+npc.label.nether_wart.name=Nether Wart
+npc.label.phantom_membrane.name=Phantom Membrane
+npc.label.fermented_spider_eye.name=Fermented Spider Eye
+npc.label.text= 
+
+## Notes
+npc.notebook.name=Lost Diary
+item.rwm:notebook.name=Lost Diary
+npc.note.name=Diary Page
+npc.note.0.text=%1You have found a lost diary. Can you find all 10 missing pages as you explore the mansion?%1%1Use "§lPrevious§r" and "§lNext§r" below to view the notes you've collected.%1%1%1
+npc.note.1.text=%1Entry #1: The Attic %1%1Dear Diary:%1%1Last week, I received an invitation from some mystery person, challenging me to escape this mansion. The note said that if I escape by dawn, I'd win a million emeralds. Though I didn't need the emeralds, I thought a challenge like this would make a great video for my channel!%1%1However, when I arrived here I was gobbled up by the mansion. I know that doesn't make sense but it is the truth, I swear! When I came to, I found myself in this attic. There are three locked doors... one of them must be a way out! I just need to figure out how to open them!
+npc.note.2.text=%1Entry #2: The Study %1%1Dear Diary:%1%1I finally found a way out of the attic, only to become trapped in this strange library. I do believe the large mirror here is more than it seems! Is it truly a mirror, or a window to another dimension? Regardless, I have no option other than to press forward and see where it takes me...
+npc.note.3.text=%1Entry #3: The Kitchen %1%1Dear Diary:%1%1Today I stumbled upon a large dining area. Here I found a frightening creature looming in the kitchen, seemingly oblivious of my presence. When I gained the courage to speak with the chef, it only groaned "BREAD!" Dare I help this ghoulish cook? Perhaps if I do, it can show me the way out...
+npc.note.4.text=%1Entry #4: The Parlor %1%1Dear Diary:%1%1The large door in this foyer looks like it could lead out of the mansion! But how does one open it? Could this chessboard unlock the door? Surely there must be clues lying about... I've come too far to go back now!
+npc.note.5.text=%1Entry #5: The Alchemy Room %1%1Dear Diary:%1%1As my journey through the manor continues, I am starting to see that this is no ordinary mansion. For example, today I found a room dedicated to making potions. Not something you see every day, and yet I can't shake the feeling that I've been here before...
+npc.note.6.text=%1Entry #6: The Conservatory %1%1Dear Diary:%1%1As I made my way through the mansion, I discovered an old greenhouse. It was probably a lush garden in the past, but now only a trickle of water nurtures the plants here today. I know it was probably my imagination, but I could have sworn I saw something fly off into the bushes as I entered this room! What it may have been, I have no idea...
+npc.note.7.text=%1Entry #7: The Laboratory %1%1Dear Diary:%1%1I made a most fascinating discovery today: a laboratory! It's complete with mysterious machinery and strange experiments the likes of which I've never seen! Or have I? There is something very familiar about this place...
+npc.note.8.text=%1Entry #8: The Moat %1%1Dear Diary:%1%1While searching for a way out, I've come across a strange moat dividing this area. The drawbridge is raised up and looks to be controlled from the other side. The butler here is a quiet fellow who doesn't seem to understand my words. Still, I must find a way to convince them to lower the bridge.
+npc.note.9.text=%1Entry #9: The Cellar %1%1Dear Diary:%1%1My search for a way out has led me to a vast cellar! The wind howls across the chasm with such force that I am afraid to set foot on the rickety old bridge before me. For a moment, I thought I heard something fly above me... It must have just been the wind.
+npc.note.10.text=%1Entry #10: The Drawing Room %1%1Dear Diary:%1%1My travels have found me in a small sitting room. It is warm and inviting. It feels like I could just stay here forever... NO! I must press on! Strange things are afoot here and I'm pretty sure I am not alone!
+
+## Agent
+npc.agent.name=Agent
+npc.agent.1.1.text=Hello? Is someone there? Oh my, a human! Do you think you could help me? I can't seem to open this floor vent! I think my code may be broken. Do you think you could take a look and see what's wrong with it?
+npc.button.yes=Yes!
+npc.agent.1.2.text=Great! If you can get me out of here, I will return the favor and help you escape the attic. Which programming language would you like to use?%1%1§lBlocks§r is best for beginniners. Only choose §lPython§r if you have coded in it before.
+npc.button.makecode=Blocks
+npc.button.python=Python
+npc.agent.1.3.text=Okay! First, see that cursor over there on the floor? It needs to move forward 3 blocks to reach the trapdoor, but it isn't working. Press C to view the code, and then run the code to see what is wrong.
+npc.agent.1.4.text=Hmmm, no, that's not quite right. The cursor needs to move to the trapdoor AND tell it to open.
+npc.agent.2.1.text=Great! It's open! That's strange... I still can't seem to get out. Can you check the code again and make sure I'm moving up 2 blocks?
+npc.agent.3.1.text=Thank you! You fixed my code! Now I'm in range to open the Green door for you. The path behind the Green door is an easier one. You can take that path, or talk to me again if you want to try opening the Yellow door!
+npc.agent.4.1.text=So, you want to try opening the Yellow door? For that I'll need more power. Luckily, I can charge off of moonlight! All we have to do is open the skylight above... Huh? My code isn't working right. Try checking my code to make sure that all 4 trapdoors in the ceiling are opening!
+npc.agent.5.1.text=Wow, way to go! I've opened the Yellow door for you now. Head through if you'd like, or if you really want a challenge, talk with me again to try opening the Red door!
+npc.agent.6.1.text=We'll need to work together to get to in the Red door. It will only open if I'm standing on the Gold blocks. Let's give it a try! ...can't...get...there... ugh... How about a little help there, friend?
+npc.agent.7.1.text=Okay, all the doors are open now. Choose the path you want to take. Each path has a different difficulty... Green is easier, Red is harder, and Yellow is somewhere in between. So long, human. Perhaps our paths will cross again someday.
+npc.agent.green.8.1.text=Wait! Before you go, I need to tell you one last thing! This house is filled with §lescape rooms§r. You'll need to find clues, solve puzzles, and fix code to make your way out! Press §lC§r to reveal a puzzle's code. §lRun§r the code to see what happens! If there are errors, fix the code and run it again to test it. That is called §ldebuging§r.
+npc.agent.green.8.2.text=Sometimes, solutions won't be clear, and not all puzzles take code to solve! When you find a puzzle, remember to §lrun§r the code first to see what's wrong, then §ldebug§r and §lfix§r the faulty code! It's much easier than writing code from scratch!%1%1Keep an eye out for clues such as §g§lParticles§0§r to help guide you!
+npc.agent.yellow.8.1.text=Wait! Before you go, I need to tell you one last thing! This house is filled with §lescape rooms§r. You'll need to find clues, solve puzzles, and fix code to make your way out! Press §lC§r to reveal a puzzle's code. §lRun§r the code to see what happens! If there are errors, fix the code and run it again to test it. That is called §ldebuging§r.
+npc.agent.yellow.8.2.text=Sometimes, solutions won't be clear, and not all puzzles take code to solve! When you find a puzzle, remember to §lrun§r the code first to see what's wrong, then §ldebug§r and §lfix§r the faulty code! It's much easier than writing code from scratch!%1%1Keep an eye out for clues such as §g§lParticles§0§r to help guide you!
+npc.agent.red.8.1.text=Wait! Before you go, I need to tell you one last thing! This house is filled with §lescape rooms§r. You'll need to find clues, solve puzzles, and fix code to make your way out! Press §lC§r to reveal a puzzle's code. §lRun§r the code to see what happens! If there are errors, fix the code and run it again to test it. That is called §ldebuging§r.
+npc.agent.red.8.2.text=Sometimes, solutions won't be clear, and not all puzzles take code to solve! When you find a puzzle, remember to §lrun§r the code first to see what's wrong, then §ldebug§r and §lfix§r the faulty code! It's much easier than writing code from scratch!%1%1Keep an eye out for clues such as §g§lParticles§0§r to help guide you!
+
+## Foyer
+npc.host.name=Dr. Breakowski
+npc.foyer.1.1.text=Hello again. It looks like you did it. You managed to make your way through the mansion. Bravo. We knew you could do it... In fact, we were counting on it!
+npc.foyer.2.1.text=You see, this place is more than just a mansion... It's an interdimensional prison! One that we could not escape... But we knew you'd figure it out!
+npc.foyer.2.2.text=Ah ha! Surprise! The Time Agents are back! Now you're the one who is going to be stuck in this mansion forever! Enjoy your new home! Mwhahaha!
+npc.foyer.3.1.text=Not so fast, Time Agents...
+npc.foyer.3.2.text=You're not going anywhere. I'm giving you troublemakers a time out! 
+npc.foyer.4.1.text=TARRA! You may have trapped us here once, but we won't fall for your tricks again! The portal is open! You can't stop us! You're out of time... and so are we! So long, chumps!
+npc.foyer.5.1.text=That portal leads to the Time Orb. They'll be able to use it to escape. The only way to stop the Time Orb is by using the Chrono Cannons. It won't take long for them to charge up the Orb, so we must quickly activate the defenses and stop them once and for all! Now, go!
+
+## Boss
+npc.rascal.name=Rascal
+npc.gremlin.name=Gremlin
+npc.yeti.name=Yeti
+npc.banshee.name=Banshee
+npc.pixie.name=Pixie
+npc.tarra.name=TARRA
+npc.boss.green.1.1.text=Yesss! The Time Orb! We can use it to escape! What? Drat, it's that pesky player again!
+npc.boss.yellow.1.1.text=Yesss! The Time Orb! We can use it to finally escape this place! What? You again? Split up, guys! They can't catch us all!
+npc.boss.red.1.1.text=Yesss! The Time Orb! Finally, we can escape this interdimensional prison! What? YOU AGAIN!?! Split up, Time Agents! Protect the Chrono Cannons while I prep the Time Orb!
+npc.boss.2.1.text=We need to activate the Chrono Cannons! The control centers are in those corner rooms, but the Time Agents have shut the doors! See if you can figure out a way to open them!
+npc.boss.yellow.3.1.text=The control room doors are open! Inside each control room there is a lever that will activate a Chrono Cannon. We will need to activate all four to destroy the Time Orb! Quick! Go turn on those cannons!
+npc.boss.red.3.1.text=You did it! The control room doors are open! Inside each control room there is a way to activate the Chrono Cannon. We will need to activate all four to destroy the Time Orb! Quick! Go turn on those cannons!
+npc.boss.green.4.1.text=All of the Chrono Cannons are now activated! Prepare to fire!
+npc.boss.yellow.4.1.text=Good work! Now that all four cannons are ready, we can take down the defenses on the Time Orb and stop the Time Agents!
+npc.boss.red.4.1.text=Good work! Now that all four cannons are ready, we can take down the defenses on the Time Orb and stop the Time Agents!
+npc.boss.5.1.text=Look! The Time Agents are stunned over the Time Orb chamber! Now's our chance! If we can rotate the magnetic discs beneath the floor, we can reverse the polarity and trap them here once and for all! 
+npc.boss.6.1.text=You did it! You really stuck it to those Time Agents... or should I say: You really stuck those Agents to this Time! Ha. Ha. Sorry. I'm still working on this thing you call 'humor'. The Time Agents will remain here to think about what they have done. As for you, come with me. I will show you the way out.
+npc.button.run=Let's go!
+npc.boss.side_room_1.1.text=Ha! You really think you can defeat us? You're living in a fairy tale!
+npc.boss.side_room_1.2.text=What!?! Impossible! Nobody puts Pixie in a corner!
+npc.boss.side_room_2.1.text=There's no way we'll let you win. Prepare for an avalanche of anguish!
+npc.boss.side_room_2.2.text=Abominable human! This isn't over!
+npc.boss.side_room_3.1.text=There is no opposing us. Soon we'll be gone, and you'll be trapped here, shrieking in sorrow!
+npc.boss.side_room_3.2.text=AAAAAAHHHHHHHH!!!!! I didn't think you had a ghost of a chance!
+npc.boss.side_room_4.1.text=Hehehehe! Foolish human! Your kind never learns. Your malfunction is inevitable!
+npc.boss.side_room_4.2.text=So you figured out the gizmo? No matter! It won't stop us!
+npc.boss.agent.1.text=Looks like you could use some help. Don't worry. I've got your back. I can help you activate the cannons. Just show me the way!
+
+## Ending Cutscene
+npc.player.name=You
+npc.end.1.1.text=Congratulations! Your coding skills saved the day again. Who knows what trouble the Time Agents would have stirred up if they had escaped the estate. Well done!
+npc.end.1.2.text=There is still one question I have... Those diary pages... Where do you think they came from?
+npc.end.2.1.text=They were from me! Dr. Dodge Breakowski! Those temporal troublemakers lured me into this place too! I've actually been trying to escape for weeks! Whatever you did in there helped me finally find a way out! Thank you!
+npc.end.2.2.text=I'm glad you are safe... and I think we've heard the last from the Time Agents for a while. Now please, let's get out of here... This place gives me the 0s and 1s!
+npc.end.2.3.text=So, Dr. Breakowski... About those million Emeralds...
+npc.end.2.4.text=Sorry kid, I'm broke!%1%1Would you settle for saving the world and a cookie?
+npc.end.laugh.1.name=Ha!
+npc.end.laugh.2.name=Ha! Ha!
+npc.end.laugh.3.name=Ha! Ha! Ha!
+npc.end.laugh.1.text=Ha!
+npc.end.laugh.2.text=Ha! Ha!
+npc.end.laugh.3.text=Ha! Ha! Ha!
+
+action.hint.exit.rwm:cam= 

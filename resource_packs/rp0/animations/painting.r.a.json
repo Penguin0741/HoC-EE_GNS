@@ -1,0 +1,29 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.painting.slide_down" : {
+			"loop" : "hold_on_last_frame",
+			"animation_length": 2.0,
+			"bones" : {
+				"root": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -64, 0]
+					}
+				}
+			}
+		},
+		"animation.painting.slide_up" : {
+			"loop" : "hold_on_last_frame",
+			"animation_length": 2.0,
+			"bones" : {
+				"root": {
+					"position": {
+						"0.0": [0, -64, 0],
+						"2.0": [0, -0, 0]
+					}
+				}
+			}
+		}
+	}
+}

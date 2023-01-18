@@ -1,0 +1,40 @@
+// CTRL+K CTRL+J to expand all
+// CTRL+K CTRL+3 to collapse controllers
+{
+	"format_version": "1.16.0",
+	"animation_controllers": {
+		"controller.animation.cam.dolly"			: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add cam.dolly"		]}}},
+		"controller.animation.cam.dolly_mark"		: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add cam.dolly_mark"	]}}},
+		"controller.animation.cam.mount"			: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add cam.mount"		]}}},
+		"controller.animation.cam.subject"			: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add cam.subject"		]}}},
+		"controller.animation.cam.subject_mark"		: {"initial_state": "default", "states": { "default": {"on_entry": [ "/tag @s add cam.subject_mark"	]}}},
+
+		"controller.animation.cam.dolly_on_mark": {
+			"initial_state": "default",
+			"states": {
+				"on_mark": { "transitions": [{ "default": "!q.is_baby" }]},
+				"default": { "transitions": [{ "on_mark":  "q.is_baby" }],
+					"on_exit": [
+						"/event entity @s speed_00",
+						"/event entity @s on_mark_remove",
+						"/scoreboard players add @a cam.next 1"
+					]
+				}
+			}
+		},
+		"controller.animation.cam.subject_on_mark": {
+			"initial_state": "default",
+			"states": {
+				"on_mark": { "transitions": [{ "default": "!q.is_baby" }]},
+				"default": { "transitions": [{ "on_mark":  "q.is_baby" }],
+					"on_exit": [
+						"/event entity @s speed_00",
+						"/event entity @s on_mark_remove",
+						"/scoreboard players add @a cam.next 1"
+					]
+				}
+
+			}
+		}
+	}
+}

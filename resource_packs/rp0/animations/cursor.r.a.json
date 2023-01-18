@@ -1,0 +1,93 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.cursor.offset" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"position":[0,-480,0]
+				},
+				"corner":{
+					"position":[0,-480,0]
+				},
+				"corner1":{
+					"position":[0,-480,0]
+				},
+				"corner2":{
+					"position":[0,-480,0]
+				},
+				"corner3":{
+					"position":[0,-480,0]
+				},
+				"corner4":{
+					"position":[0,-480,0]
+				},
+				"corner5":{
+					"position":[0,-480,0]
+				},
+				"corner6":{
+					"position":[0,-480,0]
+				},
+				"corner7":{
+					"position":[0,-480,0]
+				}
+			}
+		},
+		"animation.cursor.offset2" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"position":[0,-800,0]
+				},
+				"corner":{
+					"position":[0,-800,0]
+				},
+				"corner1":{
+					"position":[0,-800,0]
+				},
+				"corner2":{
+					"position":[0,-800,0]
+				},
+				"corner3":{
+					"position":[0,-800,0]
+				},
+				"corner4":{
+					"position":[0,-800,0]
+				},
+				"corner5":{
+					"position":[0,-800,0]
+				},
+				"corner6":{
+					"position":[0,-800,0]
+				},
+				"corner7":{
+					"position":[0,-800,0]
+				}
+			}
+		},
+		"animation.cursor.rot90" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"rotation":[0,90,0]
+				}
+			}
+		},
+		"animation.cursor.rot180" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"rotation":[0,180,0]
+				}
+			}
+		},
+		"animation.cursor.rot270" : {
+			"loop" : true,
+			"bones" : {
+				"root":{
+					"rotation":[0,270,0]
+				}
+			}
+		}
+	}
+}

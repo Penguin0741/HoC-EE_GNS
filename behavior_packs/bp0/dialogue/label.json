@@ -1,0 +1,41 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.label.nether_wart",
+                "npc_name": { "rawtext": [ { "translate": "npc.label.nether_wart.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.label.text",
+                        "with":["\n"]
+                    }]
+                }
+            },
+            {
+                "scene_tag": "npc.label.phantom_membrane",
+                "npc_name": { "rawtext": [ { "translate": "npc.label.phantom_membrane.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.label.text",
+                        "with":["\n"]
+                    }]
+                }
+            },
+            {
+                "scene_tag": "npc.label.fermented_spider_eye",
+                "npc_name": { "rawtext": [ { "translate": "npc.label.fermented_spider_eye.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.label.text",
+                        "with":["\n"]
+                    }]
+                }
+            }
+        ]
+
+
+    }
+
+
+}

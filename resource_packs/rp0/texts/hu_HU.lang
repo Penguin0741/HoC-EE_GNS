@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=A Kódolás órája 2022	#
+pack.description=A 2022-es Kódolás órája kihíváshoz szükséges erőforrások	#
+
+subtitle.loading.1=Betöltés  . . . .	#
+subtitle.loading.2=Betöltés .  . . .	#
+subtitle.loading.3=Betöltés . .  . .	#
+subtitle.loading.4=Betöltés . . .  .	#
+subtitle.loading.5=Betöltés . . . . 	#
+
+actionbar.singleplayer_only=Csak 1 játékos játszhat!	#
+
+## Touch Controls Buttons
+action.interact.start=Koppints a kezdéshez	#
+action.interact.seat=Koppints a begyűjtéshez	#
+action.interact.click=Beszélgetés	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Nyomd le a C billentyűt a kódoláshoz	#
+actionbar.keyboard.code.0b=Nyomd le a C billentyűt a kódoláshoz	#
+actionbar.keyboard.code.1=Kód futtatása...	#
+actionbar.keyboard.look.0=§lKutasd át a szobát§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §lKattints a jobb gombbal§r a §l§grészecskékre	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lKutass§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Lépj be a következő szobába	#
+
+actionbar.keyboard.0.-1=A kezdéshez kattints a logóra	#
+actionbar.keyboard.0.1=Az egérrel nézhetsz körül	#
+actionbar.keyboard.0.2=Figyeld tovább a gömböt	#
+actionbar.keyboard.0.3a=Az előrefelé haladáshoz nyomd le a „W” billentyűt	#
+actionbar.keyboard.0.3b=Az „A” billentyű lenyomásával mozoghatsz balra	#
+actionbar.keyboard.0.3c=Nyomd le az „S” bilentyűt a hátrafelé mozgáshoz	#
+actionbar.keyboard.0.3d=Nyomd le a „D” billentyűt a jobbra mozgáshoz	#
+actionbar.keyboard.0.3e=Nyomd le a „W” billentyűt a mozgáshoz, majd a „SZÓKÖZ” billentyűt az ugráshoz	#
+actionbar.keyboard.0.3f=Nyomd le az „A” billentyűt a mozgáshoz, majd a „SZÓKÖZ” billentyűt az ugráshoz	#
+actionbar.keyboard.0.3g=Nyomd le az „S” billentyűt a mozgáshoz, majd a „SZÓKÖZ” billentyűt az ugráshoz	#
+actionbar.keyboard.0.3h=Nyomd le a „D” billentyűt a mozgáshoz, majd a „SZÓKÖZ” billentyűt az ugráshoz	#
+actionbar.keyboard.0.3i=Juss túl a falon	#
+actionbar.keyboard.0.4= §lKattints a jobb egérgombbal§r a gombra	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=Lépj az NJK-hoz,  §lJobb kattintással§r lépj vele interakcióba	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§lKutasd át a szobát§r  §l§grészecskék után§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §lKattints a jobb gombbal§r a §lkarokra	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §lKattints a jobb gombbal§r, hogy beszélhess a zombiséffel	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §lKattints a jobb gombbal§r a királynőre	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §lKattints a jobb gombbal§r a királyra	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§lKutasd át a szobát§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §lKattints a jobb gombbal§r az Elveszett naplóra	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Görgess az Elveszett napló kiválasztásához	#
+actionbar.keyboard.10.1.2= §lKattints a jobb gombbal§r az Elveszett napló megnyitásához	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§lKutasd át a szobát§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Lépj be az ajtón, vagy beszélj az Agenttel	#
+actionbar.keyboard.10.7=Lépj be egy ajtón, vagy beszélj az Agenttel	#
+actionbar.keyboard.10.9=Lépj be egy ajtón	#
+
+actionbar.keyboard.11.3=Fedezz fel egy mellékszobát	#
+actionbar.keyboard.11.5=Térj vissza a főterembe	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Koppints a fenti  elemre a kódoláshoz	#
+actionbar.touch.code.0b=Koppints a fenti  elemre a kódoláshoz	#
+actionbar.touch.code.1=Kód futtatása...	#
+actionbar.touch.look.0=§lKutasd át a szobát§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§lKoppints a  §l§grészecskékre	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lKutass§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Lépj be a következő szobába	#
+
+actionbar.touch.0.-1=Koppints a gombra a kezdéshez	#
+actionbar.touch.0.1=Koppints és húzd a képernyőt a gömb közepére.	#
+actionbar.touch.0.2=Nézd tovább a gömböt	#
+actionbar.touch.0.3a=Koppints és tartsd lenyomva a(z)  gombot az előrefelé mozgáshoz	#
+actionbar.touch.0.3b=Koppints és tartsd lenyomva a(z)  gombot a balra mozgáshoz	#
+actionbar.touch.0.3c=Koppints és tartsd az ujjad a(z)  gombon a hátrafelé mozgáshoz	#
+actionbar.touch.0.3d=Koppints és tartsd lenyomva a(z)  gombot a jobbra mozgáshoz	#
+actionbar.touch.0.3e=Koppints és tartsd lenyomva a(z)  gombot a mozgáshoz, majd a(z)  gombot az ugráshoz	#
+actionbar.touch.0.3f=Koppints és tartsd lenyomva a(z)  gombot a mozgáshoz, majd a(z)  gombot az ugráshoz	#
+actionbar.touch.0.3g=Koppints és tartsd lenyomva a(z)  gombot a mozgáshoz, majd a(z)  gombot az ugráshoz	#
+actionbar.touch.0.3h=Koppints és tartsd lenyomva a(z)  gombot a mozgáshoz, majd a(z)  gombot az ugráshoz	#
+actionbar.touch.0.3i=Juss túl a falon	#
+actionbar.touch.0.4=Nyomd meg a gombot	#
+actionbar.touch.0.5=Beszélj az NJK-val	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§lKutasd át a szobát§r  §l§grészecskék után§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=Koppints a §lkarokra	###{Locked="§l"}
+actionbar.touch.2.0=Koppints, hogy beszélhess a zombiséffel	#
+actionbar.touch.3.2=Koppints a királynőre	#
+actionbar.touch.3.4=Koppints a királyra	#
+
+actionbar.touch.10.0.1=§lKutasd át a szobát§r  §l§grészecskék után	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Koppints az Elveszett naplóra	#
+actionbar.touch.10.1.1=Koppints az Elveszett naplóra a kiválasztásához	#
+actionbar.touch.10.1.2=Koppints, és tartsd lenyomva az Elveszett napló megnyitásához	#
+actionbar.touch.10.2=Nyomozd ki a zaj forrását	#
+actionbar.touch.10.5=Lépj be az ajtón, vagy beszélj az Agenttel	#
+actionbar.touch.10.7=Lépj be egy ajtón, vagy beszélj az Agenttel	#
+actionbar.touch.10.9=Lépj be egy ajtón	#
+
+actionbar.touch.11.3=Fedezz fel egy mellékszobát	#
+actionbar.touch.11.5=Térj vissza a főterembe	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=A Minecraft bemutatja...	#
+title.intro.2=Szökés a birtokról	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=A Király leüti a Futót!	###Chess reference
+title.interact_queen=A Királynő leüti a Bástyát!	###Chess reference
+title.room_cleared=A szoba kész!	#
+title.trophy.unlocked=%1§fTrófea feloldva:%1	###{Locked="§f"}
+title.trophy.click=%1§fTrófea:%1	###{Locked="§f"}
+title.end.1=A Vég	#
+title.end.2=A Vég?	#
+sub.puzzle_success=Rejtvény megoldva	#
+sub.room_1=Dolgozószoba	###A room in the mansion to explorer
+sub.room_2=Konyha	###A room in the mansion to explorer
+sub.room_3=Szalon	###A room in the mansion to explorer
+sub.room_4=Alkímiaszoba	###A room in the mansion to explorer
+sub.room_5=A télikert	###A room in the mansion to explorer
+sub.room_6=Laboratórium	###A room in the mansion to explorer
+sub.room_7=Várárok	###A location at the mansion
+sub.room_8=Pince	###A room in the mansion to explorer
+sub.room_9=Rajzos szoba	###A room in the mansion to explorer
+sub.wrong_order=Helytelen recept!	#
+sub.too_few=Túl kevés az összetevő!	#
+sub.too_many=Túl sok az összetevő!	#
+sub.trophy.note=§gElső jegyzet begyűjtve!	###{Locked=§g}
+sub.trophy.book=§gÖsszes jegyzet begyűjtve!	###{Locked=§g}
+sub.trophy.boss=§gFőellenség kész!	###{Locked=§g}
+sub.trophy.green=§aZöld út kész!	#
+sub.trophy.yellow=§eSárga út kész!	#
+sub.trophy.red=§cVörös út kész!	#
+sub.trophy.emerald=§gMinden út kész!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fMenü	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombi%1§fMarhahús	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fCsontvázas%1§fleves	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fCreeper%1§fcsirke	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fSorvasztó%1§fhal	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §lJanuár	###{Locked="§l"}
+slate.feb=%1%1  §lFebruár	###{Locked="§l"}
+slate.mar=%1%1     §lMárcius	###{Locked="§l"}
+slate.apr=%1%1      §lÁprilis	###{Locked="§l"}
+slate.may=%1%1       §lMájus	###{Locked="§l"}
+slate.1=%1%1       §l1.	###{Locked="§l"}
+slate.2=%1%1       §l2.	###{Locked="§l"}
+slate.3=%1%1       §l3.	###{Locked="§l"}
+slate.4=%1%1       §l4.	###{Locked="§l"}
+slate.5=%1%1       §l5.	###{Locked="§l"}
+
+sign.queen_birthday=%1§fA királynő születésnapja%1§fMájus 4.	###{Locked="§f"}
+sign.king_birthday=%1§fA Király születésnapja%1§fÁprilis 1.	###{Locked="§f"}
+sign.reset=%1§fVisszaállítás	###{Locked="§f"}
+
+slate.weight.0=%1Súly: 0	#
+slate.weight.1=%1Súly: 1	#
+slate.weight.2=%1Súly: 2	#
+slate.weight.3=%1Súly: 3	#
+slate.weight.4=%1Súly: 4	#
+slate.weight.5=%1Súly: 5	#
+slate.weight.6=%1Súly: 6	#
+slate.weight.7=%1Súly: 7	#
+slate.weight.8=%1Súly: 8	#
+slate.weight.9=%1Súly: 9	#
+slate.weight.10=%1Súly: 10	#
+slate.weight.11=%1Súly: 11	#
+slate.weight.12=%1Súly: 12	#
+slate.weight.13=%1Súly: 13	#
+slate.weight.14=%1Súly: 14	#
+slate.weight.15=%1Súly: 15	#
+slate.weight.16=%1Súly: 16	#
+slate.weight.17=%1Súly: 17	#
+slate.weight.18=%1Súly: 18	#
+slate.weight.19=%1Súly: 19	#
+slate.weight.20=%1Súly: 20	#
+slate.weight.21=%1Súly: 21	#
+slate.weight.22=%1Súly: 22	#
+slate.weight.23=%1Súly: 23	#
+slate.weight.24=%1Súly: 24	#
+slate.weight.25=%1Súly: 25	#
+slate.weight.26=%1Súly: 26	#
+slate.weight.27=%1Súly: 27	#
+slate.weight.28=%1Súly: 28	#
+slate.weight.29=%1Súly: 29	#
+slate.weight.30=%1Súly: 30+	#
+
+board.tut.intro=%1            Üdvözöl a §l2022-es Kódolás órája§r :%1                       §lSzökés a birtokról§r%1%1Ebben a szakaszban megtudhatod, hogyan kell körülnézni és haladni a Minecraftban. Olvasd el a képernyő alján, az „eszköztár” felett megjelenő szöveget, amely segítséget nyújt a következő lépésekhez.%1%1Először nézz körül az egérrel, vagy ha érintőképernyős eszközt használsz, pöccints az „aranygömbökre”, amíg kipukkadnak. Ezután lépj tovább a következő oktatásra.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Bezárás	#
+npc.button.done=Kész	#
+npc.button.back=Vissza	#
+npc.button.next=Következő	#
+npc.button.previous=Előző	#
+
+npc.zombie_chef.name=Zombiséf	#
+npc.zombie_chef.0.text=KENYÉÉÉÉÉÉR!!	###The zombie chef needs bread to survive
+npc.armor.name=Sebes lovag	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Páncél	#
+npc.king.name=Király	###chess piece
+npc.queen.name=Királynő	###chess piece
+npc.rook.name=Bástya	###chess piece
+npc.bishop.name=Futó	###chess piece
+npc.clay_golem.name=Agyaggólem	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=[ . . ]	#
+npc.clay_golem.3.name=[ . . . ]	#
+npc.enderman_butler.name=Komornyik	#
+npc.zombie_minion.name=Ládacsatlós	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Király%1§7Január 1.	###King refers to the chess piece
+npc.king.jan.2.name=Király%1§7Január 2.	###King refers to the chess piece
+npc.king.jan.3.name=Király%1§7Január 3.	###King refers to the chess piece
+npc.king.jan.4.name=Király%1§7Január 4.	###King refers to the chess piece
+npc.king.jan.5.name=Király%1§7Január 5.	###King refers to the chess piece
+npc.king.feb.1.name=Király%1§7Február 1.	###King refers to the chess piece
+npc.king.feb.2.name=Király%1§7Február 2.	###King refers to the chess piece
+npc.king.feb.3.name=Király%1§7Február 3.	###King refers to the chess piece
+npc.king.feb.4.name=Király%1§7Február 4.	###King refers to the chess piece
+npc.king.feb.5.name=Király%1§7Február 5.	###King refers to the chess piece
+npc.king.mar.1.name=Király%1§7Március 1.	###King refers to the chess piece
+npc.king.mar.2.name=Király%1§7Március 2.	###King refers to the chess piece
+npc.king.mar.3.name=Király%1§7Március 3.	###King refers to the chess piece
+npc.king.mar.4.name=Király%1§7Március 4.	###King refers to the chess piece
+npc.king.mar.5.name=Király%1§7Március 5.	###King refers to the chess piece
+npc.king.apr.1.name=Király%1§7Április 1.	###King refers to the chess piece
+npc.king.apr.2.name=Király%1§7Április 2.	###King refers to the chess piece
+npc.king.apr.3.name=Király%1§7Április 3.	###King refers to the chess piece
+npc.king.apr.4.name=Király%1§7Április 4.	###King refers to the chess piece
+npc.king.apr.5.name=Király%1§7Április 5.	###King refers to the chess piece
+npc.king.may.1.name=Király%1§7Május 1.	###King refers to the chess piece
+npc.king.may.2.name=Király%1§7Május 2.	###King refers to the chess piece
+npc.king.may.3.name=Király%1§7Május 3.	###King refers to the chess piece
+npc.king.may.4.name=Király%1§7Május 4.	###King refers to the chess piece
+npc.king.may.5.name=Király%1§7Május 5.	###King refers to the chess piece
+npc.queen.jan.1.name=Királynő%1§7Január 1.	###Queen refers to a chess piece
+npc.queen.jan.2.name=Királynő%1§7Január 2.	###Queen refers to a chess piece
+npc.queen.jan.3.name=Királynő%1§7Január 3.	###Queen refers to a chess piece
+npc.queen.jan.4.name=Királynő%1§7Január 4.	###Queen refers to a chess piece
+npc.queen.jan.5.name=Királynő%1§7Január 5.	###Queen refers to a chess piece
+npc.queen.feb.1.name=Királynő%1§7Február 1.	###Queen refers to a chess piece
+npc.queen.feb.2.name=Királynő%1§7Február 2.	###Queen refers to a chess piece
+npc.queen.feb.3.name=Királynő%1§7Február 3.	###Queen refers to a chess piece
+npc.queen.feb.4.name=Királynő%1§7Február 4.	###Queen refers to a chess piece
+npc.queen.feb.5.name=Királynő%1§7Február 5.	###Queen refers to a chess piece
+npc.queen.mar.1.name=Királynő%1§7Március 1.	###Queen refers to a chess piece
+npc.queen.mar.2.name=Királynő%1§7Március 2.	###Queen refers to a chess piece
+npc.queen.mar.3.name=Királynő%1§7Március 3.	###Queen refers to a chess piece
+npc.queen.mar.4.name=Királynő%1§7Március 4.	###Queen refers to a chess piece
+npc.queen.mar.5.name=Királynő%1§7Március 5.	###Queen refers to a chess piece
+npc.queen.apr.1.name=Királynő%1§7Április 1.	###Queen refers to a chess piece
+npc.queen.apr.2.name=Királynő%1§7Április 2.	###Queen refers to a chess piece
+npc.queen.apr.3.name=Királynő%1§7Április 3.	###Queen refers to a chess piece
+npc.queen.apr.4.name=Királynő%1§7Április 4.	###Queen refers to a chess piece
+npc.queen.apr.5.name=Királynő%1§7Április 5.	###Queen refers to a chess piece
+npc.queen.may.1.name=Királynő%1§7Május 1.	###Queen refers to a chess piece
+npc.queen.may.2.name=Királynő%1§7Május 2.	###Queen refers to a chess piece
+npc.queen.may.3.name=Királynő%1§7Május 3.	###Queen refers to a chess piece
+npc.queen.may.4.name=Királynő%1§7Május 4.	###Queen refers to a chess piece
+npc.queen.may.5.name=Királynő%1§7Május 5.	###Queen refers to a chess piece
+npc.king.scrambled.name=Király%1§7§kTeszt	###King refers to the chess piece
+npc.queen.scrambled.name=Királynő%1§7§kTeszt	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Vezérlés	#
+npc.tutcontrols.1.text=Üdv a 2022-es Kódolás órájában!%1%1Kezdjük egy rövid oktatással! A kezdéshez a használt eszköztől függően kattints a bal egérgombbal vagy koppints a számodra leginkább megfelelő vezérlési módra.	#
+npc.button.keyboard=Billentyűzet	#
+npc.button.touch=Érintéses vezérlés	#
+
+npc.tutskip.name=Kihagyás	#
+npc.keyboard.tutskip.1.text=Üdvözöllek! A következő oktatóanyag megtanítja a Minecraftban való navigálás alapjait.%1%1Kattints a bal gombbal az „Oktatás indítása” gombra a kezdéshez. Ha nincs szükséged az oktatásra, kattints a bal gombbal az „Oktatás kihagyása” gombra, és indulhat a játék!	#
+npc.touch.tutskip.1.text=Üdv! A következő oktatás megtanítja a Minecraftban való mozgás alapjait.%1%1Koppints a „Bemutató indítása” gombra a kezdéshez, ha pedig nincs szükséged oktatásra, koppints az „Oktatóanyag kihagyása” elemre a játék megkezdéséhez! 	#
+npc.tutskip.2.text=Biztosan kihagyod az oktatást? Ha így teszel, fontos infók maradhatnak ki.%1%1Válaszd az „Oktatás indítása” vagy az „Oktatás kihagyása” lehetőséget.	#
+npc.button.skip_yes=Oktatás kihagyása	#
+npc.button.skip_no=Oktatás indítása	#
+
+npc.tuthelp.name=Súgó	#
+npc.keyboard.tuthelp.1.text=Gratulálok, elvégezted a mozgásoktatást!%1%1A világgal való interakcióra vonatkozó további utasításokért nyomd le a „H” billentyűt a vezérlők megjelenítéséhez.	#
+npc.touch.tuthelp.1.text=Gratulálok, elvégezted a mozgásoktatást!%1%1A világ használatára vonatkozó további utasításokért nyomd meg a „H” gombot a vezérlők megjelenítéséhez.	#
+
+npc.tuthost.name=Dr. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Üdv! Dr. Dodge Breakowski vagyok. Látom, hogy megkaptad a meghívómat. Szerinted képes vagy rá, hogy hajnalra elmenekülj a kúriából, és megszerezd az egymillió smaragdot? Kitűnő! Most irány a bejárati ajtó, és kezdd el a kihívást!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=Gyerünk!	#
+
+## Labels
+npc.label.nether_wart.name=Alvilági bibircsók	#
+npc.label.phantom_membrane.name=Fantomhártya	#
+npc.label.fermented_spider_eye.name=Erjesztett pókszem	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Elveszett napló	#
+item.rwm:notebook.name=Elveszett napló	#
+npc.note.name=Naplóoldal	#
+npc.note.0.text=%1Találtál egy elveszett naplót. Megtalálod a 10 hiányzó oldalt a kúria felfedezése közben?%1%1Az alábbi „§lElőző§r” és „§lKövetkező§r” gombokkal megnézheted az összegyűjtött feljegyzéseket.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%11. bejegyzés: A padlás %1%1Kedves naplóm:%1%1A múlt héten kaptam egy meghívót egy titokzatos személytől, aki kihívott, hogy meneküljek el ebből a kúriából. A levél szerint ha napfelkeltéig sikerül megszöknöm, egymillió smaragdot nyerek. Bár nem volt szükségem a smaragdokra, úgy gondoltam, hogy egy ilyen kihívásról nagyszerű videót készíthetnék a csatornám számára!%1%1Amikor azonban idejöttem, elnyelt a kúria. Tudom, hogy ennek nincs értelme, de ez az igazság, esküszöm! Amikor felébredtem, ezen a padláson találtam magam. Három zárt ajtó van... az egyik biztosan a kiút! Csak ki kell találnom, hogyan lehet kinyitni őket!	#
+npc.note.2.text=%12. bejegyzés: A dolgozószoba %1%1Kedves naplóm:%1%1Végre megtaláltam a kiutat a padlásról, de csapdába estem ebben a furcsa könyvtárban. Azt hiszem, a nagy tükör itt több, mint aminek látszik! Vajon valóban tükör, vagy egy ablak egy másik dimenzióba? Mindenesetre nincs más választásom, mint továbbmenni. Meglátjuk, hová vezet...	#
+npc.note.3.text=%13. bejegyzés: A konyha %1%1Kedves Naplóm!%1%1Ma egy nagy étkezőbe botlottam, és egy ijesztő lényt találtam a konyhában, aki láthatólag nem vett tudomást a jelenlétemről. Amikor összeszedtem a bátorságomat, és megszólítottam a séfet, csak annyit nyögött, hogy „KENYÉR!” Vajon merjek segíteni ennek a haláli szakácsnak? Ha segítek, talán megmutatja nekem a kiutat...	#
+npc.note.4.text=%14. bejegyzés: A szalon %1%1Kedves naplóm:%1%1Az előcsarnok nagy ajtaja mintha kivezethetne a kúriából! De hogyan lehet kinyitni? Lehet, hogy ez a sakktábla kinyitja az ajtót? Bizonyára vannak nyomok elszórva a környéken... túl messzire jutottam ahhoz, hogy most visszaforduljak!	#
+npc.note.5.text=%15. bejegyzés: Az alkímiai szoba %1%1Kedves Naplóm!%1%1Ahogy egyre többet bejárok a kúriából, kezdem látni, hogy ez nem egy közönséges kúria. Például ma találtam egy szobát, amely bájitalok készítésére szolgál. Ez nem egy mindennapi szoba, mégis határozottan olyan érzésem van, hogy már jártam itt...	#
+npc.note.6.text=%16. bejegyzés: A télikert %1%1Kedves Naplóm!%1%1Ahogy áthaladtam a kastélyon, felfedeztem egy régi télikertet. Valaha egy burjánzó kert lehetett, de ma már csak alig csordogáló víz táplálja az itteni növényeket. Tudom, hogy valószínűleg a képzeletem játszadozik velem, de meg mernék esküdni, hogy láttam valamit berepülni a bokrok közé, amikor beléptem a szobába! Hogy mi lehetett, arról fogalmam sincs...	#
+npc.note.7.text=%17. bejegyzés: A laboratórium %1%1Kedves Naplóm!%1%1Ma egy felettébb izgalmas dolgot fedeztem fel: egy laboratóriumot! Titokzatos gépek vannak benne, és olyan furcsa kísérletek, amelyekhez hasonlót még soha nem láttam! Vagy mégis? Van valami nagyon ismerős nekem ebben a helyben...	#
+npc.note.8.text=%18. bejegyzés: A várárok %1%1Kedves Naplóm!%1%1Miközben a kiutat kerestem, egy furcsa várárokra bukkantam, amely kettéválasztja ezt a területet. A felvonóhíd fel van húzva, és látható, hogy a másik oldalról irányítják. Az itteni komornyik egy csendes fickó, aki úgy tűnik, nem érti, amit mondok. Mégis, valahogy meg kell győznöm őket, hogy leengedjék a hidat.	#
+npc.note.9.text=%19. bejegyzés: A pince %1%1Kedves Naplóm!%1%1A kiutat keresve egy hatalmas pincébe jutottam! A szél olyan erővel süvölt a hasadékból, hogy félek rátenni a lábam az előttem lévő rozoga régi hídra. Egy pillanatra azt hittem, hogy hallottam valamit elrepülni fölöttem... Biztosan csak a szél volt.	#
+npc.note.10.text=%110. bejegyzés: A társalgó %1%1Kedves Naplóm!%1%1Utazásaim során egy kis szalonban találtam magam. Meleg és hívogató. Úgy érzem, hogy szívesen itt maradnék örökre... NEM! Tovább kell mennem! Furcsa dolgok folynak itt, és biztosan nem vagyok egyedül!	#
+
+## Agent
+npc.agent.name=Ügynök	#
+npc.agent.1.1.text=Hahó? Van ott valaki? Ó, egek, egy ember! Mit gondolsz, tudnál nekem segíteni? Úgy tűnik, nem tudom kinyitni ezt a padlószellőzőt! Szerintem rossz a kódom. Esetleg meg tudnád nézni, mi a baj vele?	#
+npc.button.yes=Igen!	#
+npc.agent.1.2.text=Nagyszerű! Ha ki tudsz juttatni innen, viszonzom a szívességet, és segítek elmenekülni a padlásról. Melyik programnyelvet szeretnéd használni?%1%1A §lBlocks§r a legjobb a kezdők számára. Csak akkor válaszd a §lPythont§r, ha már korábban is kódoltál vele.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=Oké! Először is, látod azt a kurzort ott a padlón? 3 blokkot kell előrefelé mozognia, hogy elérje a csapóajtót, de nem működik. Nyomd le a C billentyűt a kód megtekintéséhez, majd futtasd a kódot, hogy láthasd, mi vele a baj.	#
+npc.agent.1.4.text=Hmmm, nem, ez így nem egészen jó. A kurzornak a csapóajtóhoz kell mozognia, ÉS utasítania kell, hogy nyíljon ki.	#
+npc.agent.2.1.text=Nagyszerű! Nyitva van! Ez furcsa... még mindig nem tudok kijutni. Ellenőriznéd újra a kódot, hogy biztosan 2 blokkal feljebb lépek-e?	#
+npc.agent.3.1.text=Köszönöm! Kijavítottad a kódomat! Most már elég közel vagyok, hogy kinyissam neked a zöld ajtót. A zöld ajtó mögötti út könnyebb. Választhatod ezt az utat, vagy beszélhetsz velem újra, ha meg szeretnéd próbálni kinyitni a sárga ajtót!	#
+npc.agent.4.1.text=Szóval meg akarod próbálni kinyitni a sárga ajtót? Ehhez több energiára lesz szükségem. Szerencsére fel tudom tölteni magam holdfénnyel! Csak annyit kell tennünk, hogy kinyitjuk a tetőablakot itt fölöttünk... hát ez meg? A kódom nem működik megfelelően. Próbáld meg ellenőrizni a kódomat, hogy a mennyezeten lévő mind a 4 csapóajtó kinyíljon!	#
+npc.agent.5.1.text=Hú, szép munka! Kinyitottam neked a sárga ajtót. Menj át rajta, ha szeretnél, vagy ha igazi kihívásra vágysz, beszélj velem újra, hogy megpróbáld kinyitni a piros ajtót!	#
+npc.agent.6.1.text=Össze kell dolgoznunk, hogy bejussunk a piros ajtón. Csak akkor nyílik ki, ha az aranyblokkokon állok. Tegyünk egy próbát! ... nem tudok... odajutni... uhh... Tudnál segíteni egy kicsit, barátom?	#
+npc.agent.7.1.text=Oké, most már az összes ajtó nyitva van. Válassz útvonalat. Minden út más nehézségi fokozatú... a zöld könnyebb, a piros nehezebb, a sárga pedig valahol a kettő között van. Ég veled, ember. Talán egy nap útjaink ismét keresztezik egymást.	#
+npc.agent.green.8.1.text=Várj! Mielőtt elmész, még egy utolsó dolgot el kell mondanom neked! Ez a ház tele van §lszabadulószobákkal§r. Nyomokat kell találnod, rejtvényeket megoldanod és kódot javítanod, hogy kijuthass! Nyomd meg a §lC§r gombot a rejtvény kódjának megjelenítéséhez. §lFuttasd§r a kódot, hogy lásd, mi történik! Ha hibák vannak, javítsd ki a kódot, és futtasd újra a teszteléshez. Ezt nevezik §lhibakeresésnek§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=Néha a megoldások nem egyértelműek, és nem minden rejtvény megoldása igényel kódolást! Ha találsz egy rejtvényt, ne felejtsd el először §lfuttatni§r a kódot, hogy kiderítsd, mi a probléma, majd végezz §lhibakeresést§r és §lhibajavítást§r a hibás kódon! Sokkal könnyebb, mint teljesen új kódot írni!%1%1Keresd a nyomokat, például a §g§lrészecskéket§0§r, amelyek rávezethetnek a megoldásra!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Várj! Mielőtt elmész, még egy utolsó dolgot el kell mondanom neked! Ez a ház tele van §lszabadulószobákkal§r. Nyomokat kell találnod, rejtvényeket megoldanod és kódot javítanod, hogy kijuthass! Nyomd meg a §lC§r gombot a rejtvény kódjának megjelenítéséhez. §lFuttasd§r a kódot, hogy lásd, mi történik! Ha hibák vannak, javítsd ki a kódot, és futtasd újra a teszteléshez. Ezt nevezik §lhibakeresésnek§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=Néha a megoldások nem egyértelműek, és nem minden rejtvény megoldása igényel kódolást! Ha találsz egy rejtvényt, ne felejtsd el először §lfuttatni§r a kódot, hogy kiderítsd, mi a probléma, majd végezz §lhibakeresést§r és §lhibajavítást§r a hibás kódon! Sokkal könnyebb, mint teljesen új kódot írni!%1%1Keresd a nyomokat, például a §g§lrészecskéket§0§r, amelyek rávezethetnek a megoldásra!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Várj! Mielőtt elmész, még egy utolsó dolgot el kell mondanom neked! Ez a ház tele van §lszabadulószobákkal§r. Nyomokat kell találnod, rejtvényeket megoldanod és kódot javítanod, hogy kijuthass! Nyomd meg a §lC§r gombot a rejtvény kódjának megjelenítéséhez. §lFuttasd§r a kódot, hogy lásd, mi történik! Ha hibák vannak, javítsd ki a kódot, és futtasd újra a teszteléshez. Ezt nevezik §lhibakeresésnek§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=Néha a megoldások nem egyértelműek, és nem minden rejtvény megoldása igényel kódolást! Ha találsz egy rejtvényt, ne felejtsd el először §lfuttatni§r a kódot, hogy kiderítsd, mi a probléma, majd végezz §lhibakeresést§r és §lhibajavítást§r a hibás kódon! Sokkal könnyebb, mint teljesen új kódot írni!%1%1Keresd a nyomokat, például a §g§lrészecskéket§0§r, amelyek rávezethetnek a megoldásra!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Dr. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Üdv ismét! Úgy tűnik, megcsináltad. Sikerült átjutnod a kúrián. Bravó! Tudtuk, hogy meg tudod csinálni... Valójában számítottunk rá!	#
+npc.foyer.2.1.text=Tudod, ez a hely több, mint egy kúria... Ez egy interdimenzionális börtön! Ahonnan mi nem tudtunk kiszabadulni... De tudtuk, hogy te megoldod!	#
+npc.foyer.2.2.text=Aha! Meglepetés! Az Időügynökök visszatértek! Most te vagy az, aki örökre ebben a kastélyban ragad! Élvezd az új otthonodat! Muhahaha!	#
+npc.foyer.3.1.text=Lassan a testtel, Időügynökök...	#
+npc.foyer.3.2.text=Nem mentek sehova. Kifutottatok az időből, bajkeverők! 	#
+npc.foyer.4.1.text=TARRA! Lehet, hogy egyszer már csapdába ejtettél minket, de még egyszer nem dőlünk be a trükkjeidnek! A portál nyitva van! Nem tudtok megállítani minket! Kifutottatok az időből... és mi is! Viszlát, tökfejek!	#
+npc.foyer.5.1.text=Ez a portál az Időgömbhöz vezet. Ezzel el tudnak majd menekülni. Az Időgömböt csak a Chronoágyúk használatával lehet megállítani. Nem fog sokáig tartani, amíg feltöltik a Gömböt, ezért gyorsan aktiválnunk kell a védelmet, és egyszer s mindenkorra megállítani őket! Gyerünk, menj!	#
+
+## Boss
+npc.rascal.name=Rascal	#
+npc.gremlin.name=Gremlin	#
+npc.yeti.name=Yeti	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Pixie	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=Ez az! Az Időgömb! A segítségével megszökhetünk! Mi? A fenébe, ez már megint az a bosszantó játékos!	#
+npc.boss.yellow.1.1.text=Ez az! Az Időgömb! A segítségével végre megszökhetünk innen! Mi? Már megint ti? Váljuk szét, srácok! Nem kaphatnak el mindannyiunkat!	#
+npc.boss.red.1.1.text=Ez az! Az Időgömb! Végre megmenekülhetünk ebből az interdimenzionális börtönből! Mi? MEGINT TI!?! Váljunk szét, Időügynökök! Védjétek meg a Chronoágyúkat, amíg előkészítem az Időgömböt!	#
+npc.boss.2.1.text=Aktiválnunk kell a Chronoágyúkat! Az irányítóközpontok ezekben a sarokszobákban vannak, de az Időügynökök bezárták az ajtókat! Kitalálod, hogy hogyan nyithatnánk ki őket?	#
+npc.boss.yellow.3.1.text=A vezérlőterem ajtaja nyitva van! Minden vezérlőteremben van egy kar, amely aktivál egy Chronoágyút. Mind a négyet aktiválnunk kell, hogy elpusztítsuk az Időgömböt! Gyerünk! Menj, kapcsold be azokat az ágyúkat!	#
+npc.boss.red.3.1.text=Megcsináltad! A vezérlőterem ajtaja nyitva van! Minden vezérlőteremben van egy mód a Chronoágyú aktiválására. Mind a négyet aktiválnunk kell, hogy elpusztítsuk az Időgömböt! Gyerünk! Menj, kapcsold be azokat az ágyúkat!	#
+npc.boss.green.4.1.text=Az összes Chronoágyú aktív! Készülj fel a tüzelésre!	#
+npc.boss.yellow.4.1.text=Remekül csináltad! Most, hogy mind a négy ágyú készen áll, hatástalaníthatjuk az Időgömb védelmét, és megállíthatjuk az Időügynököket!	#
+npc.boss.red.4.1.text=Remekül csináltad! Most, hogy mind a négy ágyú készen áll, hatástalaníthatjuk az Időgömb védelmét, és megállíthatjuk az Időügynököket!	#
+npc.boss.5.1.text=Nézd! Az Időügynökök elkábultak az Időgömb termében! Itt a lehetőségünk! Ha el tudjuk forgatni a mágneses korongokat a padló alatt, megfordíthatjuk a polaritást, és egyszer s mindenkorra csapdába ejthetjük őket! 	#
+npc.boss.6.1.text=Megcsináltad! Jól megmutattad azoknak az Időügynököknek... most aztán elidőzhetnek itt! Haha! Bocsánat. Még mindig dolgozom ezen a dolgon, amit „humornak” hívsz. Az Időügynökök itt maradnak, hogy átgondolják, mit tettek. Ami téged illet, gyere velem. Megmutatom a kiutat.	#
+npc.button.run=Gyerünk!	#
+npc.boss.side_room_1.1.text=Na! Tényleg azt hiszed, hogy le tudsz győzni minket? Mesevilágban élsz!	#
+npc.boss.side_room_1.2.text=Mi!?! Lehetetlen! Pixie-t senki sem ültetheti a sarokba!	#
+npc.boss.side_room_2.1.text=Nem hagyhatjuk, hogy győzz. Készülj fel a kínok lavinájára!	#
+npc.boss.side_room_2.2.text=Förtelmes ember! Ennek még nincs vége!	#
+npc.boss.side_room_3.1.text=Senki nem állhat ellen nekünk. Mi hamarosan megyünk, te viszont itt ragadsz, és jajonghatsz bánatodban!	#
+npc.boss.side_room_3.2.text=ÁÁÁÁÁÁ!!!!! Nem gondoltam volna, hogy van esélyed!	#
+npc.boss.side_room_4.1.text=Hehehehe! Ostoba ember! A fajtád soha nem tanul. Nem kerülheted el a meghibásodást!	#
+npc.boss.side_room_4.2.text=Szóval rájöttél, hogy működik ez az izé? Nem számít! Ez nem fog megállítani minket!	#
+npc.boss.agent.1.text=Úgy tűnik, némi segítségre van szükséged. Ne aggódj, nem hagylak cserben. Segítek az ágyúk aktiválásában, csak mutasd az utat!	#
+
+## Ending Cutscene
+npc.player.name=Te	#
+npc.end.1.1.text=Gratulálunk! A kódolási képességeid ismét megmentették a napot. Ki tudja, milyen bajt kevertek volna az Időügynökök, ha megszöknek a birtokról. Szép munka!	#
+npc.end.1.2.text=Van még egy kérdésem... Azok a naplóoldalak... Mit gondolsz, honnan származnak?	#
+npc.end.2.1.text=Tőlem származtak! Dr. Dodge Breakowskitól! Azok az időbeli bajkeverők engem is idecsaltak! Valójában már hetek óta próbálok megszökni! Bármit is tettél odabent, segített, hogy végre megtaláljam a kiutat! Köszönöm!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Örülök, hogy biztonságban vagy..., és azt hiszem, egy ideig nem fogunk hallani az Időügynökök felől. Most viszont menjünk innen, ha lehet... Ettől a helytől futkosnak a hátamon a 0-k és az 1-ek!	#
+npc.end.2.3.text=Szóval, Dr. Breakowski... Azzal a millió smaragddal kapcsolatban...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Sajnálom kölyök, le vagyok égve!%1%1Beéred a világ megmentésével és egy sütivel?	#
+npc.end.laugh.1.name=Ha!	#
+npc.end.laugh.2.name=Ha! Ha!	#
+npc.end.laugh.3.name=Ha! Ha! Ha!	#
+npc.end.laugh.1.text=Ha!	#
+npc.end.laugh.2.text=Ha! Ha!	#
+npc.end.laugh.3.text=Ha! Ha! Ha!	#
+
+action.hint.exit.rwm:cam= 	#

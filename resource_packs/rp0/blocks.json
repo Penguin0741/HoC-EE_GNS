@@ -1,0 +1,130 @@
+{
+    "rwm:mosaic_1": {
+        "sound" : "glass",
+        "textures" : "mosaic_1"
+    },
+    "rwm:mosaic_2": {
+        "sound" : "glass",
+        "textures" : "mosaic_2"
+    },
+	"rwm:mosaic_3": {
+        "sound" : "glass",
+        "textures" : "mosaic_3"
+    },
+	"rwm:mosaic_4": {
+        "sound" : "glass",
+        "textures" : "mosaic_4"
+    },
+	"rwm:mosaic_5": {
+        "sound" : "glass",
+        "textures" : "mosaic_5"
+    },
+	"rwm:mosaic_6": {
+        "sound" : "glass",
+        "textures" : "mosaic_6"
+    },
+	"rwm:mosaic_7": {
+        "sound" : "glass",
+        "textures" : "mosaic_7"
+    },
+	"rwm:mosaic_8": {
+        "sound" : "glass",
+        "textures" : "mosaic_8"
+    },
+	"rwm:extra_cracked_bricks": {
+        "sound" : "stone",
+        "textures" : "extra_cracked_bricks"
+    },
+    "rwm:orange_square": {
+        "sound" : "stone",
+        "textures" : "orange_square"
+    },
+    "rwm:magenta_square": {
+        "sound" : "stone",
+        "textures" : "magenta_square"
+    },
+    "rwm:yellow_square": {
+        "sound" : "stone",
+        "textures" : "yellow_square"
+    },
+    "rwm:light_blue_square": {
+        "sound" : "stone",
+        "textures" : "light_blue_square"
+    },
+	"rwm:orange_square_top": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "planks",
+            "side" : "planks",
+            "up" : "orange_square"
+        }
+    },
+	"rwm:magenta_square_top": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "planks",
+            "side" : "planks",
+            "up" : "magenta_square"
+        }
+    },
+	"rwm:yellow_square_top": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "planks",
+            "side" : "planks",
+            "up" : "yellow_square"
+        }
+    },
+	"rwm:light_blue_square_top": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "planks",
+            "side" : "planks",
+            "up" : "light_blue_square"
+        }
+    },
+	"rwm:silver_concrete_left_arrow": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "silver_concrete",
+            "north" : "silver_concrete",
+            "south" : "silver_concrete",
+            "east" : "silver_concrete",
+            "west" : "silver_concrete_left_arrow",
+            "up" : "silver_concrete"
+        }
+    },
+	"rwm:silver_concrete_right_arrow": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "silver_concrete",
+            "north" : "silver_concrete",
+            "south" : "silver_concrete",
+            "east" : "silver_concrete",
+            "west" : "silver_concrete_right_arrow",
+            "up" : "silver_concrete"
+        }
+    },
+	"rwm:silver_concrete_up_arrow": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "silver_concrete",
+            "north" : "silver_concrete",
+            "south" : "silver_concrete",
+            "east" : "silver_concrete",
+            "west" : "silver_concrete_up_arrow",
+            "up" : "silver_concrete"
+        }
+    },
+	"rwm:silver_concrete_down_arrow": {
+        "sound" : "stone",
+        "textures" : {
+            "down" : "silver_concrete",
+            "north" : "silver_concrete",
+            "south" : "silver_concrete",
+            "east" : "silver_concrete",
+            "west" : "silver_concrete_down_arrow",
+            "up" : "silver_concrete"
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.cannon.states" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "spawning" ],
+					"transitions": [
+						{ "idling": "query.all_animations_finished" }
+					]
+				},
+				"idling":{
+					"animations": ["idling"],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"firing": "query.variant == 1"
+						}
+					]
+				},
+				"firing":{
+					"animations": [
+						"firing"
+					],
+					"transitions": [
+						{
+							"powering_down": "query.all_animations_finished"
+						}
+					]
+				},
+				"powering_down":{
+					"animations": [
+						"powering_down"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"powering_up": "query.variant == 0"
+						}
+					]
+				},
+				"powering_up":{
+					"animations": [
+						"powering_up"
+					],
+					"blend_transition": 0.1,
+					"transitions": [
+						{
+							"idling": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

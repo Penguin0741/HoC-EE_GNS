@@ -1,0 +1,44 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.note.sway": {
+			"animation_length": 4,
+			"loop": true,
+			"bones": {
+				"note": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [5, 0, 0],
+						"2.0": [0, 0, 0],
+						"3.0": [-5, 0, 0],
+						"4.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.note.rot90": {
+			"loop" : true,
+			"bones": {
+				"root": {
+					"rotation": [0, 90, 0]
+				}
+			}
+		},
+		"animation.note.rot180": {
+			"loop" : true,
+			"bones": {
+				"root": {
+					"rotation": [0, 180, 0]
+				}
+			}
+		},
+		"animation.note.rot270": {
+			"loop" : true,
+			"bones": {
+				"root": {
+					"rotation": [0, 270, 0]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:laser_tape",
+			"geometry": {
+				"default": "geometry.laser_tape"
+			},
+			"materials": {
+				"default": "translucent"
+			},
+			"render_controllers": [
+				"controller.render.laser_tape"
+			],
+			"textures": {
+				"default": "textures/entity/laser_tape/empty",
+				"glass_lime": "textures/blocks/glass_lime",
+				"glass_yellow": "textures/blocks/glass_yellow",
+				"glass_red": "textures/blocks/glass_red",
+				"wool_lime": "textures/entity/laser_tape/wool_lime",
+				"wool_yellow": "textures/entity/laser_tape/wool_yellow",
+				"wool_red": "textures/entity/laser_tape/wool_red"
+			},
+			"animations": {
+				"launch_1": "animation.laser_tape.launch_1",
+				"launch_2": "animation.laser_tape.launch_2"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"launch_1": "q.variant == 1"
+					},
+					{
+						"launch_2": "q.variant == 2"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:cannon",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.8
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"deals_damage": false
+				  }
+				]
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false,
+				"always_show": true
+			},
+			"minecraft:physics": {
+				"has_collision": true,
+				"has_gravity": true
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+				}
+			},
+			"lime": {
+				"minecraft:skin_id": {
+					"value": 1
+				}
+			},
+			"cyan": {
+				"minecraft:skin_id": {
+					"value": 2
+				}
+			},
+			"magenta": {
+				"minecraft:skin_id": {
+					"value": 3
+				}
+			},
+			"reset": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"fire": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": { "component_groups": [ "despawn" ] }
+			},
+			"lime": {
+				"add": { "component_groups": [ "lime" ] }
+			},
+			"cyan": {
+				"add": { "component_groups": [ "cyan" ] }
+			},
+			"magenta": {
+				"add": { "component_groups": [ "magenta" ] }
+			},
+			"reset": {
+				"add": { "component_groups": [ "reset" ] }
+			},
+			"fire": {
+				"add": { "component_groups": [ "fire" ] }
+			}
+		}
+	}
+}

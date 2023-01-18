@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "rwm:whirlwind",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/particle/whirlwind"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"creation_expression": "variable.random = math.random(-2,1);variable.random2 = math.random(-600,600);"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_once": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1
+			},
+			"minecraft:particle_motion_parametric": {
+				"relative_position": ["3*-math.sin((variable.particle_age*300)+variable.random2)", "variable.random + variable.particle_age*4", "3*math.cos((variable.particle_age*300)+variable.random2)"]
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["2*math.min(1-variable.particle_age,variable.particle_age)", "2*math.min(1-variable.particle_age,variable.particle_age)"],
+				"facing_camera_mode": "rotate_xyz",
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [0, 0],
+					"uv_size": [16, 16]
+				}
+			}
+		}
+	}
+}

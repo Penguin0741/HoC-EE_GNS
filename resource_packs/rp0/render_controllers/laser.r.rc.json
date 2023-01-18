@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.laser": {
+			"geometry": "geometry.default",
+			"textures": ["Texture.default"],
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"part_visibility": [
+				{"y_bottom":"query.variant >= 0"},
+				{"y_left":"query.variant >= 0"},
+				{"y_right":"query.variant >= 0"},
+				{"y_bottom2":"query.variant >= 1"},
+				{"y_left2":"query.variant >= 1"},
+				{"y_right2":"query.variant >= 1"},
+				{"y_bottom3":"query.variant >= 2"},
+				{"y_left3":"query.variant >= 2"},
+				{"y_right3":"query.variant >= 2"},
+				{"y_bottom4":"query.variant >= 3"},
+				{"y_left4":"query.variant >= 3"},
+				{"y_right4":"query.variant >= 3"}
+			]
+		}
+	}
+}

@@ -1,0 +1,392 @@
+﻿##
+## Hour of Code 2022
+## Copyright 2022 ReWrite Media, Inc.
+##
+
+pack.name=Hour of Code 2022	#
+pack.description=Obligatoriske ressourcer til Hour of Code 2022	#
+
+subtitle.loading.1=Indlæser ...	#
+subtitle.loading.2=Indlæser ...	#
+subtitle.loading.3=Indlæser ...  .	#
+subtitle.loading.4=Indlæser ...  .	#
+subtitle.loading.5=Indlæser ... 	#
+
+actionbar.singleplayer_only=Kun 1 spiller kan spille!	#
+
+## Touch Controls Buttons
+action.interact.start=Tryk for at starte	#
+action.interact.seat=Tryk for at indsamle	#
+action.interact.click=Tal	#
+
+## Keyboard-controls actionbars
+actionbar.keyboard.code.0=Tryk på C for at kode	#
+actionbar.keyboard.code.0b=Tryk på C for at kode	#
+actionbar.keyboard.code.1=Afprøver kode ...	#
+actionbar.keyboard.look.0=§lSøg i rum§r efter  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.1= §lHøjreklik på§r  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.look.2=§lUndersøg§r  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.next.0=Gå ind i det næste rum	#
+
+actionbar.keyboard.0.-1=Klik på logoet for at begynde	#
+actionbar.keyboard.0.1=Brug musen til at se dig omkring	#
+actionbar.keyboard.0.2=Bliv ved med at se på kuglen	#
+actionbar.keyboard.0.3a=Tryk på "W" for at gå ligeud	#
+actionbar.keyboard.0.3b=Tryk på "A" for at gå til venstre	#
+actionbar.keyboard.0.3c=Tryk på "S" for at bevæge dig baglæns	#
+actionbar.keyboard.0.3d=Tryk på "D" for at gå til højre	#
+actionbar.keyboard.0.3e=Tryk på "W" for at bevæge dig og på "SPACE" for at hoppe	#
+actionbar.keyboard.0.3f=Tryk på "A" for at bevæge dig og på "SPACE" for at hoppe	#
+actionbar.keyboard.0.3g=Tryk på "S" for at bevæge dig, og derefter på "SPACE" for at hoppe	#
+actionbar.keyboard.0.3h=Tryk på "D" for at bevæge dig og på "SPACE" for at hoppe	#
+actionbar.keyboard.0.3i=Gå forbi muren	#
+actionbar.keyboard.0.4= §lHøjreklik§r på knappen	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.0.5=Gå hen til NPC'en,  og §lhøjreklik§r for at interagere med den	###{Locked="§l"}{Locked=§r} NPC is a non-playable-character
+
+actionbar.keyboard.1.2.1=§lGennemsøg rummet§r for at finde  §l§gpartikler§r	###{Locked="§l"}{Locked=§g}{Locked=§r}
+actionbar.keyboard.1.2.2= §lHøjreklik på§r §lhåndtag	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.2.0= §lHøjreklik§r for at snakke med zombiekokken	###{Locked="§l"}{Locked=§r}
+actionbar.keyboard.3.2= §lHøjreklik§r på dronningen	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.3.4= §lHøjreklik§r på kongen	###{Locked="§l"}{Locked="§r"}
+
+actionbar.keyboard.10.0.1=§lSøg i rum§r efter  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.0.2= §lHøjreklik§r på dagbogen	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.1.1=Rul for at vælge dagbogen	#
+actionbar.keyboard.10.1.2= §lHøjreklik§r for at åbne dagbogen	###{Locked="§l"}{Locked="§r"}
+actionbar.keyboard.10.2=§lSøg i rum§r efter  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.keyboard.10.5=Gå ind ad døren, eller tal med agenten	#
+actionbar.keyboard.10.7=Gå ind ad en dør, eller tal med agenten	#
+actionbar.keyboard.10.9=Gå gennem en dør	#
+
+actionbar.keyboard.11.3=Udforsk et siderum	#
+actionbar.keyboard.11.5=Gå tilbage til hovedrummet	#
+
+## Touch-controls actionbars
+actionbar.touch.code.0=Tryk på  ovenfor for at kode	#
+actionbar.touch.code.0b=Tryk på  ovenfor for at kode	#
+actionbar.touch.code.1=Afprøver kode ...	#
+actionbar.touch.look.0=§lSøg i rum§r efter  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.look.1=§lTryk på  §l§gpartikler	###{Locked="§l"}{Locked=§g}
+actionbar.touch.look.2=§lUndersøg§r  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.next.0=Gå ind i det næste rum	#
+
+actionbar.touch.0.-1=Tryk på knappen for at begynde	#
+actionbar.touch.0.1=Tryk og træk skærmen mod kuglens midte.	#
+actionbar.touch.0.2=Bliv ved med at se på kuglen	#
+actionbar.touch.0.3a=Hold  nede for at bevæge dig fremad	#
+actionbar.touch.0.3b=Hold  nede for at bevæge dig til venstre	#
+actionbar.touch.0.3c=Hold  nede for at bevæge dig baglæns	#
+actionbar.touch.0.3d=Hold  nede for at bevæge dig til højre	#
+actionbar.touch.0.3e=Hold  nede for at bevæge dig, og tryk på  for at hoppe	#
+actionbar.touch.0.3f=Hold  nede for at bevæge dig og derefter på  for at hoppe	#
+actionbar.touch.0.3g=Hold  nede for at bevæge dig, og tryk på  for at hoppe	#
+actionbar.touch.0.3h=Hold  nede for at bevæge dig, og tryk på  for at hoppe	#
+actionbar.touch.0.3i=Gå forbi muren	#
+actionbar.touch.0.4=Tryk på knappen	#
+actionbar.touch.0.5=Tal med NPC'en	###NPC is non-playable-character
+
+actionbar.touch.1.2.1=§lGennemsøg rummet§r for at finde  §l§gpartikler§r	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.1.2.2=Tryk på §lhåndtag	###{Locked="§l"}
+actionbar.touch.2.0=Tryk for at tale med zombiekokken	#
+actionbar.touch.3.2=Tryk på dronningen	#
+actionbar.touch.3.4=Tryk på kongen	#
+
+actionbar.touch.10.0.1=§lSøg i rum§r efter  §l§gpartikler	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+actionbar.touch.10.0.2=Tryk på Mistet dagbog	#
+actionbar.touch.10.1.1=Tryk på Mistet dagbog for at vælge den	#
+actionbar.touch.10.1.2=Tryk og hold nede for at åbne dagbogen	#
+actionbar.touch.10.2=Undersøg lyden	#
+actionbar.touch.10.5=Gå ind ad døren, eller tal med agenten	#
+actionbar.touch.10.7=Gå ind ad en dør, eller tal med agenten	#
+actionbar.touch.10.9=Gå gennem en dør	#
+
+actionbar.touch.11.3=Udforsk et siderum	#
+actionbar.touch.11.5=Gå tilbage til hovedrummet	#
+
+## Titles
+blank= 	#
+title.blank= 	#
+title.intro.1=Minecraft præsenterer ...	#
+title.intro.2=Tilflugtssted	###This references an "Escape Room", but here you have to escape an Estate
+title.interact_king=Konge tager løber!	###Chess reference
+title.interact_queen=Dronning tager tårn!	###Chess reference
+title.room_cleared=Værelse ryddet!	#
+title.trophy.unlocked=%1§fTrofæ låst op:%1	###{Locked="§f"}
+title.trophy.click=%1§fTrofæ:%1	###{Locked="§f"}
+title.end.1=End	#
+title.end.2=Enden?	#
+sub.puzzle_success=Opgave løst	#
+sub.room_1=Studie	###A room in the mansion to explorer
+sub.room_2=Køkken	###A room in the mansion to explorer
+sub.room_3=Salon	###A room in the mansion to explorer
+sub.room_4=Alkymiværelse	###A room in the mansion to explorer
+sub.room_5=Konservatorium	###A room in the mansion to explorer
+sub.room_6=Laboratorium	###A room in the mansion to explorer
+sub.room_7=Voldgrav	###A location at the mansion
+sub.room_8=Kælder	###A room in the mansion to explorer
+sub.room_9=Dagligstue	###A room in the mansion to explorer
+sub.wrong_order=Forkert opskrift!	#
+sub.too_few=For få ingredienser!	#
+sub.too_many=For mange ingredienser!	#
+sub.trophy.note=§gFørste notat indsamlet!	###{Locked=§g}
+sub.trophy.book=§gAlle noter samlet!	###{Locked=§g}
+sub.trophy.boss=§gBoss gennemført!	###{Locked=§g}
+sub.trophy.green=§aGrøn sti gennemført!	#
+sub.trophy.yellow=§eGul sti gennemført!	#
+sub.trophy.red=§cRød sti fuldført!	#
+sub.trophy.emerald=§gAlle stier fuldført!	###{Locked=§g}
+
+## Slates, signs, and boards
+sign.dinner_item.0=%1§fMenu	###A recipe for a dinner {Locked="§f"}
+sign.dinner_item.1=%1§fZombie%1§fBeef	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.2=%1§fSkelet%1§f-suppe	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.3=%1§fCreeper%1§f-kylling	###A recipe for a dinner{Locked="§f"}
+sign.dinner_item.4=%1§fVisne%1§f fisk	###A recipe for a dinner{Locked="§f"}
+
+slate.jan=%1%1   §lJanuar	###{Locked="§l"}
+slate.feb=%1%1 §lfebruar	###{Locked="§l"}
+slate.mar=%1%1     §lMarts	###{Locked="§l"}
+slate.apr=%1%1      §lapril	###{Locked="§l"}
+slate.may=%1%1       §lMaj	###{Locked="§l"}
+slate.1=%1%1       §l1.	###{Locked="§l"}
+slate.2=%1%1       §l2.	###{Locked="§l"}
+slate.3=%1%1       §l3.	###{Locked="§l"}
+slate.4=%1%1       §l4.	###{Locked="§l"}
+slate.5=%1%1       §l5.	###{Locked="§l"}
+
+sign.queen_birthday=%1§fDronningens fødselsdag%1§f4. maj	###{Locked="§f"}
+sign.king_birthday=%1§fKongens fødselsdag%1§f1. april	###{Locked="§f"}
+sign.reset=%1§fNulstil	###{Locked="§f"}
+
+slate.weight.0=%1Vægt: 0	#
+slate.weight.1=%1Vægt: 1	#
+slate.weight.2=%1Vægt: 2	#
+slate.weight.3=%1Vægt: 3	#
+slate.weight.4=%1Vægt: 4	#
+slate.weight.5=%1Vægt: 5	#
+slate.weight.6=%1Vægt: 6	#
+slate.weight.7=%1Vægt: 7	#
+slate.weight.8=%1Vægt: 8	#
+slate.weight.9=%1Vægt: 9	#
+slate.weight.10=%1Vægt: 10	#
+slate.weight.11=%1Vægt: 11	#
+slate.weight.12=%1Vægt: 12	#
+slate.weight.13=%1Vægt: 13	#
+slate.weight.14=%1Vægt: 14	#
+slate.weight.15=%1Vægt: 15	#
+slate.weight.16=%1Vægt: 16	#
+slate.weight.17=%1Vægt: 17	#
+slate.weight.18=%1Vægt: 18	#
+slate.weight.19=%1Vægt: 19	#
+slate.weight.20=%1Vægt: 20	#
+slate.weight.21=%1Vægt: 21	#
+slate.weight.22=%1Vægt: 22	#
+slate.weight.23=%1Vægt: 23	#
+slate.weight.24=%1Vægt: 24	#
+slate.weight.25=%1Vægt: 25	#
+slate.weight.26=%1Vægt: 26	#
+slate.weight.27=%1Vægt: 27	#
+slate.weight.28=%1Vægt: 28	#
+slate.weight.29=%1Vægt: 29	#
+slate.weight.30=%1Vægt: 30+	#
+
+board.tut.intro=%1            Velkommen til §lHour of Code 2022§r: %1                       §lEscape Estate§r%1%1I dette afsnit lærer du, hvordan du ser dig omkring og bevæger dig i Minecraft! Læs teksten nederst på skærmen over din "hotbjælke" for at få hjælp til din næste handling.%1%1Brug først musen til at se dig omkring, eller hvis du bruger en touchscreen-enhed, skal du swipe de "gyldne kugler", indtil de alle sprænger. Gå derefter videre til næste intro.	###{Locked="§l"}{Locked="§r"}
+## {"rawtext":[{"translate": "sign.reset","with":["\n"]}]}
+## {"rawtext":[{"translate":"sign.dinner_item.0","with":{"rawtext":[{"text":"\n"}]}}]}
+
+## NPCs
+npc.button.close=Luk	#
+npc.button.done=Afslut	#
+npc.button.back=Tilbage	#
+npc.button.next=Næste	#
+npc.button.previous=Forrige	#
+
+npc.zombie_chef.name=Zombiekok	#
+npc.zombie_chef.0.text=BRØØØØØD!	###The zombie chef needs bread to survive
+npc.armor.name=Hurtig ridder	###The Speedy Knight is a knight chess piece that moves very fast
+npc.armor_2.name=Rustning	#
+npc.king.name=Konge	###chess piece
+npc.queen.name=Dronning	###chess piece
+npc.rook.name=Tårn	###chess piece
+npc.bishop.name=Løber	###chess piece
+npc.clay_golem.name=Lergolem	###a golem made out of clay
+npc.clay_golem.1.name=[ . ]	#
+npc.clay_golem.2.name=[ . . ]	#
+npc.clay_golem.3.name=[ . . . ]	#
+npc.enderman_butler.name=Butler	#
+npc.zombie_minion.name=Kasseminion	###The crate minion is a zombie that carries a crate that can be used to cross the moat
+
+## Chess pieces with dates
+npc.king.jan.1.name=Konge%1§7 1. januar	###King refers to the chess piece
+npc.king.jan.2.name=Konge%1§7 2. januar	###King refers to the chess piece
+npc.king.jan.3.name=Konge%1§7 3. januar	###King refers to the chess piece
+npc.king.jan.4.name=Konge%1§7 4. januar	###King refers to the chess piece
+npc.king.jan.5.name=Konge%1§7 5. januar.	###King refers to the chess piece
+npc.king.feb.1.name=Konge%1§7 1. februar	###King refers to the chess piece
+npc.king.feb.2.name=Konge%1§7 2. februar	###King refers to the chess piece
+npc.king.feb.3.name=Konge%1§7 3. februar.	###King refers to the chess piece
+npc.king.feb.4.name=Konge%1§7 4. februar	###King refers to the chess piece
+npc.king.feb.5.name=Konge%1§7 5. februar	###King refers to the chess piece
+npc.king.mar.1.name=Konge%1§7 1. marts	###King refers to the chess piece
+npc.king.mar.2.name=Konge%1§7 2. marts	###King refers to the chess piece
+npc.king.mar.3.name=Konge%1§7 3. marts	###King refers to the chess piece
+npc.king.mar.4.name=Konge%1§7 4. marts	###King refers to the chess piece
+npc.king.mar.5.name=Konge%1§7 5. marts	###King refers to the chess piece
+npc.king.apr.1.name=Konge%1§7 1. april	###King refers to the chess piece
+npc.king.apr.2.name=Konge%1§7 2. april	###King refers to the chess piece
+npc.king.apr.3.name=Konge%1§7 3. april	###King refers to the chess piece
+npc.king.apr.4.name=Konge%1§7 4. april	###King refers to the chess piece
+npc.king.apr.5.name=Konge%1§7 5. april	###King refers to the chess piece
+npc.king.may.1.name=Konge%1§7 1. maj	###King refers to the chess piece
+npc.king.may.2.name=Konge%1§7 2. maj	###King refers to the chess piece
+npc.king.may.3.name=Konge%1§7 3. maj	###King refers to the chess piece
+npc.king.may.4.name=Konge%1§7 4. maj	###King refers to the chess piece
+npc.king.may.5.name=Konge%1§7 5. maj	###King refers to the chess piece
+npc.queen.jan.1.name=Dronning%1§7 1. januar	###Queen refers to a chess piece
+npc.queen.jan.2.name=Dronning%1§7 2. januar	###Queen refers to a chess piece
+npc.queen.jan.3.name=Dronning%1§7 3. januar	###Queen refers to a chess piece
+npc.queen.jan.4.name=Dronning%1§7 4. januar	###Queen refers to a chess piece
+npc.queen.jan.5.name=Dronning%1§7 5. januar	###Queen refers to a chess piece
+npc.queen.feb.1.name=Dronning%1§7 1. februar	###Queen refers to a chess piece
+npc.queen.feb.2.name=Dronning%1§7 2. februar	###Queen refers to a chess piece
+npc.queen.feb.3.name=Dronning%1§7 3. februar	###Queen refers to a chess piece
+npc.queen.feb.4.name=Dronning%1§7 4. februar	###Queen refers to a chess piece
+npc.queen.feb.5.name=Dronning%1§7 5. februar	###Queen refers to a chess piece
+npc.queen.mar.1.name=Dronning%1§7 1. marts	###Queen refers to a chess piece
+npc.queen.mar.2.name=Dronning%1§7 2. marts	###Queen refers to a chess piece
+npc.queen.mar.3.name=Dronning%1§7 3. marts	###Queen refers to a chess piece
+npc.queen.mar.4.name=Dronning%1§7 4. marts	###Queen refers to a chess piece
+npc.queen.mar.5.name=Dronning%1§7 5. marts	###Queen refers to a chess piece
+npc.queen.apr.1.name=Dronning%1§7 1. april	###Queen refers to a chess piece
+npc.queen.apr.2.name=Dronning%1§7 2. april	###Queen refers to a chess piece
+npc.queen.apr.3.name=Dronning%1§7 3. april	###Queen refers to a chess piece
+npc.queen.apr.4.name=Dronning%1§7 4. april	###Queen refers to a chess piece
+npc.queen.apr.5.name=Dronning%1§7 5. april	###Queen refers to a chess piece
+npc.queen.may.1.name=Dronning%1§7 1. maj	###Queen refers to a chess piece
+npc.queen.may.2.name=Dronning%1§7 2. maj	###Queen refers to a chess piece
+npc.queen.may.3.name=Dronning%1§7 3. maj	###Queen refers to a chess piece
+npc.queen.may.4.name=Dronning%1§7 4. maj	###Queen refers to a chess piece
+npc.queen.may.5.name=Dronning%1§7 5. maj	###Queen refers to a chess piece
+npc.king.scrambled.name=Konge%1§7§kTest	###King refers to the chess piece
+npc.queen.scrambled.name=Dronning%1§7§kTest	###Queen refers to a chess piece
+
+## Tutorial
+npc.tutcontrols.name=Styring	#
+npc.tutcontrols.1.text=Velkommen til Hour of Code 2022!%1%1Lad os starte med en kort intro! For at begynde skal du bruge din enhed til enten at venstreklikke eller trykke på det styringssystem, der passer bedst til dig.	#
+npc.button.keyboard=Tastatur	#
+npc.button.touch=Berøringsstyring	#
+
+npc.tutskip.name=Spring over	#
+npc.keyboard.tutskip.1.text=Velkommen! I følgende vejledning kan du lære, hvordan du bevæger dig rundt i Minecraft.%1%1Venstreklik på "Start intro" for at begynde. Hvis du ikke har brug for en vejledning, skal du venstreklikke på "Spring intro over" for at starte oplevelsen!	#
+npc.touch.tutskip.1.text=Velkommen! Følgende vejledning lærer dig det grundlæggende ved at navigere i Minecraft.%1%1Tryk på "Start intro" for at begynde. Hvis du ikke har brug for en tutorial, skal du trykke på "Spring intro over" for at starte oplevelsen! 	#
+npc.tutskip.2.text=Er du sikker på, at du vil springe introen over? Du går glip af nogle vigtige oplysninger, hvis du gør det.%1%1Brug din enhed til at vælge enten "Start intro" eller "Spring intro over"	#
+npc.button.skip_yes=Spring introen over	#
+npc.button.skip_no=Start intro	#
+
+npc.tuthelp.name=Hjælp	#
+npc.keyboard.tuthelp.1.text=Tillykke, du har gennemført bevægelsesintroen!%1%1Få mere at vide om, hvordan du interagerer med verden ved at trykke på "H" for at vise styringsfunktioner.	#
+npc.touch.tuthelp.1.text=Tillykke, du har gennemført bevægelsesvejledningen!%1%1For flere instruktioner om, hvordan du interagerer med verden, skal du trykke på "H" for at få vist kontroller.	#
+
+npc.tuthost.name=Dr. Breakowski	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.tuthost.1.text=Hej. Jeg er Dr. Kispus Udbrydersen. Jeg kan se, at du har fået min invitation. Har du det, der skal til for at undslippe palæet inden daggry og snuppe præmien på én million smaragder? Udmærket! Gå til fordøren for at begynde udfordringen!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.button.go=Af sted!	#
+
+## Labels
+npc.label.nether_wart.name=Nether-vorte	#
+npc.label.phantom_membrane.name=Fantommembran	#
+npc.label.fermented_spider_eye.name=Gæret edderkoppeøje	#
+npc.label.text= 	#
+
+## Notes
+npc.notebook.name=Mistet dagbog	#
+item.rwm:notebook.name=Mistet dagbog	#
+npc.note.name=Dagbogsside	#
+npc.note.0.text=%1Du har fundet en dagbog. Kan du finde alle 10 manglende sider i palæet?%1%1Brug "§lForrige§r" og "§lNæste§r" nedenfor for at se de noter, du har samlet.%1%1%1	###{Locked="§l"}{Locked="§r"}
+npc.note.1.text=%1Notat #1: Loftet %1%1Kære dagbog: %1%1I sidste uge modtog jeg en invitation fra en mystisk person, der udfordrede mig til at slippe ud af dette palæ. På sedlen stod der, at jeg ville jeg vinde en million smaragder, hvis jeg slap ud inden daggry. Jeg havde ikke brug for smaragderne, men jeg tænkte, at sådan en udfordring kunne producere lidt godt indhold til min kanal!%1%1Men lige så snart jeg kom, blev jeg slugt af palæet. Jeg ved godt, at det ikke giver mening, men det er altså sandt! Da jeg kom til bevidsthed, var jeg på dette loft. Der er tre låste døre ... én af dem må være vejen ud! Jeg skal bare finde ud af, hvordan man åbner dem!	#
+npc.note.2.text=%1Notat #2: Arbejdsværelset %1%1Kære dagbog:%1%1Jeg har endelig fundet vej ud af loftet for blot at blive fanget i et mærkeligt bibliotek. Jeg er ret sikker på, at det store spejl skjuler noget! Er det virkelig et spejl eller et vindue til en anden dimension? Der er uanset hvad intet andet for end at fortsætte og se, hvor det fører mig hen ...	#
+npc.note.3.text=%1Notat #3: Køkkenet %1%1Kære dagbog:%1%1I dag faldt jeg over en stor spisestue. Her fandt jeg et skræmmende væsen i køkkenet, som ikke så ud til at bemærke min tilstedeværelse. Da jeg tog mig mod til at tale med kokken, udbrød den bare "BRØD!" Tør jeg hjælpe denne uhyggelige kok? Måske den viser vej, hvis jeg gør ...	#
+npc.note.4.text=%1Notat #4: Salonen %1%1Kære dagbog:%1%1Den store dør i foyeren kunne godt se ud til at føre ud af palæet! Men hvordan åbner man den? Kan skakbrættet åbne døren? Der må da være nogle ledetråde ... jeg er kommet alt for langt til at vende om nu!	#
+npc.note.5.text=%1Notat #5: Alkymirummet %1%1Kære dagbog: %1%1Min rejse gennem herregården fortsætter, og jeg begynder så småt at indse, at dette ikke er noget almindeligt palæ. Jeg fandt for eksempel i dag et værelse, der udelukkende bruges til at brygge eliksirer i. Ikke noget, man ser hver dag, og alligevel kan jeg ikke slippe fornemmelsen af, at jeg har været her før ...	#
+npc.note.6.text=%1Indlæg 6: Konservatoriet %1%1Kære dagbog:%1%1Da jeg gik gennem palæet, opdagede jeg et gammelt drivhus. Det var nok en frodig have i fortiden, men nu er det kun en stille strøm af vand, der plejer planterne her i dag. Jeg ved, at det sandsynligvis var min fantasi, men jeg kunne have svoret, at jeg så noget flyve væk i buskene, da jeg kom ind i dette rum! Hvad det kan have været, aner jeg ikke ...	#
+npc.note.7.text=%1Indlæg #7: Laboratoriet %1%1Kære dagbog:%1%1Jeg gjorde en meget fascinerende opdagelse i dag: et laboratorium! Det er komplet med mystiske maskiner og mærkelige eksperimenter, som jeg aldrig har set magen til! Eller har jeg? Der er noget meget velkendt om dette sted ...	#
+npc.note.8.text=%1Indlæg 8: Voldgraven %1%1Kære dagbog:%1%1Mens jeg leder efter en udvej, er jeg stødt på en mærkelig voldgrav, der deler dette område. Vindebroen er hævet og ser ud til at blive styret fra den anden side. Butleren her er en stille fyr, der ikke synes at forstå mine ord. Alligevel må jeg finde en måde at overbevise ham om at sænke broen.	#
+npc.note.9.text=%1Notat #9: Kælderen %1%1Kære dagbog:%1%1Min søgen efter en udgang har ført mig til en stor kælder! Vinden hyler hen over kløften med en sådan kraft, at jeg er bange for at sætte mine fødder på den vakkelvorne bro foran mig. Jeg troede lige et øjeblik, at jeg hørte noget flyve hen over hovedet på mig ... det må bare have været vinden.	#
+npc.note.10.text=%1Notat #10: Dagligstuen %1%1Kære dagbog:%1%1Mine rejser har ført mig til en lille stue. Her er varmt og indbydende. Det føles, som om jeg kunne blive her for evigt ... NEJ! Jeg må fortsætte! Her sker mærkelige ting, og jeg er ret sikker på, at jeg ikke er alene!	#
+
+## Agent
+npc.agent.name=Agent	#
+npc.agent.1.1.text=Hej? Er der nogen? Du godeste, et menneske! Tror du, at du kan hjælpe mig? Jeg kan ikke finde ud af at åbne risten i gulvet! Jeg tror, at der er en fejl i min kode. Vil du kigge på den og finde ud af, hvad der er galt?	#
+npc.button.yes=Ja!	#
+npc.agent.1.2.text=Enestående! Hvis du kan få mig ud herfra, vil jeg gengælde tjenesten og hjælpe dig med at slippe ud af loftet. Hvilket programmeringssprog vil du gerne bruge?%1%1§lBlocks§r er bedst til nybegyndere. Vælg kun §lPython§r, hvis du har kodet i den før.	###{Locked="§l"}{Locked="§r"}
+npc.button.makecode=Blocks	###{Locked}
+npc.button.python=Python	###{Locked}
+npc.agent.1.3.text=Okay! Kan du se markøren på gulvet? Den skal bevæge sig 3 blokke frem for at nå faldlemmen, men det virker ikke. Tryk på C for at se koden, og kør derefter koden for at se, hvad der er galt.	#
+npc.agent.1.4.text=Hm, nej, det er ikke helt rigtigt. Markøren skal flyttes over til faldlemmen OG bede den om at åbne.	#
+npc.agent.2.1.text=Enestående! Den er åben! Men det er underligt ... jeg kan stadig ikke komme ud. Kan du tjekke koden igen og sørge for, at jeg bevæger mig 2 blokke frem?	#
+npc.agent.3.1.text=Tak! Du fik rettet min kode! Nu kan jeg åbne den grønne dør for dig. Stien bag den grønne dør er lettere. Du kan tage den vej, eller tale med mig igen, hvis du vil prøve at åbne den gule dør!	#
+npc.agent.4.1.text=Du vil altså gerne åbne den gule dør? Så skal jeg bruge mere strøm. Heldigvis kan jeg lade op via måneskin! Vi skal bare have åbnet ovenlysvinduet ... hvad er nu det? Min kode fungerer ikke. Prøv at tjekke min kode for at sikre, at alle 4 faldlemme i loftet åbner sig!	#
+npc.agent.5.1.text=Wauw, sådan! Jeg har åbnet den gule dør for dig nu. Du kan gå igennem den, hvis du vil, eller, hvis du vil have en ægte udfordring, kan du tale med mig igen og prøve at åbne den røde dør!	#
+npc.agent.6.1.text=Vi skal arbejde sammen for at nå den røde dør. Den åbner kun, hvis jeg står på guldblokkene. Lad os prøve det! Kan ikke ... nå ... øv ... Giver du lige en hånd?	#
+npc.agent.7.1.text=Okay, alle døre er åbne nu. Vælg den vej, du vil tage. Hver sti har forskellige sværhedsgrader. Grøn er lettere, rød er sværere, og gul er et sted midt imellem. Hej så længe, menneske. Måske vores veje krydser igen en dag.	#
+npc.agent.green.8.1.text=Vent! Inden du går, skal jeg fortælle dig en sidste ting! Dette hus er fyldt med §lescape rooms§r. Du skal finde ledetråde, løse gåder og rette koder for at slippe ud! Tryk på §lC§r for at få vist koden for et hovedbrud. §lKør§r koden for at se, hvad der sker! Hvis der er fejl, skal du rette i koden og køre den igen for at teste den. Det kaldes §lfejlretning§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.green.8.2.text=Løsningerne er ikke altid nemme, og det er ikke alle gåder, der kan løses med en kode! Når du finder et hovedbrud, skal du huske at §lkøre§r koden først for at se, hvad der er galt, derefter §lfejlfinde§r og §lrette§r den defekte kode! Det er meget nemmere end at skrive kode fra bunden!%1%1Find spor, såsom §g§lpartikler§0§r, for at få hjælp!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.yellow.8.1.text=Vent! Inden du går, skal jeg fortælle dig en sidste ting! Dette hus er fyldt med §lescape rooms§r. Du skal finde ledetråde, løse gåder og rette koder for at slippe ud! Tryk på §lC§r for at få vist koden for et hovedbrud. §lKør§r koden for at se, hvad der sker! Hvis der er fejl, skal du rette i koden og køre den igen for at teste den. Det kaldes §lfejlretning§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.yellow.8.2.text=Løsningerne er ikke altid nemme, og det er ikke alle gåder, der kan løses med en kode! Når du finder et hovedbrud, skal du huske at §lkøre§r koden først for at se, hvad der er galt, derefter §lfejlfinde§r og §lrette§r den defekte kode! Det er meget nemmere end at skrive kode fra bunden!%1%1Find spor, såsom §g§lpartikler§0§r, for at få hjælp!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+npc.agent.red.8.1.text=Vent! Inden du går, skal jeg fortælle dig en sidste ting! Dette hus er fyldt med §lescape rooms§r. Du skal finde ledetråde, løse gåder og rette koder for at slippe ud! Tryk på §lC§r for at få vist koden for et hovedbrud. §lKør§r koden for at se, hvad der sker! Hvis der er fejl, skal du rette i koden og køre den igen for at teste den. Det kaldes §lfejlretning§r.	###{Locked="§l"}{Locked="§r"}
+npc.agent.red.8.2.text=Løsningerne er ikke altid nemme, og det er ikke alle gåder, der kan løses med en kode! Når du finder et hovedbrud, skal du huske at §lkøre§r koden først for at se, hvad der er galt, derefter §lfejlfinde§r og §lrette§r den defekte kode! Det er meget nemmere end at skrive kode fra bunden!%1%1Find spor, såsom §g§lpartikler§0§r, for at få hjælp!	###{Locked="§l"}{Locked=§g}{Locked="§r"}
+
+## Foyer
+npc.host.name=Dr. Udbrydersen	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.foyer.1.1.text=Hej igen. Du gjorde det vist. Du fandt vej gennem palæet. Bravo. Vi vidste, at du kunne ... faktisk regnede vi med det!	#
+npc.foyer.2.1.text=Ser du, stedet her er mere end bare et palæ. Det er et interdimensionelt fængsel! En, som vi ikke kunne undslippe ... men vi vidste, at du ville finde ud af det!	#
+npc.foyer.2.2.text=Ah ha! Se her! Tidsagenterne er tilbage! Nu er det dig, der skal holdes fanget i palæet for evigt! Nyd dit nye hjem! Mwa ha ha!	#
+npc.foyer.3.1.text=Ikke så hurtigt, tidsagenter ...	#
+npc.foyer.3.2.text=I skal ingen steder. I ballademagere trænger til en tur i skammekrogen! 	#
+npc.foyer.4.1.text=TARRA! Du har måske fanget os her en gang tidligere, men vi falder ikke for dine tricks igen! Portalen er åben! Du kan ikke stoppe os! Du er løbet tør for tid ... og det samme er vi! Hej så længe, kvajhoveder!	#
+npc.foyer.5.1.text=Portalen fører til tidskuglen. De kan bruge den til at flygte. Den eneste måde at stoppe tidskuglen på er ved at bruge tidskanoner. Det tager dem ikke lang tid at oplade kuglen, så vi skal skynde os at slå forsvaret til og stoppe dem én gang for alle! Skynd dig!	#
+
+## Boss
+npc.rascal.name=Rascal	#
+npc.gremlin.name=Gremlin	#
+npc.yeti.name=Den afskyelige snemand	#
+npc.banshee.name=Banshee	#
+npc.pixie.name=Pixie	#
+npc.tarra.name=T.A.R.R.A.	#
+npc.boss.green.1.1.text=Ja! Tidskuglen! Vi kan bruge den til at flygte! Hvad? Pokkers, det er den irriterende spiller igen!	#
+npc.boss.yellow.1.1.text=Jubii! Tidskuglen! Vi kan bruge den til at slippe ud herfra! Hvad? Dig igen? Vi deler os, venner! De kan ikke fange os alle!	#
+npc.boss.red.1.1.text=Ja! Tidskuglen! Endelig kan vi slippe ud af dette interdimensionelle fængsel! Hvad? DIG IGEN!? Del jer, tidsagenter! Beskyt tidskanonerne, mens jeg gør tidskuglen klar!	#
+npc.boss.2.1.text=Vi skal have aktiveret tidskanonerne! De kan styres i hvert hjørnerum, men tidsagenterne har lukket dørene! Prøv, om du kan finde ud af at åbne dem!	#
+npc.boss.yellow.3.1.text=Kontrolrummets døre er åbne! I hvert kontrolrum er der et håndtag, der aktiverer en tidskanon. Vi skal aktivere alle fire for at ødelægge tidskuglen! Hurtigt! Tænd for kanonerne!	#
+npc.boss.red.3.1.text=Du gjorde det! Kontrolrummets døre er åbne! I hvert kontrolrum findes der en måde at aktivere tidskanonerne på. Vi skal aktivere alle fire for at ødelægge tidskuglen! Hurtigt! Tænd for kanonerne!	#
+npc.boss.green.4.1.text=Alle tidskanonerne er nu aktiveret! Klar til affyring!	#
+npc.boss.yellow.4.1.text=Godt arbejde! Nu hvor alle fire kanoner er klar, kan vi nedlægge forsvaret omkring tidskuglen og stoppe tidsagenterne!	#
+npc.boss.red.4.1.text=Godt arbejde! Nu hvor alle fire kanoner er klar, kan vi nedlægge forsvaret omkring tidskuglen og stoppe tidsagenterne!	#
+npc.boss.5.1.text=Se! Tidsagenterne er helt lamslåede over tidskuglens kammer! Nu har vi chancen! Hvis vi kan rotere magnetskiverne under gulvet, kan vi vende polariteten og fange dem her for evigt! 	#
+npc.boss.6.1.text=Du gjorde det! Der fik du rigtig sat tidsagenterne på plads ... eller rettere du fik sat agenterne i rette tid! Haha. Beklager. Jeg arbejder stadig på at udvikle det dersens "humor". Tidsagenterne bliver her, så de kan tænke lidt over deres handlinger. Og hvad angår dig, så kom med mig. Jeg kan vise dig vejen ud.	#
+npc.button.run=Af sted!	#
+npc.boss.side_room_1.1.text=Ha! Tror du virkelig, at du kan besejre os? Det er ikke noget eventyr det her!	#
+npc.boss.side_room_1.2.text=Hvad!? Umuligt! Ingen sætter pixie i et hjørne!	#
+npc.boss.side_room_2.1.text=Vi lader dig aldrig vinde. Gør klar til en lavine af kvaler!	#
+npc.boss.side_room_2.2.text=Afskyeligt menneske! Det er ikke slut endnu!	#
+npc.boss.side_room_3.1.text=Ingen kan modstå os. Snart er vi væk, mens du er fanget her og skriger i smerte!	#
+npc.boss.side_room_3.2.text=AAAAAAHHHHHHHH! Jeg troede ikke, du havde en jordisk chance!	#
+npc.boss.side_room_4.1.text=Hehehe! Tåbeligt menneske! Din slags lærer aldrig. Dine fejl er uundgåelige!	#
+npc.boss.side_room_4.2.text=Du har altså fået styr på dimsen? Det gør ikke noget! Det kan ikke stoppe os!	#
+npc.boss.agent.1.text=Du kunne vist godt bruge lidt hjælp. Bare rolig, jeg skal nok hjælpe dig. Jeg kan hjælpe dig med at aktivere kanonerne. Bare før an!	#
+
+## Ending Cutscene
+npc.player.name=Dig	#
+npc.end.1.1.text=Tillykke! Dine kodningsevner har reddet os igen. Hvem ved, hvilke problemer tidsagenterne havde forårsaget, hvis de var sluppet ud. Godt gået!	#
+npc.end.1.2.text=Jeg har stadig et sidste spørgsmål. De her dagbogssider ... hvor tror du, de stammer fra?	#
+npc.end.2.1.text=De er fra mig! Dr. Kispus Udbrydersen! Disse tidsbanditter har også lokket mig til dette sted! Jeg har faktisk forsøgt at flygte i flere uger! Det, du gjorde derinde, hjalp mig med endelig at finde ud! Tak!	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.2.text=Jeg er glad for, at du er okay ... og det er nok det sidste, vi kommer til at høre fra tidsagenterne i et stykke tid. Lad os komme ud herfra ... Jeg får myrekryb af det her sted!	#
+npc.end.2.3.text=Så dr. Udbrydersen ... vedrørende den der smaragdmillion ...	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
+npc.end.2.4.text=Undskyld, min ven, jeg ejer intet!%1%1Kan du nøjes med æren af at redde verden og en småkage?	#
+npc.end.laugh.1.name=Ha.	#
+npc.end.laugh.2.name=Haha!	#
+npc.end.laugh.3.name=Ha! Ha! Ha!	#
+npc.end.laugh.1.text=Ha.	#
+npc.end.laugh.2.text=Haha!	#
+npc.end.laugh.3.text=Ha! Ha! Ha!	#
+
+action.hint.exit.rwm:cam= 	#

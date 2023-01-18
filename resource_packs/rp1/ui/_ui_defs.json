@@ -1,0 +1,8 @@
+{
+  "ui_defs": [
+    "ui/edu_pause_screen_pause_button.json",
+    "ui/lesson_complete_dialog.json",
+    "ui/npc_interact_screen.json",
+    "ui/experimental_code_screen.json"
+  ]
+}

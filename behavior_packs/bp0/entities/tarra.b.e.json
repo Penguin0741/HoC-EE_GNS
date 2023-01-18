@@ -1,0 +1,108 @@
+{
+	"format_version": "1.14.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "rwm:tarra",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 1.8,
+				"width": 0.6
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:physics": {
+				"has_gravity": false
+			}
+		},
+		"component_groups": {
+			"despawn":{
+				"minecraft:despawn":{
+				}
+			},
+			"npc": {
+				"minecraft:npc": {
+					"npc_data": {
+						"portrait_offsets": {
+							"translate": [-7, 50, 0],
+							"scale": [1.75, 1.75, 1.75]
+						},
+						"picker_offsets": {
+							"translate": [0, 20, 0],
+							"scale": [1.7, 1.7, 1.7]
+						},
+						"skin_list": [
+							{
+								"variant": 0
+							}
+						]
+					}
+				}
+			},
+			"show": {
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			},
+			"off": {
+				"minecraft:mark_variant": {
+					"value": 0
+				},
+				"minecraft:timer":{
+					"time":[0.6, 0.6],
+					"time_down_event": {
+						"event": "despawn"
+					}
+				}
+			},
+			"on": {
+				"minecraft:behavior.look_at_player": {
+					"look_distance": 32,
+					"priority": 0,
+					"probability": 1
+				},
+				"minecraft:mark_variant": {
+					"value": 1
+				}
+			}
+		},
+		"events": {
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"npc": {
+				"add": {
+					"component_groups": [
+						"npc"
+					]
+				}
+			},
+			"off": {
+				"add": {
+					"component_groups": [
+						"off"
+					]
+				}
+			},
+			"on": {
+				"add": {
+					"component_groups": [
+						"on"
+					]
+				}
+			}
+		}
+	}
+}

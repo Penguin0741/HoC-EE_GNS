@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:laser",
+			"geometry": {
+				"default": "geometry.laser"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"render_controllers": [
+				"controller.render.laser"
+			],
+			"textures": {
+				"default": "textures/entity/laser"
+			}
+		}
+	}
+}

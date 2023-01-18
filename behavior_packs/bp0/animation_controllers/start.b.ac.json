@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"animation_controllers": {
+		"controller.animation.start": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{"start": "q.variant == 1"}
+					]
+				},
+				"start": {
+					"on_entry": [
+						"/execute @a[tag=main_player,scores={var1=0}] ~ ~ ~ scoreboard players set @s var1 160"
+					],
+					"transitions": [
+						{"default": "q.variant != 1"}
+					]
+				}
+			}
+		}
+	}
+}

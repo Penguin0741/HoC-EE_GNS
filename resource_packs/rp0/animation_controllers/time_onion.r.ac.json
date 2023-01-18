@@ -1,0 +1,146 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.time_onion.states" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"transitions": [
+						{
+							"block_ring_1": "query.mark_variant == 1"
+						},
+						{
+							"explode_ring_1": "query.mark_variant == 2"
+						},
+						{
+							"block_ring_2": "query.mark_variant == 3"
+						},
+						{
+							"explode_ring_2": "query.mark_variant == 4"
+						},
+						{
+							"block_ring_3": "query.mark_variant == 5"
+						},
+						{
+							"explode_ring_3": "query.mark_variant == 6"
+						},
+						{
+							"block_ring_4": "query.mark_variant == 7"
+						},
+						{
+							"explode_ring_4": "query.mark_variant == 8"
+						},
+						{
+							"explode": "query.mark_variant == 9"
+						},
+						{
+							"regenerate_1": "query.mark_variant == 10"
+						},
+						{
+							"regenerate_2": "query.mark_variant == 11"
+						},
+						{
+							"regenerate_3": "query.mark_variant == 12"
+						}
+					]
+				},
+				"block_ring_1":{
+					"animations": ["block_ring_1"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"explode_ring_1":{
+					"animations": ["explode_ring_1"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"block_ring_2":{
+					"animations": ["block_ring_2"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"explode_ring_2":{
+					"animations": ["explode_ring_2"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"block_ring_3":{
+					"animations": ["block_ring_3"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"explode_ring_3":{
+					"animations": ["explode_ring_3"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"block_ring_4":{
+					"animations": ["block_ring_4"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"explode_ring_4":{
+					"animations": ["explode_ring_4"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"explode":{
+					"animations": ["explode"],
+					"transitions": [
+						{
+							"default": "query.mark_variant == 0"
+						}
+					]
+				},
+				"regenerate_1":{
+					"animations": ["regenerate_ring_1"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"regenerate_2":{
+					"animations": ["regenerate_ring_1", "regenerate_ring_2"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				},
+				"regenerate_3":{
+					"animations": ["regenerate_ring_1", "regenerate_ring_2", "regenerate_ring_3"],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

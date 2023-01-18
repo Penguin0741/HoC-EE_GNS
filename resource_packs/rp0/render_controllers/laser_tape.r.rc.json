@@ -1,0 +1,23 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.laser_tape": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.glass_lime",
+            "Texture.glass_yellow",
+            "Texture.glass_red",
+            "Texture.wool_lime",
+            "Texture.wool_yellow",
+            "Texture.wool_red"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.skin_id]" ]
+    }
+  }
+}

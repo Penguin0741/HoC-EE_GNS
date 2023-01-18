@@ -1,0 +1,49 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.hologram": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"on": "query.mark_variant == 1"
+						}
+					]
+				},
+				"on": {
+					"animations": [
+						"on"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"idle": "query.all_animations_finished"
+						}
+					]
+				},
+				"idle": {
+					"animations": [
+						"idle",
+						"look_at_target"
+					],
+					"blend_transition": 0.5,
+					"transitions": [
+						{
+							"off": "query.mark_variant != 1"
+						}
+					]
+				},
+				"off": {
+					"animations": [
+						"off"
+					],
+					"transitions": [
+						{
+							"default": "query.all_animations_finished"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,417 @@
+{
+    "format_version": "1.14",
+    "minecraft:npc_dialogue": {
+        "scenes": [
+            {
+                "scene_tag": "npc.agent.1.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.1.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.agent.1.2",
+                            "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.1.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.1.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.makecode" } ] },
+                        "commands": [
+                            "/scoreboard players set @a language 1",
+                            "/dialogue open @s @initiator npc.agent.1.3",
+                            "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                        ]
+					},
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.python" } ] },
+                        "commands": [
+                            "/scoreboard players set @a language 2",
+                            "/dialogue open @s @initiator npc.agent.1.3",
+                            "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.1.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.1.3.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player] ~ ~ ~ function url"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.1.4",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.1.4.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.2.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.2.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.3.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.3.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.4.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.4.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player,scores={address=100500}] ~ ~ ~ function act/10/6"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.5.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.5.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.6.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.6.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            "/execute @a[tag=main_player,scores={address=100700}] ~ ~ ~ function act/10/8"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.7.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.7.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.green.8.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.green.8.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.agent.green.8.2",
+                            "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.green.8.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.green.8.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.yellow.8.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.yellow.8.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.agent.yellow.8.2",
+                            "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.yellow.8.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.yellow.8.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.red.8.1",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.red.8.1.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.agent.red.8.2",
+                            "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    "/tag @initiator add dlgopened",
+                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+                ],
+                "on_close_commands": [
+                    
+                ]
+            },
+            {
+                "scene_tag": "npc.agent.red.8.2",
+                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.agent.red.8.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+                        "commands": [
+                            
+                        ]
+					}
+                ],
+                "on_open_commands": [
+                    
+                ],
+                "on_close_commands": [
+                    
+                ]
+            }
+        ]
+    }
+
+
+}
