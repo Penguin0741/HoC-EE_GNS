@@ -19,5 +19,10 @@ tag @a remove dlgopened
 # Despawn cursor
 event entity @e[type=rwm:cursor] despawn
 
-# Open yellow door
-fill 26 75 48 24 72 47 air
+# Open left door
+fill 41 75 31 40 72 33 air
+
+# setblock 31 73 34 air 0
+# setblock 39 73 34 air 0
+
+event entity @e[tag=click_detector] despawn

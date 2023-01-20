@@ -16,25 +16,25 @@ execute @s[scores={address=100600}] ~ ~ ~ function act/10/6_
 execute @s[scores={address=100601}] ~ ~ ~ function act/10/6_success
 execute @s[scores={address=100602}] ~ ~ ~ function act/10/6_failure
 execute @s[scores={address=100700}] ~ ~ ~ function act/10/7_
-execute @s[scores={address=100800}] ~ ~ ~ function act/10/8_
-execute @s[scores={address=100801}] ~ ~ ~ function act/10/8_success
-execute @s[scores={address=100802}] ~ ~ ~ function act/10/8_failure
-execute @s[scores={address=100900}] ~ ~ ~ function act/10/9_
+# execute @s[scores={address=100800}] ~ ~ ~ function act/10/8_
+# execute @s[scores={address=100801}] ~ ~ ~ function act/10/8_success
+# execute @s[scores={address=100802}] ~ ~ ~ function act/10/8_failure
+# execute @s[scores={address=100900}] ~ ~ ~ function act/10/9_
 
 # Doors
 execute @a[x=3,y=72,z=31,dx=4,dy=4,dz=2] ~ ~ ~ fill 9 72 33 9 75 31 barrier
 execute @a[x=3,y=72,z=31,dx=4,dy=4,dz=2] ~ ~ ~ function act/1/0
 
-execute @a[x=24,y=72,z=50,dx=2,dy=4,dz=4] ~ ~ ~ fill 26 72 48 24 75 48 barrier
-execute @a[x=24,y=72,z=50,dx=2,dy=4,dz=4] ~ ~ ~ function act/4/0
+# execute @a[x=24,y=72,z=50,dx=2,dy=4,dz=4] ~ ~ ~ fill 26 72 48 24 75 48 barrier
+# execute @a[x=24,y=72,z=50,dx=2,dy=4,dz=4] ~ ~ ~ function act/4/0
 
 execute @a[x=43,y=72,z=31,dx=4,dy=4,dz=2] ~ ~ ~ fill 41 72 31 41 75 33 barrier
-execute @a[x=43,y=72,z=31,dx=4,dy=4,dz=2] ~ ~ ~ function act/7/0
+execute @a[x=43,y=72,z=31,dx=4,dy=4,dz=2] ~ ~ ~ function act/4/0
 
 # Highlight the different passages
 particle rwm:hallway_green 5 73 32
-particle rwm:hallway_yellow 25 73 52
-particle rwm:hallway_red 45 73 32
+# particle rwm:hallway_yellow 25 73 52
+particle rwm:hallway_yellow 45 73 32
 
 # Teleport out of the pit
 execute @s[x=24,y=69,z=31,dx=2,dy=1,dz=2,scores={var8=0}] ~ ~ ~ scoreboard players set @s var8 40

@@ -3,7 +3,7 @@ scoreboard players set @s room_variant 1
 
 setblock 2 69 13 air
 
-structure load "hoc:attic" 2 69 13
+structure load "gns:attic_mod" 2 69 13
 
 fill 48 71 34 48 76 30 concrete 15
 

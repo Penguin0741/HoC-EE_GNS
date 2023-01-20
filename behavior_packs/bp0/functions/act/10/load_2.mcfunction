@@ -31,7 +31,7 @@ tag @e[type=rwm:utility,tag=!game] add blocker
 event entity @e[type=rwm:utility,tag=!game] blocker
 
 setblock 25 60 32 light_block 15
-setblock 31 73 35 iron_block
+# setblock 31 73 35 iron_block
 setblock 21 73 24 air
 setblock 31 73 34 air
 

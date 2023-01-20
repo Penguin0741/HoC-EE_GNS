@@ -4,26 +4,24 @@ execute @s[tag=touch] ~ ~ ~ titleraw @a actionbar {"rawtext":[{"translate":"acti
 
 execute @s[tag=!dlgopened] ~ ~ ~ dialogue open @e[type=rwm:fake_agent] @s npc.agent.5.1
 
-execute @e[type=agent] ~ ~ ~ particle rwm:sparkle ~ ~ ~
-execute @s[scores={second=0}] ~ ~ ~ execute @e[type=agent] ~ ~ ~ particle rwm:interact ~-0.5 ~1 ~-0.5
-
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 34
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 35
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 36
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 37
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 38
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 39
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 40
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 41
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 42
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 43
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 44
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 45
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 46
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 47
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 48
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 49
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 50
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 51
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 52
-execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 25 72 53
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 27 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 28 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 29 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 30 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 31 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 32 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 33 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 34 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 35 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 36 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 37 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 38 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 39 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 40 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 41 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 42 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 43 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 44 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 45 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 46 72 32
+execute @s[scores={second=0}] ~ ~ ~ particle rwm:guide 47 72 32

@@ -210,56 +210,56 @@
                     
                 ]
             },
-            {
-                "scene_tag": "npc.agent.6.1",
-                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
-                "text": {
-                    "rawtext": [{
-                        "translate": "npc.agent.6.1.text",
-                        "with":["\n"]
-                    }]
-                },
-                "buttons": [
-                    {
-						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
-                        "commands": [
-                            "/execute @a[tag=main_player,scores={address=100700}] ~ ~ ~ function act/10/8"
-                        ]
-					}
-                ],
-                "on_open_commands": [
-                    "/tag @initiator add dlgopened",
-                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
-                ],
-                "on_close_commands": [
+            // {
+            //     "scene_tag": "npc.agent.6.1",
+            //     "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+            //     "text": {
+            //         "rawtext": [{
+            //             "translate": "npc.agent.6.1.text",
+            //             "with":["\n"]
+            //         }]
+            //     },
+            //     "buttons": [
+            //         {
+			// 			"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+            //             "commands": [
+            //                 "/execute @a[tag=main_player,scores={address=100700}] ~ ~ ~ function act/10/8"
+            //             ]
+			// 		}
+            //     ],
+            //     "on_open_commands": [
+            //         "/tag @initiator add dlgopened",
+            //         "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+            //     ],
+            //     "on_close_commands": [
                     
-                ]
-            },
-            {
-                "scene_tag": "npc.agent.7.1",
-                "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
-                "text": {
-                    "rawtext": [{
-                        "translate": "npc.agent.7.1.text",
-                        "with":["\n"]
-                    }]
-                },
-                "buttons": [
-                    {
-						"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
-                        "commands": [
+            //     ]
+            // },
+            // {
+            //     "scene_tag": "npc.agent.7.1",
+            //     "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
+            //     "text": {
+            //         "rawtext": [{
+            //             "translate": "npc.agent.7.1.text",
+            //             "with":["\n"]
+            //         }]
+            //     },
+            //     "buttons": [
+            //         {
+			// 			"name": { "rawtext": [ { "translate": "npc.button.close" } ] },
+            //             "commands": [
                             
-                        ]
-					}
-                ],
-                "on_open_commands": [
-                    "/tag @initiator add dlgopened",
-                    "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
-                ],
-                "on_close_commands": [
+            //             ]
+			// 		}
+            //     ],
+            //     "on_open_commands": [
+            //         "/tag @initiator add dlgopened",
+            //         "/execute @a ~ ~ ~ playsound rwm.agent @s ~ ~ ~ 1 1 1"
+            //     ],
+            //     "on_close_commands": [
                     
-                ]
-            },
+            //     ]
+            // },
             {
                 "scene_tag": "npc.agent.green.8.1",
                 "npc_name": { "rawtext": [ { "translate": "npc.agent.name" } ] },
