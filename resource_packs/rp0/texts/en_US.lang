@@ -377,7 +377,10 @@ npc.boss.agent.1.text=Looks like you could use some help. Don't worry. I've got 
 ## Ending Cutscene
 npc.player.name=You
 npc.end.1.1.text=Congratulations! Your coding skills saved the day again. Who knows what trouble the Time Agents would have stirred up if they had escaped the estate. Well done!
-npc.end.1.2.text=There is still one question I have... Those diary pages... Where do you think they came from?
+
+npc.end.1.2.text=You've completed "Hour of Code 2023: Escape Estate" Challenge! Choose "Send" and upload your record to GNS Learning
+
+npc.end.1.3.text=There is still one question I have... Those diary pages... Where do you think they came from?
 npc.end.2.1.text=They were from me! Dr. Dodge Breakowski! Those temporal troublemakers lured me into this place too! I've actually been trying to escape for weeks! Whatever you did in there helped me finally find a way out! Thank you!
 npc.end.2.2.text=I'm glad you are safe... and I think we've heard the last from the Time Agents for a while. Now please, let's get out of here... This place gives me the 0s and 1s!
 npc.end.2.3.text=So, Dr. Breakowski... About those million Emeralds...

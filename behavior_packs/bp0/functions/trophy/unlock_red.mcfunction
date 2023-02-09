@@ -1,6 +1,6 @@
 
-execute @s 19 74 22 summon rwm:trophy ~ ~ ~ skin_6
-execute @s 19 74 22 tag @e[type=rwm:trophy,c=1] add trophy_red
+execute @s 19 74 23 summon rwm:trophy ~ ~ ~ skin_6
+execute @s 19 74 23 tag @e[type=rwm:trophy,c=1] add trophy_red
 
 tag @s add trophy_red
 

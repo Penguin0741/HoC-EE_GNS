@@ -25,12 +25,37 @@
                     "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
                 ]
             },
+
+            // Experimental Scene 1.2 (WIP)
             {
                 "scene_tag": "npc.end.1.2",
                 "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
                 "text": {
                     "rawtext": [{
                         "translate": "npc.end.1.2.text",
+                        "with":["\n"]
+                    }]
+                },
+                "buttons": [
+                    {
+						"name": { "rawtext": [ { "translate": "npc.button.next" } ] },
+                        "commands": [
+                            "/dialogue open @s @initiator npc.end.1.3",
+                            "/execute @a ~ ~ ~ playsound mob.villager.idle @s ~ ~ ~ 1 1.3 1"
+                        ]
+					}
+                ],
+                "on_open_commands": [
+
+                ]
+            },
+
+            {
+                "scene_tag": "npc.end.1.3",
+                "npc_name": { "rawtext": [ { "translate": "npc.tarra.name" } ] },
+                "text": {
+                    "rawtext": [{
+                        "translate": "npc.end.1.3.text",
                         "with":["\n"]
                     }]
                 },
