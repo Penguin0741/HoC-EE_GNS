@@ -1,6 +1,6 @@
 {
     "commands" : {
-		// "hiddenFromPlayer" : ["*","!connect"],
+		// "hiddenFromPlayer" : ["*"],
 		"hiddenFromAutomation": ["!setblock","!agent","!replaceitem","!give","!execute","!function"]
     },
     "codebuilder":{

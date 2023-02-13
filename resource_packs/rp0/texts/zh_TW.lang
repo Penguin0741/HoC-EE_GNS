@@ -378,7 +378,10 @@ npc.boss.agent.1.text=看來你需要幫忙。別擔心，我來罩你。我可�
 npc.player.name=你	#
 npc.end.1.1.text=恭喜！你又再度用編碼技巧扭轉情勢了。要是讓時間特工逃出莊園，誰知道他們會挑起什麼麻煩呢？幹得好！	#
 
-npc.end.1.2.text=你已完成了「Hour of Code 2023: 莊園歷險」挑戰！按下「傳送」，將你的挑戰記錄上傳至GNS Learning吧！	#
+npc.link.name=傳送記錄	#
+npc.end.1.2.1.text=你已完成了「Hour of Code 2023: 莊園歷險」的§l§2綠色路徑§r挑戰！按下「§l§9傳送記錄§r」，將你的挑戰記錄上傳至GNS Learning吧！	#
+npc.end.1.2.2.text=你已完成了「Hour of Code 2023: 莊園歷險」的§l§g黃色路徑§r挑戰！按下「§l§9傳送記錄§r」，將你的挑戰記錄上傳至GNS Learning吧！	#
+npc.button.link=§l§9傳送記錄§r	#
 
 npc.end.1.3.text=我還有個問題...日記裡的那幾頁...你覺得是從哪裡來的？	#
 npc.end.2.1.text=他們就是我道奇·布雷克洛夫斯基博士製造的！那些暫時來鬧事的傢伙同樣也把我引誘到這個地方！事實上，我已經花了好幾週時間想辦法逃脫了！不管你做了什麼事，你總算都幫助我找到出路了！感謝！	###"Breakowski" is the host of the Escape Estate, his name is a play on works (break out)
