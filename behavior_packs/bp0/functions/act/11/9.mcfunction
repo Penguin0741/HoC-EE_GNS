@@ -20,7 +20,7 @@ event entity @e[type=rwm:cam] despawn
 event entity @e[type=rwm:actor] despawn
 event entity @e[type=rwm:tarra] despawn
 
-effect @s blindness 2 0 true
+effect @s blindness 1000000 0 true
 
 time set 1000
 structure load intro:house1 -29 67 -168
