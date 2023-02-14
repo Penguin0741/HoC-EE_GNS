@@ -265,6 +265,7 @@
                     {
 						"name": { "rawtext": [ { "translate": "npc.button.run" } ] },
                         "commands": [
+                            "/scoreboard players set @a[tag=main_player] cam.tick 20",
                             "/scoreboard players set @a[tag=main_player] cam.next 31"
                         ]
 					}

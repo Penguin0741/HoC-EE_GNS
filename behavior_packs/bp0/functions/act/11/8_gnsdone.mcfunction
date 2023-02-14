@@ -1,0 +1,1 @@
+scoreboard players set @a[tag=main_player] cam.next 40

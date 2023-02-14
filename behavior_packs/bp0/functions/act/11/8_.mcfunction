@@ -11,4 +11,6 @@ execute @s[scores={cam.next=21}] ~ ~ ~ scoreboard players set @s cam.next 30
 
 execute @s[scores={cam.next=30}] ~ ~ ~ function act/11/8_beam
 
-execute @s[scores={cam.next=31}] ~ ~ ~ function act/11/9
+execute @s[scores={cam.next=31}] ~ ~ ~ function act/11/8_gnslink
+
+execute @s[scores={cam.next=40}] ~ ~ ~ function act/11/9

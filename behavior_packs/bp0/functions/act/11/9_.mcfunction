@@ -9,11 +9,8 @@ execute @s[scores={var1=1}] ~ ~ ~ playsound dig.shroomlight @a ~ ~ ~ 1 1.2 1
 scoreboard players remove @s[scores={var1=1..}] var1 1
 
 execute @s[scores={cam.next=11}] ~ ~ ~ teleport @e[tag=actor.player_mark] -14 68.5 -172
-execute @s[scores={cam.next=11}] ~ ~ ~ scoreboard players set @s cam.tick 10
-execute @s[scores={cam.next=11}] ~ ~ ~ scoreboard players set @s cam.next 15
-
-# URL NPC Scene (WIP)
-execute @s[scores={cam.next=15}] ~ ~ ~ function act/11/9_gnslink
+execute @s[scores={cam.next=11}] ~ ~ ~ scoreboard players set @s cam.tick 20
+execute @s[scores={cam.next=11}] ~ ~ ~ scoreboard players set @s cam.next 20
 
 execute @s[scores={cam.next=20}] ~ ~ ~ function act/11/9_tarra
 
