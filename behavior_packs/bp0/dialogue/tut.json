@@ -15,22 +15,23 @@
                     {
 						"name": { "rawtext": [ { "translate": "npc.button.keyboard" } ] },
                         "commands": [
-                            
+                            "/tag @a add started",
+                            "/function act/0/-1"
                         ]
 					},
                     {
 						"name": { "rawtext": [ { "translate": "npc.button.touch" } ] },
                         "commands": [
-                            "/tag @a add touch"
+                            "/tag @a add touch",
+                            "/tag @a add started",
+                            "/function act/0/-1"
                         ]
 					}
                 ],
                 "on_open_commands": [
-                    "/tag @a add started",
                     "/playsound random.toast @a ~ ~ ~ 1 1 1"
                 ],
                 "on_close_commands": [
-                    "/function act/0/-1"
                 ]
             },
             {
